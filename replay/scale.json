@@ -187,7 +187,7 @@
    }
   ],
   "defaults": {
-   "preset": "haiku",
+   "preset": "gemini25_flash_lite",
    "custom_pricing": {
     "input": 0.2,
     "output": 0.8
@@ -205,7 +205,7 @@
    "batch_discount": 0.5,
    "regulated_share": 0.03,
    "n_gammes": 400,
-   "nonregulated_quick": 0.025,
+   "nonregulated_quick": 0.01,
    "nonregulated_expert": 0.0,
    "regulated_quick": 0.15,
    "regulated_expert": 0.0,
