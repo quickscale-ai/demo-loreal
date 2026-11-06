@@ -1,0 +1,184 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "vichy_normaderm_serum",
+  "brand": "Vichy",
+  "loreal": true,
+  "url": "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/acne/normaderm-serum-probio-bha-anti-imperfections",
+  "captured_at": "2026-10-03T22:05:10Z",
+  "source_sha256": "737b11ff9c2105c283fc52becc667f17976375d3a977bf33aff65081b52e7420",
+  "name": "NORMADERM SÉRUM ANTI-IMPERFECTIONS PROBIO-BHA",
+  "price_eur": null,
+  "size_label": "30 ML",
+  "variants": [
+   "30 ML"
+  ],
+  "inci": [
+   "AQUA / WATER",
+   "ALCOHOL DENAT.",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "GLYCOLIC ACID",
+   "GLYCERIN",
+   "PROPANEDIOL",
+   "SODIUM HYDROXIDE",
+   "PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN",
+   "SALICYLIC ACID",
+   "SODIUM POLYACRYLATE",
+   "ADENOSINE",
+   "AMMONIUM POLYACRYLOYLDIMETHYL TAURATE",
+   "ASCORBYL GLUCOSIDE",
+   "VITREOSCILLA FERMENT",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "XANTHAN GUM",
+   "PANTHENOL",
+   "MENTHOL"
+  ],
+  "related_urls": [
+   "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/cremes-et-hydratants-visage/acne/soin-double-correction-normaderm-phytosolution"
+  ],
+  "passages": [
+   {
+    "id": "p:vichy_normaderm_serum:name:0",
+    "sku": "vichy_normaderm_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "NORMADERM SÉRUM ANTI-IMPERFECTIONS PROBIO-BHA"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:description:0",
+    "sku": "vichy_normaderm_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Corrige les imperfections liées à l’acné hormonale."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:description:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "• Corrige les éruptions cutanées, les points noirs et les pores visibles."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:description:2",
+    "sku": "vichy_normaderm_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "• Réduit l'excès de sébum."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:description:3",
+    "sku": "vichy_normaderm_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "• Exfolie en douceur pour un grain de peau plus lisse et affiné."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:description:4",
+    "sku": "vichy_normaderm_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "• Accélère le renouvellement cellulaire."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:description:5",
+    "sku": "vichy_normaderm_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "• Hydrate pendant 24 heures.(1)"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:description:6",
+    "sku": "vichy_normaderm_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "• Anti-rechute.(2)"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:description:7",
+    "sku": "vichy_normaderm_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "(1) Test instrumental sur 24 femmes."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:description:8",
+    "sku": "vichy_normaderm_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "(2) Étude clinique sur 41 femmes, 2 semaines après l'arrêt de l'application du produit."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:benefits:0",
+    "sku": "vichy_normaderm_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Acide glycolique Acide de fruits qui exfolie la surface de l’épiderme pour lisser le grain de peau, réduire les taches brunes et booster l'éclat du teint. Acide Salicylique Agent kératolytique, assainissant et anti-inflammatoire qui exfolie les squames grasses, empêche la prolifération de bactéries et calme les inflammations. Fractions probiotiques Régénèrent et apaisent la peau, ils renforcent la barrière cutanée."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:benefits:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "EFFICACITÉ CLINIQUEMENT PROUVÉE -52% ÉRUPTIONS CUTANÉES -57% SÉBUM -27% POINTS NOIRS -66% MARQUES ROUGES *Étude clinique, résultat moyen sur la réduction des boutons calculé sur 33 % du panel (13 femmes) après 42 jours d'utilisation une fois par jour."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:claims:0",
+    "sku": "vichy_normaderm_serum",
+    "section": "claims",
+    "rank": 1,
+    "text": "Non comédogène"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:claims:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "claims",
+    "rank": 1,
+    "text": "Hypoallergénique"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:how_to_use:0",
+    "sku": "vichy_normaderm_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "En cas de contact avec les yeux, les rincer immédiatement et abondamment"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:how_to_use:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Comment l’utiliser Après avoir lavé votre visage, déposez 5 gouttes dans vos mains et appliquez sur le visage une fois par jour en évitant le contour des yeux. Finissez votre routine beauté anti-imperfections par une protection solaire visage SPF 20 minimum, à appliquer chaque matin. En cas d'irritations, espacez les applications."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:inci:0",
+    "sku": "vichy_normaderm_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER • ALCOHOL DENAT. • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • GLYCOLIC ACID • GLYCERIN • PROPANEDIOL • SODIUM HYDROXIDE • PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN • SALICYLIC ACID • SODIUM POLYACRYLATE • ADENOSINE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • ASCORBYL GLUCOSIDE • VITREOSCILLA FERMENT • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • XANTHAN GUM • PANTHENOL • MENTHOL"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:size:0",
+    "sku": "vichy_normaderm_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "30 ML"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:routine:0",
+    "sku": "vichy_normaderm_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "NORMADERM SOIN QUOTIDIEN DOUBLE CORRECTION"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:breadcrumb:0",
+    "sku": "vichy_normaderm_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Tous-les-produits > SOINS DE LA PEAU > Sérum Pour le visage > ACNÉ > SÉRUM PROBIO-BHA ANTI-IMPERFECTIONS"
+   }
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "run_id": "run_ab67c5a0cdfbb839",
+  "mode": "replay",
+  "started_at": "2026-10-05T22:14:01+00:00",
+  "pipeline_version": "1.2.0",
+  "taxonomy_version": "1.3.0",
+  "config_sha256": "15adf27fbcc0a1825fc1e638edcf67a51f3b06e0d387f4f91a5e41b78011ae0d",
+  "provider": "anthropic",
+  "model": "claude-sonnet-5-5",
+  "temperature": 1.0,
+  "n_runs": 3,
+  "thresholds": {
+   "auto": 0.85,
+   "quick_review": 0.6
+  },
+  "rules": {
+   "R-INCI-PARFUM": "1.0.0",
+   "R-INCI-ALCOOL": "1.0.0",
+   "R-REGEX-CONTENANCE": "1.0.0",
+   "R-ACTIF": "1.0.0",
+   "R-REGEX-CONCENTRATION": "1.0.0",
+   "R-ACTIFS-CLES": "1.0.0",
+   "R-BENEFICES-ACTIFS": "1.0.0",
+   "R-GAMME": "1.1.0",
+   "R-PRODUITS-ASSOCIES": "1.0.0",
+   "CTRL-SCHEMA": "1.0.0",
+   "CTRL-SPF-MOMENT": "1.1.0",
+   "CTRL-PARFUM-CONFLIT": "1.0.0",
+   "CTRL-ALCOOL-CONFLIT": "1.0.0",
+   "CTRL-ACTIF-CONCENTRATION": "1.0.0",
+   "CTRL-GROUPE-GAMME": "1.0.0"
+  },
+  "prompts": {
+   "extract_interpretive": "1.0.0@0b1bc139c85db641cd1994dc559c54cf0f293f4129afe5e15982161959ab2394",
+   "baseline_extract": "1.0.0@b89b664fb6e4afbb9aefe581e9b4b510eb9a0b36c5cc60fad0a238fae5dc2cff",
+   "assistant_sim": "1.0.0@7106e14b9412bbc587825769aac9272e3f101acc9b7b084ad1eb9e58083102fb"
+  },
+  "source_hashes": {
+   "lrp_hyalu_b5_serum": "12ba28ac7e50ec4f16fe05d569f9472648afd5346a8b7add3ffb84ce04f24100",
+   "lrp_hyalu_b5_creme": "a4d3efe293253dba6d89cdd06b4126c926c28db844c5a661668879dba46f96c6",
+   "lrp_hyalu_b5_serum_yeux": "9f9ff952538bf790ee592b82f5c4a5c86743a4bd60186187728aad5e4871dc92",
+   "lrp_cicaplast_b5_serum": "33d8f84c06e11ab80bbdab3e70e6bc715b8c18f9e269586c120172d11c5a1d6b",
+   "lrp_mela_b3_serum": "75871ffe6447409af817b6f28a72e6d89eb177145dc13c826113643b5f9c5503",
+   "lrp_pure_vitamin_c12_serum": "770fc4bdcb4383fc564cbcb8a050696e0996be69a30e964bb403b732e5095935",
+   "lrp_effaclar_serum": "f87974e8ba6d142142e8be3aaee0ea06a830c126f45703bf08d531a517d1ab75",
+   "lrp_retinol_b3_serum": "98adb6ef758b5c037d82f3e842d81a4c726cf8c73d1269d61d1d5294b3e584e2",
+   "vichy_mineral89_serum": "ef455bab52a2a4a1a24bdaccfa9e13a7cb0238dcaf679cab075504d726d873c4",
+   "vichy_mineral89_serum_recharge": "924fca29eaab2a86952c6dccb4aa0e086f756e63c71c42e74ecd84e607749f48",
+   "vichy_liftactiv_b3_serum": "d416a4f0ffb9342a451a028fba912a9d546614d27044a2ffad4b187d5a8b5136",
+   "vichy_normaderm_serum": "737b11ff9c2105c283fc52becc667f17976375d3a977bf33aff65081b52e7420",
+   "vichy_liftactiv_ha_filler": "f8cea895d16fdea7560f898a11aabe6b5e96a6506743629573cf2b35b63ecb98",
+   "vichy_liftactiv_vitc": "59f000cef0f013987dcf4b038d52aca7fea4034ea9ff90f2ea7a18e38df79088",
+   "avene_hydrance_boost_serum": "b8bf748a7d275efebdc44f486e6f47eb0c8624ef20329795b21600acafb804b4",
+   "avene_cicalfate_serum": "f2bb231a131757d15e2e64e47a840ee10ff68601850e0e25e38defa066821a67",
+   "bioderma_hydrabio_serum": "462da854170be6dc99224dec7e308e0270da336a86c45c6f5b6377ca837700bb",
+   "bioderma_hydrabio_hyalu_serum": "9a9a874ba41bc46d73255180e0b2c6880e9bf00598622d91fcb82b1131cdc8f9",
+   "svr_b3_ampoule_hydra": "eb939b260b8eacbb080e961e19faa75d1d885897ae4e65c010db56219dc2096e",
+   "theordinary_hyaluronic_acid_b5": "d61b29b79a26e914254805ce17f5f4d9de2fd62ee7604d017ac290f56c2e58e8"
+  }
+ }
+}

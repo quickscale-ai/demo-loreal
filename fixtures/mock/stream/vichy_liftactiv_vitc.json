@@ -1,0 +1,1299 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "vichy_liftactiv_vitc",
+  "run_id": "run_20261004_0800_mock",
+  "events": [
+   {
+    "type": "run_started",
+    "t_ms": 0,
+    "sku": "vichy_liftactiv_vitc",
+    "run_id": "run_20261004_0800_mock",
+    "attributes": [
+     {
+      "attribute": "sans_parfum",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "sans_alcool",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "contenance_ml",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actif_principal",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "concentration_actif",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "types_de_peau",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "preoccupation_principale",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "texture",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "moment_application",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "compatible_sous_spf",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "peau_sensible",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "gamme",
+      "family": "groupe",
+      "method": "groupe"
+     },
+     {
+      "attribute": "produits_associes",
+      "family": "groupe",
+      "method": "groupe"
+     },
+     {
+      "attribute": "hypoallergenique",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     },
+     {
+      "attribute": "teste_dermatologiquement",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     }
+    ]
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 380,
+    "attribute": "sans_parfum",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 397,
+    "attribute": "sans_parfum",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_liftactiv_vitc:inci:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-INCI-PARFUM",
+       "rule_version": "1.2.0",
+       "detail": "INCI complet (11 ingrédients) : aucun PARFUM, FRAGRANCE ni AROMA"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-INCI-COMPLET",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "INCI lu en entier : 11 ingrédients."
+      },
+      {
+       "id": "CTRL-CONFLIT-MARKETING",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contradictoire."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle déterministe sur l'INCI, contrôles passés.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 397,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 397,
+    "attribute": "sans_alcool",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 418,
+    "attribute": "sans_alcool",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "non",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_liftactiv_vitc:inci:1",
+       "quote": "ALCOHOL DENAT.",
+       "start": 29,
+       "end": 43,
+       "rank": 1,
+       "rule_id": "RG-INCI-ALCOOL",
+       "rule_version": "1.1.0",
+       "detail": "ALCOHOL DENAT. trouvé en position 3 sur 11 de l'INCI"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-INCI-COMPLET",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "INCI lu en entier : 11 ingrédients."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle déterministe sur l'INCI, contrôles passés.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 418,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 418,
+    "attribute": "contenance_ml",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 427,
+    "attribute": "contenance_ml",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "contenance_ml",
+     "family": "regles",
+     "method": "regle",
+     "value": 20,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_liftactiv_vitc:size:1",
+       "quote": "20 ml",
+       "start": 21,
+       "end": 26,
+       "rank": 1,
+       "rule_id": "RG-SIZE-ML",
+       "rule_version": "1.0.0",
+       "detail": "Format sélectionné par défaut : 20 ml"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-UNITE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Unité ml reconnue, valeur dans la plage 5 à 500."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Expression régulière sur le format sélectionné.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 427,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 427,
+    "attribute": "actif_principal",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 445,
+    "attribute": "actif_principal",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "actif_principal",
+     "family": "regles",
+     "method": "regle",
+     "value": "vitamine_c",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_liftactiv_vitc:name:1",
+       "quote": "Vitamin C",
+       "start": 10,
+       "end": 19,
+       "rank": 1,
+       "rule_id": "RG-ACTIF-NOM",
+       "rule_version": "1.0.1",
+       "detail": "« Vitamin C » est le premier actif nommé dans le nom du produit"
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_liftactiv_vitc:inci:1",
+       "quote": "ASCORBIC ACID",
+       "start": 14,
+       "end": 27,
+       "rank": 1,
+       "rule_id": "RG-ACTIF-NOM",
+       "rule_version": "1.0.1",
+       "detail": "Confirmé dans l'INCI : ASCORBIC ACID"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-ACTIF-INCI",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "ASCORBIC ACID présent dans l'INCI."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Lexique sur le nom, confirmé dans l'INCI.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 445,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 445,
+    "attribute": "concentration_actif",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 461,
+    "attribute": "concentration_actif",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "concentration_actif",
+     "family": "regles",
+     "method": "regle",
+     "value": 15,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_liftactiv_vitc:description:1",
+       "quote": "15%",
+       "start": 14,
+       "end": 17,
+       "rank": 1,
+       "rule_id": "RG-CONC-PCT",
+       "rule_version": "1.0.0",
+       "detail": "« 15% » écrit dans la source à côté de l'actif principal"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-CONC-PLAGE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Pourcentage dans la plage 0,01 à 100."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Pourcentage explicite rattaché à l'actif principal.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 461,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 461,
+    "attribute": "types_de_peau",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 2945,
+    "attribute": "types_de_peau",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "types_de_peau",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune phrase de la source ne permet de trancher."
+      }
+     ],
+     "prompt_id": "interp.types_de_peau",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_030602030173"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_b5a9f7e137bd"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_3c682c5ffcbd"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_030602030173",
+      "call_b5a9f7e137bd",
+      "call_3c682c5ffcbd"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.012786,
+     "elapsed_ms": 2945,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2945,
+    "attribute": "preoccupation_principale",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 5529,
+    "attribute": "preoccupation_principale",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "preoccupation_principale",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "eclat",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_liftactiv_vitc:description:1",
+       "quote": "Le teint terne retrouve son éclat",
+       "start": 38,
+       "end": 71,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.preoccupation_principale",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "eclat",
+       "quote": "Le teint terne retrouve son éclat",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_7f1af430c5cb"
+      },
+      {
+       "run_idx": 1,
+       "value": "eclat",
+       "quote": "Le teint terne retrouve son éclat",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_39cd3d030b75"
+      },
+      {
+       "run_idx": 2,
+       "value": "eclat",
+       "quote": "Le teint terne retrouve son éclat",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_bdf7941da047"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:vichy_liftactiv_vitc:description:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_7f1af430c5cb",
+      "call_39cd3d030b75",
+      "call_bdf7941da047"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.027729,
+     "elapsed_ms": 5529,
+     "n_calls": 6,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 5529,
+    "attribute": "texture",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 8172,
+    "attribute": "texture",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "texture",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune phrase de la source ne permet de trancher."
+      }
+     ],
+     "prompt_id": "interp.texture",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_f00d05edb557"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_755502f055ab"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_95fe0d5e13b8"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_f00d05edb557",
+      "call_755502f055ab",
+      "call_95fe0d5e13b8"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.040449,
+     "elapsed_ms": 8172,
+     "n_calls": 9,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 8172,
+    "attribute": "moment_application",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 10796,
+    "attribute": "moment_application",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "moment_application",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "matin",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_liftactiv_vitc:how_to_use:1",
+       "quote": "Appliquer le matin sur peau propre",
+       "start": 0,
+       "end": 34,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.moment_application",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "matin",
+       "quote": "Appliquer le matin sur peau propre",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_b762585708e7"
+      },
+      {
+       "run_idx": 1,
+       "value": "matin",
+       "quote": "Appliquer le matin sur peau propre",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_5b40c6954c43"
+      },
+      {
+       "run_idx": 2,
+       "value": "matin",
+       "quote": "Appliquer le matin sur peau propre",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_ed79e872e6d4"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:vichy_liftactiv_vitc:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_b762585708e7",
+      "call_5b40c6954c43",
+      "call_ed79e872e6d4"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.053781,
+     "elapsed_ms": 10796,
+     "n_calls": 12,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 10796,
+    "attribute": "compatible_sous_spf",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13141,
+    "attribute": "compatible_sous_spf",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_liftactiv_vitc:how_to_use:1",
+       "quote": "Appliquer le matin sur peau propre, avant la crème de jour.",
+       "start": 0,
+       "end": 59,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.compatible_sous_spf",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Appliquer le matin sur peau propre, avant la crème de jour.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_743fb182b3f3"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Appliquer le matin sur peau propre, avant la crème de jour.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_1475b0ae0af0"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Appliquer le matin sur peau propre, avant la crème de jour.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_a1fbdca0e48b"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:vichy_liftactiv_vitc:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Cohérent avec moment_application = matin."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_743fb182b3f3",
+      "call_1475b0ae0af0",
+      "call_a1fbdca0e48b"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.067593,
+     "elapsed_ms": 13141,
+     "n_calls": 15,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 13141,
+    "attribute": "peau_sensible",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 15671,
+    "attribute": "peau_sensible",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune phrase de la source ne permet de trancher."
+      }
+     ],
+     "prompt_id": "interp.peau_sensible",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_7c9eb6c8457b"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_f6513e2e7638"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_8bb57623eb88"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_7c9eb6c8457b",
+      "call_f6513e2e7638",
+      "call_8bb57623eb88"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.081432,
+     "elapsed_ms": 15671,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 15671,
+    "attribute": "gamme",
+    "family": "groupe",
+    "method": "groupe"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 15730,
+    "attribute": "gamme",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "gamme",
+     "family": "groupe",
+     "method": "groupe",
+     "value": "liftactiv",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_liftactiv_vitc:name:1",
+       "quote": "Liftactiv",
+       "start": 0,
+       "end": 9,
+       "rank": 1,
+       "rule_id": "RG-GAMME-FIL",
+       "rule_version": "1.0.0",
+       "detail": "« Liftactiv » trouvé dans le nom"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-GAMME-COHERENCE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Cohérent avec 2 autre(s) produit(s) de la gamme dans le catalogue."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle sur le fil d'Ariane et le nom, contrôle de groupe passé.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.081432,
+     "elapsed_ms": 15730,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 15730,
+    "attribute": "produits_associes",
+    "family": "groupe",
+    "method": "groupe"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 15752,
+    "attribute": "produits_associes",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "produits_associes",
+     "family": "groupe",
+     "method": "groupe",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": "RG-ROUTINE-LIENS",
+       "rule_version": "1.0.0",
+       "detail": "Aucun bloc routine ni recharge sur la page. Jamais déduit par similarité."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-CATALOGUE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Rien à contrôler."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention : aucun produit cité par la page.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.081432,
+     "elapsed_ms": 15752,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 15752,
+    "attribute": "hypoallergenique",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 17815,
+    "attribute": "hypoallergenique",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune allégation mot pour mot dans les sources de rang 1. L'absence donne non_determinable, jamais « non »."
+      }
+     ],
+     "prompt_id": "verbatim.hypoallergenique",
+     "prompt_version": "1.1.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_85ab7c4af47c"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_4d4a62cf4402"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_1bbc1ac3cea2"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_85ab7c4af47c",
+      "call_4d4a62cf4402",
+      "call_1bbc1ac3cea2"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.095331,
+     "elapsed_ms": 17815,
+     "n_calls": 21,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 17815,
+    "attribute": "teste_dermatologiquement",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 20271,
+    "attribute": "teste_dermatologiquement",
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune allégation mot pour mot dans les sources de rang 1. L'absence donne non_determinable, jamais « non »."
+      }
+     ],
+     "prompt_id": "verbatim.teste_dermatologiquement",
+     "prompt_version": "1.1.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_a8cd3ec616f2"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_f8a139fd30d7"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_bd79c56e50df"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_a8cd3ec616f2",
+      "call_f8a139fd30d7",
+      "call_bd79c56e50df"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.109347,
+     "elapsed_ms": 20271,
+     "n_calls": 24,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "run_done",
+    "t_ms": 20311,
+    "totals": {
+     "cost_usd": 0.109347,
+     "elapsed_ms": 20311,
+     "n_calls": 24,
+     "invented_values": 0,
+     "rejected_samples": 0,
+     "abstentions": 6,
+     "routes": {
+      "validation_auto": 15,
+      "revue_rapide": 0,
+      "revue_experte": 0
+     }
+    }
+   }
+  ]
+ }
+}

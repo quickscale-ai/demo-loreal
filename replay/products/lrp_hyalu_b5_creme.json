@@ -1,0 +1,264 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "lrp_hyalu_b5_creme",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/gammes/visage/hyalu-b5/hyalu-b5-creme-suractivee/LRP_949.html",
+  "captured_at": "2026-10-03T22:04:43Z",
+  "source_sha256": "a4d3efe293253dba6d89cdd06b4126c926c28db844c5a661668879dba46f96c6",
+  "name": "Hyalu B5 Crème Suractivée",
+  "price_eur": 38.8,
+  "size_label": "50 ml",
+  "variants": [
+   "50 ml",
+   "RECHARGE"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "GLYCERIN",
+   "ISOHEXADECANE",
+   "PROPANEDIOL",
+   "ALCOHOL DENAT.",
+   "ISOPROPYL ISOSTEARATE",
+   "PANTHENOL",
+   "DIMETHICONE",
+   "OCTYLDODECANOL",
+   "BEHENYL ALCOHOL",
+   "CETYL ALCOHOL",
+   "ALPINIA GALANGA LEAF EXTRACT",
+   "STEARIC ACID",
+   "CALCIUM CHLORIDE",
+   "CETEARYL ALCOHOL",
+   "CETEARYL GLUCOSIDE",
+   "PEG-100 STEARATE",
+   "SODIUM HYALURONATE",
+   "SODIUM HYDROXIDE",
+   "ALGIN",
+   "SILICA",
+   "MYRISTIC ACID",
+   "CELLULOSE",
+   "PALMITIC ACID",
+   "ADENOSINE",
+   "AMMONIUM POLYACRYLOYLDIMETHYL TAURATE",
+   "DISODIUM STEAROYL GLUTAMATE",
+   "ECTOIN",
+   "HYDROLYZED HYALURONIC ACID",
+   "HYDROXYACETOPHENONE",
+   "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+   "CAPRYLOYL SALICYLIC ACID",
+   "CITRIC ACID",
+   "LAURETH-7",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "ACETYL GLUCOSAMINE",
+   "XANTHAN GUM",
+   "PENTYLENE GLYCOL",
+   "PHYTIC ACID",
+   "POLYACRYLAMIDE",
+   "POLYEPSILON-LYSINE",
+   "BUTYLENE GLYCOL",
+   "1,2-HEXANEDIOL",
+   "C13-14 ISOALKANE",
+   "PHENOXYETHANOL",
+   "PARFUM / FRAGRANCE"
+  ],
+  "related_urls": [
+   "https://www.laroche-posay.fr/gammes/visage/hyalu-b5/hyalu-b5-serum-suractive/LRP_950.html",
+   "https://www.laroche-posay.fr/gammes/visage/hyalu-b5/hyalu-b5-gel-en-eau-lissant--hydratant-et-matifiant/LRP_951.html",
+   "https://www.laroche-posay.fr/gammes/visage/hyalu-b5/hyalu-b5-serum-yeux-anti-rides/LRP_165.html"
+  ],
+  "passages": [
+   {
+    "id": "p:lrp_hyalu_b5_creme:name:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "name",
+    "rank": 1,
+    "text": "Hyalu B5 Crème Suractivée"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:description:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "description",
+    "rank": 1,
+    "text": "Crème visage anti-rides, raffermissante, lissante, repulpante, alliant 3 formes complémentaires d’acide hyaluronique, de vitamine B5 et d'ectoïne. Rides, perte de fermeté et d'élasticité. Convient à tous les phototypes et types de peaux, même sensibles. Pot rechargeable."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:description:1",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "description",
+    "rank": 1,
+    "text": "INNOVATION Une formule puissante enrichie de 3 formes complémentaires d'acide hyaluronique [bas poids moléculaire + moyen poids + haut poids], de vitamine B5 et d'ectoïne pour intensifier l'hydratation, réparer et renforcer la barrière cutanée, repulper et corriger les signes de l'âge. En plus, un COMPLEXE STIMULANT intensifie la production naturelle d'acide hyaluronique de l'épiderme et réduit sa dégradation."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:description:2",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "description",
+    "rank": 1,
+    "text": "Pot rechargeable."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:description:3",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "description",
+    "rank": 1,
+    "text": "Intensifie l'hydratation, répare et renforce la barrière cutanée, repulpe et corrige les signes de l'âge."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:description:4",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "description",
+    "rank": 1,
+    "text": "Les signes sont visiblement réduits."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:description:5",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "description",
+    "rank": 1,
+    "text": "72H d'hydratation intense. La peau apparaît rebondie et souple. La peau paraît plus ferme."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:description:6",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "description",
+    "rank": 1,
+    "text": "La peau est réparée* et repulpée** en 1H."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:description:7",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "description",
+    "rank": 1,
+    "text": "*Test instrumental, 24 sujets"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:description:8",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "description",
+    "rank": 1,
+    "text": "**Etude clinique, 40 sujets"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:benefits:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "benefits",
+    "rank": 1,
+    "text": "ACIDE HYALURONIQUE Un puissant humectant capable de retenir une grande quantité d'eau pour aider à hydrater la peau."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:benefits:1",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "benefits",
+    "rank": 1,
+    "text": "VITAMINE B5 Apaise et aide à la restaurer les peaux irritées et sensibilisées."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:benefits:2",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "benefits",
+    "rank": 1,
+    "text": "EFFET SOIN: Anti-âge / Anti-rides RéparateurRepulpant Hydratant"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:how_to_use:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "QUANTITÉ L’équivalent d’une noisette. QUAND Le matin et/ou soir. OÙ Visage, cou et décolleté. CONSEILS D’APPLICATION Appliquer matin et soir sur visage, cou et décolleté."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:inci:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "inci",
+    "rank": 1,
+    "text": "2039190 23 - INGREDIENTS : AQUA / WATER / EAU • GLYCERIN • ISOHEXADECANE • PROPANEDIOL • ALCOHOL DENAT. • ISOPROPYL ISOSTEARATE • PANTHENOL • DIMETHICONE • OCTYLDODECANOL • BEHENYL ALCOHOL • CETYL ALCOHOL • ALPINIA GALANGA LEAF EXTRACT • STEARIC ACID • CALCIUM CHLORIDE • CETEARYL ALCOHOL • CETEARYL GLUCOSIDE • PEG-100 STEARATE • SODIUM HYALURONATE • SODIUM HYDROXIDE • ALGIN • SILICA • MYRISTIC ACID • CELLULOSE • PALMITIC ACID • ADENOSINE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • DISODIUM STEAROYL GLUTAMATE • ECTOIN • HYDROLYZED HYALURONIC ACID • HYDROXYACETOPHENONE • CAPRYLIC/CAPRIC TRIGLYCERIDE • CAPRYLOYL SALICYLIC ACID • CITRIC ACID • LAURETH-7 • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • ACETYL GLUCOSAMINE • XANTHAN GUM • PENTYLENE GLYCOL • PHYTIC ACID • POLYACRYLAMIDE • POLYEPSILON-LYSINE • BUTYLENE GLYCOL • 1,2-HEXANEDIOL • C13-14 ISOALKANE • PHENOXYETHANOL • PARFUM / FRAGRANCE (F.I.L. N70060918/1)."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:size:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "size",
+    "rank": 1,
+    "text": "Sélectionné taille : 50 ml - 38,80 € (77,60 €/100 ml.)"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:price:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "price",
+    "rank": 1,
+    "text": "38,80 € (77,60 €/100 ml.)"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:specifications:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "specifications",
+    "rank": 1,
+    "text": "TRI ET ENVIRONNEMENT QUALITÉS ET CARACTÉRISTIQUES ENVIRONNEMENTALES FLACON Emballage non compostable Emballage contenant au moins 68% de matières recyclées* Non recyclable Emballage non rechargeable * Selon le référentiel CITEO"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:specifications:1",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "specifications",
+    "rank": 1,
+    "text": "SPÉCIFICATIONS DU PRODUIT Type de produit : Crème visage anti-rides Type de peau :Sensible, tous types de peaux Problèmes ciblés :Anti-âge / Anti-rides, réparateur, repulpant, hydratant Recommandé pour : Visage, cou et décolleté Ingrédients clés : Acide hyaluronique, Vitamine B5 Taille : Crème Hyalu B5 Suractivée (50ml), pot rechargeable"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:specifications:2",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "specifications",
+    "rank": 1,
+    "text": "TYPE DE PEAU : Sensible Tous types de peaux"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:brand_boilerplate:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "RECOMMANDÉ PAR DES DERMATOLOGUES"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:brand_boilerplate:1",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:brand_boilerplate:2",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Les listes d’ingrédients entrant dans la composition des produits de notre marque sont régulièrement mises à jour. Avant d’utiliser un produit de notre marque, vous êtes invités à lire la liste d’ingrédients figurant sur son emballage afin de vous assurer que les ingrédients sont adaptés à votre utilisation personnelle"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:routine:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "routine",
+    "rank": 2,
+    "text": "Hyalu B5 Sérum Suractivé"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:routine:1",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "routine",
+    "rank": 2,
+    "text": "Hyalu B5 Gel-en-eau Lissant, hydratant et matifiant"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:routine:2",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "routine",
+    "rank": 2,
+    "text": "Hyalu B5 Sérum Yeux anti-rides"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_creme:breadcrumb:0",
+    "sku": "lrp_hyalu_b5_creme",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Offres > Offres French Days > Hyalu B5 Crème Suractivée"
+   }
+  ]
+ }
+}

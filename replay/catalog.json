@@ -1,0 +1,170 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "default_sku": "lrp_hyalu_b5_serum",
+  "products": [
+   {
+    "sku": "lrp_hyalu_b5_serum",
+    "name": "Hyalu B5 Sérum Suractivé",
+    "brand": "La Roche-Posay",
+    "loreal": true,
+    "price_eur": 41.1,
+    "size_label": "30 ml"
+   },
+   {
+    "sku": "lrp_hyalu_b5_creme",
+    "name": "Hyalu B5 Crème Suractivée",
+    "brand": "La Roche-Posay",
+    "loreal": true,
+    "price_eur": 38.8,
+    "size_label": "50 ml"
+   },
+   {
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "name": "Hyalu B5 Sérum Yeux anti-rides",
+    "brand": "La Roche-Posay",
+    "loreal": true,
+    "price_eur": 34.4,
+    "size_label": null
+   },
+   {
+    "sku": "lrp_cicaplast_b5_serum",
+    "name": "Cicaplast B5 sérum à la Vitamine B5 Ultra-concentré",
+    "brand": "La Roche-Posay",
+    "loreal": true,
+    "price_eur": 40.0,
+    "size_label": "30 ml"
+   },
+   {
+    "sku": "lrp_mela_b3_serum",
+    "name": "Mela B3 Sérum anti-taches concentré intensif",
+    "brand": "La Roche-Posay",
+    "loreal": true,
+    "price_eur": 45.9,
+    "size_label": "30 ml"
+   },
+   {
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "name": "Pure Vitamin C12 Sérum",
+    "brand": "La Roche-Posay",
+    "loreal": true,
+    "price_eur": 42.1,
+    "size_label": "30 ml"
+   },
+   {
+    "sku": "lrp_effaclar_serum",
+    "name": "EFFACLAR Sérum à l'Acide Salicylique Ultra Concentré",
+    "brand": "La Roche-Posay",
+    "loreal": true,
+    "price_eur": 34.3,
+    "size_label": "30 ml"
+   },
+   {
+    "sku": "lrp_retinol_b3_serum",
+    "name": "Rétinol B3 Sérum anti-rides au rétinol régénérant resurfaçant",
+    "brand": "La Roche-Posay",
+    "loreal": true,
+    "price_eur": 41.3,
+    "size_label": "30 ml"
+   },
+   {
+    "sku": "vichy_mineral89_serum",
+    "name": "MINÉRAL 89 Sérum Booster quotidien fortifiant et repulpant",
+    "brand": "Vichy",
+    "loreal": true,
+    "price_eur": null,
+    "size_label": "50 ML"
+   },
+   {
+    "sku": "vichy_mineral89_serum_recharge",
+    "name": "MINÉRAL 89 Recharge sérum booster quotidien fortifiant et repulpant",
+    "brand": "Vichy",
+    "loreal": true,
+    "price_eur": null,
+    "size_label": "50 ML"
+   },
+   {
+    "sku": "vichy_liftactiv_b3_serum",
+    "name": "LIFTACTIV SÉRUM B3 ANTI-TACHES BRUNES ET ANTI-RIDES",
+    "brand": "Vichy",
+    "loreal": true,
+    "price_eur": null,
+    "size_label": "30 ML"
+   },
+   {
+    "sku": "vichy_normaderm_serum",
+    "name": "NORMADERM SÉRUM ANTI-IMPERFECTIONS PROBIO-BHA",
+    "brand": "Vichy",
+    "loreal": true,
+    "price_eur": null,
+    "size_label": "30 ML"
+   },
+   {
+    "sku": "vichy_liftactiv_ha_filler",
+    "name": "LIFTACTIV SÉRUM H.A. EPIDERMIC FILLER – RIDES & FERMETÉ",
+    "brand": "Vichy",
+    "loreal": true,
+    "price_eur": null,
+    "size_label": "30 ML"
+   },
+   {
+    "sku": "vichy_liftactiv_vitc",
+    "name": "LIFTACTIV Sérum antioxydant à 16% de Vitamine C Pure",
+    "brand": "Vichy",
+    "loreal": true,
+    "price_eur": null,
+    "size_label": "20 ML"
+   },
+   {
+    "sku": "avene_hydrance_boost_serum",
+    "name": "Sérum concentré hydratant",
+    "brand": "Avène",
+    "loreal": false,
+    "price_eur": null,
+    "size_label": "30ml"
+   },
+   {
+    "sku": "avene_cicalfate_serum",
+    "name": "Sérum réparateur intense",
+    "brand": "Avène",
+    "loreal": false,
+    "price_eur": null,
+    "size_label": "30ml"
+   },
+   {
+    "sku": "bioderma_hydrabio_serum",
+    "name": "Hydrabio Sérum",
+    "brand": "Bioderma",
+    "loreal": false,
+    "price_eur": 26.7,
+    "size_label": "40 ml"
+   },
+   {
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "name": "Hydrabio Hyalu+ sérum",
+    "brand": "Bioderma",
+    "loreal": false,
+    "price_eur": 33.5,
+    "size_label": "30 ml"
+   },
+   {
+    "sku": "svr_b3_ampoule_hydra",
+    "name": "[B3] Ampoule Hydra",
+    "brand": "SVR",
+    "loreal": false,
+    "price_eur": 29.7,
+    "size_label": "30ml"
+   },
+   {
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "name": "Hyaluronic Acid 2% + B5 (Original Formulation)",
+    "brand": "The Ordinary",
+    "loreal": false,
+    "price_eur": 9.0,
+    "size_label": "30ml"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1299 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "theordinary_hyaluronic_acid_b5",
+  "run_id": "run_20261004_0800_mock",
+  "events": [
+   {
+    "type": "run_started",
+    "t_ms": 0,
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "run_id": "run_20261004_0800_mock",
+    "attributes": [
+     {
+      "attribute": "sans_parfum",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "sans_alcool",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "contenance_ml",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actif_principal",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "concentration_actif",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "types_de_peau",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "preoccupation_principale",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "texture",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "moment_application",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "compatible_sous_spf",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "peau_sensible",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "gamme",
+      "family": "groupe",
+      "method": "groupe"
+     },
+     {
+      "attribute": "produits_associes",
+      "family": "groupe",
+      "method": "groupe"
+     },
+     {
+      "attribute": "hypoallergenique",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     },
+     {
+      "attribute": "teste_dermatologiquement",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     }
+    ]
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 380,
+    "attribute": "sans_parfum",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 391,
+    "attribute": "sans_parfum",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:inci:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-INCI-PARFUM",
+       "rule_version": "1.2.0",
+       "detail": "INCI complet (17 ingrédients) : aucun PARFUM, FRAGRANCE ni AROMA"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-INCI-COMPLET",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "INCI lu en entier : 17 ingrédients."
+      },
+      {
+       "id": "CTRL-CONFLIT-MARKETING",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contradictoire."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle déterministe sur l'INCI, contrôles passés.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 391,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 391,
+    "attribute": "sans_alcool",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 412,
+    "attribute": "sans_alcool",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:inci:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-INCI-ALCOOL",
+       "rule_version": "1.1.0",
+       "detail": "INCI complet (17 ingrédients) : aucun ALCOHOL, ALCOHOL DENAT. ni ETHANOL"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-INCI-COMPLET",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "INCI lu en entier : 17 ingrédients."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle déterministe sur l'INCI, contrôles passés.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 412,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 412,
+    "attribute": "contenance_ml",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 424,
+    "attribute": "contenance_ml",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "contenance_ml",
+     "family": "regles",
+     "method": "regle",
+     "value": 30,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:size:1",
+       "quote": "30 ml",
+       "start": 21,
+       "end": 26,
+       "rank": 1,
+       "rule_id": "RG-SIZE-ML",
+       "rule_version": "1.0.0",
+       "detail": "Format sélectionné par défaut : 30 ml"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-UNITE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Unité ml reconnue, valeur dans la plage 5 à 500."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Expression régulière sur le format sélectionné.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 424,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 424,
+    "attribute": "actif_principal",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 442,
+    "attribute": "actif_principal",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "actif_principal",
+     "family": "regles",
+     "method": "regle",
+     "value": "acide_hyaluronique",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:name:1",
+       "quote": "Hyalu",
+       "start": 0,
+       "end": 5,
+       "rank": 1,
+       "rule_id": "RG-ACTIF-NOM",
+       "rule_version": "1.0.1",
+       "detail": "« Hyalu » est le premier actif nommé dans le nom du produit"
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:inci:1",
+       "quote": "Sodium Hyaluronate",
+       "start": 14,
+       "end": 32,
+       "rank": 1,
+       "rule_id": "RG-ACTIF-NOM",
+       "rule_version": "1.0.1",
+       "detail": "Confirmé dans l'INCI : SODIUM HYALURONATE"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-ACTIF-INCI",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "SODIUM HYALURONATE présent dans l'INCI."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Lexique sur le nom, confirmé dans l'INCI.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 442,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 442,
+    "attribute": "concentration_actif",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 450,
+    "attribute": "concentration_actif",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "concentration_actif",
+     "family": "regles",
+     "method": "regle",
+     "value": 2,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:name:1",
+       "quote": "2%",
+       "start": 16,
+       "end": 18,
+       "rank": 1,
+       "rule_id": "RG-CONC-PCT",
+       "rule_version": "1.0.0",
+       "detail": "« 2% » écrit dans la source à côté de l'actif principal"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-CONC-PLAGE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Pourcentage dans la plage 0,01 à 100."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Pourcentage explicite rattaché à l'actif principal.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 450,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 450,
+    "attribute": "types_de_peau",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 2977,
+    "attribute": "types_de_peau",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "types_de_peau",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune phrase de la source ne permet de trancher."
+      }
+     ],
+     "prompt_id": "interp.types_de_peau",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_9a7a3e0b08ba"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_2f3acec74c66"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_7c7453350cf9"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_9a7a3e0b08ba",
+      "call_2f3acec74c66",
+      "call_7c7453350cf9"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.014694,
+     "elapsed_ms": 2977,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2977,
+    "attribute": "preoccupation_principale",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 5014,
+    "attribute": "preoccupation_principale",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "preoccupation_principale",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "hydratation",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:description:1",
+       "quote": "A hydrating formula",
+       "start": 0,
+       "end": 19,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.preoccupation_principale",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "hydratation",
+       "quote": "A hydrating formula",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_a95a365a54d3"
+      },
+      {
+       "run_idx": 1,
+       "value": "hydratation",
+       "quote": "A hydrating formula",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_20b0d786cd6d"
+      },
+      {
+       "run_idx": 2,
+       "value": "hydratation",
+       "quote": "A hydrating formula",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_7ae5484683ca"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:theordinary_hyaluronic_acid_b5:description:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_a95a365a54d3",
+      "call_20b0d786cd6d",
+      "call_7ae5484683ca"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.028281,
+     "elapsed_ms": 5014,
+     "n_calls": 6,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 5014,
+    "attribute": "texture",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 7436,
+    "attribute": "texture",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "texture",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune phrase de la source ne permet de trancher."
+      }
+     ],
+     "prompt_id": "interp.texture",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_a0487dc5278d"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_bae015af3035"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_cb9c95d78d0c"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_a0487dc5278d",
+      "call_bae015af3035",
+      "call_cb9c95d78d0c"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.043368,
+     "elapsed_ms": 7436,
+     "n_calls": 9,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 7436,
+    "attribute": "moment_application",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 10052,
+    "attribute": "moment_application",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "moment_application",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "matin_et_soir",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:how_to_use:1",
+       "quote": "in the morning and evening",
+       "start": 26,
+       "end": 52,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.moment_application",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "matin_et_soir",
+       "quote": "in the morning and evening",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_89f0b0e96b65"
+      },
+      {
+       "run_idx": 1,
+       "value": "matin_et_soir",
+       "quote": "in the morning and evening",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_bf7e3ceeeb4a"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_37222713bea4"
+      }
+     ],
+     "agreement": 0.6667,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:theordinary_hyaluronic_acid_b5:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.8,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 0.6667,
+      "controls": 1
+     },
+     "route": "revue_rapide",
+     "route_reason": "Page en anglais : un run s'abstient. Revue rapide.",
+     "calls": [
+      "call_89f0b0e96b65",
+      "call_bf7e3ceeeb4a",
+      "call_37222713bea4"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.057738,
+     "elapsed_ms": 10052,
+     "n_calls": 12,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 10052,
+    "attribute": "compatible_sous_spf",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 11666,
+    "attribute": "compatible_sous_spf",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:how_to_use:1",
+       "quote": "in the morning and evening before creams",
+       "start": 26,
+       "end": 66,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.compatible_sous_spf",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "in the morning and evening before creams",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_6a39b73620bb"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "in the morning and evening before creams",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_ee317ec41eb3"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_cfa10a38e605"
+      }
+     ],
+     "agreement": 0.6667,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:theordinary_hyaluronic_acid_b5:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Cohérent avec moment_application = matin_et_soir."
+      }
+     ],
+     "confidence": 0.8,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 0.6667,
+      "controls": 1
+     },
+     "route": "revue_rapide",
+     "route_reason": "Confiance 0,80 entre 0,60 et 0,85 : 2 runs sur 3 d'accord.",
+     "calls": [
+      "call_6a39b73620bb",
+      "call_ee317ec41eb3",
+      "call_cfa10a38e605"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.069684,
+     "elapsed_ms": 11666,
+     "n_calls": 15,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 11666,
+    "attribute": "peau_sensible",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14047,
+    "attribute": "peau_sensible",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune phrase de la source ne permet de trancher."
+      }
+     ],
+     "prompt_id": "interp.peau_sensible",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_9481ad4f1b5b"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_3af4eaa93e2a"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_13a8143d3106"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_9481ad4f1b5b",
+      "call_3af4eaa93e2a",
+      "call_13a8143d3106"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.083757,
+     "elapsed_ms": 14047,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14047,
+    "attribute": "gamme",
+    "family": "groupe",
+    "method": "groupe"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14093,
+    "attribute": "gamme",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "gamme",
+     "family": "groupe",
+     "method": "groupe",
+     "value": "the_ordinary_hydrators",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:breadcrumb:1",
+       "quote": "Hydrators",
+       "start": 18,
+       "end": 27,
+       "rank": 2,
+       "rule_id": "RG-GAMME-FIL",
+       "rule_version": "1.0.0",
+       "detail": "« Hydrators » trouvé dans le fil d'Ariane"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-GAMME-COHERENCE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Seul produit de cette gamme dans le catalogue, marque cohérente."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle sur le fil d'Ariane et le nom, contrôle de groupe passé.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.083757,
+     "elapsed_ms": 14093,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14093,
+    "attribute": "produits_associes",
+    "family": "groupe",
+    "method": "groupe"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14112,
+    "attribute": "produits_associes",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "produits_associes",
+     "family": "groupe",
+     "method": "groupe",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": "RG-ROUTINE-LIENS",
+       "rule_version": "1.0.0",
+       "detail": "Aucun bloc routine ni recharge sur la page. Jamais déduit par similarité."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-CATALOGUE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Rien à contrôler."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention : aucun produit cité par la page.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.083757,
+     "elapsed_ms": 14112,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14112,
+    "attribute": "hypoallergenique",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 15994,
+    "attribute": "hypoallergenique",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune allégation mot pour mot dans les sources de rang 1. L'absence donne non_determinable, jamais « non »."
+      }
+     ],
+     "prompt_id": "verbatim.hypoallergenique",
+     "prompt_version": "1.1.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_bb37f470646b"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_21ed5e05342b"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_090271755d77"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_bb37f470646b",
+      "call_21ed5e05342b",
+      "call_090271755d77"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.096423,
+     "elapsed_ms": 15994,
+     "n_calls": 21,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 15994,
+    "attribute": "teste_dermatologiquement",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 18591,
+    "attribute": "teste_dermatologiquement",
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune allégation mot pour mot dans les sources de rang 1. L'absence donne non_determinable, jamais « non »."
+      }
+     ],
+     "prompt_id": "verbatim.teste_dermatologiquement",
+     "prompt_version": "1.1.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_fae97a4f6829"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_60dddc022df4"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_7cc4afbddb37"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_fae97a4f6829",
+      "call_60dddc022df4",
+      "call_7cc4afbddb37"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.108822,
+     "elapsed_ms": 18591,
+     "n_calls": 24,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "run_done",
+    "t_ms": 18631,
+    "totals": {
+     "cost_usd": 0.108822,
+     "elapsed_ms": 18631,
+     "n_calls": 24,
+     "invented_values": 0,
+     "rejected_samples": 0,
+     "abstentions": 6,
+     "routes": {
+      "validation_auto": 13,
+      "revue_rapide": 2,
+      "revue_experte": 0
+     }
+    }
+   }
+  ]
+ }
+}

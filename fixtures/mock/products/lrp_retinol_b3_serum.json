@@ -1,0 +1,108 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "lrp_retinol_b3_serum",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/gammes/visage/retinol-b3/retinol-b3-serum-anti-rides-au-retinol-regenerant-resurfacant/LRP_115.html",
+  "captured_at": "2026-10-03T22:15:57+00:00",
+  "source_sha256": "5645c7686f255cdd1e82b227b46cfc25dc4920c7f9b03a090816bf54ccdb0696",
+  "name": "Retinol B3 Sérum anti-rides au rétinol",
+  "price_eur": 41.3,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "GLYCERIN",
+   "DIMETHICONE",
+   "ALCOHOL DENAT",
+   "PENTYLENE GLYCOL",
+   "NIACINAMIDE",
+   "GLYCINE SOJA OIL / SOYBEAN OIL",
+   "PPG-6-DECYLTETRADECETH-30",
+   "SODIUM HYALURONATE",
+   "RETINOL",
+   "ADENOSINE",
+   "AMMONIUM POLYACRYLOYLDIMETHYL TAURATE",
+   "CAPRYLYL GLYCOL",
+   "CITRIC ACID",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "XANTHAN GUM",
+   "POLYSILICONE-11",
+   "RETINYL PALMITATE",
+   "TOCOPHEROL",
+   "PHENOXYETHANOL",
+   "PARFUM / FRAGRANCE"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:lrp_retinol_b3_serum:breadcrumb:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Gammes > Visage > RETINOL B3"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:name:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Retinol B3 Sérum anti-rides au rétinol"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:price:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "41,30 € (137,67 €/100 ml.)"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:size:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:description:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum anti-rides au rétinol pur et rétinol à libération progressive, régénérant et resurfaçant. Corrige les signes du vieillissement cutané."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:how_to_use:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquer le soir. Il est indispensable d'appliquer systématiquement une crème solaire visage SPF15 minimum le matin pour éviter les effets indésirables. Ne pas s'exposer volontairement au soleil."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:specifications:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Type de peau : Pour tous les types de peau. Même sensibles et grasses. Âge : A partir de 18 ans."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:inci:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER / EAU • GLYCERIN • DIMETHICONE • ALCOHOL DENAT. • PENTYLENE GLYCOL • NIACINAMIDE • GLYCINE SOJA OIL / SOYBEAN OIL • PPG-6-DECYLTETRADECETH-30 • SODIUM HYALURONATE • RETINOL • ADENOSINE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • CAPRYLYL GLYCOL • CITRIC ACID • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • XANTHAN GUM • POLYSILICONE-11 • RETINYL PALMITATE • TOCOPHEROL • PHENOXYETHANOL • PARFUM / FRAGRANCE (F.I.L. N70026930/1)."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:brand_boilerplate:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   }
+  ]
+ }
+}

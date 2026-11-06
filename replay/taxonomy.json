@@ -1,0 +1,613 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "version": "1.3.0",
+  "abstention": "non_determinable",
+  "families": {
+   "regles": {
+    "label": "Dérivables par règles",
+    "description": "Calculés de façon déterministe depuis l'INCI ou par expression régulière, sans LLM."
+   },
+   "interpretatifs": {
+    "label": "Interprétatifs",
+    "description": "Demandent de lire le texte. Génération contrainte, citation exacte obligatoire."
+   },
+   "groupe": {
+    "label": "Dépendants du groupe",
+    "description": "Dépendent de la gamme et des autres produits du catalogue."
+   },
+   "reglementes": {
+    "label": "Réglementés",
+    "description": "Allégations encadrées. Jamais générées, extraites mot pour mot ou routées en revue experte."
+   }
+  },
+  "attributes": {
+   "sans_parfum": {
+    "family": "regles",
+    "label": "Sans parfum",
+    "type": "enum",
+    "values": {
+     "oui": "L'INCI est disponible et ne contient ni PARFUM, ni FRAGRANCE, ni AROMA.",
+     "non": "L'INCI contient PARFUM, FRAGRANCE ou AROMA."
+    },
+    "note": "Seul l'INCI fait foi. Une mention marketing « sans parfum » contredite par l'INCI est signalée comme conflit.",
+    "claim": true,
+    "composition": false
+   },
+   "sans_alcool": {
+    "family": "regles",
+    "label": "Sans alcool",
+    "type": "enum",
+    "values": {
+     "oui": "L'INCI est disponible et ne contient ni ALCOHOL, ni ALCOHOL DENAT., ni ETHANOL.",
+     "non": "L'INCI contient ALCOHOL, ALCOHOL DENAT. ou ETHANOL."
+    },
+    "note": "Les alcools gras (Cetyl, Cetearyl, Stearyl Alcohol...) et les glycols ne sont pas des alcools au sens de cet attribut.",
+    "claim": true,
+    "composition": false
+   },
+   "contenance_ml": {
+    "family": "regles",
+    "label": "Contenance (ml)",
+    "type": "number",
+    "unit": "ml",
+    "note": "Contenance du format décrit par la fiche. Si plusieurs formats sont proposés, celui sélectionné par défaut.",
+    "claim": false,
+    "composition": false
+   },
+   "actif_principal": {
+    "family": "regles",
+    "label": "Actif principal",
+    "type": "enum",
+    "values": {
+     "acide_hyaluronique": "Le premier actif nommé dans le nom du produit est l'acide hyaluronique (Hyalu, Hyaluronic, H.A.).",
+     "niacinamide": "Le premier actif nommé dans le nom du produit est la niacinamide (vitamine B3).",
+     "vitamine_c": "Le premier actif nommé dans le nom du produit est la vitamine C ou un de ses dérivés.",
+     "retinol": "Le premier actif nommé dans le nom du produit est le rétinol ou un rétinoïde.",
+     "acide_salicylique": "Le premier actif nommé dans le nom du produit est l'acide salicylique (BHA).",
+     "panthenol": "Le premier actif nommé dans le nom du produit est le panthénol (vitamine B5)."
+    },
+    "note": "Règle = lexique appliqué au nom du produit, puis confirmation de la présence de l'ingrédient dans l'INCI. Sans INCI, pas de confirmation, donc abstention.",
+    "claim": false,
+    "composition": false
+   },
+   "concentration_actif": {
+    "family": "regles",
+    "label": "Concentration de l'actif",
+    "type": "number",
+    "unit": "%",
+    "note": "Pourcentage écrit explicitement dans la source et rattaché à l'actif principal. Jamais estimé depuis le rang dans l'INCI.",
+    "claim": false,
+    "composition": false
+   },
+   "actifs_cles": {
+    "family": "regles",
+    "label": "Actifs clés",
+    "type": "enum_list",
+    "values_from": "referentiel_actifs",
+    "note": "Actifs du référentiel (config/actifs.yaml) présents dans l'INCI, ordonnés par position dans l'INCI, au plus 5. Abstention si l'INCI est absent. Une liste vide n'est pas une valeur - aucun actif du référentiel dans l'INCI donne non_determinable. Les humectants et solvants omniprésents (GLYCERIN, eau, BUTYLENE GLYCOL...) sont exclus du référentiel. Au-delà des premiers rangs, l'ordre de l'INCI est indicatif (ordre libre sous 1 %).",
+    "values": {
+     "niacinamide": "Niacinamide (vitamine B3)",
+     "panthenol": "Panthénol (provitamine B5)",
+     "vitamine_c": "Vitamine C et dérivés",
+     "tocopherol": "Vitamine E (tocophérol)",
+     "retinol": "Rétinol",
+     "retinyl_palmitate": "Palmitate de rétinyle",
+     "retinal": "Rétinal (rétinaldéhyde)",
+     "hydroxypinacolone_retinoate": "Hydroxypinacolone rétinoate",
+     "bakuchiol": "Bakuchiol",
+     "acide_hyaluronique": "Acide hyaluronique et sels",
+     "uree": "Urée",
+     "ectoine": "Ectoïne",
+     "squalane": "Squalane",
+     "ceramides": "Céramides",
+     "acide_salicylique": "Acide salicylique (BHA) et LHA",
+     "acide_glycolique": "Acide glycolique (AHA)",
+     "acide_lactique": "Acide lactique (AHA)",
+     "acide_mandelique": "Acide mandélique (AHA)",
+     "gluconolactone": "Gluconolactone (PHA)",
+     "acide_azelaique": "Acide azélaïque et dérivé",
+     "melasyl": "Mélasyl",
+     "acide_tranexamique": "Acide tranexamique",
+     "arbutine": "Arbutine",
+     "acide_kojique": "Acide kojique",
+     "acetyl_glucosamine": "Acétyl glucosamine",
+     "adenosine": "Adénosine",
+     "peptides": "Peptides",
+     "pro_xylane": "Pro-Xylane",
+     "coenzyme_q10": "Coenzyme Q10",
+     "acide_ferulique": "Acide férulique",
+     "resveratrol": "Resvératrol",
+     "carnosine": "Carnosine",
+     "madecassoside": "Madécassoside",
+     "centella_asiatica": "Extrait de Centella asiatica",
+     "allantoine": "Allantoïne",
+     "bisabolol": "Bisabolol",
+     "glycyrrhizate": "Glycyrrhizate dipotassique (réglisse)",
+     "beta_glucane": "Bêta-glucane",
+     "zinc_pca": "Zinc PCA",
+     "cafeine": "Caféine",
+     "ferments_bacteriens": "Fractions de probiotiques et ferments bactériens",
+     "eau_thermale_avene": "Eau thermale d'Avène"
+    },
+    "claim": false,
+    "composition": false
+   },
+   "benefices_actifs": {
+    "family": "regles",
+    "label": "Bénéfices liés aux actifs",
+    "type": "enum_list",
+    "values_from": "benefices",
+    "note": "Bénéfices associés par le référentiel (config/actifs.yaml, champ benefices_associes) aux actifs présents dans l'INCI ; un fait de composition, pas une allégation du produit. Règle déterministe, aucun LLM. Ordonnés par rang INCI du premier actif qui les porte, sans doublon. Abstention si l'INCI est absent ou si aucun actif présent n'a de bénéfice associé. La dose reste inconnue depuis la page (position dans l'INCI seulement) ; utilisable comme filtre structuré, jamais publié comme promesse produit (pipeline.yaml composition_attributes).",
+    "values": {
+     "hydratation": "Hydratation",
+     "hydratation.immediate": "Hydratation immédiate",
+     "hydratation.longue_duree": "Hydratation longue durée",
+     "hydratation.barriere": "Barrière, hydratation",
+     "signes_de_l_age": "Signes de l'âge",
+     "signes_de_l_age.rides": "Rides",
+     "signes_de_l_age.ridules": "Ridules",
+     "signes_de_l_age.fermete": "Fermeté",
+     "signes_de_l_age.volume": "Repulpant, volume",
+     "signes_de_l_age.eclat_age": "Éclat de la peau mature",
+     "taches": "Taches",
+     "taches.hyperpigmentation": "Hyperpigmentation",
+     "taches.post_acne": "Marques post-acné",
+     "taches.teint_uniforme": "Teint uniforme",
+     "imperfections": "Imperfections",
+     "imperfections.boutons": "Boutons",
+     "imperfections.pores": "Pores",
+     "imperfections.sebum": "Sébum",
+     "imperfections.marques": "Marques",
+     "reparation_apaisement": "Réparation, apaisement",
+     "reparation_apaisement.barriere": "Réparation de la barrière",
+     "reparation_apaisement.rougeurs": "Rougeurs",
+     "reparation_apaisement.inconforts": "Inconforts",
+     "contour_des_yeux": "Contour des yeux",
+     "contour_des_yeux.cernes": "Cernes",
+     "contour_des_yeux.poches": "Poches",
+     "contour_des_yeux.rides": "Rides du contour de l'œil",
+     "eclat": "Éclat",
+     "protection": "Protection",
+     "protection.uv": "Protection UV",
+     "protection.pollution": "Pollution",
+     "protection.antioxydant": "Antioxydant"
+    },
+    "referentiel": {
+     "version": "1.1.0",
+     "note": "Référentiel de démonstration, à valider par les experts L'Oréal (R&I) ; fonctions à confirmer contre CosIng (Commission européenne). La présence d'un ingrédient ne prouve pas son efficacité à la dose utilisée.",
+     "actifs": {
+      "niacinamide": {
+       "nom": "Niacinamide (vitamine B3)",
+       "inci": [
+        "NIACINAMIDE"
+       ],
+       "benefices": [
+        "taches",
+        "reparation_apaisement.barriere"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "panthenol": {
+       "nom": "Panthénol (provitamine B5)",
+       "inci": [
+        "PANTHENOL"
+       ],
+       "benefices": [
+        "reparation_apaisement.barriere"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "vitamine_c": {
+       "nom": "Vitamine C et dérivés",
+       "inci": [
+        "ASCORBIC ACID",
+        "ASCORBYL GLUCOSIDE",
+        "3-O-ETHYL ASCORBIC ACID",
+        "SODIUM ASCORBYL PHOSPHATE",
+        "MAGNESIUM ASCORBYL PHOSPHATE",
+        "ASCORBYL TETRAISOPALMITATE"
+       ],
+       "benefices": [
+        "eclat",
+        "protection.antioxydant"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "tocopherol": {
+       "nom": "Vitamine E (tocophérol)",
+       "inci": [
+        "TOCOPHEROL",
+        "TOCOPHERYL ACETATE"
+       ],
+       "benefices": [
+        "protection.antioxydant"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "retinol": {
+       "nom": "Rétinol",
+       "inci": [
+        "RETINOL"
+       ],
+       "benefices": [
+        "signes_de_l_age.rides"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "retinal": {
+       "nom": "Rétinal (rétinaldéhyde)",
+       "inci": [
+        "RETINAL"
+       ],
+       "benefices": [
+        "signes_de_l_age.rides"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "acide_hyaluronique": {
+       "nom": "Acide hyaluronique et sels",
+       "inci": [
+        "SODIUM HYALURONATE",
+        "HYALURONIC ACID",
+        "HYDROLYZED HYALURONIC ACID",
+        "SODIUM ACETYLATED HYALURONATE",
+        "SODIUM HYALURONATE CROSSPOLYMER",
+        "POTASSIUM HYALURONATE"
+       ],
+       "benefices": [
+        "hydratation"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "uree": {
+       "nom": "Urée",
+       "inci": [
+        "UREA"
+       ],
+       "benefices": [
+        "hydratation"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "ceramides": {
+       "nom": "Céramides",
+       "inci": [
+        "CERAMIDE NP",
+        "CERAMIDE AP",
+        "CERAMIDE EOP",
+        "CERAMIDE NS"
+       ],
+       "benefices": [
+        "hydratation.barriere"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "acide_salicylique": {
+       "nom": "Acide salicylique (BHA) et LHA",
+       "inci": [
+        "SALICYLIC ACID",
+        "CAPRYLOYL SALICYLIC ACID"
+       ],
+       "benefices": [
+        "imperfections"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "acide_glycolique": {
+       "nom": "Acide glycolique (AHA)",
+       "inci": [
+        "GLYCOLIC ACID"
+       ],
+       "benefices": [
+        "eclat"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "melasyl": {
+       "nom": "Mélasyl",
+       "inci": [
+        "2-MERCAPTONICOTINOYL GLYCINE"
+       ],
+       "benefices": [
+        "taches"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "acide_tranexamique": {
+       "nom": "Acide tranexamique",
+       "inci": [
+        "TRANEXAMIC ACID"
+       ],
+       "benefices": [
+        "taches"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "arbutine": {
+       "nom": "Arbutine",
+       "inci": [
+        "ALPHA-ARBUTIN",
+        "ARBUTIN"
+       ],
+       "benefices": [
+        "taches"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "acide_kojique": {
+       "nom": "Acide kojique",
+       "inci": [
+        "KOJIC ACID"
+       ],
+       "benefices": [
+        "taches"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "adenosine": {
+       "nom": "Adénosine",
+       "inci": [
+        "ADENOSINE"
+       ],
+       "benefices": [
+        "signes_de_l_age.rides"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "pro_xylane": {
+       "nom": "Pro-Xylane",
+       "inci": [
+        "HYDROXYPROPYL TETRAHYDROPYRANTRIOL"
+       ],
+       "benefices": [
+        "signes_de_l_age"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "coenzyme_q10": {
+       "nom": "Coenzyme Q10",
+       "inci": [
+        "UBIQUINONE"
+       ],
+       "benefices": [
+        "protection.antioxydant"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "acide_ferulique": {
+       "nom": "Acide férulique",
+       "inci": [
+        "FERULIC ACID"
+       ],
+       "benefices": [
+        "protection.antioxydant"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "resveratrol": {
+       "nom": "Resvératrol",
+       "inci": [
+        "RESVERATROL"
+       ],
+       "benefices": [
+        "protection.antioxydant"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "madecassoside": {
+       "nom": "Madécassoside",
+       "inci": [
+        "MADECASSOSIDE"
+       ],
+       "benefices": [
+        "reparation_apaisement"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "centella_asiatica": {
+       "nom": "Extrait de Centella asiatica",
+       "inci": [
+        "CENTELLA ASIATICA EXTRACT",
+        "CENTELLA ASIATICA LEAF EXTRACT"
+       ],
+       "benefices": [
+        "reparation_apaisement"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "allantoine": {
+       "nom": "Allantoïne",
+       "inci": [
+        "ALLANTOIN"
+       ],
+       "benefices": [
+        "reparation_apaisement"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "bisabolol": {
+       "nom": "Bisabolol",
+       "inci": [
+        "BISABOLOL"
+       ],
+       "benefices": [
+        "reparation_apaisement"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "glycyrrhizate": {
+       "nom": "Glycyrrhizate dipotassique (réglisse)",
+       "inci": [
+        "DIPOTASSIUM GLYCYRRHIZATE"
+       ],
+       "benefices": [
+        "reparation_apaisement"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      },
+      "zinc_pca": {
+       "nom": "Zinc PCA",
+       "inci": [
+        "ZINC PCA"
+       ],
+       "benefices": [
+        "imperfections.sebum"
+       ],
+       "source": "fonction INCI usuelle, à valider par les experts L'Oréal"
+      }
+     }
+    },
+    "claim": false,
+    "composition": true
+   },
+   "types_de_peau": {
+    "family": "interpretatifs",
+    "label": "Types de peau",
+    "type": "enum_list",
+    "values": {
+     "tous_types": "La source indique que le produit convient à tous les types de peau. Valeur exclusive, les types cités en complément (« même sèches ») ne sont pas ajoutés.",
+     "normale": "La source cite les peaux normales.",
+     "seche": "La source cite les peaux sèches ou très sèches.",
+     "mixte": "La source cite les peaux mixtes.",
+     "grasse": "La source cite les peaux grasses ou à tendance acnéique."
+    },
+    "claim": false,
+    "composition": false
+   },
+   "preoccupation_principale": {
+    "family": "interpretatifs",
+    "label": "Préoccupation principale",
+    "type": "enum",
+    "values": {
+     "hydratation": "Le bénéfice principal mis en avant est l'hydratation ou la déshydratation.",
+     "signes_de_l_age": "Le bénéfice principal mis en avant est la lutte contre les rides, la perte de fermeté ou de volume.",
+     "taches": "Le bénéfice principal mis en avant est la réduction des taches ou de l'hyperpigmentation.",
+     "imperfections": "Le bénéfice principal mis en avant est la réduction des imperfections, boutons ou pores.",
+     "eclat": "Le bénéfice principal mis en avant est l'éclat ou le teint terne.",
+     "reparation_apaisement": "Le bénéfice principal mis en avant est la réparation de la barrière cutanée ou l'apaisement.",
+     "contour_des_yeux": "Le produit cible spécifiquement le contour de l'œil (rides, cernes, poches)."
+    },
+    "note": "Départage si plusieurs bénéfices, dans cet ordre - le bénéfice écrit dans le nom du produit, sinon le premier bénéfice de l'accroche ou de la description.",
+    "claim": false,
+    "composition": false
+   },
+   "texture": {
+    "family": "interpretatifs",
+    "label": "Texture",
+    "type": "enum",
+    "values": {
+     "fluide": "La source décrit une texture fluide, aqueuse ou légère de type sérum liquide.",
+     "gel": "La source décrit une texture gel ou gel-en-eau.",
+     "creme": "La source décrit une texture crème ou gel-crème.",
+     "huile": "La source décrit une texture huile.",
+     "baume": "La source décrit une texture baume."
+    },
+    "note": "Seule une description de texture compte. Une forme galénique seule (« Sérum », « Crème » comme type de produit) ne suffit pas. En cas de contradiction entre champs de la page, le champ structuré (spécifications) prime.",
+    "claim": false,
+    "composition": false
+   },
+   "moment_application": {
+    "family": "interpretatifs",
+    "label": "Moment d'application",
+    "type": "enum",
+    "values": {
+     "matin": "La source recommande une application le matin uniquement.",
+     "soir": "La source recommande une application le soir uniquement.",
+     "matin_et_soir": "La source recommande une application matin et soir, deux fois par jour, ou « matin et/ou soir ».",
+     "matin_ou_soir": "La source recommande une seule application par jour, au choix le matin ou le soir."
+    },
+    "note": "« Une fois par jour » sans moment précisé donne non_determinable.",
+    "claim": false,
+    "composition": false
+   },
+   "compatible_sous_spf": {
+    "family": "interpretatifs",
+    "label": "Compatible sous protection solaire",
+    "type": "enum",
+    "values": {
+     "oui": "La source indique une application le matin ou une utilisation avant ou avec une protection solaire.",
+     "non": "La source réserve l'usage au soir ou déconseille l'exposition au soleil pendant l'utilisation."
+    },
+    "claim": true,
+    "composition": false
+   },
+   "peau_sensible": {
+    "family": "interpretatifs",
+    "label": "Adapté aux peaux sensibles",
+    "type": "enum",
+    "values": {
+     "oui": "La source indique, pour ce produit précisément, qu'il convient aux peaux sensibles.",
+     "non": "La source indique explicitement que le produit ne convient pas ou est déconseillé aux peaux sensibles."
+    },
+    "note": "Une phrase générique sur la marque (« nos produits sont testés sur peaux sensibles ») ne suffit pas. Une affirmation propre au produit compte, y compris dans sa FAQ. Les précautions standard (test préalable, espacer en cas d'irritation) ne valent pas « non » et donnent non_determinable si rien d'autre n'est dit.",
+    "claim": true,
+    "composition": false
+   },
+   "gamme": {
+    "family": "groupe",
+    "label": "Gamme",
+    "type": "enum",
+    "values": {
+     "hyalu_b5": "Gamme Hyalu B5 de La Roche-Posay.",
+     "cicaplast": "Gamme Cicaplast de La Roche-Posay.",
+     "mela_b3": "Gamme Mela B3 de La Roche-Posay.",
+     "pure_vitamin_c": "Gamme Pure Vitamin C de La Roche-Posay.",
+     "effaclar": "Gamme Effaclar de La Roche-Posay.",
+     "retinol_b3": "Gamme Retinol B3 de La Roche-Posay.",
+     "mineral_89": "Gamme Minéral 89 de Vichy.",
+     "liftactiv": "Gamme Liftactiv de Vichy.",
+     "normaderm": "Gamme Normaderm de Vichy.",
+     "hydrance": "Gamme Hydrance d'Avène.",
+     "cicalfate": "Gamme Cicalfate d'Avène.",
+     "hydrabio": "Gamme Hydrabio de Bioderma.",
+     "svr_ampoule": "Gamme des Ampoules de SVR.",
+     "the_ordinary_hydrators": "Gamme des hydratants The Ordinary.",
+     "neovadiol": "Gamme Neovadiol de Vichy.",
+     "aqualia_thermal": "Gamme Aqualia Thermal de Vichy.",
+     "sebiaclear": "Gamme Sebiaclear de SVR.",
+     "crealine": "Gamme Créaline de Bioderma (anciennement Sensibio).",
+     "the_ordinary_serums": "Sérums The Ordinary hors gamme des hydratants (catégorie « Serums » du site), retenue seulement si aucun signal de la gamme des hydratants n'est présent."
+    },
+    "note": "Règle sur le fil d'Ariane et le nom, puis contrôle de cohérence de groupe. Chaque code est lié à une marque.",
+    "claim": false,
+    "composition": false
+   },
+   "produits_associes": {
+    "family": "groupe",
+    "label": "Produits associés",
+    "type": "enum_list",
+    "values_from": "catalogue",
+    "note": "Identifiants de produits du catalogue cités par la fiche (bloc routine, « complétez votre routine », recharge). Jamais déduits par similarité.",
+    "claim": false,
+    "composition": false
+   },
+   "hypoallergenique": {
+    "family": "reglementes",
+    "label": "Hypoallergénique",
+    "type": "enum",
+    "regulated": true,
+    "values": {
+     "oui": "Une source de rang 1 contient mot pour mot l'allégation « hypoallergénique » (ou « formulé pour minimiser les risques d'allergie ») pour ce produit."
+    },
+    "note": "Jamais générée. L'absence d'allégation donne non_determinable, jamais « non ».",
+    "claim": false,
+    "composition": false
+   },
+   "teste_dermatologiquement": {
+    "family": "reglementes",
+    "label": "Testé dermatologiquement",
+    "type": "enum",
+    "regulated": true,
+    "values": {
+     "oui": "Une source de rang 1 contient mot pour mot une allégation de test sous contrôle dermatologique pour ce produit."
+    },
+    "note": "Jamais générée. Une phrase générique sur la marque est une source de rang 2 et route en revue experte.",
+    "claim": false,
+    "composition": false
+   }
+  }
+ }
+}

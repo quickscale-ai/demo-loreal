@@ -1,0 +1,107 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "run_id": "run_20261004_0800_mock",
+  "measured_on": "20 fiches × 15 attributs (démonstration)",
+  "quality_note": "Projection : qualité mesurée sur Claude Sonnet 5.5, non mesurée sur les autres modèles.",
+  "measured": {
+   "model": "claude-sonnet-5-5",
+   "pricing_usd_per_mtok": {
+    "input": 3,
+    "output": 15
+   },
+   "n_fiches": 20,
+   "n_calls": 360,
+   "n_runs": 3,
+   "calls_per_fiche_per_run": 1,
+   "attributes_per_call": 6,
+   "input_tokens_per_call": 1018,
+   "output_tokens_per_call": 121,
+   "output_tokens_per_attribute": 20.2,
+   "input_split": {
+    "passages": 305,
+    "per_attribute": 102,
+    "fixed": 102,
+    "method": "Répartition de démonstration."
+   },
+   "latency_ms_per_call": 1975,
+   "cost_usd_per_fiche": 0.116625,
+   "llm_attribute_share": 0.4,
+   "auto_rate": 0.9267,
+   "expert_share_of_reviews": 0.1364,
+   "review": {
+    "n_nonregulated": 260,
+    "n_regulated": 40,
+    "nonregulated_quick": 0.03,
+    "nonregulated_expert": 0.01,
+    "regulated_quick": 0.15,
+    "regulated_expert": 0.05,
+    "regulated_no_claim": 0.8,
+    "regulated_share_measured": 0.1333
+   }
+  },
+  "presets": [
+   {
+    "id": "sonnet",
+    "label": "Claude Sonnet 5.5",
+    "model": "claude-sonnet-5-5",
+    "input": 2,
+    "output": 10,
+    "quality": "mesurée",
+    "editable": false
+   },
+   {
+    "id": "haiku",
+    "label": "Claude Haiku 4.5",
+    "model": "claude-haiku-4-5",
+    "input": 1,
+    "output": 5,
+    "quality": "non mesurée",
+    "editable": false
+   },
+   {
+    "id": "custom",
+    "label": "Modèle économique (personnalisé)",
+    "model": null,
+    "input": 0.2,
+    "output": 0.8,
+    "quality": "non mesurée",
+    "editable": true
+   }
+  ],
+  "defaults": {
+   "preset": "haiku",
+   "custom_pricing": {
+    "input": 0.2,
+    "output": 0.8
+   },
+   "n_fiches": 60000,
+   "n_attributes": 500,
+   "llm_share": 0.6,
+   "attributes_per_call": 30,
+   "base_runs": 1,
+   "extra_runs": 2,
+   "extra_runs_share": 0.25,
+   "prompt_caching": true,
+   "cache_read_factor": 0.1,
+   "batch_api": true,
+   "batch_discount": 0.5,
+   "regulated_share": 0.03,
+   "n_gammes": 400,
+   "nonregulated_quick": 0.03,
+   "nonregulated_expert": 0.01,
+   "regulated_quick": 0.15,
+   "regulated_expert": 0.05,
+   "seconds_per_quick_review": 20,
+   "seconds_per_expert_review": 120,
+   "seconds_per_gamme_decision": 120,
+   "hours_per_fte": 1600,
+   "parallel_requests": 50
+  },
+  "notes": [
+   "Données de démonstration."
+  ]
+ }
+}

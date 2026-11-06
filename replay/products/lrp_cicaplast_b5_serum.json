@@ -1,0 +1,252 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "lrp_cicaplast_b5_serum",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/gammes/visage/cicaplast/cicaplast-b5-serum-a-la-vitamine-b5-ultra-concentre/LRP_934.html",
+  "captured_at": "2026-10-03T21:56:37Z",
+  "source_sha256": "33d8f84c06e11ab80bbdab3e70e6bc715b8c18f9e269586c120172d11c5a1d6b",
+  "name": "Cicaplast B5 sérum à la Vitamine B5 Ultra-concentré",
+  "price_eur": 40.0,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "PANTHENOL",
+   "GLYCERIN",
+   "ALCOHOL DENAT.",
+   "DIMETHICONE",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "PEG-20 METHYL GLUCOSE SESQUISTEARATE",
+   "SODIUM HYALURONATE",
+   "AMMONIUM POLYACRYLOYLDIMETHYL TAURATE",
+   "CAPRYLYL GLYCOL",
+   "VITREOSCILLA FERMENT",
+   "CITRIC ACID",
+   "XANTHAN GUM",
+   "OCTYLDODECANOL",
+   "TOCOPHEROL",
+   "PHENOXYETHANOL"
+  ],
+  "related_urls": [
+   "https://www.laroche-posay.fr/gammes/visage/toleriane/toleriane-dermallergo-creme-hydratante-peau-sensible-et-allergique/LRP_133.html"
+  ],
+  "passages": [
+   {
+    "id": "p:lrp_cicaplast_b5_serum:name:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Cicaplast B5 sérum à la Vitamine B5 Ultra-concentré"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:description:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "SÉRUM ULTRA-HYDRATANT, ULTRA-RÉPARATEUR, ULTRA-RÉGÉNÉRANT, CONCENTRÉ À 10% DE VITAMINE B5."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:description:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "L'innovation Cicaplast B5 sérum, 10% Vitamine B5. Ultra hydratant, ultra réparateur, régénérant quotidien."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:description:2",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "BÉNÉFICES Cicaplast B5 sérum est une solution dermatologique unique concentrant le meilleur de l'efficacité inspirée de la science de la réparation. Grâce à sa concentration inédite * de 10% de Vitamine B5, il répare et protège la barrière cutanée. Celle-ci peut alors pleinement maintenir l'hydratation et jouer son rôle de protecteurs contre les signes du quotidien (irritations, sécheresses, teint terne...). Sa formule enrichie en Acide Hyaluronique et en HEPES, actif hydratant et actif anti-rugosités, permet une véritable régénération de la peau."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:description:3",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "En 1 heure : la barrière cutanée est réparée** En 1 jour : la qualité de peau est restaurée*** Après 4 semaines : le teint est uniformisé, le grain de peau est lissé et le confort retrouvé"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:description:4",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sa texture fluide et confortable peut convenir à toutes les peaux. Elle est rapidement absorbée et laisse un léger film sur le visage protégeant la peau des agressions externes."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:description:5",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "INDICATION Le Cicaplast B5 sérum convientà toutes les peaux, mêmes sensibles et sèches. Testé post-procédures (laser, peeling...). Testé par des conditions climatiques extrêmes."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:description:6",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "* De La Roche-Posay ** Test instrumental, 25 sujets *** Test consommateurs, 94 sujets"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:benefits:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "1/ RÉPARE LA BARRIÈRE CUTANÉE En seulement 1 heure*, la peau est soulagée. Une fois que la barrière cutanée est réparée elle peut pleinement jouer son rôle de protecteur et maintenir l'hydratation de la peau."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:benefits:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "2/ HYDRATE INTENSÉMENT La peau réparée est intensément hydratée pour 24h. La perte d'hydratation de la peau est réduite de -47% (vs -19% sur une peau non traitée)."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:benefits:2",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "3/ RÉGÉNÈRE LA PEAU Après 1 heure, la récupération naturelle de la peau est améliorée de +120%** Après 1 jour, la qualité de peau est restaurée*** Après 1 semaine****, votre peau est alors regénérée et protégée contre les nouvelles irritations et la sécheresse."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:benefits:3",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "4/ AFFINE LE GRAIN DE PEAU Le teint de peau devient plus uniforme."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:benefits:4",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Testé même post-procédures et dans des conditions climatiques extrêmes."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:benefits:5",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "*Test instrumental, 25 personnes **25 femmes âgées de 18 à 65 ans ***Test consommateurs, 94 sujets **** Test d'usage, 93 personnes"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:benefits:6",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Vitamine B5 (Panthénol) Apaise immédiatement la peau fragilisée"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:benefits:7",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Hepes Exfolie en douceur la peau pour en réduire la texture"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:benefits:8",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Acide Hyaluronique Maintient la peau hydratée et préserve son niveau d'hydratation tout au long de la journée"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:how_to_use:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "TEXTURE Texture fini velours, fluide et confortable, adaptée à toutes les peaux. Elle est rapidement absorbée et laisse un léger film sur le visage comme protégeant la peau des agressions externes. APPLICATION Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou. Attendez 1 minute avant d'appliquer d'autres produits sur la peau."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:how_to_use:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "En cas de contact avec les yeux, les rincer immédiatement et abondamment"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:inci:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "2039067 03 - INGREDIENTS : AQUA / WATER / EAU • PANTHENOL • GLYCERIN • ALCOHOL DENAT. • DIMETHICONE • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • PEG-20 METHYL GLUCOSE SESQUISTEARATE • SODIUM HYALURONATE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • CAPRYLYL GLYCOL • VITREOSCILLA FERMENT • CITRIC ACID • XANTHAN GUM • OCTYLDODECANOL • TOCOPHEROL • PHENOXYETHANOL (F.I.L. N284948/1)."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:size:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "30 ml"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:price:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "40,00 €"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:specifications:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Problèmes ciblés : Déshydratation de la peau Irritations Teint terne Type de peau : Adaptée à tous les types de peau Âge : Dès 18 ans"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:specifications:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "QUALITÉS ET CARACTÉRISTIQUES ENVIRONNEMENTALES ÉTUI Emballage non compostable Emballage ne contenant pas de matière recyclée* Non recyclable Emballage non rechargeable FLACON Emballage non compostable Emballage contenant au moins 19% de matières recyclées* Non recyclable Emballage non rechargeable * Selon le référentiel CITEO"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:brand_boilerplate:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "RECOMMANDÉ PAR DES DERMATOLOGUES"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:brand_boilerplate:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Les listes d’ingrédients entrant dans la composition des produits de notre marque sont régulièrement mises à jour. Avant d’utiliser un produit de notre marque, vous êtes invités à lire la liste d’ingrédients figurant sur son emballage afin de vous assurer que les ingrédients sont adaptés à votre utilisation personnelle"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:brand_boilerplate:2",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:editorial:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Cicaplast B5 Sérum, à 10% de vitamine B5 : l'innovation de l'hydratation quotidienne"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:routine:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "Toleriane Dermallergo Crème Hydratante Peau Sensible et Allergique"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:breadcrumb:0",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Gammes > Visage > CICAPLAST > Cicaplast B5 sérum à la Vitamine B5 Ultra-concentré"
+   }
+  ]
+ }
+}

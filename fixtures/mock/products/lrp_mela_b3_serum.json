@@ -1,0 +1,112 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "lrp_mela_b3_serum",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/gammes/visage/mela-b3/mela-b3-serum-anti-taches-concentre-intensif/LRP_181.html",
+  "captured_at": "2026-10-03T22:09:14+00:00",
+  "source_sha256": "196bf18435dc09f3228cf6aa4b5cbe7ef24f3c995bd35fa6701625f37ecac5a8",
+  "name": "Mela B3 Sérum anti-taches concentré intensif",
+  "price_eur": 45.9,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "DIMETHICONE",
+   "NIACINAMIDE",
+   "GLYCERIN",
+   "PROPYLENE GLYCOL",
+   "POLYSILICONE-11",
+   "SILICA",
+   "BIS-PEG/PPG-16/16 PEG/PPG-16/16 DIMETHICONE",
+   "CYSTOSEIRA TAMARISCIFOLIA EXTRACT",
+   "2-MERCAPTONICOTINOYL GLYCINE",
+   "PEG-20 METHYL GLUCOSE SESQUISTEARATE",
+   "SODIUM HYALURONATE",
+   "SODIUM HYDROXIDE",
+   "SODIUM THIOSULFATE",
+   "CARNOSINE",
+   "POLOXAMER 338",
+   "AMMONIUM POLYACRYLOYLDIMETHYL TAURATE",
+   "DIPOTASSIUM GLYCYRRHIZATE",
+   "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+   "CAPRYLOYL SALICYLIC ACID",
+   "CAPRYLYL GLYCOL",
+   "CITRIC ACID",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "XANTHAN GUM",
+   "PENTYLENE GLYCOL",
+   "OCTYLDODECANOL",
+   "RETINYL PALMITATE",
+   "TOCOPHEROL",
+   "PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE",
+   "PHENOXYETHANOL",
+   "CI 17200 / RED 33",
+   "PARFUM / FRAGRANCE"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:lrp_mela_b3_serum:breadcrumb:1",
+    "sku": "lrp_mela_b3_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Gammes > Visage > MELA B3"
+   },
+   {
+    "id": "p:lrp_mela_b3_serum:name:1",
+    "sku": "lrp_mela_b3_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Mela B3 Sérum anti-taches concentré intensif"
+   },
+   {
+    "id": "p:lrp_mela_b3_serum:price:1",
+    "sku": "lrp_mela_b3_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "45,90 € (153,00 €/100 ml.)"
+   },
+   {
+    "id": "p:lrp_mela_b3_serum:size:1",
+    "sku": "lrp_mela_b3_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:lrp_mela_b3_serum:description:1",
+    "sku": "lrp_mela_b3_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum anti-taches concentré au Melasyl et à la niacinamide. Réduit visiblement les taches brunes persistantes et prévient leur réapparition. Pour tous types de peaux."
+   },
+   {
+    "id": "p:lrp_mela_b3_serum:how_to_use:1",
+    "sku": "lrp_mela_b3_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Quantité : 3-4 gouttes. Quand : Le matin et/ou le soir. Appliquer sur le visage, le cou, le décolleté et les mains."
+   },
+   {
+    "id": "p:lrp_mela_b3_serum:inci:1",
+    "sku": "lrp_mela_b3_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER / EAU • DIMETHICONE • NIACINAMIDE • GLYCERIN • PROPYLENE GLYCOL • POLYSILICONE-11 • SILICA • BIS-PEG/PPG-16/16 PEG/PPG-16/16 DIMETHICONE • CYSTOSEIRA TAMARISCIFOLIA EXTRACT • 2-MERCAPTONICOTINOYL GLYCINE • PEG-20 METHYL GLUCOSE SESQUISTEARATE • SODIUM HYALURONATE • SODIUM HYDROXIDE • SODIUM THIOSULFATE • CARNOSINE • POLOXAMER 338 • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • DIPOTASSIUM GLYCYRRHIZATE • CAPRYLIC/CAPRIC TRIGLYCERIDE • CAPRYLOYL SALICYLIC ACID • CAPRYLYL GLYCOL • CITRIC ACID • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • XANTHAN GUM • PENTYLENE GLYCOL • OCTYLDODECANOL • RETINYL PALMITATE • TOCOPHEROL • PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE • PHENOXYETHANOL • CI 17200 / RED 33 • PARFUM / FRAGRANCE (F.I.L. N70037312/1)."
+   },
+   {
+    "id": "p:lrp_mela_b3_serum:brand_boilerplate:1",
+    "sku": "lrp_mela_b3_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   }
+  ]
+ }
+}

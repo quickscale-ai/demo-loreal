@@ -1,0 +1,1564 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "lrp_pure_vitamin_c12_serum",
+  "run_id": "run_ab67c5a0cdfbb839",
+  "pacing_note": "Compteurs enregistrés. Appels LLM affichés à leur latence mesurée. Les 11 étapes déterministes (règles, extraction réglementée) prennent quelques millisecondes (non comptées dans run.json, pour un rejeu identique) : leur espacement de 320 ms à l'écran est un choix d'affichage.",
+  "events": [
+   {
+    "type": "run_started",
+    "t_ms": 0,
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "run_id": "run_ab67c5a0cdfbb839",
+    "attributes": [
+     {
+      "attribute": "sans_parfum",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "sans_alcool",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "contenance_ml",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actif_principal",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "concentration_actif",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actifs_cles",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "benefices_actifs",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "types_de_peau",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "preoccupation_principale",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "texture",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "moment_application",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "compatible_sous_spf",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "peau_sensible",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "gamme",
+      "family": "groupe",
+      "method": "regle"
+     },
+     {
+      "attribute": "produits_associes",
+      "family": "groupe",
+      "method": "regle"
+     },
+     {
+      "attribute": "hypoallergenique",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     },
+     {
+      "attribute": "teste_dermatologiquement",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     }
+    ]
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 0,
+    "attribute": "sans_parfum",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 320,
+    "attribute": "sans_parfum",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "non",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "PARFUM / FRAGRANCE",
+       "start": 700,
+       "end": 718,
+       "rank": 1,
+       "rule_id": "R-INCI-PARFUM",
+       "rule_version": "1.0.0",
+       "detail": "PARFUM trouvé en position 30/30 de l'INCI (ingrédient « PARFUM / FRAGRANCE »)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-PARFUM-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_parfum=non."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 320,
+    "attribute": "sans_alcool",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 640,
+    "attribute": "sans_alcool",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "non",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "ALCOHOL DENAT.",
+       "start": 89,
+       "end": 103,
+       "rank": 1,
+       "rule_id": "R-INCI-ALCOOL",
+       "rule_version": "1.0.0",
+       "detail": "ALCOHOL DENAT trouvé en position 5/30 de l'INCI."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-ALCOOL-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_alcool=non."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 640,
+    "attribute": "contenance_ml",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 960,
+    "attribute": "contenance_ml",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "contenance_ml",
+     "family": "regles",
+     "method": "regle",
+     "value": 30.0,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:size:0",
+       "quote": "30 ml",
+       "start": 0,
+       "end": 5,
+       "rank": 1,
+       "rule_id": "R-REGEX-CONTENANCE",
+       "rule_version": "1.0.0",
+       "detail": "30 ml lu dans le format par défaut (size_label) (valeur en ml)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur numérique valide."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 960,
+    "attribute": "actif_principal",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 1280,
+    "attribute": "actif_principal",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "actif_principal",
+     "family": "regles",
+     "method": "regle",
+     "value": "vitamine_c",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:name:0",
+       "quote": "Vitamin C",
+       "start": 5,
+       "end": 14,
+       "rank": 1,
+       "rule_id": "R-ACTIF",
+       "rule_version": "1.0.0",
+       "detail": "Premier actif nommé : « Vitamin C » -> vitamine_c."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "ASCORBIC ACID",
+       "start": 48,
+       "end": 61,
+       "rank": 1,
+       "rule_id": "R-ACTIF",
+       "rule_version": "1.0.0",
+       "detail": "Confirmé par l'INCI : ASCORBIC ACID en position 2/30."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 1280,
+    "attribute": "concentration_actif",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 1600,
+    "attribute": "concentration_actif",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "concentration_actif",
+     "family": "regles",
+     "method": "regle",
+     "value": 12.0,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:description:1",
+       "quote": "12% de Vitamine C",
+       "start": 49,
+       "end": 66,
+       "rank": 1,
+       "rule_id": "R-REGEX-CONCENTRATION",
+       "rule_version": "1.0.0",
+       "detail": "12 % rattaché à vitamine_c."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:description:2",
+       "quote": "12% DE VITAMINE C",
+       "start": 143,
+       "end": 160,
+       "rank": 1,
+       "rule_id": "R-REGEX-CONCENTRATION",
+       "rule_version": "1.0.0",
+       "detail": "12 % rattaché à vitamine_c."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:benefits:0",
+       "quote": "12% DE VITAMINE C",
+       "start": 3,
+       "end": 20,
+       "rank": 1,
+       "rule_id": "R-REGEX-CONCENTRATION",
+       "rule_version": "1.0.0",
+       "detail": "12 % rattaché à vitamine_c."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur numérique valide."
+      },
+      {
+       "id": "CTRL-ACTIF-CONCENTRATION",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Concentration rattachée à un actif principal déterminé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 1600,
+    "attribute": "actifs_cles",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 1920,
+    "attribute": "actifs_cles",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "actifs_cles",
+     "family": "regles",
+     "method": "regle",
+     "value": [
+      "vitamine_c",
+      "acide_hyaluronique",
+      "adenosine",
+      "peptides",
+      "tocopherol"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "ASCORBIC ACID",
+       "start": 48,
+       "end": 61,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "ASCORBIC ACID en position 2/30 de l'INCI -> vitamine_c (Vitamine C et dérivés), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "SODIUM HYALURONATE",
+       "start": 232,
+       "end": 250,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "SODIUM HYALURONATE en position 11/30 de l'INCI -> acide_hyaluronique (Acide hyaluronique et sels), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "ADENOSINE",
+       "start": 253,
+       "end": 262,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "ADENOSINE en position 12/30 de l'INCI -> adenosine (Adénosine), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "ACETYL DIPEPTIDE-1 CETYL ESTER",
+       "start": 511,
+       "end": 541,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "ACETYL DIPEPTIDE-1 CETYL ESTER en position 22/30 de l'INCI -> peptides (Peptides), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "TOCOPHEROL",
+       "start": 613,
+       "end": 623,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "TOCOPHEROL en position 27/30 de l'INCI -> tocopherol (Vitamine E (tocophérol)), référentiel v1.1.0. Au-delà de 5, non retenus : acide_salicylique (position 29)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Liste dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 1920,
+    "attribute": "benefices_actifs",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 2240,
+    "attribute": "benefices_actifs",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "benefices_actifs",
+     "family": "regles",
+     "method": "regle",
+     "value": [
+      "eclat",
+      "protection.antioxydant",
+      "hydratation",
+      "signes_de_l_age.rides",
+      "imperfections"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "ASCORBIC ACID",
+       "start": 48,
+       "end": 61,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "ASCORBIC ACID en position 2/30 de l'INCI -> vitamine_c (Vitamine C et dérivés), référentiel d'actifs v1.1.0 : eclat (Éclat), protection.antioxydant (Antioxydant) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, concentration écrite par la marque : 12 % (« 12% de Vitamine C », p:lrp_pure_vitamin_c12_serum:description:1), R-REGEX-CONCENTRATION ; position 2 sur 30 dans l'INCI. Fait de composition, pas une promesse produit."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "SODIUM HYALURONATE",
+       "start": 232,
+       "end": 250,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "SODIUM HYALURONATE en position 11/30 de l'INCI -> acide_hyaluronique (Acide hyaluronique et sels), référentiel d'actifs v1.1.0 : hydratation (Hydratation) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, dose non connue : position 11 sur 30 dans l'INCI. Fait de composition, pas une promesse produit."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "ADENOSINE",
+       "start": 253,
+       "end": 262,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "ADENOSINE en position 12/30 de l'INCI -> adenosine (Adénosine), référentiel d'actifs v1.1.0 : signes_de_l_age.rides (Rides) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, dose non connue : position 12 sur 30 dans l'INCI. Fait de composition, pas une promesse produit."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "TOCOPHEROL",
+       "start": 613,
+       "end": 623,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "TOCOPHEROL en position 27/30 de l'INCI -> tocopherol (Vitamine E (tocophérol)), référentiel d'actifs v1.1.0 : protection.antioxydant (Antioxydant) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, dose non connue : position 27 sur 30 dans l'INCI. Fait de composition, pas une promesse produit."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:inci:0",
+       "quote": "SALICYLIC ACID",
+       "start": 683,
+       "end": 697,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "SALICYLIC ACID en position 29/30 de l'INCI -> acide_salicylique (Acide salicylique (BHA) et LHA), référentiel d'actifs v1.1.0 : imperfections (Imperfections) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, dose non connue : position 29 sur 30 dans l'INCI. Fait de composition, pas une promesse produit."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Liste dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "types_de_peau",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "preoccupation_principale",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "texture",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "moment_application",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "compatible_sous_spf",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "peau_sensible",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 12564,
+    "attribute": "types_de_peau",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "types_de_peau",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": [
+      "tous_types"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:description:5",
+       "quote": "Ce sérum convient à tous types de peaux.",
+       "start": 14,
+       "end": 54,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:specifications:0",
+       "quote": "Type de peau : Tous types de peaux",
+       "start": 65,
+       "end": 99,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Ce sérum convient à tous types de peaux.\nType de peau : Tous types de peaux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_308df5240a2d5dcc"
+      },
+      {
+       "run_idx": 1,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Ce sérum convient à tous types de peaux.\nType de peau : Tous types de peaux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_486ec2b7f5360649"
+      },
+      {
+       "run_idx": 2,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Ce sérum convient à tous types de peaux.\nType de peau : Tous types de peaux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_82b8cff299028beb"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Liste dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_308df5240a2d5dcc",
+      "c_486ec2b7f5360649",
+      "c_82b8cff299028beb"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 12564,
+    "attribute": "preoccupation_principale",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "preoccupation_principale",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "eclat",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:description:0",
+       "quote": "Concentré rénovateur éclat anti-rides, anti-oxydant",
+       "start": 0,
+       "end": 51,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:name:0",
+       "quote": "Pure Vitamin C12 Sérum",
+       "start": 0,
+       "end": 22,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "eclat",
+       "quote": "Concentré rénovateur éclat anti-rides, anti-oxydant",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_308df5240a2d5dcc"
+      },
+      {
+       "run_idx": 1,
+       "value": "eclat",
+       "quote": "Pure Vitamin C12 Sérum\nConcentré rénovateur éclat anti-rides, anti-oxydant",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_486ec2b7f5360649"
+      },
+      {
+       "run_idx": 2,
+       "value": "eclat",
+       "quote": "Concentré rénovateur éclat anti-rides, anti-oxydant",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_82b8cff299028beb"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_308df5240a2d5dcc",
+      "c_486ec2b7f5360649",
+      "c_82b8cff299028beb"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 12564,
+    "attribute": "texture",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "texture",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_308df5240a2d5dcc"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_486ec2b7f5360649"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_82b8cff299028beb"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention acceptée : les sources ne permettent pas de trancher, rien n'est écrit dans le PIM.",
+     "calls": [
+      "c_308df5240a2d5dcc",
+      "c_486ec2b7f5360649",
+      "c_82b8cff299028beb"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 12564,
+    "attribute": "moment_application",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "moment_application",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "matin_ou_soir",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:how_to_use:0",
+       "quote": "Appliquez-le une fois par jour, matin ou soir sur l’ensemble du visage et du cou.",
+       "start": 26,
+       "end": 107,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "matin_ou_soir",
+       "quote": "Appliquez-le une fois par jour, matin ou soir sur l’ensemble du visage et du cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_308df5240a2d5dcc"
+      },
+      {
+       "run_idx": 1,
+       "value": "matin_ou_soir",
+       "quote": "Appliquez-le une fois par jour, matin ou soir sur l’ensemble du visage et du cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_486ec2b7f5360649"
+      },
+      {
+       "run_idx": 2,
+       "value": "matin_ou_soir",
+       "quote": "Appliquez-le une fois par jour, matin ou soir sur l’ensemble du visage et du cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_82b8cff299028beb"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_308df5240a2d5dcc",
+      "c_486ec2b7f5360649",
+      "c_82b8cff299028beb"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 12564,
+    "attribute": "compatible_sous_spf",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_308df5240a2d5dcc"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_486ec2b7f5360649"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_82b8cff299028beb"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": false,
+       "message": "Abstention en conflit avec un attribut lié : moment_application=matin_ou_soir implique une application le matin, compatible_sous_spf reste en abstention."
+      }
+     ],
+     "confidence": 0.3,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 0.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.3
+     },
+     "route": "revue_rapide",
+     "route_reason": "Abstention en conflit avec un attribut lié (CTRL-SPF-MOMENT) : revue rapide, rien n'est écrit.",
+     "calls": [
+      "c_308df5240a2d5dcc",
+      "c_486ec2b7f5360649",
+      "c_82b8cff299028beb"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 12564,
+    "attribute": "peau_sensible",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:description:2",
+       "quote": "pour révéler tout l’éclat des peaux sensibles",
+       "start": 96,
+       "end": 141,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "pour révéler tout l’éclat des peaux sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_308df5240a2d5dcc"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "pour révéler tout l’éclat des peaux sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_486ec2b7f5360649"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "pour révéler tout l’éclat des peaux sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_82b8cff299028beb"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_308df5240a2d5dcc",
+      "c_486ec2b7f5360649",
+      "c_82b8cff299028beb"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 12564,
+    "attribute": "gamme",
+    "family": "groupe",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 12884,
+    "attribute": "gamme",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "gamme",
+     "family": "groupe",
+     "method": "regle",
+     "value": "pure_vitamin_c",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:breadcrumb:0",
+       "quote": "Pure Vitamin C",
+       "start": 40,
+       "end": 54,
+       "rank": 2,
+       "rule_id": "R-GAMME",
+       "rule_version": "1.1.0",
+       "detail": "« Pure Vitamin C » (fil d'Ariane) -> pure_vitamin_c."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_pure_vitamin_c12_serum:name:0",
+       "quote": "Pure Vitamin C",
+       "start": 0,
+       "end": 14,
+       "rank": 1,
+       "rule_id": "R-GAMME",
+       "rule_version": "1.1.0",
+       "detail": "« Pure Vitamin C » (nom) -> pure_vitamin_c."
+      },
+      {
+       "kind": "rule",
+       "passage_id": null,
+       "quote": "pure-vitamin-c",
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": "R-GAMME",
+       "rule_version": "1.1.0",
+       "detail": "« pure-vitamin-c » (URL de la fiche) -> pure_vitamin_c."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 12884,
+    "attribute": "produits_associes",
+    "family": "groupe",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13204,
+    "attribute": "produits_associes",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "produits_associes",
+     "family": "groupe",
+     "method": "regle",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": "R-PRODUITS-ASSOCIES",
+       "rule_version": "1.0.0",
+       "detail": "Aucun lien ni nom de produit du catalogue cité par la fiche : abstention."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention acceptée : les sources ne permettent pas de trancher, rien n'est écrit dans le PIM.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 13204,
+    "attribute": "hypoallergenique",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13524,
+    "attribute": "hypoallergenique",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 13524,
+    "attribute": "teste_dermatologiquement",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13844,
+    "attribute": "teste_dermatologiquement",
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "run_done",
+    "t_ms": 14044,
+    "totals": {
+     "cost_usd": 0.079384,
+     "elapsed_ms": 10264,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0,
+     "abstentions": 5,
+     "routes": {
+      "validation_auto": 14,
+      "revue_rapide": 1,
+      "revue_experte": 2
+     },
+     "added_values": 10,
+     "public_structured": 3
+    }
+   }
+  ]
+ }
+}

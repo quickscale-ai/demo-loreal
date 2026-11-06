@@ -1,0 +1,248 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "run_id": "run_a748b0592e481698",
+  "measured_on": "20 fiches × 16 attributs, 60 appels de l'Atelier",
+  "quality_note": "Qualité mesurée sur fiches inédites : Sonnet 5.5 97,0 % · Haiku 4.5 90,1 % · autres modèles non mesurés",
+  "quality_scope": "précision auto-validée sur le jeu tenu à l'écart",
+  "measured": {
+   "model": "claude-sonnet-5-5",
+   "pricing_usd_per_mtok": {
+    "input": 2.0,
+    "output": 10.0
+   },
+   "n_fiches": 20,
+   "n_calls": 60,
+   "n_runs": 3,
+   "calls_per_fiche_per_run": 1.0,
+   "attributes_per_call": 6,
+   "input_tokens_per_call": 10099,
+   "output_tokens_per_call": 494,
+   "output_tokens_per_attribute": 82.4,
+   "input_split": {
+    "passages": 2775,
+    "per_attribute": 1024,
+    "fixed": 1179,
+    "method": "Tokens d'entrée enregistrés de chaque appel, répartis au prorata des caractères du prompt rendu (passages de la fiche, bloc par attribut, consignes générales)."
+   },
+   "latency_ms_per_call": 3448,
+   "cost_usd_per_fiche": 0.075425,
+   "llm_attribute_share": 0.375,
+   "auto_rate": 0.7719,
+   "expert_share_of_reviews": 0.4658,
+   "review": {
+    "n_nonregulated": 200,
+    "n_regulated": 40,
+    "nonregulated_quick": 0.01,
+    "nonregulated_expert": 0.0,
+    "regulated_quick": 0.15,
+    "regulated_expert": 0.0,
+    "regulated_no_claim": 0.85,
+    "regulated_share_measured": 0.375,
+    "n_claims": 120
+   }
+  },
+  "presets": [
+   {
+    "id": "sonnet",
+    "label": "Claude Sonnet 5.5",
+    "model": "claude-sonnet-5-5",
+    "input": 2.0,
+    "output": 10.0,
+    "quality": "mesurée",
+    "editable": false,
+    "auto_precision": {
+     "value": 0.9701,
+     "ci_low": 0.8975,
+     "ci_high": 0.9918,
+     "n": 67,
+     "k": 65
+    },
+    "measured": null
+   },
+   {
+    "id": "haiku",
+    "label": "Claude Haiku 4.5",
+    "model": "claude-haiku-4-5",
+    "input": 1.0,
+    "output": 5.0,
+    "quality": "mesurée",
+    "editable": false,
+    "auto_precision": {
+     "value": 0.9014,
+     "ci_low": 0.8102,
+     "ci_high": 0.9514,
+     "n": 71,
+     "k": 64
+    },
+    "measured": {
+     "model": "claude-haiku-4-5",
+     "pricing_usd_per_mtok": {
+      "input": 1.0,
+      "output": 5.0
+     },
+     "n_fiches": 20,
+     "n_calls": 61,
+     "n_runs": 3,
+     "calls_per_fiche_per_run": 1.017,
+     "attributes_per_call": 6,
+     "input_tokens_per_call": 8117,
+     "output_tokens_per_call": 583,
+     "output_tokens_per_attribute": 97.2,
+     "input_split": {
+      "passages": 2226,
+      "per_attribute": 821,
+      "fixed": 946,
+      "method": "Tokens d'entrée enregistrés de chaque appel, répartis au prorata des caractères du prompt rendu (passages de la fiche, bloc par attribut, consignes générales)."
+     },
+     "latency_ms_per_call": 4643,
+     "cost_usd_per_fiche": 0.033654,
+     "llm_attribute_share": 0.375,
+     "auto_rate": 0.7531,
+     "expert_share_of_reviews": 0.4304,
+     "review": {
+      "n_nonregulated": 200,
+      "n_regulated": 40,
+      "nonregulated_quick": 0.025,
+      "nonregulated_expert": 0.0,
+      "regulated_quick": 0.15,
+      "regulated_expert": 0.0,
+      "regulated_no_claim": 0.85,
+      "regulated_share_measured": 0.375,
+      "n_claims": 120
+     }
+    }
+   },
+   {
+    "id": "gpt6_luna",
+    "label": "GPT-6 Luna",
+    "provider": "OpenAI",
+    "model": null,
+    "input": 0.1,
+    "output": 0.5,
+    "editable": true,
+    "price_source": {
+     "checked_on": "2026-11-06",
+     "hosts": [
+      "pricepertoken.com",
+      "eesel.ai"
+     ],
+     "note": null
+    },
+    "quality": "non mesurée",
+    "auto_precision": null,
+    "measured": null
+   },
+   {
+    "id": "gemini38_flash",
+    "label": "Gemini 3.8 Flash",
+    "provider": "Google",
+    "model": null,
+    "input": 0.75,
+    "output": 3.75,
+    "editable": true,
+    "price_source": {
+     "checked_on": "2026-11-06",
+     "hosts": [
+      "morphllm.com",
+      "hashnode.com"
+     ],
+     "note": "hausse annoncée au 1er janvier 2027"
+    },
+    "quality": "non mesurée",
+    "auto_precision": null,
+    "measured": null
+   },
+   {
+    "id": "gemini25_flash_lite",
+    "label": "Gemini 2.5 Flash-Lite",
+    "provider": "Google",
+    "model": null,
+    "input": 0.1,
+    "output": 0.4,
+    "editable": true,
+    "price_source": {
+     "checked_on": "2026-11-06",
+     "hosts": [
+      "morphllm.com"
+     ],
+     "note": null
+    },
+    "quality": "non mesurée",
+    "auto_precision": null,
+    "measured": null
+   },
+   {
+    "id": "custom",
+    "label": "Modèle économique (personnalisé)",
+    "model": null,
+    "input": 0.2,
+    "output": 0.8,
+    "quality": "non mesurée",
+    "editable": true,
+    "auto_precision": null,
+    "measured": null
+   }
+  ],
+  "defaults": {
+   "preset": "haiku",
+   "custom_pricing": {
+    "input": 0.2,
+    "output": 0.8
+   },
+   "n_fiches": 60000,
+   "n_attributes": 500,
+   "llm_share": 0.6,
+   "attributes_per_call": 30,
+   "base_runs": 1,
+   "extra_runs": 2,
+   "extra_runs_share": 0.25,
+   "prompt_caching": true,
+   "cache_read_factor": 0.1,
+   "batch_api": true,
+   "batch_discount": 0.5,
+   "regulated_share": 0.03,
+   "n_gammes": 400,
+   "nonregulated_quick": 0.025,
+   "nonregulated_expert": 0.0,
+   "regulated_quick": 0.15,
+   "regulated_expert": 0.0,
+   "seconds_per_quick_review": 20,
+   "seconds_per_expert_review": 120,
+   "seconds_per_gamme_decision": 120,
+   "seconds_per_manual_value": 30,
+   "hours_per_fte": 1600,
+   "parallel_requests": 50
+  },
+  "notes": [
+   "Mesuré sur le run run_a748b0592e481698 (320 valeurs) : un appel par fiche et par tirage couvre les 6 attributs interprétatifs ; tokens, latence et coût enregistrés appel par appel. claude-haiku-4-5 : run run_a0b10f477e487296, mêmes fiches.",
+   "Qualité par modèle : précision auto-validée sur le jeu tenu à l'écart (claude-sonnet-5-5 : run run_3a360140301b8689) (claude-haiku-4-5 : run run_dc8378b17991f383).",
+   "Chaque modèle mesuré utilise ses propres tokens (tokeniseurs différents), latences et prix ; le modèle personnalisé reprend les tokens du run principal.",
+   "Règle référentiel, héritage de gamme et parole de la marque : aucun appel au modèle, coût marginal nul.",
+   "Tirages adaptatifs : 1 tirage pour toutes les valeurs, 2 tirages de plus seulement pour les valeurs peu sûres (hypothèse, les runs mesurés font 3 tirages partout).",
+   "Cache de prompt : le préfixe statique (consignes et blocs d'attributs, identiques pour toutes les fiches) est relu du cache à 0,1 fois le prix d'entrée, écriture amortie sur le catalogue ; les passages d'une fiche sont payés plein tarif au premier appel de la fiche puis relus du cache.",
+   "Revue : les doutes de l'agent (taux mesuré sur les attributs hors allégations) sont revus valeur par valeur. Les allégations, réglementées ou claims, sont validées une fois par gamme et par attribut contre la base claims de la marque, puis propagées ; sans allégation source, la valeur n'est pas publiée. Référence : saisie manuelle des mêmes valeurs à 30 s par valeur (hypothèse).",
+   "API batch : remise de 50 %, résultats sous 24 h ; la durée de calcul affichée suppose des requêtes synchrones en parallèle.",
+   "Latence d'un appel supposée proportionnelle au nombre d'attributs demandés (sortie dominante).",
+   "Différenciateurs : Prompt extract_differentiators seulement (29 appels sur 28 fiches, dont 1 nouvel essai), tokens et coût enregistrés appel par appel. Les tokens mesurés sont repris pour tout modèle choisi."
+  ],
+  "differentiators": {
+   "model": "claude-sonnet-5-5",
+   "run_id": "run_ca8ba36783d20b60",
+   "n_fiches": 28,
+   "n_calls": 29,
+   "calls_per_fiche": 1.0357,
+   "input_tokens_per_call": 5871,
+   "output_tokens_per_call": 4204,
+   "latency_ms_per_call": 21972,
+   "cost_usd_per_fiche": 0.055705,
+   "pricing_usd_per_mtok": {
+    "input": 2.0,
+    "output": 10.0
+   },
+   "note": "Prompt extract_differentiators seulement (29 appels sur 28 fiches, dont 1 nouvel essai), tokens et coût enregistrés appel par appel."
+  }
+ }
+}

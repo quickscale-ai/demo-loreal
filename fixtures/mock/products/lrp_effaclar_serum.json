@@ -1,0 +1,102 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "lrp_effaclar_serum",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/gammes/visage/effaclar/effaclar%C2%A0serum-a-l-acide-salicylique-ultra-concentre/LRP_060.html",
+  "captured_at": "2026-10-03T22:13:57+00:00",
+  "source_sha256": "5bc843f3289fe2d04983c7a061fab9eeae0943dc12eeea7b58d14fbf33647b78",
+  "name": "Effaclar Sérum à l'Acide Salicylique Ultra Concentré",
+  "price_eur": 34.3,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "ALCOHOL DENAT",
+   "PROPANEDIOL",
+   "GLYCOLIC ACID",
+   "PENTYLENE GLYCOL",
+   "NIACINAMIDE",
+   "DIMETHYL ISOSORBIDE",
+   "SALICYLIC ACID",
+   "SODIUM HYDROXIDE",
+   "PPG-26-BUTETH-26",
+   "CITRIC ACID",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "PEG-30 GLYCERYL COCOATE",
+   "PEG-40 HYDROGENATED CASTOR OIL",
+   "PEG-60 HYDROGENATED CASTOR OIL",
+   "CAPRYLOYL SALICYLIC ACID",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "BIOSACCHARIDE GUM-1",
+   "MALTODEXTRIN",
+   "PHYTIC ACID",
+   "POLYQUATERNIUM-10",
+   "PARFUM / FRAGRANCE"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:lrp_effaclar_serum:breadcrumb:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Gammes > Visage > EFFACLAR"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:name:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Effaclar Sérum à l'Acide Salicylique Ultra Concentré"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:price:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "34,30 € (114,33 €/100 ml.)"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:size:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum anti-imperfections ultra concentré. Réduit les imperfections, les pores dilatés et les marques laissées par l'acné. Pour les peaux grasses à tendance acnéique."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:how_to_use:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquer le soir sur peau propre et sèche, en évitant le contour des yeux."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:inci:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER / EAU • ALCOHOL DENAT. • PROPANEDIOL • GLYCOLIC ACID • PENTYLENE GLYCOL • NIACINAMIDE • DIMETHYL ISOSORBIDE • SALICYLIC ACID • SODIUM HYDROXIDE • PPG-26-BUTETH-26 • CITRIC ACID • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • PEG-30 GLYCERYL COCOATE • PEG-40 HYDROGENATED CASTOR OIL • PEG-60 HYDROGENATED CASTOR OIL • CAPRYLOYL SALICYLIC ACID • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • BIOSACCHARIDE GUM-1 • MALTODEXTRIN • PHYTIC ACID • POLYQUATERNIUM-10 • PARFUM / FRAGRANCE (F.I.L. N70088135/1)."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:brand_boilerplate:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   }
+  ]
+ }
+}

@@ -1,0 +1,1531 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "bioderma_hydrabio_hyalu_serum",
+  "run_id": "run_ab67c5a0cdfbb839",
+  "pacing_note": "Compteurs enregistrés. Appels LLM affichés à leur latence mesurée. Les 11 étapes déterministes (règles, extraction réglementée) prennent quelques millisecondes (non comptées dans run.json, pour un rejeu identique) : leur espacement de 320 ms à l'écran est un choix d'affichage.",
+  "events": [
+   {
+    "type": "run_started",
+    "t_ms": 0,
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "run_id": "run_ab67c5a0cdfbb839",
+    "attributes": [
+     {
+      "attribute": "sans_parfum",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "sans_alcool",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "contenance_ml",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actif_principal",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "concentration_actif",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actifs_cles",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "benefices_actifs",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "types_de_peau",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "preoccupation_principale",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "texture",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "moment_application",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "compatible_sous_spf",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "peau_sensible",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "gamme",
+      "family": "groupe",
+      "method": "regle"
+     },
+     {
+      "attribute": "produits_associes",
+      "family": "groupe",
+      "method": "regle"
+     },
+     {
+      "attribute": "hypoallergenique",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     },
+     {
+      "attribute": "teste_dermatologiquement",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     }
+    ]
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 0,
+    "attribute": "sans_parfum",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 320,
+    "attribute": "sans_parfum",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "non",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "FRAGRANCE (PARFUM)",
+       "start": 233,
+       "end": 251,
+       "rank": 1,
+       "rule_id": "R-INCI-PARFUM",
+       "rule_version": "1.0.0",
+       "detail": "FRAGRANCE trouvé en position 15/24 de l'INCI (ingrédient « FRAGRANCE (PARFUM) »)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-PARFUM-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_parfum=non."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 320,
+    "attribute": "sans_alcool",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 640,
+    "attribute": "sans_alcool",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-ALCOOL",
+       "rule_version": "1.0.0",
+       "detail": "24 ingrédients INCI examinés : ni ALCOHOL, ni ALCOHOL DENAT., ni ETHANOL."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-ALCOOL-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_alcool=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 640,
+    "attribute": "contenance_ml",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 960,
+    "attribute": "contenance_ml",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "contenance_ml",
+     "family": "regles",
+     "method": "regle",
+     "value": 30.0,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:size:0",
+       "quote": "30 ml",
+       "start": 7,
+       "end": 12,
+       "rank": 1,
+       "rule_id": "R-REGEX-CONTENANCE",
+       "rule_version": "1.0.0",
+       "detail": "30 ml lu dans le format par défaut (size_label) (valeur en ml)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur numérique valide."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 960,
+    "attribute": "actif_principal",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 1280,
+    "attribute": "actif_principal",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "actif_principal",
+     "family": "regles",
+     "method": "regle",
+     "value": "acide_hyaluronique",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:name:0",
+       "quote": "Hyalu",
+       "start": 9,
+       "end": 14,
+       "rank": 1,
+       "rule_id": "R-ACTIF",
+       "rule_version": "1.0.0",
+       "detail": "Premier actif nommé : « Hyalu » -> acide_hyaluronique."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "HYDROLYZED HYALURONIC ACID",
+       "start": 124,
+       "end": 150,
+       "rank": 1,
+       "rule_id": "R-ACTIF",
+       "rule_version": "1.0.0",
+       "detail": "Confirmé par l'INCI : HYDROLYZED HYALURONIC ACID en position 9/24."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "SODIUM HYALURONATE",
+       "start": 277,
+       "end": 295,
+       "rank": 1,
+       "rule_id": "R-ACTIF",
+       "rule_version": "1.0.0",
+       "detail": "Confirmé par l'INCI : SODIUM HYALURONATE en position 17/24."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 1280,
+    "attribute": "concentration_actif",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 1600,
+    "attribute": "concentration_actif",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "concentration_actif",
+     "family": "regles",
+     "method": "regle",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": "R-REGEX-CONCENTRATION",
+       "rule_version": "1.0.0",
+       "detail": "Aucun pourcentage explicite rattaché à acide_hyaluronique dans les passages de rang 1 : abstention (jamais estimé depuis l'INCI)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention acceptée : les sources ne permettent pas de trancher, rien n'est écrit dans le PIM.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 1600,
+    "attribute": "actifs_cles",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 1920,
+    "attribute": "actifs_cles",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "actifs_cles",
+     "family": "regles",
+     "method": "regle",
+     "value": [
+      "niacinamide",
+      "acide_hyaluronique",
+      "carnosine",
+      "adenosine",
+      "tocopherol"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "NIACINAMIDE",
+       "start": 79,
+       "end": 90,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "NIACINAMIDE en position 6/24 de l'INCI -> niacinamide (Niacinamide (vitamine B3)), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "HYDROLYZED HYALURONIC ACID",
+       "start": 124,
+       "end": 150,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "HYDROLYZED HYALURONIC ACID en position 9/24 de l'INCI -> acide_hyaluronique (Acide hyaluronique et sels), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "CARNOSINE",
+       "start": 209,
+       "end": 218,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "CARNOSINE en position 13/24 de l'INCI -> carnosine (Carnosine), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "ADENOSINE",
+       "start": 221,
+       "end": 230,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "ADENOSINE en position 14/24 de l'INCI -> adenosine (Adénosine), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "TOCOPHEROL",
+       "start": 453,
+       "end": 463,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "TOCOPHEROL en position 24/24 de l'INCI -> tocopherol (Vitamine E (tocophérol)), référentiel v1.1.0."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Liste dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 1920,
+    "attribute": "benefices_actifs",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 2240,
+    "attribute": "benefices_actifs",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "benefices_actifs",
+     "family": "regles",
+     "method": "regle",
+     "value": [
+      "taches",
+      "reparation_apaisement.barriere",
+      "hydratation",
+      "signes_de_l_age.rides",
+      "protection.antioxydant"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "NIACINAMIDE",
+       "start": 79,
+       "end": 90,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "NIACINAMIDE en position 6/24 de l'INCI -> niacinamide (Niacinamide (vitamine B3)), référentiel d'actifs v1.1.0 : taches (Taches), reparation_apaisement.barriere (Réparation de la barrière) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, dose non connue : position 6 sur 24 dans l'INCI. Fait de composition, pas une promesse produit."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "HYDROLYZED HYALURONIC ACID",
+       "start": 124,
+       "end": 150,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "HYDROLYZED HYALURONIC ACID en position 9/24 de l'INCI -> acide_hyaluronique (Acide hyaluronique et sels), référentiel d'actifs v1.1.0 : hydratation (Hydratation) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, dose non connue : position 9 sur 24 dans l'INCI. Fait de composition, pas une promesse produit."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "ADENOSINE",
+       "start": 221,
+       "end": 230,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "ADENOSINE en position 14/24 de l'INCI -> adenosine (Adénosine), référentiel d'actifs v1.1.0 : signes_de_l_age.rides (Rides) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, dose non connue : position 14 sur 24 dans l'INCI. Fait de composition, pas une promesse produit."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": "TOCOPHEROL",
+       "start": 453,
+       "end": 463,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "TOCOPHEROL en position 24/24 de l'INCI -> tocopherol (Vitamine E (tocophérol)), référentiel d'actifs v1.1.0 : protection.antioxydant (Antioxydant) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, dose non connue : position 24 sur 24 dans l'INCI, après FRAGRANCE (position 15, parfum, en pratique sous 1 %) : probablement à moins de 1 %. Fait de composition, pas une promesse produit."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Liste dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "types_de_peau",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "preoccupation_principale",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "texture",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "moment_application",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "compatible_sous_spf",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "peau_sensible",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 11978,
+    "attribute": "types_de_peau",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "types_de_peau",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": [
+      "tous_types"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:specifications:2",
+       "quote": "Tous types de peau",
+       "start": 0,
+       "end": 18,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Tous types de peau",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_12cbb7f9553a4962"
+      },
+      {
+       "run_idx": 1,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Tous types de peau",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_5f77ad6730d825fd"
+      },
+      {
+       "run_idx": 2,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Tous types de peau",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_1335a357ed7515a2"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Liste dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_12cbb7f9553a4962",
+      "c_5f77ad6730d825fd",
+      "c_1335a357ed7515a2"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 11978,
+    "attribute": "preoccupation_principale",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "preoccupation_principale",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "hydratation",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:benefits:0",
+       "quote": "+60% d'hydratation en 30 minutes*",
+       "start": 0,
+       "end": 33,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:benefits:2",
+       "quote": "Réhydrate et repulpe immédiatement et durablement la peau",
+       "start": 10,
+       "end": 67,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "hydratation",
+       "quote": "+60% d'hydratation en 30 minutes*",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_12cbb7f9553a4962"
+      },
+      {
+       "run_idx": 1,
+       "value": "hydratation",
+       "quote": "Réhydrate et repulpe immédiatement et durablement la peau",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_5f77ad6730d825fd"
+      },
+      {
+       "run_idx": 2,
+       "value": "hydratation",
+       "quote": "Réhydrate et repulpe immédiatement et durablement la peau",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_1335a357ed7515a2"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_12cbb7f9553a4962",
+      "c_5f77ad6730d825fd",
+      "c_1335a357ed7515a2"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 11978,
+    "attribute": "texture",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "texture",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_12cbb7f9553a4962"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_5f77ad6730d825fd"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_1335a357ed7515a2"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention acceptée : les sources ne permettent pas de trancher, rien n'est écrit dans le PIM.",
+     "calls": [
+      "c_12cbb7f9553a4962",
+      "c_5f77ad6730d825fd",
+      "c_1335a357ed7515a2"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 11978,
+    "attribute": "moment_application",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "moment_application",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "matin_et_soir",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:how_to_use:0",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "start": 22,
+       "end": 72,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "matin_et_soir",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_12cbb7f9553a4962"
+      },
+      {
+       "run_idx": 1,
+       "value": "matin_et_soir",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_5f77ad6730d825fd"
+      },
+      {
+       "run_idx": 2,
+       "value": "matin_et_soir",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_1335a357ed7515a2"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_12cbb7f9553a4962",
+      "c_5f77ad6730d825fd",
+      "c_1335a357ed7515a2"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 11978,
+    "attribute": "compatible_sous_spf",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:how_to_use:0",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "start": 22,
+       "end": 72,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_12cbb7f9553a4962"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_5f77ad6730d825fd"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_1335a357ed7515a2"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_12cbb7f9553a4962",
+      "c_5f77ad6730d825fd",
+      "c_1335a357ed7515a2"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 11978,
+    "attribute": "peau_sensible",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_12cbb7f9553a4962"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_5f77ad6730d825fd"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_1335a357ed7515a2"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention acceptée : les sources ne permettent pas de trancher, rien n'est écrit dans le PIM.",
+     "calls": [
+      "c_12cbb7f9553a4962",
+      "c_5f77ad6730d825fd",
+      "c_1335a357ed7515a2"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 11978,
+    "attribute": "gamme",
+    "family": "groupe",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 12298,
+    "attribute": "gamme",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "gamme",
+     "family": "groupe",
+     "method": "regle",
+     "value": "hydrabio",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:breadcrumb:0",
+       "quote": "Hydrabio",
+       "start": 30,
+       "end": 38,
+       "rank": 2,
+       "rule_id": "R-GAMME",
+       "rule_version": "1.1.0",
+       "detail": "« Hydrabio » (fil d'Ariane) -> hydrabio."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:name:0",
+       "quote": "Hydrabio",
+       "start": 0,
+       "end": 8,
+       "rank": 1,
+       "rule_id": "R-GAMME",
+       "rule_version": "1.1.0",
+       "detail": "« Hydrabio » (nom) -> hydrabio."
+      },
+      {
+       "kind": "rule",
+       "passage_id": null,
+       "quote": "hydrabio",
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": "R-GAMME",
+       "rule_version": "1.1.0",
+       "detail": "« hydrabio » (URL de la fiche) -> hydrabio."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 12298,
+    "attribute": "produits_associes",
+    "family": "groupe",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 12618,
+    "attribute": "produits_associes",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "produits_associes",
+     "family": "groupe",
+     "method": "regle",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": "R-PRODUITS-ASSOCIES",
+       "rule_version": "1.0.0",
+       "detail": "Aucun lien ni nom de produit du catalogue cité par la fiche : abstention."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention acceptée : les sources ne permettent pas de trancher, rien n'est écrit dans le PIM.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 12618,
+    "attribute": "hypoallergenique",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 12938,
+    "attribute": "hypoallergenique",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 12938,
+    "attribute": "teste_dermatologiquement",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13258,
+    "attribute": "teste_dermatologiquement",
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "run_done",
+    "t_ms": 13458,
+    "totals": {
+     "cost_usd": 0.082032,
+     "elapsed_ms": 9678,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0,
+     "abstentions": 6,
+     "routes": {
+      "validation_auto": 13,
+      "revue_rapide": 2,
+      "revue_experte": 2
+     },
+     "added_values": 7,
+     "public_structured": 3
+    }
+   }
+  ]
+ }
+}

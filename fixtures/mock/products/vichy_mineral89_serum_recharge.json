@@ -1,0 +1,110 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "vichy_mineral89_serum_recharge",
+  "brand": "Vichy",
+  "loreal": true,
+  "url": "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/peau-seche/hydrating-and-plumping-daily-booster-refill",
+  "captured_at": "2026-10-03T22:19:38+00:00",
+  "source_sha256": "dad9e477218d6ee757295ae608e1445ee223e11ec91c971091609dd63ab1558a",
+  "name": "Minéral 89 Sérum Booster Recharge",
+  "price_eur": 26.9,
+  "size_label": "50 ml",
+  "variants": [
+   "Recharge 50 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "PROPANEDIOL",
+   "GLYCERIN",
+   "PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN",
+   "BUTYLENE GLYCOL",
+   "CARBOMER",
+   "METHYL GLUCETH-20",
+   "SODIUM HYALURONATE",
+   "HYDROXYACETOPHENONE",
+   "CITRIC ACID",
+   "SODIUM POLYGLUTAMATE",
+   "CAPRYLYL GLYCOL",
+   "MALTODEXTRIN",
+   "BIOSACCHARIDE GUM-1"
+  ],
+  "related_urls": [
+   "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/peau-seche/serum-booster-mineral89"
+  ],
+  "passages": [
+   {
+    "id": "p:vichy_mineral89_serum_recharge:breadcrumb:1",
+    "sku": "vichy_mineral89_serum_recharge",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Soins de la peau > Sérums pour le visage > Peau sèche"
+   },
+   {
+    "id": "p:vichy_mineral89_serum_recharge:name:1",
+    "sku": "vichy_mineral89_serum_recharge",
+    "section": "name",
+    "rank": 1,
+    "text": "Minéral 89 Sérum Booster Recharge"
+   },
+   {
+    "id": "p:vichy_mineral89_serum_recharge:price:1",
+    "sku": "vichy_mineral89_serum_recharge",
+    "section": "price",
+    "rank": 1,
+    "text": "26,90 € (53,80 €/100 ml.)"
+   },
+   {
+    "id": "p:vichy_mineral89_serum_recharge:size:1",
+    "sku": "vichy_mineral89_serum_recharge",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 50 ml. Formats proposés : Recharge 50 ml."
+   },
+   {
+    "id": "p:vichy_mineral89_serum_recharge:description:1",
+    "sku": "vichy_mineral89_serum_recharge",
+    "section": "description",
+    "rank": 1,
+    "text": "La recharge du Sérum MINÉRAL 89 : même formule, 89% d'eau volcanique et acide hyaluronique. La peau est hydratée et repulpée. Formule hypoallergénique, testée sur peaux sensibles."
+   },
+   {
+    "id": "p:vichy_mineral89_serum_recharge:claims:1",
+    "sku": "vichy_mineral89_serum_recharge",
+    "section": "claims",
+    "rank": 1,
+    "text": "Hypoallergénique. Testé sur peaux sensibles. Sans parfum. Sans alcool."
+   },
+   {
+    "id": "p:vichy_mineral89_serum_recharge:how_to_use:1",
+    "sku": "vichy_mineral89_serum_recharge",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquer chaque matin sur le visage et le cou."
+   },
+   {
+    "id": "p:vichy_mineral89_serum_recharge:inci:1",
+    "sku": "vichy_mineral89_serum_recharge",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER / EAU, PROPANEDIOL, GLYCERIN, PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN, BUTYLENE GLYCOL, CARBOMER, METHYL GLUCETH-20, SODIUM HYALURONATE, HYDROXYACETOPHENONE, CITRIC ACID, SODIUM POLYGLUTAMATE, CAPRYLYL GLYCOL, MALTODEXTRIN, BIOSACCHARIDE GUM-1 (F.I.L. N70066552/1)."
+   },
+   {
+    "id": "p:vichy_mineral89_serum_recharge:brand_boilerplate:1",
+    "sku": "vichy_mineral89_serum_recharge",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Vichy formule ses soins avec l'eau volcanique de Vichy, testés sous contrôle dermatologique sur l'ensemble de la gamme."
+   },
+   {
+    "id": "p:vichy_mineral89_serum_recharge:routine:1",
+    "sku": "vichy_mineral89_serum_recharge",
+    "section": "routine",
+    "rank": 2,
+    "text": "À utiliser avec le flacon Minéral 89 Sérum Booster Hydratant."
+   }
+  ]
+ }
+}

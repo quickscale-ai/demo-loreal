@@ -1,0 +1,1345 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "lrp_hyalu_b5_creme",
+  "run_id": "run_20261004_0800_mock",
+  "events": [
+   {
+    "type": "run_started",
+    "t_ms": 0,
+    "sku": "lrp_hyalu_b5_creme",
+    "run_id": "run_20261004_0800_mock",
+    "attributes": [
+     {
+      "attribute": "sans_parfum",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "sans_alcool",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "contenance_ml",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actif_principal",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "concentration_actif",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "types_de_peau",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "preoccupation_principale",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "texture",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "moment_application",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "compatible_sous_spf",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "peau_sensible",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "gamme",
+      "family": "groupe",
+      "method": "groupe"
+     },
+     {
+      "attribute": "produits_associes",
+      "family": "groupe",
+      "method": "groupe"
+     },
+     {
+      "attribute": "hypoallergenique",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     },
+     {
+      "attribute": "teste_dermatologiquement",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     }
+    ]
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 380,
+    "attribute": "sans_parfum",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 385,
+    "attribute": "sans_parfum",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "non",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_creme:inci:1",
+       "quote": "PARFUM / FRAGRANCE",
+       "start": 848,
+       "end": 866,
+       "rank": 1,
+       "rule_id": "RG-INCI-PARFUM",
+       "rule_version": "1.2.0",
+       "detail": "PARFUM / FRAGRANCE trouvé en position 46 sur 46 de l'INCI"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-INCI-COMPLET",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "INCI lu en entier : 46 ingrédients."
+      },
+      {
+       "id": "CTRL-CONFLIT-MARKETING",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contradictoire."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle déterministe sur l'INCI, contrôles passés.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 385,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 385,
+    "attribute": "sans_alcool",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 402,
+    "attribute": "sans_alcool",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "non",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_creme:inci:1",
+       "quote": "ALCOHOL DENAT.",
+       "start": 62,
+       "end": 76,
+       "rank": 1,
+       "rule_id": "RG-INCI-ALCOOL",
+       "rule_version": "1.1.0",
+       "detail": "ALCOHOL DENAT. trouvé en position 5 sur 46 de l'INCI"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-INCI-COMPLET",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "INCI lu en entier : 46 ingrédients."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle déterministe sur l'INCI, contrôles passés.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 402,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 402,
+    "attribute": "contenance_ml",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 417,
+    "attribute": "contenance_ml",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "contenance_ml",
+     "family": "regles",
+     "method": "regle",
+     "value": 50,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_creme:size:1",
+       "quote": "50 ml",
+       "start": 21,
+       "end": 26,
+       "rank": 1,
+       "rule_id": "RG-SIZE-ML",
+       "rule_version": "1.0.0",
+       "detail": "Format sélectionné par défaut : 50 ml"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-UNITE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Unité ml reconnue, valeur dans la plage 5 à 500."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Expression régulière sur le format sélectionné.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 417,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 417,
+    "attribute": "actif_principal",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 434,
+    "attribute": "actif_principal",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "actif_principal",
+     "family": "regles",
+     "method": "regle",
+     "value": "acide_hyaluronique",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_creme:name:1",
+       "quote": "Hyalu",
+       "start": 0,
+       "end": 5,
+       "rank": 1,
+       "rule_id": "RG-ACTIF-NOM",
+       "rule_version": "1.0.1",
+       "detail": "« Hyalu » est le premier actif nommé dans le nom du produit"
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_creme:inci:1",
+       "quote": "SODIUM HYALURONATE",
+       "start": 304,
+       "end": 322,
+       "rank": 1,
+       "rule_id": "RG-ACTIF-NOM",
+       "rule_version": "1.0.1",
+       "detail": "Confirmé dans l'INCI : SODIUM HYALURONATE"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-ACTIF-INCI",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "SODIUM HYALURONATE présent dans l'INCI."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Lexique sur le nom, confirmé dans l'INCI.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 434,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 434,
+    "attribute": "concentration_actif",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 451,
+    "attribute": "concentration_actif",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "concentration_actif",
+     "family": "regles",
+     "method": "regle",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_creme:description:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-CONC-PCT",
+       "rule_version": "1.0.0",
+       "detail": "Aucun pourcentage écrit à côté de l'actif principal. Jamais estimé depuis le rang dans l'INCI."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-CONC-PLAGE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Rien à contrôler."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention : aucun pourcentage dans la source. Aucune valeur publiée.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 451,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 451,
+    "attribute": "types_de_peau",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 2559,
+    "attribute": "types_de_peau",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "types_de_peau",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": [
+      "tous_types"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_creme:description:1",
+       "quote": "Convient à tous les phototypes et types de peaux",
+       "start": 105,
+       "end": 153,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.types_de_peau",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Convient à tous les phototypes et types de peaux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_38a58f305bee"
+      },
+      {
+       "run_idx": 1,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Convient à tous les phototypes et types de peaux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_88adf51d5b29"
+      },
+      {
+       "run_idx": 2,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Convient à tous les phototypes et types de peaux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_47a8a827c788"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_creme:description:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_38a58f305bee",
+      "call_88adf51d5b29",
+      "call_47a8a827c788"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.015246,
+     "elapsed_ms": 2559,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2559,
+    "attribute": "preoccupation_principale",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 4750,
+    "attribute": "preoccupation_principale",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "preoccupation_principale",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "signes_de_l_age",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_creme:description:1",
+       "quote": "Crème anti-rides réparatrice et repulpante",
+       "start": 0,
+       "end": 42,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.preoccupation_principale",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "signes_de_l_age",
+       "quote": "Crème anti-rides réparatrice et repulpante",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_154b0026808f"
+      },
+      {
+       "run_idx": 1,
+       "value": "signes_de_l_age",
+       "quote": "Crème anti-rides réparatrice et repulpante",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_f9e4e69ed6f1"
+      },
+      {
+       "run_idx": 2,
+       "value": "signes_de_l_age",
+       "quote": "Crème anti-rides réparatrice et repulpante",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_f5b2005845a2"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_creme:description:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_154b0026808f",
+      "call_f9e4e69ed6f1",
+      "call_f5b2005845a2"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.031074,
+     "elapsed_ms": 4750,
+     "n_calls": 6,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 4750,
+    "attribute": "texture",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 7085,
+    "attribute": "texture",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "texture",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "creme",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_creme:description:1",
+       "quote": "Crème anti-rides réparatrice et repulpante",
+       "start": 0,
+       "end": 42,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.texture",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "creme",
+       "quote": "Crème anti-rides réparatrice et repulpante",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_4eff75665ba1"
+      },
+      {
+       "run_idx": 1,
+       "value": "creme",
+       "quote": "Crème anti-rides réparatrice et repulpante",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_9e0e5dec434a"
+      },
+      {
+       "run_idx": 2,
+       "value": "creme",
+       "quote": "Crème anti-rides réparatrice et repulpante",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_d2995d0f7ed5"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_creme:description:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_4eff75665ba1",
+      "call_9e0e5dec434a",
+      "call_d2995d0f7ed5"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.045147,
+     "elapsed_ms": 7085,
+     "n_calls": 9,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 7085,
+    "attribute": "moment_application",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 9446,
+    "attribute": "moment_application",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "moment_application",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "matin_et_soir",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_creme:how_to_use:1",
+       "quote": "Appliquer matin et soir sur visage, cou et décolleté.",
+       "start": 100,
+       "end": 153,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.moment_application",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "matin_et_soir",
+       "quote": "Appliquer matin et soir sur visage, cou et décolleté.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_849f585e8714"
+      },
+      {
+       "run_idx": 1,
+       "value": "matin_et_soir",
+       "quote": "Appliquer matin et soir sur visage, cou et décolleté.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_90344681013a"
+      },
+      {
+       "run_idx": 2,
+       "value": "matin_et_soir",
+       "quote": "Appliquer matin et soir sur visage, cou et décolleté.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_27eff3dfd5e7"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_creme:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_849f585e8714",
+      "call_90344681013a",
+      "call_27eff3dfd5e7"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.06057,
+     "elapsed_ms": 9446,
+     "n_calls": 12,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 9446,
+    "attribute": "compatible_sous_spf",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 11771,
+    "attribute": "compatible_sous_spf",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_creme:how_to_use:1",
+       "quote": "Quand : Le matin et/ou soir.",
+       "start": 40,
+       "end": 68,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.compatible_sous_spf",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Quand : Le matin et/ou soir.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_10a6c4d7cae2"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Quand : Le matin et/ou soir.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_9dc99dca47fd"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Quand : Le matin et/ou soir.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_2c46eb5d455c"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_creme:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Cohérent avec moment_application = matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_10a6c4d7cae2",
+      "call_9dc99dca47fd",
+      "call_2c46eb5d455c"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.076857,
+     "elapsed_ms": 11771,
+     "n_calls": 15,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 11771,
+    "attribute": "peau_sensible",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14227,
+    "attribute": "peau_sensible",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_creme:description:1",
+       "quote": "même sensibles",
+       "start": 155,
+       "end": 169,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.peau_sensible",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "même sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_70e1ffc16201"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "même sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_c9499fe1079f"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "même sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_7cbb39039ebd"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_creme:description:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SENSIBLE-SPECIFIQUE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation de rang 1, propre au produit (la phrase générique de marque est écartée)."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_70e1ffc16201",
+      "call_c9499fe1079f",
+      "call_7cbb39039ebd"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.093411,
+     "elapsed_ms": 14227,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14227,
+    "attribute": "gamme",
+    "family": "groupe",
+    "method": "groupe"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14263,
+    "attribute": "gamme",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "gamme",
+     "family": "groupe",
+     "method": "groupe",
+     "value": "hyalu_b5",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_creme:breadcrumb:1",
+       "quote": "HYALU B5",
+       "start": 28,
+       "end": 36,
+       "rank": 2,
+       "rule_id": "RG-GAMME-FIL",
+       "rule_version": "1.0.0",
+       "detail": "« HYALU B5 » trouvé dans le fil d'Ariane"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-GAMME-COHERENCE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Cohérent avec 2 autre(s) produit(s) de la gamme dans le catalogue."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle sur le fil d'Ariane et le nom, contrôle de groupe passé.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.093411,
+     "elapsed_ms": 14263,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14263,
+    "attribute": "produits_associes",
+    "family": "groupe",
+    "method": "groupe"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14309,
+    "attribute": "produits_associes",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "produits_associes",
+     "family": "groupe",
+     "method": "groupe",
+     "value": [
+      "lrp_hyalu_b5_serum"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_creme:routine:1",
+       "quote": "Hyalu B5 Sérum Suractivé",
+       "start": 35,
+       "end": 59,
+       "rank": 2,
+       "rule_id": "RG-ROUTINE-LIENS",
+       "rule_version": "1.0.0",
+       "detail": "Produit du catalogue cité dans le bloc routine : lrp_hyalu_b5_serum"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-CATALOGUE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Identifiants présents dans le catalogue."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Liens explicites du bloc routine, jamais par similarité.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.093411,
+     "elapsed_ms": 14309,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14309,
+    "attribute": "hypoallergenique",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 16225,
+    "attribute": "hypoallergenique",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune allégation mot pour mot dans les sources de rang 1. L'absence donne non_determinable, jamais « non »."
+      }
+     ],
+     "prompt_id": "verbatim.hypoallergenique",
+     "prompt_version": "1.1.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_e163e17a6f72"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_6fe096a67828"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_7165575736fa"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_e163e17a6f72",
+      "call_6fe096a67828",
+      "call_7165575736fa"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.109425,
+     "elapsed_ms": 16225,
+     "n_calls": 21,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 16225,
+    "attribute": "teste_dermatologiquement",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 18471,
+    "attribute": "teste_dermatologiquement",
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_creme:brand_boilerplate:1",
+       "quote": "tests cliniques rigoureux d'efficacité et de sécurité",
+       "start": 61,
+       "end": 114,
+       "rank": 2,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "verbatim.teste_dermatologiquement",
+     "prompt_version": "1.1.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "tests cliniques rigoureux d'efficacité et de sécurité",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_9e126c055573"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "tests cliniques rigoureux d'efficacité et de sécurité",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_5875cdf519f8"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "tests cliniques rigoureux d'efficacité et de sécurité",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_92f1803c53c0"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_creme:brand_boilerplate:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-RANG-1",
+       "version": "1.0.0",
+       "passed": false,
+       "message": "Allégation seulement dans une source de rang 2."
+      }
+     ],
+     "confidence": 0.55,
+     "confidence_breakdown": {
+      "evidence": 0.5,
+      "agreement": 1,
+      "controls": 0
+     },
+     "route": "revue_experte",
+     "route_reason": "Seule source : phrase générique de marque (rang 2).",
+     "calls": [
+      "call_9e126c055573",
+      "call_5875cdf519f8",
+      "call_92f1803c53c0"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.125571,
+     "elapsed_ms": 18471,
+     "n_calls": 24,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "run_done",
+    "t_ms": 18511,
+    "totals": {
+     "cost_usd": 0.125571,
+     "elapsed_ms": 18511,
+     "n_calls": 24,
+     "invented_values": 0,
+     "rejected_samples": 0,
+     "abstentions": 2,
+     "routes": {
+      "validation_auto": 14,
+      "revue_rapide": 0,
+      "revue_experte": 1
+     }
+    }
+   }
+  ]
+ }
+}

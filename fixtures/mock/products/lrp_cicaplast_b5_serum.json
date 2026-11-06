@@ -1,0 +1,103 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "lrp_cicaplast_b5_serum",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/gammes/visage/cicaplast/cicaplast-b5-serum-a-la-vitamine-b5-ultra-concentre/LRP_934.html",
+  "captured_at": "2026-10-03T22:07:37+00:00",
+  "source_sha256": "ca22430ece804132d8503e234557f2ba84e00feeb34d2a1394eb22e7ba3ab3f4",
+  "name": "Cicaplast B5 sérum à la Vitamine B5 Ultra-concentré",
+  "price_eur": 40,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "PANTHENOL",
+   "GLYCERIN",
+   "ALCOHOL DENAT",
+   "DIMETHICONE",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "PEG-20 METHYL GLUCOSE SESQUISTEARATE",
+   "SODIUM HYALURONATE",
+   "AMMONIUM POLYACRYLOYLDIMETHYL TAURATE",
+   "CAPRYLYL GLYCOL",
+   "VITREOSCILLA FERMENT",
+   "CITRIC ACID",
+   "XANTHAN GUM",
+   "OCTYLDODECANOL",
+   "TOCOPHEROL",
+   "PHENOXYETHANOL"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:lrp_cicaplast_b5_serum:breadcrumb:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Gammes > Visage > CICAPLAST"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:name:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Cicaplast B5 sérum à la Vitamine B5 Ultra-concentré"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:price:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "40,00 € (133,33 €/100 ml.)"
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:size:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:description:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "L'innovation Cicaplast B5 sérum, 10% Vitamine B5. Ultra hydratant, ultra réparateur, régénérant quotidien. Le Cicaplast B5 sérum convient à toutes les peaux, mêmes sensibles et sèches. Testé post-procédures (laser, peeling...)."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:how_to_use:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou. Attendez 1 minute avant d'appliquer d'autres produits sur la peau."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:inci:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER / EAU • PANTHENOL • GLYCERIN • ALCOHOL DENAT. • DIMETHICONE • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • PEG-20 METHYL GLUCOSE SESQUISTEARATE • SODIUM HYALURONATE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • CAPRYLYL GLYCOL • VITREOSCILLA FERMENT • CITRIC ACID • XANTHAN GUM • OCTYLDODECANOL • TOCOPHEROL • PHENOXYETHANOL (F.I.L. N284948/1)."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:brand_boilerplate:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   },
+   {
+    "id": "p:lrp_cicaplast_b5_serum:routine:1",
+    "sku": "lrp_cicaplast_b5_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "Complétez votre routine. Toleriane Dermallergo Crème Hydratante Peau Sensible et Allergique."
+   }
+  ]
+ }
+}

@@ -1,0 +1,1314 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "vichy_mineral89_serum_recharge",
+  "run_id": "run_20261004_0800_mock",
+  "events": [
+   {
+    "type": "run_started",
+    "t_ms": 0,
+    "sku": "vichy_mineral89_serum_recharge",
+    "run_id": "run_20261004_0800_mock",
+    "attributes": [
+     {
+      "attribute": "sans_parfum",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "sans_alcool",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "contenance_ml",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actif_principal",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "concentration_actif",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "types_de_peau",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "preoccupation_principale",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "texture",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "moment_application",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "compatible_sous_spf",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "peau_sensible",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "gamme",
+      "family": "groupe",
+      "method": "groupe"
+     },
+     {
+      "attribute": "produits_associes",
+      "family": "groupe",
+      "method": "groupe"
+     },
+     {
+      "attribute": "hypoallergenique",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     },
+     {
+      "attribute": "teste_dermatologiquement",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     }
+    ]
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 380,
+    "attribute": "sans_parfum",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 392,
+    "attribute": "sans_parfum",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_mineral89_serum_recharge:inci:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-INCI-PARFUM",
+       "rule_version": "1.2.0",
+       "detail": "INCI complet (14 ingrédients) : aucun PARFUM, FRAGRANCE ni AROMA"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-INCI-COMPLET",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "INCI lu en entier : 14 ingrédients."
+      },
+      {
+       "id": "CTRL-CONFLIT-MARKETING",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contradictoire."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle déterministe sur l'INCI, contrôles passés.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 392,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 392,
+    "attribute": "sans_alcool",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 398,
+    "attribute": "sans_alcool",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_mineral89_serum_recharge:inci:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-INCI-ALCOOL",
+       "rule_version": "1.1.0",
+       "detail": "INCI complet (14 ingrédients) : aucun ALCOHOL, ALCOHOL DENAT. ni ETHANOL"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-INCI-COMPLET",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "INCI lu en entier : 14 ingrédients."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle déterministe sur l'INCI, contrôles passés.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 398,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 398,
+    "attribute": "contenance_ml",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 408,
+    "attribute": "contenance_ml",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "contenance_ml",
+     "family": "regles",
+     "method": "regle",
+     "value": 50,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_mineral89_serum_recharge:size:1",
+       "quote": "50 ml",
+       "start": 21,
+       "end": 26,
+       "rank": 1,
+       "rule_id": "RG-SIZE-ML",
+       "rule_version": "1.0.0",
+       "detail": "Format sélectionné par défaut : 50 ml"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-UNITE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Unité ml reconnue, valeur dans la plage 5 à 500."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Expression régulière sur le format sélectionné.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 408,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 408,
+    "attribute": "actif_principal",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 429,
+    "attribute": "actif_principal",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "actif_principal",
+     "family": "regles",
+     "method": "regle",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_mineral89_serum_recharge:name:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-ACTIF-NOM",
+       "rule_version": "1.0.1",
+       "detail": "Aucun actif du lexique dans le nom du produit"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-ACTIF-INCI",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Rien à confirmer."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention : la règle ne trouve pas d'actif nommé. Aucune valeur publiée.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 429,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 429,
+    "attribute": "concentration_actif",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 441,
+    "attribute": "concentration_actif",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "concentration_actif",
+     "family": "regles",
+     "method": "regle",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_mineral89_serum_recharge:description:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-CONC-PCT",
+       "rule_version": "1.0.0",
+       "detail": "Actif principal non déterminé : pas de concentration à rattacher."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-CONC-PLAGE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Rien à contrôler."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention : aucun pourcentage dans la source. Aucune valeur publiée.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 441,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 441,
+    "attribute": "types_de_peau",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 2933,
+    "attribute": "types_de_peau",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "types_de_peau",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune phrase de la source ne permet de trancher."
+      }
+     ],
+     "prompt_id": "interp.types_de_peau",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_f97879e4bbae"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_7743fb186833"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_0dff46a012ec"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_f97879e4bbae",
+      "call_7743fb186833",
+      "call_0dff46a012ec"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.013974,
+     "elapsed_ms": 2933,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2933,
+    "attribute": "preoccupation_principale",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 5110,
+    "attribute": "preoccupation_principale",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "preoccupation_principale",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "hydratation",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum_recharge:description:1",
+       "quote": "La peau est hydratée et repulpée.",
+       "start": 92,
+       "end": 125,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.preoccupation_principale",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "hydratation",
+       "quote": "La peau est hydratée et repulpée.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_993dd0e57346"
+      },
+      {
+       "run_idx": 1,
+       "value": "hydratation",
+       "quote": "La peau est hydratée et repulpée.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_d1c1b36c27e6"
+      },
+      {
+       "run_idx": 2,
+       "value": "hydratation",
+       "quote": "La peau est hydratée et repulpée.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_c097322c062f"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:vichy_mineral89_serum_recharge:description:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_993dd0e57346",
+      "call_d1c1b36c27e6",
+      "call_c097322c062f"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.02727,
+     "elapsed_ms": 5110,
+     "n_calls": 6,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 5110,
+    "attribute": "texture",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 7363,
+    "attribute": "texture",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "texture",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune phrase de la source ne permet de trancher."
+      }
+     ],
+     "prompt_id": "interp.texture",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_2a5c7e7971c7"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_f4d0be6eead0"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_1989a5f4ead2"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_2a5c7e7971c7",
+      "call_f4d0be6eead0",
+      "call_1989a5f4ead2"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.04059,
+     "elapsed_ms": 7363,
+     "n_calls": 9,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 7363,
+    "attribute": "moment_application",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 10042,
+    "attribute": "moment_application",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "moment_application",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "matin",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum_recharge:how_to_use:1",
+       "quote": "Appliquer chaque matin sur le visage et le cou.",
+       "start": 0,
+       "end": 47,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.moment_application",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "matin",
+       "quote": "Appliquer chaque matin sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_1b6c55a9d2f1"
+      },
+      {
+       "run_idx": 1,
+       "value": "matin",
+       "quote": "Appliquer chaque matin sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_ff19c54cc35f"
+      },
+      {
+       "run_idx": 2,
+       "value": "matin",
+       "quote": "Appliquer chaque matin sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_dc922f931aad"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:vichy_mineral89_serum_recharge:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_1b6c55a9d2f1",
+      "call_ff19c54cc35f",
+      "call_dc922f931aad"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.053709,
+     "elapsed_ms": 10042,
+     "n_calls": 12,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 10042,
+    "attribute": "compatible_sous_spf",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 11903,
+    "attribute": "compatible_sous_spf",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum_recharge:how_to_use:1",
+       "quote": "Appliquer chaque matin",
+       "start": 0,
+       "end": 22,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.compatible_sous_spf",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Appliquer chaque matin",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_736d0e626a7b"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Appliquer chaque matin",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_8b6f72bca066"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Appliquer chaque matin",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_113246634b14"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:vichy_mineral89_serum_recharge:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Cohérent avec moment_application = matin."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_736d0e626a7b",
+      "call_8b6f72bca066",
+      "call_113246634b14"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.069039,
+     "elapsed_ms": 11903,
+     "n_calls": 15,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 11903,
+    "attribute": "peau_sensible",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14312,
+    "attribute": "peau_sensible",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum_recharge:description:1",
+       "quote": "testée sur peaux sensibles",
+       "start": 152,
+       "end": 178,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.peau_sensible",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "testée sur peaux sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_efcb06f9bc38"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "testée sur peaux sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_8f02ab9d49a3"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "testée sur peaux sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_7b1d433ef77d"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:vichy_mineral89_serum_recharge:description:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SENSIBLE-SPECIFIQUE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation de rang 1, propre au produit (la phrase générique de marque est écartée)."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_efcb06f9bc38",
+      "call_8f02ab9d49a3",
+      "call_7b1d433ef77d"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.084333,
+     "elapsed_ms": 14312,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14312,
+    "attribute": "gamme",
+    "family": "groupe",
+    "method": "groupe"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14359,
+    "attribute": "gamme",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "gamme",
+     "family": "groupe",
+     "method": "groupe",
+     "value": "mineral_89",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_mineral89_serum_recharge:name:1",
+       "quote": "Minéral 89",
+       "start": 0,
+       "end": 10,
+       "rank": 1,
+       "rule_id": "RG-GAMME-FIL",
+       "rule_version": "1.0.0",
+       "detail": "« Minéral 89 » trouvé dans le nom"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-GAMME-COHERENCE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Cohérent avec 1 autre(s) produit(s) de la gamme dans le catalogue."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle sur le fil d'Ariane et le nom, contrôle de groupe passé.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.084333,
+     "elapsed_ms": 14359,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14359,
+    "attribute": "produits_associes",
+    "family": "groupe",
+    "method": "groupe"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14405,
+    "attribute": "produits_associes",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "produits_associes",
+     "family": "groupe",
+     "method": "groupe",
+     "value": [
+      "vichy_mineral89_serum"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_mineral89_serum_recharge:routine:1",
+       "quote": "Minéral 89 Sérum Booster Hydratant",
+       "start": 26,
+       "end": 60,
+       "rank": 2,
+       "rule_id": "RG-ROUTINE-LIENS",
+       "rule_version": "1.0.0",
+       "detail": "Produit du catalogue cité dans le bloc routine : vichy_mineral89_serum"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-CATALOGUE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Identifiants présents dans le catalogue."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Liens explicites du bloc routine, jamais par similarité.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.084333,
+     "elapsed_ms": 14405,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14405,
+    "attribute": "hypoallergenique",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 16515,
+    "attribute": "hypoallergenique",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum_recharge:claims:1",
+       "quote": "Hypoallergénique.",
+       "start": 0,
+       "end": 17,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "verbatim.hypoallergenique",
+     "prompt_version": "1.1.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Hypoallergénique.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_fc9b34f168e2"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Hypoallergénique.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_ab85cb03401c"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Hypoallergénique.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_2a8bbc3b97fe"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:vichy_mineral89_serum_recharge:claims:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-RANG-1",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Allégation trouvée dans un bloc produit de rang 1."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation réglementée de rang 1 : validation humaine systématique (config).",
+     "calls": [
+      "call_fc9b34f168e2",
+      "call_ab85cb03401c",
+      "call_2a8bbc3b97fe"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.099597,
+     "elapsed_ms": 16515,
+     "n_calls": 21,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 16515,
+    "attribute": "teste_dermatologiquement",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 18845,
+    "attribute": "teste_dermatologiquement",
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune allégation mot pour mot dans les sources de rang 1. L'absence donne non_determinable, jamais « non »."
+      }
+     ],
+     "prompt_id": "verbatim.teste_dermatologiquement",
+     "prompt_version": "1.1.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_584fd82dbbed"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_8ac8402ac50b"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_fd3f48dea19d"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_584fd82dbbed",
+      "call_8ac8402ac50b",
+      "call_fd3f48dea19d"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.114402,
+     "elapsed_ms": 18845,
+     "n_calls": 24,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "run_done",
+    "t_ms": 18885,
+    "totals": {
+     "cost_usd": 0.114402,
+     "elapsed_ms": 18885,
+     "n_calls": 24,
+     "invented_values": 0,
+     "rejected_samples": 0,
+     "abstentions": 5,
+     "routes": {
+      "validation_auto": 14,
+      "revue_rapide": 1,
+      "revue_experte": 0
+     }
+    }
+   }
+  ]
+ }
+}

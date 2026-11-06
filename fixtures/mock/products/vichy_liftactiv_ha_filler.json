@@ -1,0 +1,107 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "vichy_liftactiv_ha_filler",
+  "brand": "Vichy",
+  "loreal": true,
+  "url": "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/signes-de-lage/liftactiv-ha-epidermic-filler-serum",
+  "captured_at": "2026-10-03T22:25:22+00:00",
+  "source_sha256": "4c5d9dc8329e5b4f9f6f97d2e7c79d1bd45fb1b06f5e739ab3ad761482051c2f",
+  "name": "Liftactiv H.A. Epidermic Filler Sérum",
+  "price_eur": 44.9,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER",
+   "GLYCERIN",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "SODIUM HYALURONATE",
+   "PEG-60 HYDROGENATED CASTOR OIL",
+   "SECALE CEREALE SEED EXTRACT / RYE SEED EXTRACT",
+   "CALCIUM PANTOTHENATE",
+   "DIPEPTIDE DIAMINOBUTYROYL BENZYLAMIDE DIACETATE",
+   "PHENOXYETHANOL",
+   "CHLORPHENESIN",
+   "ASCORBYL GLUCOSIDE",
+   "DISODIUM EDTA",
+   "PENTYLENE GLYCOL"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:vichy_liftactiv_ha_filler:breadcrumb:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Soins de la peau > Sérums pour le visage > Signes de l'âge"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:name:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "name",
+    "rank": 1,
+    "text": "Liftactiv H.A. Epidermic Filler Sérum"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:price:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "price",
+    "rank": 1,
+    "text": "44,90 € (149,67 €/100 ml.)"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:size:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:description:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "description",
+    "rank": 1,
+    "text": "Le sérum à l'acide hyaluronique LIFTACTIV H.A. Epidermic Filler est un sérum anti-âge qui comble les rides. La peau est visiblement repulpée et rebondie."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:benefits:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "benefits",
+    "rank": 1,
+    "text": "-47% RIDES EN 6 SEMAINES. Basé sur une application matin et soir quotidienne."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:claims:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "claims",
+    "rank": 1,
+    "text": "Sans parfum. Sans alcool."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:how_to_use:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquer matin et soir sur le visage et le cou."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:inci:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER - GLYCERIN - HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID - SODIUM HYALURONATE - PEG-60 HYDROGENATED CASTOR OIL - SECALE CEREALE SEED EXTRACT / RYE SEED EXTRACT - CALCIUM PANTOTHENATE - DIPEPTIDE DIAMINOBUTYROYL BENZYLAMIDE DIACETATE - PHENOXYETHANOL - CHLORPHENESIN - ASCORBYL GLUCOSIDE - DISODIUM EDTA - PENTYLENE GLYCOL"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:brand_boilerplate:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Vichy formule ses soins avec l'eau volcanique de Vichy, testés sous contrôle dermatologique sur l'ensemble de la gamme."
+   }
+  ]
+ }
+}

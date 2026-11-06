@@ -1,0 +1,199 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "vichy_liftactiv_vitc",
+  "brand": "Vichy",
+  "loreal": true,
+  "url": "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/signes-de-lage/liftactiv-vitaminc-serum-20ml",
+  "captured_at": "2026-10-03T22:05:34Z",
+  "source_sha256": "59f000cef0f013987dcf4b038d52aca7fea4034ea9ff90f2ea7a18e38df79088",
+  "name": "LIFTACTIV Sérum antioxydant à 16% de Vitamine C Pure",
+  "price_eur": null,
+  "size_label": "20 ML",
+  "variants": [
+   "20 ML"
+  ],
+  "inci": [
+   "AQUA / WATER",
+   "ASCORBIC ACID",
+   "ALCOHOL DENAT.",
+   "DIPROPYLENE GLYCOL",
+   "GLYCERIN",
+   "LAURETH-23",
+   "NEOHESPERIDIN DIHYDROCHALCONE",
+   "SODIUM HYDROXIDE",
+   "TOCOPHEROL",
+   "HYDROLYZED HYALURONIC ACID",
+   "PINUS PINASTER BARK/BUD EXTRACT"
+  ],
+  "related_urls": [
+   "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/cremes-et-hydratants-visage/signes-de-l-age/liftactiv-ha-creme-anti-rides-raffermissante",
+   "https://www.vichy.fr/tous-les-produits/soins-solaires/protections-solaires/protections-solaires-visage/capital-soleil-uv-age-daily"
+  ],
+  "passages": [
+   {
+    "id": "p:vichy_liftactiv_vitc:name:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "name",
+    "rank": 1,
+    "text": "LIFTACTIV Sérum antioxydant à 16% de Vitamine C Pure"
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:description:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "description",
+    "rank": 1,
+    "text": "Ravive l’éclat et lisse les ridules en seulement 10 jours."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:description:1",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "description",
+    "rank": 1,
+    "text": "Le vieillissement de la peau est lié à l'âge, mais aussi aux agressions extérieures comme la pollution et les UV. Ces facteurs favorisent l'apparition des rides, des ridules et rendent le teint terne. Pour protéger votre visage au quotidien, la solution est d'utiliser un soin ciblé comme le Sérum Vitamine C Correcteur Éclat Antioxydant de Vichy."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:description:2",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "description",
+    "rank": 1,
+    "text": "Ce sérum anti-rides possède une formule hypoallergénique qui associe l’Eau Volcanique de Vichy fortifiante à des ingrédients reconnus : 16 % de Vitamine C Pure, de la Carnosine et de l’Acide Hyaluronique pur. Ce soin quotidien aide à corriger les rides et ridules tout en protégeant la peau contre la fatigue et le vieillissement."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:description:3",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "description",
+    "rank": 1,
+    "text": "Les résultats sont rapides : en seulement 10 jours, ce sérum renforce le pouvoir antioxydant de la peau et ravive l'éclat du teint. Les rides et les ridules sont corrigées, et les signes de fatigue sont réduits pour retrouver une peau visiblement plus lisse et éclatante."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:description:4",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "description",
+    "rank": 1,
+    "text": "Une peau plus éclatante et des rides réduites pour 100 % des femmes.* Testé sur toutes les carnations (100 % des tons de peau)."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:description:5",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "description",
+    "rank": 1,
+    "text": "* Auto-évaluation, 50 sujets"
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:benefits:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Le Sérum Éclat à 16 % de Vitamine C Pure Liftactiv de Vichy est formulé avec 16 % de Vitamine C Pure et des actifs antioxydants. Ce puissant sérum à la vitamine C combat le vieillissement de la peau lié au mode de vie quotidien (UV, pollution, manque de sommeil, excès de sucre, etc.). La peau vieillit sous l'effet de facteurs tels que les rayons UV, la pollution et le manque de sommeil, mais ce n'est pas tout. L'alimentation a également un impact sur le vieillissement et l'éclat de la peau. Notre sérum anti-âge à la vitamine C pure a été spécifiquement formulé pour restaurer l'éclat des peaux ternes et réduire les rides."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:benefits:1",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Ce sérum pour le visage a été testé sur toutes les carnations (100 % des tons de peau). Pour 100 % des personnes testées, la peau est plus éclatante et les rides sont réduites*."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:benefits:2",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "benefits",
+    "rank": 1,
+    "text": "* test consommateurs, 40 sujets, 90 jours"
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:benefits:3",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "benefits",
+    "rank": 1,
+    "text": "VITAMIN C Protège la peau des radicaux libres. HYALURONIC ACID Humectant qui hydrate intensément, repulpe la peau et lisse les ridules de déshydratation. ANTI-GLYCATION ACTIVES* Apaise la peau contre les agressions extérieures."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:benefits:4",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "benefits",
+    "rank": 1,
+    "text": "EFFICACITÉ CLINIQUEMENT PROUVÉE 83% La peau est plus radieuse 73% le teint paraît plus frais 71% la peau paraît plus lisse *Étude d'auto-évaluation sur 52 femmes âgées de 40 à 65 ans, une application par jour."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:claims:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "claims",
+    "rank": 1,
+    "text": "Hypoallergénique"
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:claims:1",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "claims",
+    "rank": 1,
+    "text": "Convient aux peaux sensibles"
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:how_to_use:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "APPLICATION Appliquez chaque matin quelques gouttes sur le visage, sur une peau propre et sèche, en évitant le contour des yeux."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:how_to_use:1",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "UTILISATION Appliquez UV-Age Daily pour une protection SPF."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:inci:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER • ASCORBIC ACID • ALCOHOL DENAT. • DIPROPYLENE GLYCOL • GLYCERIN • LAURETH-23 • NEOHESPERIDIN DIHYDROCHALCONE • SODIUM HYDROXIDE • TOCOPHEROL • HYDROLYZED HYALURONIC ACID • PINUS PINASTER BARK/BUD EXTRACT"
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:size:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "size",
+    "rank": 1,
+    "text": "20 ML"
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:specifications:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Sa texture fluide et sensorielle pénètre rapidement sans coller, pour une peau éclatante et profondément hydratée"
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:editorial:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Régénérez votre éclat : faites barrière aux rides et au teint terne Les agressions quotidiennes et les radicaux libres épuisent les défenses de votre peau, entraînant un vieillissement prématuré et une perte d'éclat. Pour retrouver un teint frais et lumineux, il faut aller au-delà des soins classiques et cibler directement le stress oxydatif. Découvrez les ajustements de routine approuvés par nos experts pour intégrer la vitamine C, protéger la structure de votre peau et révéler un visage visiblement plus lisse et rayonnant."
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:routine:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "routine",
+    "rank": 2,
+    "text": "LIFTACTIV CRÈME H.A. ANTI-RIDES RAFFERMISSANTE PEAU NORMALE À MIXTE"
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:routine:1",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "routine",
+    "rank": 2,
+    "text": "CAPITAL SOLEIL FLUIDE UV-AGE DAILY SPF 50+"
+   },
+   {
+    "id": "p:vichy_liftactiv_vitc:breadcrumb:0",
+    "sku": "vichy_liftactiv_vitc",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Tous-les-produits > SOINS DE LA PEAU > Sérum Pour le visage > SIGNES DE L’ÂGE > LIFTACTIV– VITAMINC SERUM– 20ML"
+   }
+  ]
+ }
+}

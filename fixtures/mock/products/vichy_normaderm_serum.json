@@ -1,0 +1,98 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "vichy_normaderm_serum",
+  "brand": "Vichy",
+  "loreal": true,
+  "url": "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/acne/normaderm-serum-probio-bha-anti-imperfections",
+  "captured_at": "2026-10-03T22:23:15+00:00",
+  "source_sha256": "45fc4f9140e2febc94f09d9494cb4e47662460599e91ab445458a87b7bd58e1a",
+  "name": "Normaderm Sérum Probio-BHA Anti-Imperfections",
+  "price_eur": 31.9,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER",
+   "ALCOHOL DENAT",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "GLYCOLIC ACID",
+   "GLYCERIN",
+   "PROPANEDIOL",
+   "SODIUM HYDROXIDE",
+   "PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN",
+   "SALICYLIC ACID",
+   "SODIUM POLYACRYLATE",
+   "ADENOSINE",
+   "AMMONIUM POLYACRYLOYLDIMETHYL TAURATE",
+   "ASCORBYL GLUCOSIDE",
+   "VITREOSCILLA FERMENT",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "XANTHAN GUM",
+   "PANTHENOL",
+   "MENTHOL"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:vichy_normaderm_serum:breadcrumb:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Soins de la peau > Sérums pour le visage > Acné"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:name:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Normaderm Sérum Probio-BHA Anti-Imperfections"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:price:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "31,90 € (106,33 €/100 ml.)"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:size:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:description:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum anti-imperfections aux probiotiques et à l'acide salicylique (BHA). Pour les peaux grasses à tendance acnéique."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:how_to_use:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquer matin et soir sur peau propre."
+   },
+   {
+    "id": "p:vichy_normaderm_serum:inci:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER, ALCOHOL DENAT., HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, GLYCOLIC ACID, GLYCERIN, PROPANEDIOL, SODIUM HYDROXIDE, PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN, SALICYLIC ACID, SODIUM POLYACRYLATE, ADENOSINE, AMMONIUM POLYACRYLOYLDIMETHYL TAURATE, ASCORBYL GLUCOSIDE, VITREOSCILLA FERMENT, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, XANTHAN GUM, PANTHENOL, MENTHOL"
+   },
+   {
+    "id": "p:vichy_normaderm_serum:brand_boilerplate:1",
+    "sku": "vichy_normaderm_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Vichy formule ses soins avec l'eau volcanique de Vichy, testés sous contrôle dermatologique sur l'ensemble de la gamme."
+   }
+  ]
+ }
+}

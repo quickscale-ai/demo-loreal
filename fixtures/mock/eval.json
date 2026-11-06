@@ -1,0 +1,560 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "run_id": "run_20261004_0800_mock",
+  "golden_validated": false,
+  "golden_note": "Golden set annoté par l'équipe projet, pas encore relu par un expert L'Oréal.",
+  "n_products": 20,
+  "n_values": 300,
+  "baseline_label": "LLM seul (même modèle, même température, sans contraintes ni citations)",
+  "pipeline_label": "Pipeline tracé (règles, génération contrainte, 3 runs, contrôles, routage)",
+  "headline": {
+   "label": "Précision des valeurs auto-validées",
+   "value": 0.9884,
+   "ci_low": 0.9586,
+   "ci_high": 0.9968,
+   "n": 172,
+   "k": 170,
+   "automation_rate": 0.5733
+  },
+  "stability": {
+   "definition": "Part des attributs pour lesquels les 3 runs donnent la même valeur",
+   "baseline": 0.7,
+   "pipeline": 0.94
+  },
+  "families": [
+   {
+    "family": "regles",
+    "n_values": 100,
+    "baseline": {
+     "precision": {
+      "value": 0.7245,
+      "ci_low": 0.6288,
+      "ci_high": 0.8032,
+      "n": 98,
+      "k": 71
+     },
+     "auto_precision": null,
+     "coverage": 0.98,
+     "abstention_rate": 0.02,
+     "invented_values": 7,
+     "route_share": null,
+     "cost_per_fiche_usd": 0.0062,
+     "time_per_fiche_s": 1.9,
+     "stability": 0.81
+    },
+    "pipeline": {
+     "precision": {
+      "value": 1,
+      "ci_low": 0.9536,
+      "ci_high": 1,
+      "n": 79,
+      "k": 79
+     },
+     "auto_precision": {
+      "value": 1,
+      "ci_low": 0.9536,
+      "ci_high": 1,
+      "n": 79,
+      "k": 79
+     },
+     "coverage": 0.79,
+     "abstention_rate": 0.21,
+     "invented_values": 0,
+     "route_share": {
+      "validation_auto": 1,
+      "revue_rapide": 0,
+      "revue_experte": 0
+     },
+     "cost_per_fiche_usd": 0,
+     "time_per_fiche_s": 0.066,
+     "stability": 1
+    }
+   },
+   {
+    "family": "interpretatifs",
+    "n_values": 120,
+    "baseline": {
+     "precision": {
+      "value": 0.7034,
+      "ci_low": 0.6156,
+      "ci_high": 0.7783,
+      "n": 118,
+      "k": 83
+     },
+     "auto_precision": null,
+     "coverage": 0.983,
+     "abstention_rate": 0.017,
+     "invented_values": 11,
+     "route_share": null,
+     "cost_per_fiche_usd": 0.0081,
+     "time_per_fiche_s": 2.4,
+     "stability": 0.69
+    },
+    "pipeline": {
+     "precision": {
+      "value": 0.9518,
+      "ci_low": 0.8825,
+      "ci_high": 0.9811,
+      "n": 83,
+      "k": 79
+     },
+     "auto_precision": {
+      "value": 0.9853,
+      "ci_low": 0.9213,
+      "ci_high": 0.9974,
+      "n": 68,
+      "k": 67
+     },
+     "coverage": 0.6917,
+     "abstention_rate": 0.3083,
+     "invented_values": 0,
+     "route_share": {
+      "validation_auto": 0.875,
+      "revue_rapide": 0.125,
+      "revue_experte": 0
+     },
+     "cost_per_fiche_usd": 0.0877,
+     "time_per_fiche_s": 14.019,
+     "stability": 0.88
+    }
+   },
+   {
+    "family": "groupe",
+    "n_values": 40,
+    "baseline": {
+     "precision": {
+      "value": 0.625,
+      "ci_low": 0.4703,
+      "ci_high": 0.7578,
+      "n": 40,
+      "k": 25
+     },
+     "auto_precision": null,
+     "coverage": 1,
+     "abstention_rate": 0,
+     "invented_values": 6,
+     "route_share": null,
+     "cost_per_fiche_usd": 0.0024,
+     "time_per_fiche_s": 0.8,
+     "stability": 0.62
+    },
+    "pipeline": {
+     "precision": {
+      "value": 0.96,
+      "ci_low": 0.8046,
+      "ci_high": 0.9929,
+      "n": 25,
+      "k": 24
+     },
+     "auto_precision": {
+      "value": 0.96,
+      "ci_low": 0.8046,
+      "ci_high": 0.9929,
+      "n": 25,
+      "k": 24
+     },
+     "coverage": 0.625,
+     "abstention_rate": 0.375,
+     "invented_values": 0,
+     "route_share": {
+      "validation_auto": 1,
+      "revue_rapide": 0,
+      "revue_experte": 0
+     },
+     "cost_per_fiche_usd": 0,
+     "time_per_fiche_s": 0.082,
+     "stability": 1
+    }
+   },
+   {
+    "family": "reglementes",
+    "n_values": 40,
+    "baseline": {
+     "precision": {
+      "value": 0.425,
+      "ci_low": 0.2851,
+      "ci_high": 0.5781,
+      "n": 40,
+      "k": 17
+     },
+     "auto_precision": null,
+     "coverage": 1,
+     "abstention_rate": 0,
+     "invented_values": 13,
+     "route_share": null,
+     "cost_per_fiche_usd": 0.0027,
+     "time_per_fiche_s": 0.9,
+     "stability": 0.58
+    },
+    "pipeline": {
+     "precision": {
+      "value": 0.8571,
+      "ci_low": 0.4869,
+      "ci_high": 0.9743,
+      "n": 7,
+      "k": 6
+     },
+     "auto_precision": {
+      "value": null,
+      "ci_low": null,
+      "ci_high": null,
+      "n": 0,
+      "k": 0
+     },
+     "coverage": 0.175,
+     "abstention_rate": 0.825,
+     "invented_values": 0,
+     "route_share": {
+      "validation_auto": 0.825,
+      "revue_rapide": 0.1,
+      "revue_experte": 0.075
+     },
+     "cost_per_fiche_usd": 0.0289,
+     "time_per_fiche_s": 4.686,
+     "stability": 0.9
+    }
+   }
+  ],
+  "calibration": {
+   "current_threshold": 0.85,
+   "points": [
+    {
+     "threshold": 0.5,
+     "automation_rate": 0.7033,
+     "value": 0.9052,
+     "ci_low": 0.8581,
+     "ci_high": 0.9378,
+     "n": 211,
+     "k": 191,
+     "precision": 0.9052
+    },
+    {
+     "threshold": 0.55,
+     "automation_rate": 0.6933,
+     "value": 0.9135,
+     "ci_low": 0.8674,
+     "ci_high": 0.9446,
+     "n": 208,
+     "k": 190,
+     "precision": 0.9135
+    },
+    {
+     "threshold": 0.6,
+     "automation_rate": 0.6733,
+     "value": 0.9257,
+     "ci_low": 0.8811,
+     "ci_high": 0.9545,
+     "n": 202,
+     "k": 187,
+     "precision": 0.9257
+    },
+    {
+     "threshold": 0.65,
+     "automation_rate": 0.6583,
+     "value": 0.9391,
+     "ci_low": 0.8966,
+     "ci_high": 0.9648,
+     "n": 197,
+     "k": 185,
+     "precision": 0.9391
+    },
+    {
+     "threshold": 0.7,
+     "automation_rate": 0.6433,
+     "value": 0.9534,
+     "ci_low": 0.9138,
+     "ci_high": 0.9753,
+     "n": 193,
+     "k": 184,
+     "precision": 0.9534
+    },
+    {
+     "threshold": 0.75,
+     "automation_rate": 0.6233,
+     "value": 0.9626,
+     "ci_low": 0.9248,
+     "ci_high": 0.9818,
+     "n": 187,
+     "k": 180,
+     "precision": 0.9626
+    },
+    {
+     "threshold": 0.8,
+     "automation_rate": 0.5983,
+     "value": 0.9777,
+     "ci_low": 0.944,
+     "ci_high": 0.9913,
+     "n": 179,
+     "k": 175,
+     "precision": 0.9777
+    },
+    {
+     "threshold": 0.85,
+     "automation_rate": 0.5733,
+     "value": 0.9884,
+     "ci_low": 0.9586,
+     "ci_high": 0.9968,
+     "n": 172,
+     "k": 170,
+     "precision": 0.9884
+    },
+    {
+     "threshold": 0.9,
+     "automation_rate": 0.4933,
+     "value": 0.9932,
+     "ci_low": 0.9627,
+     "ci_high": 0.9988,
+     "n": 148,
+     "k": 147,
+     "precision": 0.9932
+    },
+    {
+     "threshold": 0.95,
+     "automation_rate": 0.3733,
+     "value": 1,
+     "ci_low": 0.9668,
+     "ci_high": 1,
+     "n": 112,
+     "k": 112,
+     "precision": 1
+    }
+   ]
+  },
+  "errors": [
+   {
+    "id": "err_p1",
+    "system": "pipeline",
+    "sku": "lrp_cicaplast_b5_serum",
+    "attribute": "preoccupation_principale",
+    "predicted": "reparation_apaisement",
+    "expected": "hydratation",
+    "kind": "valeur_fausse",
+    "note": "Deux bénéfices également mis en avant. Routé en revue rapide, corrigeable.",
+    "hard_case_id": "hc_double_benefice"
+   },
+   {
+    "id": "err_p2",
+    "system": "pipeline",
+    "sku": "avene_cicalfate_serum",
+    "attribute": "peau_sensible",
+    "predicted": "oui",
+    "expected": "non_determinable",
+    "kind": "valeur_fausse",
+    "note": "« Haute tolérance » interprété comme peaux sensibles. Routé en revue rapide.",
+    "hard_case_id": "hc_tolerance"
+   },
+   {
+    "id": "err_p3",
+    "system": "pipeline",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "attribute": "preoccupation_principale",
+    "predicted": "eclat",
+    "expected": "signes_de_l_age",
+    "kind": "valeur_fausse",
+    "note": "Désaccord entre runs, routé en revue rapide.",
+    "hard_case_id": null
+   },
+   {
+    "id": "err_p4",
+    "system": "pipeline",
+    "sku": "lrp_hyalu_b5_serum",
+    "attribute": "texture",
+    "predicted": "non_determinable",
+    "expected": "fluide",
+    "kind": "abstention_a_tort",
+    "note": "Le golden set attend « fluide » ; aucune phrase de la fiche ne décrit la texture.",
+    "hard_case_id": null
+   },
+   {
+    "id": "err_b1",
+    "system": "baseline",
+    "sku": "lrp_hyalu_b5_serum",
+    "attribute": "sans_parfum",
+    "predicted": "oui",
+    "expected": "non",
+    "kind": "valeur_inventee",
+    "note": "Le LLM seul affirme « sans parfum » : PARFUM est en fin d'INCI.",
+    "hard_case_id": "hc_parfum_fin_inci"
+   },
+   {
+    "id": "err_b2",
+    "system": "baseline",
+    "sku": "lrp_hyalu_b5_serum",
+    "attribute": "concentration_actif",
+    "predicted": 2,
+    "expected": "non_determinable",
+    "kind": "valeur_inventee",
+    "note": "Concentration estimée sans aucune mention dans la source.",
+    "hard_case_id": "hc_concentration"
+   },
+   {
+    "id": "err_b3",
+    "system": "baseline",
+    "sku": "lrp_mela_b3_serum",
+    "attribute": "peau_sensible",
+    "predicted": "oui",
+    "expected": "non_determinable",
+    "kind": "valeur_inventee",
+    "note": "Déduit de la phrase générique de marque.",
+    "hard_case_id": "hc_boilerplate"
+   },
+   {
+    "id": "err_b4",
+    "system": "baseline",
+    "sku": "lrp_hyalu_b5_serum",
+    "attribute": "teste_dermatologiquement",
+    "predicted": "oui",
+    "expected": "non_determinable",
+    "kind": "valeur_inventee",
+    "note": "Allégation réglementée générée sans source de rang 1.",
+    "hard_case_id": "hc_boilerplate"
+   },
+   {
+    "id": "err_b5",
+    "system": "baseline",
+    "sku": "vichy_mineral89_serum",
+    "attribute": "teste_dermatologiquement",
+    "predicted": "oui",
+    "expected": "non_determinable",
+    "kind": "valeur_inventee",
+    "note": "« Testé sur peaux sensibles » confondu avec un test sous contrôle dermatologique.",
+    "hard_case_id": "hc_teste_sensibles"
+   },
+   {
+    "id": "err_b6",
+    "system": "baseline",
+    "sku": "lrp_effaclar_serum",
+    "attribute": "compatible_sous_spf",
+    "predicted": "oui",
+    "expected": "non",
+    "kind": "valeur_fausse",
+    "note": "Usage le soir ignoré.",
+    "hard_case_id": null
+   },
+   {
+    "id": "err_b7",
+    "system": "baseline",
+    "sku": "vichy_mineral89_serum",
+    "attribute": "concentration_actif",
+    "predicted": 89,
+    "expected": "non_determinable",
+    "kind": "valeur_inventee",
+    "note": "« 89% d'eau volcanique » pris pour une concentration d'actif.",
+    "hard_case_id": "hc_pct_non_actif"
+   },
+   {
+    "id": "err_b8",
+    "system": "baseline",
+    "sku": "lrp_hyalu_b5_serum",
+    "attribute": "produits_associes",
+    "predicted": [
+     "lrp_hyalu_b5_creme",
+     "lrp_cicaplast_b5_serum"
+    ],
+    "expected": [
+     "lrp_hyalu_b5_creme",
+     "lrp_hyalu_b5_serum_yeux"
+    ],
+    "kind": "valeur_inventee",
+    "note": "Produit associé déduit par similarité.",
+    "hard_case_id": null
+   },
+   {
+    "id": "err_b9",
+    "system": "baseline",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "attribute": "peau_sensible",
+    "predicted": "oui",
+    "expected": "non_determinable",
+    "kind": "valeur_inventee",
+    "note": "Aucune mention sur la page.",
+    "hard_case_id": "hc_page_anglaise"
+   },
+   {
+    "id": "err_b10",
+    "system": "baseline",
+    "sku": "lrp_retinol_b3_serum",
+    "attribute": "moment_application",
+    "predicted": "matin_et_soir",
+    "expected": "soir",
+    "kind": "valeur_fausse",
+    "note": "Mention SPF du matin lue comme une application le matin.",
+    "hard_case_id": "hc_retinol_spf"
+   }
+  ],
+  "errors_total": {
+   "baseline": 107,
+   "pipeline": 6
+  },
+  "hard_cases": [
+   {
+    "id": "hc_parfum_fin_inci",
+    "label": "PARFUM en fin d'INCI",
+    "description": "PARFUM / FRAGRANCE en dernière position (32e sur 32) : facile à manquer pour un LLM qui résume, trivial pour une règle."
+   },
+   {
+    "id": "hc_boilerplate",
+    "label": "Phrase générique de marque",
+    "description": "« Même sur les peaux sensibles » figure dans le texte de marque, pas dans le bloc produit. Rang 2, insuffisant seul."
+   },
+   {
+    "id": "hc_teste_sensibles",
+    "label": "Testé sur peaux sensibles",
+    "description": "N'équivaut pas à « testé sous contrôle dermatologique ». Allégation réglementée."
+   },
+   {
+    "id": "hc_pct_non_actif",
+    "label": "Pourcentage qui n'est pas une concentration",
+    "description": "89% d'eau volcanique, -47% de rides : chiffres présents mais non rattachés à l'actif."
+   },
+   {
+    "id": "hc_retinol_spf",
+    "label": "Rétinol et protection solaire",
+    "description": "La mention SPF du matin ne signifie pas une application le matin."
+   },
+   {
+    "id": "hc_page_anglaise",
+    "label": "Page en anglais",
+    "description": "Fiche The Ordinary en anglais : les citations restent en anglais, vocabulaire fermé en français."
+   },
+   {
+    "id": "hc_double_benefice",
+    "label": "Double bénéfice",
+    "description": "Hydratation et réparation mises en avant au même niveau."
+   },
+   {
+    "id": "hc_tolerance",
+    "label": "Haute tolérance",
+    "description": "« Haute tolérance » n'est pas une mention explicite des peaux sensibles."
+   }
+  ],
+  "baseline_better": [
+   {
+    "sku": "lrp_hyalu_b5_serum",
+    "attribute": "texture",
+    "baseline_value": "fluide",
+    "pipeline_value": "non_determinable",
+    "explanation": "Le LLM seul répond « fluide », ce qui est juste d'après le golden set. Le pipeline s'abstient faute de citation qui décrive la texture. Couverture perdue, pas d'erreur."
+   },
+   {
+    "sku": "lrp_cicaplast_b5_serum",
+    "attribute": "preoccupation_principale",
+    "baseline_value": "hydratation",
+    "pipeline_value": "reparation_apaisement",
+    "explanation": "Le LLM seul retient le bénéfice attendu par l'annotateur. Le pipeline choisit l'autre bénéfice cité, puis route en revue rapide."
+   },
+   {
+    "sku": "vichy_mineral89_serum_recharge",
+    "attribute": "types_de_peau",
+    "baseline_value": [
+     "tous_types"
+    ],
+    "pipeline_value": "non_determinable",
+    "explanation": "La recharge reprend la formule du flacon. Le LLM seul transpose correctement, le pipeline ne lit que la page de la recharge et s'abstient."
+   }
+  ]
+ }
+}

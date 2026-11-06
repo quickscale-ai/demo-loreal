@@ -1,0 +1,233 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "lrp_hyalu_b5_serum_yeux",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/gammes/visage/hyalu-b5/hyalu-b5-serum-yeux-anti-rides/LRP_165.html",
+  "captured_at": "2026-10-03T22:04:35Z",
+  "source_sha256": "9f9ff952538bf790ee592b82f5c4a5c86743a4bd60186187728aad5e4871dc92",
+  "name": "Hyalu B5 Sérum Yeux anti-rides",
+  "price_eur": 34.4,
+  "size_label": null,
+  "variants": [],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "GLYCERIN",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "NIACINAMIDE",
+   "PENTYLENE GLYCOL",
+   "PANTHENOL",
+   "SODIUM HYALURONATE",
+   "CAFFEINE",
+   "ASCORBYL GLUCOSIDE",
+   "HYDROXYACETOPHENONE",
+   "CAPRYLYL GLYCOL",
+   "CITRIC ACID",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE"
+  ],
+  "related_urls": [
+   "https://www.laroche-posay.fr/gammes/visage/hyalu-b5/hyalu-b5-soin-creme-a-l-acide-hyaluronique/LRP_066.html"
+  ],
+  "passages": [
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:name:0",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "name",
+    "rank": 1,
+    "text": "Hyalu B5 Sérum Yeux anti-rides"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:description:0",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum Yeux anti-rides à l’acide hyaluronique"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:description:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "description",
+    "rank": 1,
+    "text": "La nouvelle correction anti-rides pour repulper la peau du contour des yeux et réduire les cernes"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:description:2",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "description",
+    "rank": 1,
+    "text": "BÉNÉFICES Sérum yeux hydratant anti-rides réparateur repulpant anti-cernes , alliant deux types d’acides hyaluroniques purs (haut et bas poids moléculaire) et de la vitamine B5 à un complexe anti-cernes concentré à 10% (caféine, niacinamide et HEPES)."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:description:3",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "description",
+    "rank": 1,
+    "text": "Rides, perte de volume et d’élasticité, signes de fatigue et cernes: la nouvelle correction anti-rides pour repulper la peau du contour des yeux et réduire les cernes."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:description:4",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "description",
+    "rank": 1,
+    "text": "Conçu avec un applicateur de massage en acier chirurgical pour une efficacité anti-cernes renforcée."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:benefits:0",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Un sérum à l'acide hyaluronique développé pour une action anti-âge complète afin de corriger les rides, la perte de volume et d’élasticité. Il stimule ainsi la luminosité des peaux ternes et fatiguées."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:benefits:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "benefits",
+    "rank": 1,
+    "text": "INNOVATION LA ROCHE-POSAY Formulée en combinant deux types d’acides hyaluroniques purs, ce sérum anti-rides combine une action repulpante et une action réparatrice grâce à des actifs de référence en dermatologie :"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:benefits:2",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "benefits",
+    "rank": 1,
+    "text": "1/ RÉHYDRATE ET REPULPE INTENSÉMENT L’ÉPIDERME DUO D'ACIDES HYALURONIQUES : Utilisé par les dermatologues lors d’actes esthétiques afin de répondre aux préoccupations des femmes concernant les rides et la perte de volume de la peau. L’acide hyaluronique est la molécule de référence en anti-âge. Les laboratoires La Roche-Posay utilisent de l’acide hyaluronique de haut et bas poids moléculaires afin de repulper la peau."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:benefits:3",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "benefits",
+    "rank": 1,
+    "text": "2/ APAISE LA PEAU SENSIBLE VITAMINE B5 : La Vitamine B5 est connue pour ses propriétés apaisantes et réparatrices sur la peau. Elle stimule la régénération et la résistance de la peau."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:benefits:4",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "benefits",
+    "rank": 1,
+    "text": "3/ REDUIT LES CERNES COMPLEXE ANTI-CERNES : Associant de la caféine, de la niacinamide et de l'HEPES pour réduire les cernes et lisser le contour de l'oeil."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:benefits:5",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Dès la 1ère application, le contour des yeux est intensément hydraté. Dès 2 semaines, le regard est agrandi, les rides et les ridules sont réduites, les cernes sont moins visibles. Le contour de l'œil semble revitalisé et plus ferme."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:benefits:6",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Acide Hyaluronique Maintient la peau hydratée et préserve son niveau d'hydratation tout au long de la journée"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:benefits:7",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Vitamine B5 (Panthénol) Répare et protège la fonction barrière cutanée"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:how_to_use:0",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "TEXTURE Texture gel frais. Sans parfum."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:how_to_use:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "COMMENT L'APPLIQUER ? Appliquer matin et soir sur le contour des yeux à l'aide de l'applicateur massant pour une efficacité renforcée."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:how_to_use:2",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Étape 1. Retirer l'excès de produit sur le rebord de la bouteille Étape 2. À l'aide de l'applicateur, appliquer le sérum sur les cernes et sur l'ensemble du contour de l'oeil Étape 3. Masser délicatement à l'aide de l'applicateur en faisant des mouvements circulaires pour une action décongestionnante et rafraîchissante Étape 4. Finir l'application du bout des doigts en lissant le contour de l'oeil."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:how_to_use:3",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "ROUTINE DE SOINS Pour une routine complète, appliquer Hyalu B5 Sérum Yeux sur le contour de l'oeil comme première étape de votre routine de soin, puis appliquer Hyalu B5 Sérum Visage et Hyalu B5 Soin sur le visage (en évitant le contour des yeux), le cou et le décolleté."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:how_to_use:4",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "En cas de contact avec les yeux, les rincer immédiatement et abondamment"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:inci:0",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "inci",
+    "rank": 1,
+    "text": "2039097 03 - INGREDIENTS : AQUA / WATER / EAU • GLYCERIN • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • NIACINAMIDE • PENTYLENE GLYCOL • PANTHENOL • SODIUM HYALURONATE • CAFFEINE • ASCORBYL GLUCOSIDE • HYDROXYACETOPHENONE • CAPRYLYL GLYCOL • CITRIC ACID • TRISODIUM ETHYLENEDIAMINE DISUCCINATE (F.I.L. N70017601/1)."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:price:0",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "price",
+    "rank": 1,
+    "text": "34,40 €"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:specifications:0",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Problèmes ciblés : Rides Perte de volume et d’élasticité Signes de fatigue et cernes Type de peau : Convient aux yeux sensibles Âge : Dès 18 ans"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:specifications:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "specifications",
+    "rank": 1,
+    "text": "QUALITÉS ET CARACTÉRISTIQUES ENVIRONNEMENTALES ÉTUI Emballage non compostable Emballage ne contenant pas de matière recyclée* Non recyclable Emballage non rechargeable FLACON Emballage non compostable Emballage contenant au moins 19% de matières recyclées* Non recyclable Emballage non rechargeable * Selon le référentiel CITEO"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:brand_boilerplate:0",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "RECOMMANDÉ PAR DES DERMATOLOGUES"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:brand_boilerplate:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Les listes d’ingrédients entrant dans la composition des produits de notre marque sont régulièrement mises à jour. Avant d’utiliser un produit de notre marque, vous êtes invités à lire la liste d’ingrédients figurant sur son emballage afin de vous assurer que les ingrédients sont adaptés à votre utilisation personnelle"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:brand_boilerplate:2",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:routine:0",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "routine",
+    "rank": 2,
+    "text": "Hyalu B5 Soin Crème à l'Acide Hyaluronique"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:breadcrumb:0",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Gammes > Visage > HYALU B5 > Hyalu B5 Sérum Yeux anti-rides"
+   }
+  ]
+ }
+}

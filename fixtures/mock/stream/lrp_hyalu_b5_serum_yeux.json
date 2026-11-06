@@ -1,0 +1,1317 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "lrp_hyalu_b5_serum_yeux",
+  "run_id": "run_20261004_0800_mock",
+  "events": [
+   {
+    "type": "run_started",
+    "t_ms": 0,
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "run_id": "run_20261004_0800_mock",
+    "attributes": [
+     {
+      "attribute": "sans_parfum",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "sans_alcool",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "contenance_ml",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actif_principal",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "concentration_actif",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "types_de_peau",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "preoccupation_principale",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "texture",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "moment_application",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "compatible_sous_spf",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "peau_sensible",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "gamme",
+      "family": "groupe",
+      "method": "groupe"
+     },
+     {
+      "attribute": "produits_associes",
+      "family": "groupe",
+      "method": "groupe"
+     },
+     {
+      "attribute": "hypoallergenique",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     },
+     {
+      "attribute": "teste_dermatologiquement",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     }
+    ]
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 380,
+    "attribute": "sans_parfum",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 392,
+    "attribute": "sans_parfum",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:inci:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-INCI-PARFUM",
+       "rule_version": "1.2.0",
+       "detail": "INCI complet (13 ingrédients) : aucun PARFUM, FRAGRANCE ni AROMA"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-INCI-COMPLET",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "INCI lu en entier : 13 ingrédients."
+      },
+      {
+       "id": "CTRL-CONFLIT-MARKETING",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contradictoire."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle déterministe sur l'INCI, contrôles passés.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 392,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 392,
+    "attribute": "sans_alcool",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 404,
+    "attribute": "sans_alcool",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:inci:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-INCI-ALCOOL",
+       "rule_version": "1.1.0",
+       "detail": "INCI complet (13 ingrédients) : aucun ALCOHOL, ALCOHOL DENAT. ni ETHANOL"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-INCI-COMPLET",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "INCI lu en entier : 13 ingrédients."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle déterministe sur l'INCI, contrôles passés.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 404,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 404,
+    "attribute": "contenance_ml",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 422,
+    "attribute": "contenance_ml",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "contenance_ml",
+     "family": "regles",
+     "method": "regle",
+     "value": 15,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:size:1",
+       "quote": "15 ml",
+       "start": 21,
+       "end": 26,
+       "rank": 1,
+       "rule_id": "RG-SIZE-ML",
+       "rule_version": "1.0.0",
+       "detail": "Format sélectionné par défaut : 15 ml"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-UNITE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Unité ml reconnue, valeur dans la plage 5 à 500."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Expression régulière sur le format sélectionné.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 422,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 422,
+    "attribute": "actif_principal",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 427,
+    "attribute": "actif_principal",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "actif_principal",
+     "family": "regles",
+     "method": "regle",
+     "value": "acide_hyaluronique",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:name:1",
+       "quote": "Hyalu",
+       "start": 0,
+       "end": 5,
+       "rank": 1,
+       "rule_id": "RG-ACTIF-NOM",
+       "rule_version": "1.0.1",
+       "detail": "« Hyalu » est le premier actif nommé dans le nom du produit"
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:inci:1",
+       "quote": "SODIUM HYALURONATE",
+       "start": 123,
+       "end": 141,
+       "rank": 1,
+       "rule_id": "RG-ACTIF-NOM",
+       "rule_version": "1.0.1",
+       "detail": "Confirmé dans l'INCI : SODIUM HYALURONATE"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-ACTIF-INCI",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "SODIUM HYALURONATE présent dans l'INCI."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Lexique sur le nom, confirmé dans l'INCI.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 427,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 427,
+    "attribute": "concentration_actif",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 433,
+    "attribute": "concentration_actif",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "concentration_actif",
+     "family": "regles",
+     "method": "regle",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:description:1",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "RG-CONC-PCT",
+       "rule_version": "1.0.0",
+       "detail": "Aucun pourcentage écrit à côté de l'actif principal. Jamais estimé depuis le rang dans l'INCI."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-CONC-PLAGE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Rien à contrôler."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention : aucun pourcentage dans la source. Aucune valeur publiée.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0,
+     "elapsed_ms": 433,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 433,
+    "attribute": "types_de_peau",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 3017,
+    "attribute": "types_de_peau",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "types_de_peau",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune phrase de la source ne permet de trancher."
+      }
+     ],
+     "prompt_id": "interp.types_de_peau",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_d2c48c1694cc"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_afdf75a67bb7"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_e6d96c5de6c2"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_d2c48c1694cc",
+      "call_afdf75a67bb7",
+      "call_e6d96c5de6c2"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.014652,
+     "elapsed_ms": 3017,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 3017,
+    "attribute": "preoccupation_principale",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 4955,
+    "attribute": "preoccupation_principale",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "preoccupation_principale",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "contour_des_yeux",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:how_to_use:1",
+       "quote": "Appliquer matin et soir sur le contour des yeux",
+       "start": 32,
+       "end": 79,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.preoccupation_principale",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "contour_des_yeux",
+       "quote": "Appliquer matin et soir sur le contour des yeux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_376d014aa007"
+      },
+      {
+       "run_idx": 1,
+       "value": "contour_des_yeux",
+       "quote": "Appliquer matin et soir sur le contour des yeux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_225cff97fed8"
+      },
+      {
+       "run_idx": 2,
+       "value": "contour_des_yeux",
+       "quote": "Appliquer matin et soir sur le contour des yeux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_8f15b80f3602"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_serum_yeux:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_376d014aa007",
+      "call_225cff97fed8",
+      "call_8f15b80f3602"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.030477,
+     "elapsed_ms": 4955,
+     "n_calls": 6,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 4955,
+    "attribute": "texture",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 7516,
+    "attribute": "texture",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "texture",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "gel",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:how_to_use:1",
+       "quote": "Texture gel frais.",
+       "start": 0,
+       "end": 18,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.texture",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "gel",
+       "quote": "Texture gel frais.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_beb298c6c434"
+      },
+      {
+       "run_idx": 1,
+       "value": "gel",
+       "quote": "Texture gel frais.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_8263223d882b"
+      },
+      {
+       "run_idx": 2,
+       "value": "gel",
+       "quote": "Texture gel frais.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_08a66427ad4c"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_serum_yeux:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_beb298c6c434",
+      "call_8263223d882b",
+      "call_08a66427ad4c"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.045003,
+     "elapsed_ms": 7516,
+     "n_calls": 9,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 7516,
+    "attribute": "moment_application",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 9505,
+    "attribute": "moment_application",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "moment_application",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "matin_et_soir",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:how_to_use:1",
+       "quote": "Appliquer matin et soir sur le contour des yeux",
+       "start": 32,
+       "end": 79,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.moment_application",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "matin_et_soir",
+       "quote": "Appliquer matin et soir sur le contour des yeux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_de80c9bbe206"
+      },
+      {
+       "run_idx": 1,
+       "value": "matin_et_soir",
+       "quote": "Appliquer matin et soir sur le contour des yeux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_0c8fd21e7294"
+      },
+      {
+       "run_idx": 2,
+       "value": "matin_et_soir",
+       "quote": "Appliquer matin et soir sur le contour des yeux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_89690352e742"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_serum_yeux:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_de80c9bbe206",
+      "call_0c8fd21e7294",
+      "call_89690352e742"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.060102,
+     "elapsed_ms": 9505,
+     "n_calls": 12,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 9505,
+    "attribute": "compatible_sous_spf",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 11978,
+    "attribute": "compatible_sous_spf",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:how_to_use:1",
+       "quote": "Appliquer matin et soir",
+       "start": 32,
+       "end": 55,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.compatible_sous_spf",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Appliquer matin et soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_c16e43b0fc21"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Appliquer matin et soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_3168c9f89920"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Appliquer matin et soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_9ceb2c697ef6"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_serum_yeux:how_to_use:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Cohérent avec moment_application = matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 ≥ seuil 0,85 : citation vérifiée, 3 runs sur 3 d'accord, contrôles passés.",
+     "calls": [
+      "call_c16e43b0fc21",
+      "call_3168c9f89920",
+      "call_9ceb2c697ef6"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.074259,
+     "elapsed_ms": 11978,
+     "n_calls": 15,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 11978,
+    "attribute": "peau_sensible",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14419,
+    "attribute": "peau_sensible",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:specifications:1",
+       "quote": "Convient aux yeux sensibles.",
+       "start": 15,
+       "end": 43,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "interp.peau_sensible",
+     "prompt_version": "1.2.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Convient aux yeux sensibles.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_13effcd41948"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Convient aux yeux sensibles.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "call_116e1fe8af21"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_ab27cbf6e5fb"
+      }
+     ],
+     "agreement": 0.6667,
+     "controls": [
+      {
+       "id": "CTRL-CITATION-VERBATIM",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation retrouvée mot pour mot dans p:lrp_hyalu_b5_serum_yeux:specifications:1."
+      },
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SENSIBLE-SPECIFIQUE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Citation de rang 1, propre au produit (la phrase générique de marque est écartée)."
+      }
+     ],
+     "confidence": 0.8,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 0.6667,
+      "controls": 1
+     },
+     "route": "revue_rapide",
+     "route_reason": "« Yeux sensibles » n'est pas « peaux sensibles » : un run s'abstient. Revue rapide.",
+     "calls": [
+      "call_13effcd41948",
+      "call_116e1fe8af21",
+      "call_ab27cbf6e5fb"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.088335,
+     "elapsed_ms": 14419,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14419,
+    "attribute": "gamme",
+    "family": "groupe",
+    "method": "groupe"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14474,
+    "attribute": "gamme",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "gamme",
+     "family": "groupe",
+     "method": "groupe",
+     "value": "hyalu_b5",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:breadcrumb:1",
+       "quote": "HYALU B5",
+       "start": 28,
+       "end": 36,
+       "rank": 2,
+       "rule_id": "RG-GAMME-FIL",
+       "rule_version": "1.0.0",
+       "detail": "« HYALU B5 » trouvé dans le fil d'Ariane"
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-GAMME-COHERENCE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Cohérent avec 2 autre(s) produit(s) de la gamme dans le catalogue."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Règle sur le fil d'Ariane et le nom, contrôle de groupe passé.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.088335,
+     "elapsed_ms": 14474,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14474,
+    "attribute": "produits_associes",
+    "family": "groupe",
+    "method": "groupe"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14526,
+    "attribute": "produits_associes",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "produits_associes",
+     "family": "groupe",
+     "method": "groupe",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": "RG-ROUTINE-LIENS",
+       "rule_version": "1.0.0",
+       "detail": "Aucun bloc routine ni recharge sur la page. Jamais déduit par similarité."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-CATALOGUE",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Rien à contrôler."
+      }
+     ],
+     "confidence": 1,
+     "confidence_breakdown": {
+      "evidence": 1,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention : aucun produit cité par la page.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.088335,
+     "elapsed_ms": 14526,
+     "n_calls": 18,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14526,
+    "attribute": "hypoallergenique",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 16791,
+    "attribute": "hypoallergenique",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune allégation mot pour mot dans les sources de rang 1. L'absence donne non_determinable, jamais « non »."
+      }
+     ],
+     "prompt_id": "verbatim.hypoallergenique",
+     "prompt_version": "1.1.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_60f901a27c60"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_d40beb2cea04"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_76f474a3e27b"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_60f901a27c60",
+      "call_d40beb2cea04",
+      "call_76f474a3e27b"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.103545,
+     "elapsed_ms": 16791,
+     "n_calls": 21,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 16791,
+    "attribute": "teste_dermatologiquement",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 19203,
+    "attribute": "teste_dermatologiquement",
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "none",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": "Aucune allégation mot pour mot dans les sources de rang 1. L'absence donne non_determinable, jamais « non »."
+      }
+     ],
+     "prompt_id": "verbatim.teste_dermatologiquement",
+     "prompt_version": "1.1.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_017b7b9fcce6"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_df18c94ee25e"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "call_5f060377881d"
+      }
+     ],
+     "agreement": 1,
+     "controls": [
+      {
+       "id": "CTRL-VOCAB",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "non_determinable est une sortie valide."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1,
+      "controls": 1
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention unanime : la source ne permet pas de trancher. Aucune valeur publiée.",
+     "calls": [
+      "call_017b7b9fcce6",
+      "call_df18c94ee25e",
+      "call_5f060377881d"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.117897,
+     "elapsed_ms": 19203,
+     "n_calls": 24,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "run_done",
+    "t_ms": 19243,
+    "totals": {
+     "cost_usd": 0.117897,
+     "elapsed_ms": 19243,
+     "n_calls": 24,
+     "invented_values": 0,
+     "rejected_samples": 0,
+     "abstentions": 5,
+     "routes": {
+      "validation_auto": 14,
+      "revue_rapide": 1,
+      "revue_experte": 0
+     }
+    }
+   }
+  ]
+ }
+}

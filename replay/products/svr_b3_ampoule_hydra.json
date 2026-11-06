@@ -1,0 +1,240 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "svr_b3_ampoule_hydra",
+  "brand": "SVR",
+  "loreal": false,
+  "url": "https://fr.svr.com/products/b3-ampoule-hydra",
+  "captured_at": "2026-10-03T22:01:12Z",
+  "source_sha256": "eb939b260b8eacbb080e961e19faa75d1d885897ae4e65c010db56219dc2096e",
+  "name": "[B3] Ampoule Hydra",
+  "price_eur": 29.7,
+  "size_label": "30ml",
+  "variants": [
+   "30ml",
+   "10ml"
+  ],
+  "inci": [
+   "AQUA/WATER/EAU",
+   "GLYCERIN",
+   "NIACINAMIDE",
+   "ISOPENTYLDIOL",
+   "SODIUM HYALURONATE CROSSPOLYMER",
+   "HYDROLYZED HYALURONIC ACID",
+   "SODIUM HYALURONATE",
+   "1,2-HEXANEDIOL",
+   "ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER",
+   "CAPRYLYL GLYCOL",
+   "PENTYLENE GLYCOL",
+   "SODIUM HYDROXIDE"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:svr_b3_ampoule_hydra:name:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "name",
+    "rank": 1,
+    "text": "[B3] Ampoule Hydra"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:description:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "description",
+    "rank": 1,
+    "text": "Boostez votre hydratation avec l’ampoule Hydra, pour une peau repulpée et apaisée ! Ce sérum ultra-concentré en niacinamide (Vitamine B3) est votre meilleur allié pour apaiser et renforcer la barrière cutanée. Associé à 3 acides hyaluroniques pour hydrater en profondeur. Jour après jour les signes de l’âge sont estompés. Une texture légère et non collante qui convient à toutes les peaux, même sensibles. Lire plus"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "FORMULÉ POUR Les peaux déshydratées, sensibles, normales à sèches. Idéal pour les premières rides et les plus installées. Apaise les tiraillements, les rougeurs et pallie au manque d’élasticité."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "12 INGRÉDIENTS SEULEMENT"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:2",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "TESTÉ SOUS CONTRÔLE DERMATOLOGIQUE Sur peaux sensibles. Repulpe et apaise la peau tout en douceur. Non comédogène. Convient aux femmes enceintes et allaitantes."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:3",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "TESTÉ SANS EFFET SUR LES MÉCANISMES ENDOCRINIENS Tests réalisés sur les axes oestrogéniques, androgéniques et thyroïdiens par un laboratoire indépendant, spécialiste de la perturbation endocrinienne."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:4",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "5% NIACINAMIDE Multi-correcteur de référence qui fortifie et restaure la barrière cutanée. Egalement connu sous le nom de vitamine B3. En savoir plus sur la niacinamide. 3 ACIDES HYALURONIQUES De poids moléculaires différents (moyen, haut et très haut), ils agissent en surface pour maintenir l’hydratation de l’épiderme et en profondeur pour stimuler la synthèse de collagène. SANS PARFUM Voir la liste des ingrédients"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:5",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "RÉSULTATS PROUVÉS DÈS 24H +31% d’hydratation1 +37% la peau est apaisée2 +33% la peau est repulpée2 -25% de rides de déshydratation2 +28% la peau est plus élastique2 APRÈS 28 JOURS, DES UTILISATEURS CONVAINCUS"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:6",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "86% les tiraillements et les inconforts sont réduits immédiatement et pour toute la journée3"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:7",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "81% l'élasticité de ma peau et sa qualité sont améliorées3"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:8",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "1 - Mesures cornéométriques, 12 volontaires."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:9",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "2 - Auto-évaluation sur 22 volontaires pendant 7 jours en application biquotidienne, % de variation."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:benefits:10",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "benefits",
+    "rank": 1,
+    "text": "3 - Auto-évaluation sur 22 volontaires pendant 28 jours en application biquotidienne, % de satisfaction."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:claims:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "claims",
+    "rank": 1,
+    "text": "SANS PARFUM"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:claims:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "claims",
+    "rank": 1,
+    "text": "TESTÉ SOUS CONTRÔLE DERMATOLOGIQUE"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:how_to_use:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "APPPLIQUEZ MATIN ET SOIR Sur une peau propre et sèche avant votre soin quotidien. Ne pas avaler. Tenir hors de portée des enfants."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:inci:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA/WATER/EAU, GLYCERIN, NIACINAMIDE, ISOPENTYLDIOL, SODIUM HYALURONATE CROSSPOLYMER, HYDROLYZED HYALURONIC ACID, SODIUM HYALURONATE, 1,2-HEXANEDIOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, PENTYLENE GLYCOL, SODIUM HYDROXIDE"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:size:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "size",
+    "rank": 1,
+    "text": "Format 30ml 10ml"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:price:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "price",
+    "rank": 1,
+    "text": "29.70€ 34.90€"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:specifications:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "specifications",
+    "rank": 1,
+    "text": "[A] [B3] [C] | 1 ères rides, teint terne"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:specifications:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "specifications",
+    "rank": 1,
+    "text": "💚UNE FORMULE D'ORIGINE NATURELLE 91% d’ingrédients d’origine naturelle. ♻️ RECYCLABILITÉ ET RÉ-EMPLOI Fiche produit relative aux qualités et caractéristiques environnementales : le flacon en verre doit se jeter dans le bac de verre. La pipette doit être séparée et jetée dans le bac de tri. Les consignes de tri peuvent varier localement."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:brand_boilerplate:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La liste des ingrédients peut être soumise à des modifications, nous vous conseillons de vérifier la liste figurant sur le produit acheté."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:editorial:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "editorial",
+    "rank": 2,
+    "text": "POUR ALLER + LOIN : retrouvez nos épisodes du Peaudcast"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:editorial:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "editorial",
+    "rank": 2,
+    "text": "FAQ En savoir + sur [A] [B3] [C] [A][B][C], les ampoules ultra-concentrées qui corrigent les signes de l’âge selon vos besoins. Basées sur des vitamines associées à des actifs innovants, elles boostent vos routines de soin pour lisser, repulper, apaiser ou rendre de l’éclat à votre peau. On répond aux questions qui reviennent le plus souvent !"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:editorial:2",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Pourquoi la pipette ne se remplit pas au maximum ? Le niveau de remplissage de la pipette dépend de la pression que vous appliquez sur la tétine. Si vous appuyez fermement pour faire sortir tout l'air avant de relâcher, la formule remontera correctement dans la pipette. Cependant, nos pipettes sont conçues de manière à ce que le produit ne remonte pas jusqu'en haut de la tétine. Cette conception permet de garder la tétine propre et d'éviter tout gaspillage de produit. 💧😊"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:editorial:3",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Cette formule convient-elle aux peaux très sensibles? Absolument ! 😊 Notre formule a été testée dermatologiquement sur 100 % de volontaires ayant une peau sensible. Elle respecte rigoureusement la charte d’ingrédients SVR et est sans parfum, ce qui garantit une tolérance optimale. Vous pouvez donc l'utiliser en toute confiance, même si votre peau est très sensible."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:editorial:4",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "editorial",
+    "rank": 2,
+    "text": "L’Ampoule [B3] Hydra peut-elle être utilisée chez la femme enceinte ou allaitante ?"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:editorial:5",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "editorial",
+    "rank": 2,
+    "text": "En règle générale, nous n'effectuons pas de tests spécifiques sur les femmes enceintes ou allaitantes. En revanche, notre toxicologue évalue les marges de sécurité des matières premières afin de déterminer si les produits sont conformes ou non pour une utilisation chez la femme enceinte ou allaitante. Notre Ampoule [B3] Hydra a été évaluée par notre toxicologue comme étant conforme pour utilisation chez la femme enceinte ou allaitante. Pour toutes questions ou doutes relatifs à l'utilisation d'un produit cosmétique, pendant la grossesse ou l'allaitement, nous recommandons de demander l’avis de son médecin au préalable."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:breadcrumb:0",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Home > [B3] Ampoule Hydra"
+   }
+  ]
+ }
+}

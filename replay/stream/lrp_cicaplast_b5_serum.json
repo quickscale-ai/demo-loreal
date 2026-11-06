@@ -1,0 +1,1536 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "lrp_cicaplast_b5_serum",
+  "run_id": "run_ab67c5a0cdfbb839",
+  "pacing_note": "Compteurs enregistrés. Appels LLM affichés à leur latence mesurée. Les 11 étapes déterministes (règles, extraction réglementée) prennent quelques millisecondes (non comptées dans run.json, pour un rejeu identique) : leur espacement de 320 ms à l'écran est un choix d'affichage.",
+  "events": [
+   {
+    "type": "run_started",
+    "t_ms": 0,
+    "sku": "lrp_cicaplast_b5_serum",
+    "run_id": "run_ab67c5a0cdfbb839",
+    "attributes": [
+     {
+      "attribute": "sans_parfum",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "sans_alcool",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "contenance_ml",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actif_principal",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "concentration_actif",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "actifs_cles",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "benefices_actifs",
+      "family": "regles",
+      "method": "regle"
+     },
+     {
+      "attribute": "types_de_peau",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "preoccupation_principale",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "texture",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "moment_application",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "compatible_sous_spf",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "peau_sensible",
+      "family": "interpretatifs",
+      "method": "llm_contraint"
+     },
+     {
+      "attribute": "gamme",
+      "family": "groupe",
+      "method": "regle"
+     },
+     {
+      "attribute": "produits_associes",
+      "family": "groupe",
+      "method": "regle"
+     },
+     {
+      "attribute": "hypoallergenique",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     },
+     {
+      "attribute": "teste_dermatologiquement",
+      "family": "reglementes",
+      "method": "extraction_verbatim"
+     }
+    ]
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 0,
+    "attribute": "sans_parfum",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 320,
+    "attribute": "sans_parfum",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-PARFUM",
+       "rule_version": "1.0.0",
+       "detail": "16 ingrédients INCI examinés : ni PARFUM, ni FRAGRANCE, ni AROMA."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-PARFUM-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_parfum=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 320,
+    "attribute": "sans_alcool",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 640,
+    "attribute": "sans_alcool",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "non",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": "ALCOHOL DENAT.",
+       "start": 71,
+       "end": 85,
+       "rank": 1,
+       "rule_id": "R-INCI-ALCOOL",
+       "rule_version": "1.0.0",
+       "detail": "ALCOHOL DENAT trouvé en position 4/16 de l'INCI."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-ALCOOL-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_alcool=non."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 640,
+    "attribute": "contenance_ml",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 960,
+    "attribute": "contenance_ml",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "contenance_ml",
+     "family": "regles",
+     "method": "regle",
+     "value": 30.0,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:size:0",
+       "quote": "30 ml",
+       "start": 0,
+       "end": 5,
+       "rank": 1,
+       "rule_id": "R-REGEX-CONTENANCE",
+       "rule_version": "1.0.0",
+       "detail": "30 ml lu dans le format par défaut (size_label) (valeur en ml)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur numérique valide."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 960,
+    "attribute": "actif_principal",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 1280,
+    "attribute": "actif_principal",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "actif_principal",
+     "family": "regles",
+     "method": "regle",
+     "value": "panthenol",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:name:0",
+       "quote": "B5",
+       "start": 10,
+       "end": 12,
+       "rank": 1,
+       "rule_id": "R-ACTIF",
+       "rule_version": "1.0.0",
+       "detail": "Premier actif nommé : « B5 » -> panthenol."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": "PANTHENOL",
+       "start": 48,
+       "end": 57,
+       "rank": 1,
+       "rule_id": "R-ACTIF",
+       "rule_version": "1.0.0",
+       "detail": "Confirmé par l'INCI : PANTHENOL en position 2/16."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 1280,
+    "attribute": "concentration_actif",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 1600,
+    "attribute": "concentration_actif",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "concentration_actif",
+     "family": "regles",
+     "method": "regle",
+     "value": 10.0,
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:description:0",
+       "quote": "10% DE VITAMINE B5",
+       "start": 71,
+       "end": 89,
+       "rank": 1,
+       "rule_id": "R-REGEX-CONCENTRATION",
+       "rule_version": "1.0.0",
+       "detail": "10 % rattaché à panthenol."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:description:2",
+       "quote": "10% de Vitamine B5",
+       "start": 187,
+       "end": 205,
+       "rank": 1,
+       "rule_id": "R-REGEX-CONCENTRATION",
+       "rule_version": "1.0.0",
+       "detail": "10 % rattaché à panthenol."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur numérique valide."
+      },
+      {
+       "id": "CTRL-ACTIF-CONCENTRATION",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Concentration rattachée à un actif principal déterminé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 1600,
+    "attribute": "actifs_cles",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 1920,
+    "attribute": "actifs_cles",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "actifs_cles",
+     "family": "regles",
+     "method": "regle",
+     "value": [
+      "panthenol",
+      "acide_hyaluronique",
+      "ferments_bacteriens",
+      "tocopherol"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": "PANTHENOL",
+       "start": 48,
+       "end": 57,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "PANTHENOL en position 2/16 de l'INCI -> panthenol (Panthénol (provitamine B5)), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": "SODIUM HYALURONATE",
+       "start": 187,
+       "end": 205,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "SODIUM HYALURONATE en position 8/16 de l'INCI -> acide_hyaluronique (Acide hyaluronique et sels), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": "VITREOSCILLA FERMENT",
+       "start": 266,
+       "end": 286,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "VITREOSCILLA FERMENT en position 11/16 de l'INCI -> ferments_bacteriens (Fractions de probiotiques et ferments bactériens), référentiel v1.1.0."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": "TOCOPHEROL",
+       "start": 334,
+       "end": 344,
+       "rank": 1,
+       "rule_id": "R-ACTIFS-CLES",
+       "rule_version": "1.0.0",
+       "detail": "TOCOPHEROL en position 15/16 de l'INCI -> tocopherol (Vitamine E (tocophérol)), référentiel v1.1.0."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Liste dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 1920,
+    "attribute": "benefices_actifs",
+    "family": "regles",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 2240,
+    "attribute": "benefices_actifs",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "benefices_actifs",
+     "family": "regles",
+     "method": "regle",
+     "value": [
+      "reparation_apaisement.barriere",
+      "hydratation",
+      "protection.antioxydant"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": "PANTHENOL",
+       "start": 48,
+       "end": 57,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "PANTHENOL en position 2/16 de l'INCI -> panthenol (Panthénol (provitamine B5)), référentiel d'actifs v1.1.0 : reparation_apaisement.barriere (Réparation de la barrière) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, concentration écrite par la marque : 10 % (« 10% DE VITAMINE B5 », p:lrp_cicaplast_b5_serum:description:0), R-REGEX-CONCENTRATION ; position 2 sur 16 dans l'INCI. Fait de composition, pas une promesse produit."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": "SODIUM HYALURONATE",
+       "start": 187,
+       "end": 205,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "SODIUM HYALURONATE en position 8/16 de l'INCI -> acide_hyaluronique (Acide hyaluronique et sels), référentiel d'actifs v1.1.0 : hydratation (Hydratation) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, dose non connue : position 8 sur 16 dans l'INCI. Fait de composition, pas une promesse produit."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": "TOCOPHEROL",
+       "start": 334,
+       "end": 344,
+       "rank": 1,
+       "rule_id": "R-BENEFICES-ACTIFS",
+       "rule_version": "1.0.0",
+       "detail": "TOCOPHEROL en position 15/16 de l'INCI -> tocopherol (Vitamine E (tocophérol)), référentiel d'actifs v1.1.0 : protection.antioxydant (Antioxydant) (source : fonction INCI usuelle, à valider par les experts L'Oréal). Note de dose, dose non connue : position 15 sur 16 dans l'INCI. Fait de composition, pas une promesse produit."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Liste dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.0,
+     "elapsed_ms": 0,
+     "n_calls": 0,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "types_de_peau",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "preoccupation_principale",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "texture",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "moment_application",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "compatible_sous_spf",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 2300,
+    "attribute": "peau_sensible",
+    "family": "interpretatifs",
+    "method": "llm_contraint"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13695,
+    "attribute": "types_de_peau",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "types_de_peau",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": [
+      "tous_types"
+     ],
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_cicaplast_b5_serum:specifications:0",
+       "quote": "Type de peau : Adaptée à tous les types de peau",
+       "start": 69,
+       "end": 116,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Type de peau : Adaptée à tous les types de peau",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_64e09241c750c41a"
+      },
+      {
+       "run_idx": 1,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Type de peau : Adaptée à tous les types de peau",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_c5219dcce49076ef"
+      },
+      {
+       "run_idx": 2,
+       "value": [
+        "tous_types"
+       ],
+       "quote": "Type de peau : Adaptée à tous les types de peau",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_125313f6dc25d2b0"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Liste dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_64e09241c750c41a",
+      "c_c5219dcce49076ef",
+      "c_125313f6dc25d2b0"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13695,
+    "attribute": "preoccupation_principale",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "preoccupation_principale",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "hydratation",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_cicaplast_b5_serum:description:0",
+       "quote": "SÉRUM ULTRA-HYDRATANT, ULTRA-RÉPARATEUR, ULTRA-RÉGÉNÉRANT",
+       "start": 0,
+       "end": 57,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "hydratation",
+       "quote": "SÉRUM ULTRA-HYDRATANT, ULTRA-RÉPARATEUR, ULTRA-RÉGÉNÉRANT",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_64e09241c750c41a"
+      },
+      {
+       "run_idx": 1,
+       "value": "hydratation",
+       "quote": "SÉRUM ULTRA-HYDRATANT, ULTRA-RÉPARATEUR, ULTRA-RÉGÉNÉRANT",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_c5219dcce49076ef"
+      },
+      {
+       "run_idx": 2,
+       "value": "hydratation",
+       "quote": "SÉRUM ULTRA-HYDRATANT, ULTRA-RÉPARATEUR, ULTRA-RÉGÉNÉRANT",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_125313f6dc25d2b0"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_64e09241c750c41a",
+      "c_c5219dcce49076ef",
+      "c_125313f6dc25d2b0"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13695,
+    "attribute": "texture",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "texture",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "fluide",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_cicaplast_b5_serum:description:4",
+       "quote": "Sa texture fluide et confortable peut convenir à toutes les peaux.",
+       "start": 0,
+       "end": 66,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "fluide",
+       "quote": "Sa texture fluide et confortable peut convenir à toutes les peaux.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_64e09241c750c41a"
+      },
+      {
+       "run_idx": 1,
+       "value": "fluide",
+       "quote": "Sa texture fluide et confortable peut convenir à toutes les peaux.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_c5219dcce49076ef"
+      },
+      {
+       "run_idx": 2,
+       "value": "fluide",
+       "quote": "Sa texture fluide et confortable peut convenir à toutes les peaux.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_125313f6dc25d2b0"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_64e09241c750c41a",
+      "c_c5219dcce49076ef",
+      "c_125313f6dc25d2b0"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13695,
+    "attribute": "moment_application",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "moment_application",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "matin_et_soir",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_cicaplast_b5_serum:how_to_use:0",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "start": 210,
+       "end": 272,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "matin_et_soir",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_64e09241c750c41a"
+      },
+      {
+       "run_idx": 1,
+       "value": "matin_et_soir",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_c5219dcce49076ef"
+      },
+      {
+       "run_idx": 2,
+       "value": "matin_et_soir",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_125313f6dc25d2b0"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_64e09241c750c41a",
+      "c_c5219dcce49076ef",
+      "c_125313f6dc25d2b0"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13695,
+    "attribute": "compatible_sous_spf",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_cicaplast_b5_serum:how_to_use:0",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "start": 210,
+       "end": 272,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_64e09241c750c41a"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_c5219dcce49076ef"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_125313f6dc25d2b0"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_64e09241c750c41a",
+      "c_c5219dcce49076ef",
+      "c_125313f6dc25d2b0"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 13695,
+    "attribute": "peau_sensible",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_cicaplast_b5_serum:description:5",
+       "quote": "convientà toutes les peaux, mêmes sensibles et sèches",
+       "start": 33,
+       "end": 86,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_cicaplast_b5_serum:description:5",
+       "quote": "Le Cicaplast B5 sérum convientà toutes les peaux, mêmes sensibles et sèches",
+       "start": 11,
+       "end": 86,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "convientà toutes les peaux, mêmes sensibles et sèches",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_64e09241c750c41a"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "le Cicaplast B5 sérum convientà toutes les peaux, mêmes sensibles et sèches",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_c5219dcce49076ef"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "convientà toutes les peaux, mêmes sensibles et sèches",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_125313f6dc25d2b0"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 0,90 au-dessus du seuil auto (0,85).",
+     "calls": [
+      "c_64e09241c750c41a",
+      "c_c5219dcce49076ef",
+      "c_125313f6dc25d2b0"
+     ]
+    },
+    "cumulative": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 13695,
+    "attribute": "gamme",
+    "family": "groupe",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14015,
+    "attribute": "gamme",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "gamme",
+     "family": "groupe",
+     "method": "regle",
+     "value": "cicaplast",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:breadcrumb:0",
+       "quote": "CICAPLAST",
+       "start": 28,
+       "end": 37,
+       "rank": 2,
+       "rule_id": "R-GAMME",
+       "rule_version": "1.1.0",
+       "detail": "« CICAPLAST » (fil d'Ariane) -> cicaplast."
+      },
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:name:0",
+       "quote": "Cicaplast",
+       "start": 0,
+       "end": 9,
+       "rank": 1,
+       "rule_id": "R-GAMME",
+       "rule_version": "1.1.0",
+       "detail": "« Cicaplast » (nom) -> cicaplast."
+      },
+      {
+       "kind": "rule",
+       "passage_id": null,
+       "quote": "cicaplast",
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": "R-GAMME",
+       "rule_version": "1.1.0",
+       "detail": "« cicaplast » (URL de la fiche) -> cicaplast."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Confiance 1,00 au-dessus du seuil auto (0,85).",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14015,
+    "attribute": "produits_associes",
+    "family": "groupe",
+    "method": "regle"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14335,
+    "attribute": "produits_associes",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "produits_associes",
+     "family": "groupe",
+     "method": "regle",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": null,
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": null,
+       "rule_id": "R-PRODUITS-ASSOCIES",
+       "rule_version": "1.0.0",
+       "detail": "Aucun lien ni nom de produit du catalogue cité par la fiche : abstention."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "validation_auto",
+     "route_reason": "Abstention acceptée : les sources ne permettent pas de trancher, rien n'est écrit dans le PIM.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14335,
+    "attribute": "hypoallergenique",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14655,
+    "attribute": "hypoallergenique",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "attribute_started",
+    "t_ms": 14655,
+    "attribute": "teste_dermatologiquement",
+    "family": "reglementes",
+    "method": "extraction_verbatim"
+   },
+   {
+    "type": "attribute_done",
+    "t_ms": 14975,
+    "attribute": "teste_dermatologiquement",
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "cumulative": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0
+    }
+   },
+   {
+    "type": "run_done",
+    "t_ms": 15175,
+    "totals": {
+     "cost_usd": 0.08035,
+     "elapsed_ms": 11395,
+     "n_calls": 3,
+     "invented_values": 0,
+     "rejected_samples": 0,
+     "abstentions": 3,
+     "routes": {
+      "validation_auto": 13,
+      "revue_rapide": 2,
+      "revue_experte": 2
+     },
+     "added_values": 10,
+     "public_structured": 3
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "query": "Je cherche un sérum pour peau sensible, sans parfum, à appliquer le matin sous ma crème solaire, à moins de 40 €",
+  "sku": "lrp_hyalu_b5_serum",
+  "criteria": [
+   {
+    "id": "type",
+    "label": "Sérum",
+    "attribute": null,
+    "target": "serum",
+    "status": "explicite",
+    "note": "Type de produit écrit dans la fiche.",
+    "passage_id": "p:lrp_hyalu_b5_serum:specifications:1"
+   },
+   {
+    "id": "sensible",
+    "label": "Peau sensible",
+    "attribute": "peau_sensible",
+    "target": "oui",
+    "status": "texte_libre",
+    "note": "Mentionné dans un bloc de spécifications, sans champ structuré.",
+    "passage_id": "p:lrp_hyalu_b5_serum:specifications:1"
+   },
+   {
+    "id": "parfum",
+    "label": "Sans parfum",
+    "attribute": "sans_parfum",
+    "target": "oui",
+    "status": "absent",
+    "note": "Aucune mention. Seul l'INCI permet de conclure, et il contient PARFUM.",
+    "passage_id": "p:lrp_hyalu_b5_serum:inci:1"
+   },
+   {
+    "id": "matin",
+    "label": "Le matin",
+    "attribute": "moment_application",
+    "target": "matin",
+    "status": "texte_libre",
+    "note": "« Le matin et soir » dans les conseils d'application.",
+    "passage_id": "p:lrp_hyalu_b5_serum:how_to_use:1"
+   },
+   {
+    "id": "spf",
+    "label": "Sous crème solaire",
+    "attribute": "compatible_sous_spf",
+    "target": "oui",
+    "status": "absent",
+    "note": "Aucune mention de protection solaire.",
+    "passage_id": null
+   },
+   {
+    "id": "prix",
+    "label": "Moins de 40 €",
+    "attribute": null,
+    "target": "<40",
+    "status": "explicite",
+    "note": "Prix affiché : 41,10 €.",
+    "passage_id": "p:lrp_hyalu_b5_serum:price:1"
+   }
+  ]
+ }
+}

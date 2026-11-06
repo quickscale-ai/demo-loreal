@@ -1,0 +1,104 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "bioderma_hydrabio_hyalu_serum",
+  "brand": "Bioderma",
+  "loreal": false,
+  "url": "https://www.bioderma.fr/p/hydrabio-hyalu-serum",
+  "captured_at": "2026-10-03T22:35:56+00:00",
+  "source_sha256": "98f7249e02f9ead87cf19e39329b7ea1ee79b17d8d2efd895fc052a89b2792b7",
+  "name": "Hydrabio Hyalu+ Sérum",
+  "price_eur": 33.5,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA/WATER/EAU",
+   "BUTYLENE GLYCOL",
+   "GLYCERIN",
+   "PROPANEDIOL",
+   "PENTYLENE GLYCOL",
+   "NIACINAMIDE",
+   "POLYSORBATE 20",
+   "XANTHAN GUM",
+   "HYDROLYZED HYALURONIC ACID",
+   "FRUCTOOLIGOSACCHARIDES",
+   "SODIUM CITRATE",
+   "CITRIC ACID",
+   "CARNOSINE",
+   "ADENOSINE",
+   "FRAGRANCE (PARFUM)",
+   "SACCHARIDE ISOMERATE",
+   "SODIUM HYALURONATE",
+   "PEUMUS BOLDUS LEAF EXTRACT",
+   "HEXYLDECANOL",
+   "1,2-HEXANEDIOL",
+   "CAPRYLYL GLYCOL",
+   "BRASSICA CAMPESTRIS (RAPESEED) STEROLS",
+   "PYRUS MALUS (APPLE) SEED EXTRACT",
+   "TOCOPHEROL"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:bioderma_hydrabio_hyalu_serum:breadcrumb:1",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Visage > Peau déshydratée > Hydrabio"
+   },
+   {
+    "id": "p:bioderma_hydrabio_hyalu_serum:name:1",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Hydrabio Hyalu+ Sérum"
+   },
+   {
+    "id": "p:bioderma_hydrabio_hyalu_serum:price:1",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "33,50 € (111,67 €/100 ml.)"
+   },
+   {
+    "id": "p:bioderma_hydrabio_hyalu_serum:size:1",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:bioderma_hydrabio_hyalu_serum:description:1",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum repulpant à l'acide hyaluronique et à la niacinamide. Niacinamide : renforce la fonction barrière pour réduire la déshydratation."
+   },
+   {
+    "id": "p:bioderma_hydrabio_hyalu_serum:how_to_use:1",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquer environ 5 gouttes le matin et/ou le soir directement sur le visage et le cou après le nettoyage."
+   },
+   {
+    "id": "p:bioderma_hydrabio_hyalu_serum:inci:1",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA/WATER/EAU - BUTYLENE GLYCOL - GLYCERIN - PROPANEDIOL - PENTYLENE GLYCOL - NIACINAMIDE - POLYSORBATE 20 - XANTHAN GUM - HYDROLYZED HYALURONIC ACID - FRUCTOOLIGOSACCHARIDES - SODIUM CITRATE - CITRIC ACID - CARNOSINE - ADENOSINE - FRAGRANCE (PARFUM) - SACCHARIDE ISOMERATE - SODIUM HYALURONATE - PEUMUS BOLDUS LEAF EXTRACT - HEXYLDECANOL - 1,2-HEXANEDIOL - CAPRYLYL GLYCOL - BRASSICA CAMPESTRIS (RAPESEED) STEROLS - PYRUS MALUS (APPLE) SEED EXTRACT - TOCOPHEROL"
+   },
+   {
+    "id": "p:bioderma_hydrabio_hyalu_serum:brand_boilerplate:1",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Bioderma, la biologie au service de la dermatologie."
+   }
+  ]
+ }
+}

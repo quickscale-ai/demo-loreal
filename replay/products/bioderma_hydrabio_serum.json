@@ -1,0 +1,320 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "bioderma_hydrabio_serum",
+  "brand": "Bioderma",
+  "loreal": false,
+  "url": "https://www.bioderma.fr/p/hydrabio-serum",
+  "captured_at": "2026-10-03T22:01:12Z",
+  "source_sha256": "462da854170be6dc99224dec7e308e0270da336a86c45c6f5b6377ca837700bb",
+  "name": "Hydrabio Sérum",
+  "price_eur": 26.7,
+  "size_label": "40 ml",
+  "variants": [
+   "Flacon pompe 40 ml"
+  ],
+  "inci": [
+   "AQUA/WATER/EAU",
+   "GLYCERIN",
+   "SQUALANE",
+   "BUTYLENE GLYCOL",
+   "NIACINAMIDE",
+   "PENTYLENE GLYCOL",
+   "PROPYLENE GLYCOL",
+   "HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER",
+   "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+   "DICAPRYLYL CARBONATE",
+   "CARBOMER",
+   "SILICA",
+   "DEXTRIN PALMITATE",
+   "FRUCTOOLIGOSACCHARIDES",
+   "HYDROXYACETOPHENONE",
+   "POLYSORBATE 60",
+   "DIISOSTEARYL MALATE",
+   "FRAGRANCE (PARFUM)",
+   "MANNITOL",
+   "SODIUM CITRATE",
+   "XYLITOL",
+   "HEXYLDECANOL",
+   "RHAMNOSE",
+   "SODIUM PCA",
+   "SORBITAN ISOSTEARATE",
+   "SODIUM HYDROXIDE",
+   "LACTOBACILLUS FERMENT",
+   "SODIUM HYALURONATE",
+   "CITRIC ACID",
+   "SACCHARIDE ISOMERATE",
+   "PYRUS MALUS (APPLE) SEED EXTRACT",
+   "BRASSICA CAMPESTRIS (RAPESEED) STEROLS",
+   "TOCOPHEROL"
+  ],
+  "related_urls": [
+   "https://www.bioderma.fr/p/hydrabio-gel-moussant",
+   "https://www.bioderma.fr/p/hydrabio-legere",
+   "https://www.bioderma.fr/p/photoderm-xdefense-ultrafluid-spf50-invisible"
+  ],
+  "passages": [
+   {
+    "id": "p:bioderma_hydrabio_serum:name:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Hydrabio Sérum"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:description:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sources (1) Mesure instrumentale de l'hydratation immédiatement après utilisation sur 12 sujets.(2) Mesure instrumentale de l'hydratation sur 10 sujets pendant 72H."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "+176% d'hydratation immédiate(1)"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "72H d'hydratation (2)"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:2",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Bénéfices +176% (1) d'hydratation immédiate et 72H d'efficacité (2), grâce à la technologie brevetée AQUAGENIUM+* et à l'acide hyaluronique. -Efficacité prouvée en conditions réelles (pollution, stress, changements de température) (3) -Renforce la barrière cutanée Texture gel ultra-fraîche - Pénètre instantanément - Non collant - Non gras - Très bonne base de maquillage Très bonne tolérance cutanée. Non comédogène - Convient à tous les types de peau *Demande de brevet en cours"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:3",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "L'acide hyaluronique de haut poids moléculaire et la glycérine retiennent l'eau dans la peau.La technologie brevetée AQUAGENIUM+* aide la peau à réactiver les mécanismes naturels d'hydratation en stimulant la circulation de l'eau et en renforçant les réserves en Facteurs Naturels d'Hydratation. Le Niacinamide aide la peau à synthétiser ses propres lipides. Un sucre prébiotique : nourrit le microbiome sain, un élément essentiel de l'écosystème cutané qui joue un rôle clé dans la fonction barrière de la peau.*Demande de brevet en cours"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:4",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Résultats immédiats BOOSTER D'HYDRATATION +176% d'hydratation immédiate (1) La peau est immédiatement hydratée pour 97% des sujets (4) EFFICACITÉ D'HYDRATATION À L'ÉPREUVE DE LA VIE +73% d'hydratation même après une vie active quotidienne, des variations de température et d'humidité ou une exposition quotidienne au soleil. (3) La peau reste hydratée, quels que soient les défis quotidiens pour 97% des sujets (4)."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:5",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Résultats à long terme HYDRATE : 72h d'hydratation (2) RENFORCE : -15% DE PERTE D'EAU (5) La peau est renforcée pour 97% des sujets (4) La diversité du microbiome est respectée (6) SANTÉ ET ÉCLAT DURABLES DE LA PEAU +51% d'éclat du teint (7)"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:6",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Sources (1) Mesure instrumentale de l'hydratation immédiatement après utilisation sur 12 sujets."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:7",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "(2) Mesure instrumentale de l'hydratation sur 10 sujets pendant 72H"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:8",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "(3) Mesure instrumentale de l'hydratation à l'épreuve de la vie sur le visage pendant 8H sur 12 sujets."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:9",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "(4) Etude clinique sur 32 sujets, questionnaire subjectif (% de satisfaction) pendant 28 jours."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:10",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "(5) Mesure instrumentale du TEWL pendant 28 jours sur 31 sujets."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:11",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "(6) Etude clinique, mesure de la diversité du microbiome pendant 4 jours sur 19 volontaires."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:benefits:12",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "(7) Etude clinique, auto-évaluation de l'éclat du teint sur 32 sujets pendant 28 jours."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:how_to_use:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "matin/soir visage cou Matin et/ou soir - 7 jours sur 7 Nettoyez votre peau idéalement avec Hydrabio Gel moussant. Utiliser avant le produit de soin quotidien. Appliquer matin ou/et soir sur le visage, le cou et le décolleté. Masser doucement jusqu'à absorption"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:inci:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA/WATER/EAU - GLYCERIN - SQUALANE - BUTYLENE GLYCOL - NIACINAMIDE - PENTYLENE GLYCOL - PROPYLENE GLYCOL - HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER - CAPRYLIC/CAPRIC TRIGLYCERIDE - DICAPRYLYL CARBONATE - CARBOMER - SILICA - DEXTRIN PALMITATE - FRUCTOOLIGOSACCHARIDES - HYDROXYACETOPHENONE - POLYSORBATE 60 - DIISOSTEARYL MALATE - FRAGRANCE (PARFUM) - MANNITOL - SODIUM CITRATE - XYLITOL - HEXYLDECANOL - RHAMNOSE - SODIUM PCA - SORBITAN ISOSTEARATE - SODIUM HYDROXIDE - LACTOBACILLUS FERMENT - SODIUM HYALURONATE - CITRIC ACID - SACCHARIDE ISOMERATE - PYRUS MALUS (APPLE) SEED EXTRACT - BRASSICA CAMPESTRIS (RAPESEED) STEROLS - TOCOPHEROL"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:size:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Flacon pompe 40 ml"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:price:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "26,70 €"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:specifications:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Tous types de peau"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:specifications:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Type de produit Sérum"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:specifications:2",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Pour Adolescents, Adultes"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:brand_boilerplate:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Ce produit a été formulé selon le principe de formulation positive NAOS. Plutôt que de surtraiter la peau, il faut lui apprendre à vivre en lui apportant la juste dose et en relançant ses mécanismes naturels. Au cœur de ce produit :"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:brand_boilerplate:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Les ingrédients listés ici sont ceux contenus dans la dernière formule de ce produit. Un décalage de temps pouvant exister entre sa production et sa diffusion sur le marché, nous vous invitons à consulter la liste des ingrédients figurant sur l’emballage"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:editorial:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Renforce les fonctions hydratantes naturelles de la peau L’eau et les lipides sont des composants essentiels de la peau, lui permettant de rester intensément hydratée. En cas de déséquilibre, la peau se déshydrate et ne fonctionne plus correctement. Ce complexe breveté encourage la peau à réactiver ses capacités d’hydratation naturelles en stimulant la production d’aquaporines, qui sont les canaux de circulation de l’eau dans la peau. Brevet Aquagénium™"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:editorial:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Les réponses à toutes vos questions sur Sérum"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:editorial:2",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Comment savoir si ma peau est déshydratée ? Les symptômes classiques d’une peau déshydratée sont la sensation de tiraillement, les picotements et la desquamation. Tous ces signes indiquent que les mécanismes naturels d’hydratation de la peau ne fonctionnent plus correctement."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:editorial:3",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "À quelle fréquence dois-je utiliser un sérum hydratant ? Appliquez le sérum hydratant deux fois par jour, matin et soir, sur une peau nettoyée, juste avant la crème hydratante. Cette étape simple optimisera votre routine d’hydratation."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:editorial:4",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Pourquoi Hydrabio Sérum est-il bon pour ma peau ?"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:editorial:5",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Hydrabio Sérum a été conçu pour maximiser les réserves en eau de la peau. Ce booster d’hydratation procure une dose intensive et immédiate d’hydratation pour aider la peau à affronter les défis quotidiens et à être prête pour la prochaine étape de votre routine : Hydrabio Légère, Hydrabio Riche ou Perfecteur SPF30.Hydrabio Sérum a été formulé pour garantir une tolérance cutanée optimale. Ce sérum hydratant est formulé à un pH physiologique, sans silicone, sans alcool et non comédogène — noté 93/100 sur Yuka. Hydrabio Sérum respecte la diversité du microbiome cutané (1).Hydrabio Sérum est un sérum hydratant très efficace : +176 % (2) d’hydratation cutanée immédiate. Formulé avec des quantités précises d’actifs rigoureusement sélectionnés, comme l’acide hyaluronique et la glycérine, il restaure immédiatement le niveau d’hydratation de la peau. Sa formule est conçue pour s’adapter aux conditions réelles : votre peau reste hydratée quels que soient les défis quotidiens (variations de température et d’humidité, stress, sport, pollution).72 heures (3) d’hydratation : ce sérum hydratant renforce la fonction barrière de la peau. La niacinamide soutient la synthèse des lipides cutanés tandis que le sucre prébiotique nourrit le microbiome. En boostant l’hydratation immédiatement et sur la durée, le sérum laisse la peau confortable et éclatante.(1) Étude clinique, mesure de la diversité du microbiome après 4 jours sur 19 sujets(2) Mesure instrumentale de l’hydratation des joues sur 12 sujets immédiatement après application, différence statistiquement significative vs T0 (test t de Student) – Argentine 2024(3) Mesure instrumentale de l’hydratation sur l’avant-bras de 10 sujets pendant 72 h, différence statistiquement significative vs T0 (test t de Student) – Argentine 2024."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:editorial:6",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Pour quel type de peau Hydrabio Sérum est-il formulé ? Hydrabio Sérum est un sérum hydratant adapté à tous les types de peau : grasses, sensibles, sèches, normales ou mixtes. La déshydratation (lorsque la peau manque d’eau) est un état temporaire qui peut toucher toute personne, à tout âge. La peau déshydratée n’est pas un type de peau en soi ni propre à un type de peau particulier. Elle affecte le plus souvent le visage."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:editorial:7",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Quels ingrédients d’Hydrabio Sérum contribuent à une hydratation immédiate et durable ?"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:editorial:8",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Hydrabio Sérum est formulé avec des actifs ciblés pour maximiser son efficacité dès l’application et sur la durée.Hydratation immédiate : 2 fois plus d’acide hyaluronique de haut poids moléculaire (1) et 1,5 fois plus de glycérine (2) pour capter l’eau et prévenir sa perte. La technologie brevetée Aquagenium+ aide immédiatement la peau à réactiver ses mécanismes naturels d’hydratation en stimulant la circulation de l’eau.Hydratation durable : la niacinamide aide la peau à synthétiser ses propres lipides pour renforcer sa fonction barrière, tandis que le sucre prébiotique contribue à un microbiome sain et diversifié — essentiel pour une peau équilibrée et en bonne santé.(1) vs ancien Hydrabio Sérum et crèmes Hydrabio(2) vs Hydrabio Légère"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:routine:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "Hydrabio GEL MOUSSANT 400 ml"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:routine:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "Hydrabio LÉGÈRE 40 ml"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:routine:2",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "Photoderm XDEFENSE ULTRA-FLUID SPF50+ INVISIBLE 40 ml"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:breadcrumb:0",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Tous les produits > Hydrabio > Sérum"
+   }
+  ]
+ }
+}

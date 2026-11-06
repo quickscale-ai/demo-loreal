@@ -1,0 +1,119 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "vichy_mineral89_serum",
+  "brand": "Vichy",
+  "loreal": true,
+  "url": "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/peau-seche/serum-booster-mineral89",
+  "captured_at": "2026-10-03T22:17:19+00:00",
+  "source_sha256": "3a73c1f1afe04aff333dc408b30fe19638c41ec11b7d713b28238feea64ca83b",
+  "name": "Minéral 89 Sérum Booster Hydratant",
+  "price_eur": 29.9,
+  "size_label": "50 ml",
+  "variants": [
+   "30 ml",
+   "50 ml",
+   "75 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "PROPANEDIOL",
+   "GLYCERIN",
+   "PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN",
+   "BUTYLENE GLYCOL",
+   "CARBOMER",
+   "METHYL GLUCETH-20",
+   "SODIUM HYALURONATE",
+   "HYDROXYACETOPHENONE",
+   "CITRIC ACID",
+   "SODIUM POLYGLUTAMATE",
+   "CAPRYLYL GLYCOL",
+   "MALTODEXTRIN",
+   "BIOSACCHARIDE GUM-1"
+  ],
+  "related_urls": [
+   "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/peau-seche/hydrating-and-plumping-daily-booster-refill"
+  ],
+  "passages": [
+   {
+    "id": "p:vichy_mineral89_serum:breadcrumb:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Soins de la peau > Sérums pour le visage > Peau sèche"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:name:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Minéral 89 Sérum Booster Hydratant"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:price:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "29,90 € (59,80 €/100 ml.)"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:size:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 50 ml. Formats proposés : 30 ml, 50 ml, 75 ml."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:description:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Le Sérum MINÉRAL 89 de VICHY combine 89% d'eau volcanique et l'acide hyaluronique. La peau est hydratée et repulpée intensément pour un éclat retrouvé. Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale et un confort durable au quotidien."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:claims:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "claims",
+    "rank": 1,
+    "text": "Hypoallergénique. Testé sur peaux sensibles. Sans parfum. Sans alcool. Sans paraben."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:how_to_use:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquer chaque matin sur le visage et le cou, avant votre soin habituel. Texture : Gel."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:specifications:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Tout types de peaux. Double action hydratante en surface et en profondeur."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:inci:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER / EAU, PROPANEDIOL, GLYCERIN, PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN, BUTYLENE GLYCOL, CARBOMER, METHYL GLUCETH-20, SODIUM HYALURONATE, HYDROXYACETOPHENONE, CITRIC ACID, SODIUM POLYGLUTAMATE, CAPRYLYL GLYCOL, MALTODEXTRIN, BIOSACCHARIDE GUM-1 (F.I.L. N70066552/1)."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:brand_boilerplate:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Vichy formule ses soins avec l'eau volcanique de Vichy, testés sous contrôle dermatologique sur l'ensemble de la gamme."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:routine:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "Existe aussi en recharge : Minéral 89 Sérum Booster Recharge."
+   }
+  ]
+ }
+}

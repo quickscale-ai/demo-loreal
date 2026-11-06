@@ -1,0 +1,266 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "lrp_effaclar_serum",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/gammes/visage/effaclar/effaclar%C2%A0serum-a-l-acide-salicylique-ultra-concentre/LRP_060.html",
+  "captured_at": "2026-10-03T22:04:14Z",
+  "source_sha256": "f87974e8ba6d142142e8be3aaee0ea06a830c126f45703bf08d531a517d1ab75",
+  "name": "EFFACLAR Sérum à l'Acide Salicylique Ultra Concentré",
+  "price_eur": 34.3,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "ALCOHOL DENAT.",
+   "PROPANEDIOL",
+   "GLYCOLIC ACID",
+   "PENTYLENE GLYCOL",
+   "NIACINAMIDE",
+   "DIMETHYL ISOSORBIDE",
+   "SALICYLIC ACID",
+   "SODIUM HYDROXIDE",
+   "PPG-26-BUTETH-26",
+   "CITRIC ACID",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "PEG-30 GLYCERYL COCOATE",
+   "PEG-40 HYDROGENATED CASTOR OIL",
+   "PEG-60 HYDROGENATED CASTOR OIL",
+   "CAPRYLOYL SALICYLIC ACID",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "BIOSACCHARIDE GUM-1",
+   "MALTODEXTRIN",
+   "PHYTIC ACID",
+   "POLYQUATERNIUM-10",
+   "PARFUM / FRAGRANCE"
+  ],
+  "related_urls": [
+   "https://www.laroche-posay.fr/gammes/visage/effaclar/effaclar-gel-purifiant-micro-peeling-imperfections-severes/LRP_059.html",
+   "https://www.laroche-posay.fr/gammes/solaires/anthelios/anthelios-fluide-oil-control-uvmune-400-avec-parfum-spf50-/LRP_930.html"
+  ],
+  "passages": [
+   {
+    "id": "p:lrp_effaclar_serum:name:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "EFFACLAR Sérum à l'Acide Salicylique Ultra Concentré"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Description Le sérum visage ultra concentré Effaclar de La Roche Posay est anti imperfections, anti points noirs et agit comme un peeling quotidien sur les peaux à tendance acnéique de l'adulte."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Il agit sur: - Les imperfections - Les pores dilatés - Les marques persistantes Ce sérum visage est efficace sur les peaux à tendance acnéique grâce à 3 acides complémentaires ultra concentrés:"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:2",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "-L'Acide Salicylique: désincruste et resserre les pores."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:3",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "-Le LHA: lisse la surface de la peau en douceur."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:4",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "-L'Acide Glycolique: améliore le renouvellement de la peau."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:5",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "La formule de ce sérum visage anti imperfections micro peeling Effaclar de La Roche Posay est associée au niacinamide apaisant pour un effet peeling quotidien qui lutte contre les points noirs."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:6",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Bénéfices Imperfections, marques persistantes, pores dilatés. Peeling quotidien à base d'acide salicylique, d'acide glycolique, de LHA et de Niacinamide apaisant. Testé sur peaux adultes à tendance acnéique."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:7",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Résultats Immédiatement, la peau est fraîche, nette et purifiée. Jour après jour, la peau est matifiée, boutons (-45%), points noirs (-21%) et marques (-49%)*, même les plus persistants, sont visiblement réduits. La peau est transformée, le grain de peau amélioré. Les ridules sont atténuées. Réduit durablement les imperfections et évite leur réapparition. Tolérance testée sur 324 personnes."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:8",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "*Etude clinique, 51 sujets, 4 semaines d'application"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:description:9",
+    "sku": "lrp_effaclar_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Type de peau A tendance acnéique Grasse"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:benefits:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "BÉNÉFICES PRODUIT Anti-imperfections Anti-points noirs Peau grasse"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:benefits:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Acide Glycolique Purifie et exfolie la peau en profondeur et réduit les marques laissées par l'acné"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:benefits:2",
+    "sku": "lrp_effaclar_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Lha Micro-exfolie doucement et affine les pores"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:benefits:3",
+    "sku": "lrp_effaclar_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Acide Salicylique Resserre visiblement les pores et élimine les imperfections tenaces"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:how_to_use:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "QUANTITÉ Appliquer le sérum visage avec des mains propres, 1 à 2 pressions de votre sérum"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:how_to_use:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "QUAND Appliquer, quotidiennement le soir sur une peau parfaitement nettoyée avec l'Effaclar Gel moussant nettoyant visage ou l'Eau micellaire Effaclar pour peaux à tendance acnéique."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:how_to_use:2",
+    "sku": "lrp_effaclar_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "OÙ Visage et cou."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:how_to_use:3",
+    "sku": "lrp_effaclar_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "CONSEILS D’APPLICATION Masser délicatement du bout des doigts votre peau par des légers mouvements de l’intérieur vers l’extérieur. Eviter le contour des yeux. En cas de contact avec les yeux, rincer abondamment. Ne pas appliquer sur les peaux lésées et sur les plaies. En cas d’inconforts, espacer les applications. L’odeur de ce produit est liée à son efficacité.Elle disparaît dès l’application."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:inci:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "2039214 08 - INGREDIENTS : AQUA / WATER / EAU • ALCOHOL DENAT. • PROPANEDIOL • GLYCOLIC ACID • PENTYLENE GLYCOL • NIACINAMIDE • DIMETHYL ISOSORBIDE • SALICYLIC ACID • SODIUM HYDROXIDE • PPG-26-BUTETH-26 • CITRIC ACID • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • PEG-30 GLYCERYL COCOATE • PEG-40 HYDROGENATED CASTOR OIL • PEG-60 HYDROGENATED CASTOR OIL • CAPRYLOYL SALICYLIC ACID • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • BIOSACCHARIDE GUM-1 • MALTODEXTRIN • PHYTIC ACID • POLYQUATERNIUM-10 • PARFUM / FRAGRANCE (F.I.L. N70088135/1)."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:size:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Une taille disponible : 30 ml - 34,30 € (114,33 €/100 ml.)"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:price:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "34,30 € (114,33 €/100 ml.)"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:specifications:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "TRI ET ENVIRONNEMENT QUALITÉS ET CARACTÉRISTIQUES ENVIRONNEMENTALES ÉTUI Emballage non compostable Emballage ne contenant pas de matière recyclée* Non recyclable Emballage non rechargeable FLACON Emballage non compostable Emballage ne contenant pas de matière recyclée* Non recyclable Emballage non rechargeable * Selon le référentiel CITEO"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:specifications:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "SPÉCIFICATIONS DU PRODUIT Type de produit : Sérum visage anti imperfections peeling quotidien Problèmes ciblés : Imperfections, marques persistantes, pores dilatés Recommandé pour :Visage & Cou Ingrédients clés : Acide Glycolique, LHA et Acide Salicylique Taille : 30ml"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:brand_boilerplate:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "RECOMMANDÉ PAR DES DERMATOLOGUES"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:brand_boilerplate:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   },
+   {
+    "id": "p:lrp_effaclar_serum:brand_boilerplate:2",
+    "sku": "lrp_effaclar_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Les listes d’ingrédients entrant dans la composition des produits de notre marque sont régulièrement mises à jour. Avant d’utiliser un produit de notre marque, vous êtes invités à lire la liste d’ingrédients figurant sur son emballage afin de vous assurer que les ingrédients sont adaptés à votre utilisation personnelle"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:editorial:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Effaclar Sérum, à l'Acide Salicylique Ultra Concentré : Sérum anti-imperfections effet peeling"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:routine:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "EFFACLAR GEL PURIFIANT MICRO-PEELING IMPERFECTIONS SÉVÈRES"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:routine:1",
+    "sku": "lrp_effaclar_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "ANTHELIOS FLUIDE OIL CONTROL UVMUNE 400 AVEC PARFUM SPF50+"
+   },
+   {
+    "id": "p:lrp_effaclar_serum:breadcrumb:0",
+    "sku": "lrp_effaclar_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Offres > Offres French Days > EFFACLAR Sérum à l'Acide Salicylique Ultra Concentré"
+   }
+  ]
+ }
+}

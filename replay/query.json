@@ -1,0 +1,66 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "query": "Je cherche un sérum pour peau sensible, sans parfum, à appliquer le matin sous ma crème solaire, à moins de 40 €.",
+  "sku": "lrp_hyalu_b5_serum",
+  "criteria": [
+   {
+    "id": "sensible",
+    "label": "Peau sensible",
+    "attribute": "peau_sensible",
+    "target": "oui",
+    "status": "explicite",
+    "note": "Champ « Type de peau » de la fiche : la mention « Sensible » y figure.",
+    "passage_id": "p:lrp_hyalu_b5_serum:specifications:1",
+    "enriched": {
+     "attribute": "peau_sensible",
+     "value": "oui",
+     "abstained": false,
+     "route": "validation_auto"
+    }
+   },
+   {
+    "id": "parfum",
+    "label": "Sans parfum",
+    "attribute": "sans_parfum",
+    "target": "oui",
+    "status": "absent",
+    "note": "Aucun champ ni mention « sans parfum ». Seul l'INCI permet de conclure, et il contient PARFUM / FRAGRANCE (position 32 sur 32).",
+    "passage_id": "p:lrp_hyalu_b5_serum:inci:0",
+    "enriched": {
+     "attribute": "sans_parfum",
+     "value": "non",
+     "abstained": false,
+     "route": "validation_auto"
+    }
+   },
+   {
+    "id": "spf",
+    "label": "Matin, sous SPF",
+    "attribute": "compatible_sous_spf",
+    "target": "oui",
+    "status": "absent",
+    "note": "Aucune mention de protection solaire. Le matin n'apparaît que dans les conseils d'application.",
+    "passage_id": "p:lrp_hyalu_b5_serum:how_to_use:0",
+    "enriched": {
+     "attribute": "compatible_sous_spf",
+     "value": "oui",
+     "abstained": false,
+     "route": "revue_rapide"
+    }
+   },
+   {
+    "id": "prix",
+    "label": "Prix < 40 €",
+    "attribute": null,
+    "target": "<40",
+    "status": "explicite",
+    "note": "Prix affiché : 41,10 € pour 30 ml, au-dessus de 40 €.",
+    "passage_id": "p:lrp_hyalu_b5_serum:price:0",
+    "enriched": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,293 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "avene_cicalfate_serum",
+  "brand": "Avène",
+  "loreal": false,
+  "url": "https://www.eau-thermale-avene.fr/p/cicalfate-serum-restaurateur-intense-3282770393620-14c39aab",
+  "captured_at": "2026-10-03T22:01:11Z",
+  "source_sha256": "f2bb231a131757d15e2e64e47a840ee10ff68601850e0e25e38defa066821a67",
+  "name": "Sérum réparateur intense",
+  "price_eur": null,
+  "size_label": "30ml",
+  "variants": [
+   "Flacon pipette 30ml"
+  ],
+  "inci": [
+   "AVENE THERMAL SPRING WATER (AVENE AQUA)",
+   "GLYCERIN",
+   "PENTYLENE GLYCOL",
+   "PROPANEDIOL",
+   "1,2-HEXANEDIOL",
+   "PANTHENOL",
+   "4-T-BUTYLCYCLOHEXANOL",
+   "OCTYLDODECANOL",
+   "PANTOLACTONE",
+   "BETAINE",
+   "CITRIC ACID",
+   "HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER",
+   "POLYSORBATE 60",
+   "SODIUM CITRATE",
+   "SORBITAN ISOSTEARATE",
+   "WATER (AQUA)",
+   "XANTHAN GUM"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:avene_cicalfate_serum:name:0",
+    "sku": "avene_cicalfate_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Sérum réparateur intense"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:name:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Cicalfate Sérum réparateur intense"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:0",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Le 1er* sérum CICALFATE qui répare un mois de dommages en une application** et restaure durablement les mécanismes de réparation de la peau***."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Au quotidien, la peau est sursollicitée par de nombreuses agressions, ses systèmes de défense s’épuisent. La barrière cutanée est fragilisée, elle s’altère, entraînant des signes visibles : déshydratation, sécheresse, teint terne, imperfections, rougeurs. Elle devient inconfortable et vieillit prématurément."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:2",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Expert de la réparation cutanée****, EAU THERMALE AVENE propose une réponse innovante pour réparer**** la barrière cutanée fragilisée et la renforcer jour après jour : CICALFATE+ Sérum Réparateur Intense."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:3",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Ce sérum visage hautement concentré en Eau Thermale d'Avène, Pro-Vitamine B5 et TRP-Regulin™, répare la barrière cutanée en 1 jour** et la renforce . La peau retrouve sa capacité d’auto-réparation en 3 semaines. Les mécanismes de réparation de la peau sont restaurés durablement. Il apaise immédiatement et durablement les tiraillements et sensations d’inconfort : -84% d'irritation cutanée en 1 semaine***."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:4",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Immédiatement après application, les rougeurs, la sécheresse cutanée les inconforts sont réduits****."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:5",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "La peau est hydratée durant 24h*****. Après 3 semaines d'utilisation******, la peau est plus souple, apaisée, lisse. La peau est protégée des agressions quotidiennes."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:6",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sa formule - sans alcool, sans parfum et sans silicones - assure une haute tolérance. Elle est composée à 96% d’ingrédients d’origine naturelle et convient à tous les types de peaux."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:7",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sa texture gel frais lacté offre un fini velours et redonne confort à la peau."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:8",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Premier geste de la routine de soins, il peut être utilisé en cure, matin et soir durant 1 mois, en association avec votre crème de jour habituelle. Visage, cou et contour des yeux."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:9",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Le mot de l’expert Une formule haute tolérance pour réparer, apaiser et hydrater les peaux fragilisées par les agressions quotidiennes."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:10",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "CICALFATE+ SERUM REPARATEUR INTENSE restaure durablement les mécanismes de réparation de la peau. La peau retrouve sa capacité d'auto-réparation."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:benefits:0",
+    "sku": "avene_cicalfate_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Hydrate - Apaise - Répare"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:benefits:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Une DOUBLE EFFICACITÉ RÉPARATRICE ET APAISANTE prouvée, même 3 semaines après arrêt du produit******."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:benefits:2",
+    "sku": "avene_cicalfate_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Apaisant, hydratant, réparateur."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:benefits:3",
+    "sku": "avene_cicalfate_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "• RESTAURE les mécanismes de réparation de la peau. RÉPARE**** et RENFORCE durablement la barrière cutanée. • APAISE immédiatement et durablement les tiraillements et sensations d’inconfort. • HYDRATE 24H*****. Redonne confort à la peau."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:benefits:4",
+    "sku": "avene_cicalfate_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "*Des laboratoires EAU THERMALE AVENE. ** étude clinique sur 30 sujets sur 4 semaines ***Autoévaluation, 35 sujets, 2 application par jour pendant 21 jours. ****Favorise la réparation épidermique. *****Cinétique IH, application unique, 32 sujets. ******Questionnaire d'acceptabilité, 35 sujets, 2 applications par jour pendant 21 jours."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:benefits:5",
+    "sku": "avene_cicalfate_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Pro-vitamine B5 Hydrate, renforce et restaure la fonction barrière cutanée."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:benefits:6",
+    "sku": "avene_cicalfate_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "TRP-Regulin™ Apaise les sensations d'inconfort en inhibant la neurosensibilité."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:benefits:7",
+    "sku": "avene_cicalfate_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Résultats Répare 1 mois de dommages en 1 application* Restaure les mécanismes de réparation de la peau² Effet apaisant immédiat³ Hydratation 24h⁴ * étude clinique sur 30 sujets sur 4 semaines ²Restauration de la barrière cutanée. ³Questionnaire d'acceptabilité, 35 sujets, 2 applications par jour pendant 21 jours. ⁴Cinétique IH, application unique, 32 sujets. Afficher les sourcesMasquer les sources"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:how_to_use:0",
+    "sku": "avene_cicalfate_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Fréquence d’utilisation 2 fois par jour A l’aide de la pipette, appliquer quelques gouttes matin et soir, sur le visage, le cou et le contour des yeux, avant le soin habituel."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:inci:0",
+    "sku": "avene_cicalfate_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AVENE THERMAL SPRING WATER (AVENE AQUA). GLYCERIN. PENTYLENE GLYCOL. PROPANEDIOL. 1,2-HEXANEDIOL. PANTHENOL. 4-T-BUTYLCYCLOHEXANOL. OCTYLDODECANOL. PANTOLACTONE. BETAINE. CITRIC ACID. HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER. POLYSORBATE 60. SODIUM CITRATE. SORBITAN ISOSTEARATE. WATER (AQUA). XANTHAN GUM"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:size:0",
+    "sku": "avene_cicalfate_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Flacon pipette Flacon pipette 30ml"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:specifications:0",
+    "sku": "avene_cicalfate_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Idéal pour Adolescents - adultes"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:specifications:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Type de peau Peau sensible - peau fragilisée - peau irritée"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:specifications:2",
+    "sku": "avene_cicalfate_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Besoin Réparation cutanée - anti-irritations"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:specifications:3",
+    "sku": "avene_cicalfate_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Fabriqué en France"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:specifications:4",
+    "sku": "avene_cicalfate_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Avantage de la texture Sa texture gel frais lacté offre un fini velours et redonne confort à la peau. Senteur du contenu Sans parfum"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:specifications:5",
+    "sku": "avene_cicalfate_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Fiche produit relative aux qualités et caractéristiques environnementales Emballage ne contenant pas de matière recyclée Emballage non recyclable Consigne de tri"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:specifications:6",
+    "sku": "avene_cicalfate_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Impact environnemental Formule Formule biodégradable* Formulé pour limiter l’impact sur le milieu aquatique** Formule contenant 96% d’ingrédients d’origine naturelle *Selon un test OCDE 301 ou méthode indice de biodégradabilité **Selon un test OCDE 301 et classement CLP de la formule Packaging Emballage majoritairement recyclable* *hors étui Fabrication Fabriqué dans une usine certifiée pour l’environnement* Formule fabriquée à froid sans aucune chauffe *Selon la norme ISO 14001 et/ou 50001 Transport Faible impact CO2 du transport des matières premières"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:specifications:7",
+    "sku": "avene_cicalfate_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Impact sociétal Impact sociétal Produit fabriqué et conditionné dans une usine française aux normes sociales exigeantes Eau Thermale Avène est une marque des Laboratoires Pierre Fabre, labellisé au plus haut niveau Exemplaire du label Engagé RSE et Responsibility Europe d’AFNOR Certification, consolidant ainsi un engagement de longue date dans la contribution au développement durable. Produit ne contenant pas d’ingrédient ou de dérivé d’origine animale"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:specifications:8",
+    "sku": "avene_cicalfate_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "96% d'ingrédients d'origine naturelle."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:brand_boilerplate:0",
+    "sku": "avene_cicalfate_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Le Green Impact Index est un outil d’affichage de l’impact environnemental et sociétal des produits cosmétiques, des compléments alimentaires ainsi que des produits de bien-être et santé familiale, basé sur la méthodologie décrite dans l’AFNOR Spec 2215. Développé en collaboration par 21 entreprises, associations et fédérations, il évalue vos produits sur plus de 50 critères pour toujours plus de transparence !"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:brand_boilerplate:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Il est recommandé au consommateur de vérifier systématiquement la composition du produit avant son achat."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:breadcrumb:0",
+    "sku": "avene_cicalfate_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Soins visage > Soins peau adulte > Sérum réparateur intense"
+   }
+  ]
+ }
+}

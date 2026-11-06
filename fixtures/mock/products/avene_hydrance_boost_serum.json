@@ -1,0 +1,97 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "avene_hydrance_boost_serum",
+  "brand": "Avène",
+  "loreal": false,
+  "url": "https://www.eau-thermale-avene.fr/p/serum-concentre-hydratant-3282770388954-14c39aab",
+  "captured_at": "2026-10-03T22:29:52+00:00",
+  "source_sha256": "70661416cd7038bf3c3ac6b5dd283def9b4c8395d3088a10356ceb28ab360e9d",
+  "name": "Hydrance Boost Sérum concentré hydratant",
+  "price_eur": 28.5,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AVENE THERMAL SPRING WATER (AVENE AQUA)",
+   "PROPANEDIOL",
+   "GLYCERIN",
+   "PENTYLENE GLYCOL",
+   "DIGLYCERIN",
+   "1,2-HEXANEDIOL",
+   "NIACINAMIDE",
+   "SODIUM HYALURONATE",
+   "BETAINE",
+   "CITRIC ACID",
+   "FRAGRANCE (PARFUM)",
+   "PCA",
+   "POLYGLYCERYL-4 CAPRATE",
+   "SCLEROTIUM GUM",
+   "SODIUM CITRATE",
+   "SODIUM HYDROXIDE",
+   "WATER (AQUA)"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:avene_hydrance_boost_serum:breadcrumb:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Visage > Sérums"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:name:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Hydrance Boost Sérum concentré hydratant"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:price:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "28,50 € (95,00 €/100 ml.)"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:size:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:description:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum concentré hydratant à l'acide hyaluronique et à la vitamine B3. Hydrate intensément et durablement les peaux déshydratées."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:how_to_use:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Fréquence d'utilisation : Quotidien. Appliquer matin et/ou soir sur le visage, le cou et le décolleté, seule ou après votre sérum."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:inci:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AVENE THERMAL SPRING WATER (AVENE AQUA). PROPANEDIOL. GLYCERIN. PENTYLENE GLYCOL. DIGLYCERIN. 1,2-HEXANEDIOL. NIACINAMIDE. SODIUM HYALURONATE. BETAINE. CITRIC ACID. FRAGRANCE (PARFUM). PCA. POLYGLYCERYL-4 CAPRATE. SCLEROTIUM GUM. SODIUM CITRATE. SODIUM HYDROXIDE. WATER (AQUA)"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:brand_boilerplate:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Eau Thermale Avène, marque dermatologique dédiée aux peaux sensibles, propose des soins experts issus de l'eau thermale d'Avène."
+   }
+  ]
+ }
+}

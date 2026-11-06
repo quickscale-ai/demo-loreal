@@ -1,0 +1,843 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "query": "Je cherche un sérum pour peau sensible, sans parfum, à appliquer le matin sous ma crème solaire, à moins de 40 €.",
+  "disclaimer": "Simulation, hors moteurs réels : même modèle, sans web ni outils. Même question, 12 tirages par condition, ordre du catalogue décalé à chaque tirage.",
+  "p_value": 1.0,
+  "p_value_test": "Fisher exact, bilatéral",
+  "p_values": [
+   {
+    "label": "Produit L'Oréal le plus recommandé après enrichissement",
+    "sku": "lrp_hyalu_b5_serum",
+    "avant": 0,
+    "apres": 0,
+    "p_value": 1.0
+   },
+   {
+    "label": "Produit le plus recommandé après enrichissement",
+    "sku": "svr_b3_ampoule_hydra",
+    "avant": 10,
+    "apres": 12,
+    "p_value": 0.478261
+   }
+  ],
+  "headline": "Après enrichissement, l'assistant recommande [B3] Ampoule Hydra dans 12 tirages sur 12 (avant : 10), seul produit du panel dont les données enrichies (après revue) prouvent les 4 critères ; aucun produit L'Oréal du panel ne les prouve tous : Hyalu B5 contient du parfum et dépasse 40 € ; Minéral 89 n'affiche pas de prix et ne précise pas l'usage sous protection solaire.",
+  "focus_sku": "lrp_hyalu_b5_serum",
+  "protocol": "12 tirages par condition, rotation complète de l'ordre des 6 fiches (chaque fiche occupe chaque position 2 fois), ordre identique dans les deux conditions. Seules les fiches L'Oréal enrichies (Hyalu B5, Minéral 89) reçoivent un bloc « Attributs structurés », limité aux valeurs validées automatiquement ; aucun bloc pour les fiches non enrichies. Même modèle que l'Atelier, sans web ni outils.",
+  "model": "claude-sonnet-5-5",
+  "temperature": 1.0,
+  "n_runs": 12,
+  "candidates": [
+   "lrp_hyalu_b5_serum",
+   "vichy_mineral89_serum",
+   "avene_cicalfate_serum",
+   "bioderma_hydrabio_serum",
+   "svr_b3_ampoule_hydra",
+   "theordinary_hyaluronic_acid_b5"
+  ],
+  "enriched_skus": [
+   "lrp_hyalu_b5_serum",
+   "vichy_mineral89_serum"
+  ],
+  "conditions": {
+   "avant": {
+    "label": "Avant : pages publiques",
+    "input_description": "Fiches publiques des 6 produits (nom, marque, prix, format, description, allégations affichées), sans attribut enrichi.",
+    "runs": [
+     {
+      "run_idx": 0,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix affiché de 29,70 €, sous le plafond de 40 €.",
+       "Formulé pour les peaux sensibles et testé sous contrôle dermatologique sur peaux sensibles.",
+       "Mention explicite « sans parfum » (formule à 12 ingrédients seulement).",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire.",
+       "Niacinamide 5 % et 3 acides hyaluroniques pour hydrater et renforcer la barrière cutanée."
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix (41,10 €) supérieur au budget de 40 € et aucune mention « sans parfum » ni test sur peaux sensibles dans la fiche."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Très adapté aux peaux sensibles et sans parfum, mais le prix n'est pas affiché, donc impossible de confirmer qu'il respecte le budget de moins de 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et il est conçu comme soin réparateur en cure matin et soir, plus qu'un simple sérum hydratant sous solaire."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix correct (26,70 €) et texture non grasse, mais la fiche ne précise pas « sans parfum » ni test sur peaux sensibles, deux critères demandés."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas (9 €), mais la fiche ne mentionne ni « sans parfum » ni adaptation aux peaux sensibles, et sa texture est décrite comme riche, moins idéale sous une crème solaire."
+       }
+      ]
+     },
+     {
+      "run_idx": 1,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix affiché de 29,70 €, donc sous le budget de 40 €.",
+       "Formulé pour les peaux sensibles et testé sous contrôle dermatologique sur peaux sensibles ; fiche explicitement « sans parfum ».",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire (application biquotidienne testée dans les études).",
+       "Niacinamide à 5 % et 3 acides hyaluroniques pour hydrater et renforcer la barrière cutanée ; non comédogène, formule courte de 12 ingrédients."
+      ],
+      "rejected": [
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Convient aux peaux sensibles et est sans parfum, mais le prix n'est pas affiché, donc impossible de confirmer qu'il reste sous 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et il est conçu comme soin réparateur en cure de 1 mois plutôt que comme simple sérum du quotidien."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix correct (26,70 €) et bonne tolérance, mais la fiche n'indique pas qu'il est sans parfum, un critère explicite de la demande."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas (9 €) mais la fiche ne mentionne ni peau sensible ni absence de parfum, et sa texture riche est moins adaptée sous une crème solaire."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Dépasse le budget avec 41,10 € et n'est pas indiqué comme sans parfum ni spécifiquement pour peaux sensibles."
+       }
+      ]
+     },
+     {
+      "run_idx": 2,
+      "recommended_sku": "bioderma_hydrabio_serum",
+      "reasons": [
+       "Prix de 26,70 €, bien en dessous du plafond de 40 €.",
+       "Très bonne tolérance cutanée, convient à tous les types de peau et non comédogène : adapté à une peau sensible.",
+       "Texture gel ultra-fraîche, pénètre instantanément, non collante et non grasse, et décrite comme très bonne base de maquillage : elle ne perturbe donc pas l'application d'une crème solaire par-dessus le matin.",
+       "Efficacité d'hydratation prouvée en conditions réelles (pollution, stress, changements de température) et renforcement de la barrière cutanée.",
+       "Point de vigilance : la fiche ne mentionne pas explicitement « sans parfum » ; si ce critère est impératif, la liste INCI est à vérifier avant achat. SVR, seule alternative respectant explicitement tous les critères, reste le choix le plus sûr sur ce point précis."
+      ],
+      "rejected": [
+       {
+        "sku": "svr_b3_ampoule_hydra",
+        "reason": "Alternative très proche (sans parfum, testé sur peaux sensibles, texture légère non collante, 29,70 €) ; écartée seulement car Bioderma offre une texture explicitement pensée pour passer sous d'autres soins et un meilleur volume (40 ml contre 30 ml) pour un usage quotidien, mais c'est un excellent second choix, voire le premier si « sans parfum » est non négociable."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais positionné comme sérum réparateur en cure, avec un prix non affiché, donc impossible de confirmer le budget de 40 €."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et testé sur peaux sensibles, mais le prix n'est pas affiché, donc impossible de vérifier qu'il reste sous 40 €."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix de 41,10 € supérieur au budget de 40 €, et fiche orientée anti-rides sans mention de « sans parfum »."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Fiche sans mention de tolérance pour peau sensible ni de « sans parfum », et texture décrite comme riche, moins adaptée sous une crème solaire."
+       }
+      ]
+     },
+     {
+      "run_idx": 3,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Formulé pour les peaux sensibles et testé sous contrôle dermatologique sur peaux sensibles",
+       "Explicitement sans parfum",
+       "Prix de 29,70 € (30 ml), donc sous le budget de 40 €",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire",
+       "Niacinamide à 5 % et 3 acides hyaluroniques pour hydrater et renforcer la barrière cutanée, non comédogène"
+      ],
+      "rejected": [
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix correct (26,70 €) et texture adaptée sous solaire, mais la fiche ne précise ni l'absence de parfum ni une formulation dédiée aux peaux sensibles (seulement « très bonne tolérance »)."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Bon prix (9 €) mais la fiche ne mentionne ni peau sensible ni absence de parfum, et sa texture est décrite comme riche, moins idéale sous une crème solaire."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix de 41,10 € supérieur au budget de 40 €, et la fiche n'indique pas l'absence de parfum."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et testé sur peaux sensibles, mais le prix n'est pas affiché donc impossible de confirmer qu'il reste sous 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et il s'agit d'un sérum réparateur plutôt que d'un simple hydratant du matin, utilisé en cure."
+       }
+      ]
+     },
+     {
+      "run_idx": 4,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Formulé pour les peaux sensibles et testé sous contrôle dermatologique sur peaux sensibles.",
+       "Explicitement « sans parfum », avec seulement 12 ingrédients.",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire ; non comédogène.",
+       "Prix de 29,70 € pour 30 ml, sous le plafond de 40 €.",
+       "Niacinamide 5 % et 3 acides hyaluroniques pour hydrater et renforcer la barrière cutanée."
+      ],
+      "rejected": [
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Peu pertinent pour une peau sensible : aucune mention de tolérance ni de l'absence de parfum sur la fiche, et texture décrite comme « riche » ; en revanche très abordable (9 €)."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Dépasse le budget (41,10 €) et la fiche ne précise pas qu'il est sans parfum."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Convient aux peaux sensibles et est sans parfum, mais le prix n'est pas affiché, donc impossible de vérifier le budget de 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais prix non affiché (budget invérifiable) et c'est un sérum réparateur en cure, plus orienté réparation que soin hydratant du matin."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix compatible (26,70 €) et très bonne tolérance, mais la fiche ne mentionne pas l'absence de parfum ni la destination aux peaux sensibles."
+       }
+      ]
+     },
+     {
+      "run_idx": 5,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix de 29,70 € pour 30 ml, donc sous le plafond de 40 €.",
+       "Formulé pour les peaux sensibles, testé sous contrôle dermatologique sur peaux sensibles.",
+       "Mention explicite « sans parfum » dans les allégations.",
+       "Texture légère et non collante, adaptée à une application matinale avant la crème solaire.",
+       "Hydratation avec 3 acides hyaluroniques et 5 % de niacinamide, formule courte de 12 ingrédients, non comédogène."
+      ],
+      "rejected": [
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas (9 €) mais la fiche ne mentionne ni peau sensible ni absence de parfum, et la texture est décrite comme riche, donc moins adaptée sous une crème solaire."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Avec 41,10 €, il dépasse le budget de 40 €, et la fiche n'indique pas explicitement « sans parfum »."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Il est sans parfum, hypoallergénique et testé sur peaux sensibles, mais son prix n'est pas affiché, donc on ne peut pas vérifier qu'il reste sous 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Il est sans parfum et haute tolérance, mais son prix n'est pas affiché, ce qui empêche de confirmer le budget, et il est positionné comme soin réparateur en cure plutôt qu'hydratant du matin."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix de 26,70 € compatible et bonne tolérance, mais la fiche ne précise ni peau sensible ni absence de parfum, un critère explicite de la demande."
+       }
+      ]
+     },
+     {
+      "run_idx": 6,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix affiché de 29,70 €, donc sous la limite de 40 €.",
+       "Explicitement sans parfum, testé sous contrôle dermatologique sur peaux sensibles et formulé pour les peaux sensibles.",
+       "Texture légère et non collante, adaptée à une application matinale avant la crème solaire.",
+       "Formule courte (12 ingrédients) avec 5 % de niacinamide et 3 acides hyaluroniques pour hydrater, apaiser et renforcer la barrière cutanée."
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix de 41,10 € supérieur au budget de 40 €, et la fiche ne mentionne ni l'absence de parfum ni la tolérance des peaux sensibles."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et testé sur peaux sensibles, mais le prix n'est pas affiché, donc impossible de garantir qu'il respecte le budget de 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché et c'est un sérum réparateur conçu en cure matin et soir pour peaux fragilisées, moins adapté à un simple usage quotidien sous crème solaire."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix de 26,70 € et bonne tolérance, mais la fiche ne précise pas l'absence de parfum, un critère explicite de la demande."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix de 9 €, mais la fiche ne mentionne ni l'absence de parfum ni l'adaptation aux peaux sensibles, et sa texture est décrite comme riche, moins confortable sous une crème solaire."
+       }
+      ]
+     },
+     {
+      "run_idx": 7,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix affiché de 29,70 €, donc sous le plafond de 40 €.",
+       "Formulé pour les peaux sensibles : testé sous contrôle dermatologique sur peaux sensibles, convient même aux peaux sensibles.",
+       "Mention explicite « Sans parfum ».",
+       "Texture légère et non collante, adaptée à une application matinale sous une crème solaire.",
+       "Hydratation et apaisement (niacinamide 5 % + 3 acides hyaluroniques), non comédogène."
+      ],
+      "rejected": [
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Très bien adapté (sans parfum, testé peaux sensibles, texture ultra-légère), mais le prix n'est pas affiché, donc impossible de confirmer qu'il reste sous 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais prix non affiché (budget non vérifiable) et il est conçu comme une cure réparatrice matin et soir pour peaux fragilisées, moins pertinent comme simple sérum du matin."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix correct (26,70 €) et bonne tolérance, mais la fiche ne mentionne pas « sans parfum » ni un test spécifique sur peaux sensibles."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas (9 €) mais la fiche ne garantit ni l'absence de parfum ni l'adaptation aux peaux sensibles, et la texture est décrite comme « riche »."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix de 41,10 €, au-dessus du budget de 40 €, et la fiche n'indique ni « sans parfum » ni test sur peaux sensibles."
+       }
+      ]
+     },
+     {
+      "run_idx": 8,
+      "recommended_sku": "bioderma_hydrabio_serum",
+      "reasons": [
+       "Prix affiché de 26,70 €, donc sous le plafond de 40 €.",
+       "Formule à très bonne tolérance cutanée, non comédogène, convenant à tous les types de peau, dont les peaux sensibles.",
+       "Texture gel ultra-fraîche, qui pénètre instantanément, non collante et non grasse, et décrite comme une très bonne base de maquillage : elle convient bien à une application le matin avant la crème solaire.",
+       "Limite : la fiche ne précise pas explicitement « sans parfum » ; c'est le seul critère que je ne peux pas confirmer pour ce produit, à vérifier sur la liste d'ingrédients."
+      ],
+      "rejected": [
+       {
+        "sku": "svr_b3_ampoule_hydra",
+        "reason": "Très bon candidat (29,70 €, sans parfum, testé sur peaux sensibles, texture légère non collante), mais je le place en second car il est surtout orienté anti-âge et contient 5 % de niacinamide ; si la mention « sans parfum » est décisive pour vous, il est le choix le plus sûr, car elle est explicitement affichée."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Écarté : 41,10 € dépasse le budget de 40 €, et la fiche ne mentionne ni « sans parfum » ni la sensibilité cutanée."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Écarté : le prix n'est pas affiché, donc impossible de vérifier le budget de 40 €, même si la formule est sans parfum et testée sur peaux sensibles."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Écarté : prix non affiché (budget invérifiable) et produit pensé comme cure réparatrice de la barrière cutanée plutôt que comme sérum hydratant du matin, bien qu'il soit sans parfum et haute tolérance."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Écarté : la fiche ne mentionne ni « sans parfum » ni la tolérance des peaux sensibles, et la texture est décrite comme riche, moins adaptée sous une crème solaire."
+       }
+      ]
+     },
+     {
+      "run_idx": 9,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Formulé pour les peaux sensibles et testé sous contrôle dermatologique sur peaux sensibles.",
+       "Explicitement « sans parfum » (mentionné deux fois dans la fiche).",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire.",
+       "Prix de 29,70 €, inférieur au plafond de 40 €.",
+       "Non comédogène, formule courte (12 ingrédients) avec 5 % de niacinamide et 3 acides hyaluroniques pour hydrater et apaiser."
+      ],
+      "rejected": [
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix et texture compatibles (26,70 €, gel non collant, bonne base), mais la fiche ne précise ni usage sur peau sensible ni absence de parfum, ce qui ne permet pas de valider deux de tes critères."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Très abordable (9 €), mais la fiche décrit une texture riche et ne mentionne ni peau sensible ni absence de parfum ; la version plus légère est une autre référence."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Dépasse le budget avec 41,10 € et la fiche ne mentionne ni peau sensible ni absence de parfum."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum, hypoallergénique, testé sur peaux sensibles et texture ultra-légère, mais le prix n'est pas affiché, donc impossible de confirmer qu'il reste sous 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché et c'est un sérum réparateur plutôt conçu pour les peaux fragilisées, utilisé en cure matin et soir, moins ciblé sur ta demande."
+       }
+      ]
+     },
+     {
+      "run_idx": 10,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix de 29,70 €, donc sous la limite de 40 €.",
+       "Formulé pour les peaux sensibles, testé sous contrôle dermatologique sur peaux sensibles, et explicitement « sans parfum ».",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire ; la fiche indique une application biquotidienne (matin et soir) dans les tests.",
+       "Formule courte (12 ingrédients), non comédogène, avec 5 % de niacinamide et 3 acides hyaluroniques pour hydrater et renforcer la barrière cutanée."
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Vendu 41,10 €, au-dessus du budget de 40 €, et la fiche ne mentionne ni « sans parfum » ni formulation spécifique pour peaux sensibles."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Convient aux peaux sensibles et sans parfum, mais le prix n'est pas affiché, donc impossible de confirmer qu'il respecte le budget de 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et il est conçu comme un soin réparateur en cure, plus orienté réparation que routine matinale sous SPF."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix de 26,70 € compatible, mais la fiche ne mentionne ni « sans parfum » ni pour peaux sensibles (seulement « très bonne tolérance »), donc l'un des critères n'est pas confirmé."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Peu cher (9 €), mais la fiche n'indique ni « sans parfum » ni adaptation aux peaux sensibles, et sa texture est décrite comme riche, moins idéale sous une crème solaire."
+       }
+      ]
+     },
+     {
+      "run_idx": 11,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix de 29,70 €, donc sous le plafond de 40 €.",
+       "Formulé pour les peaux sensibles (testé sous contrôle dermatologique sur peaux sensibles), non comédogène.",
+       "Explicitement « sans parfum ».",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire.",
+       "Hydratation (3 acides hyaluroniques) et renfort de la barrière cutanée grâce à 5 % de niacinamide."
+      ],
+      "rejected": [
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas (9 €) mais la fiche ne mentionne ni peau sensible ni absence de parfum, et la texture est décrite comme riche, moins adaptée sous une crème solaire."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "À 41,10 €, il dépasse le budget de 40 € et la fiche ne précise pas l'absence de parfum."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Convient aux peaux sensibles, sans parfum et très léger, mais le prix n'est pas affiché : impossible de confirmer qu'il respecte le budget de 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et c'est un sérum réparateur en cure plutôt qu'un hydratant matinal léger."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Texture gel légère et prix de 26,70 €, mais la fiche ne confirme pas l'absence de parfum, ce qui est un critère explicite de la demande."
+       }
+      ]
+     }
+    ],
+    "note": "Fréquences enregistrées : [B3] Ampoule Hydra 10/12, Hydrabio Sérum 2/12."
+   },
+   "apres": {
+    "label": "Après : pages enrichies",
+    "input_description": "Mêmes fiches, plus les attributs validés automatiquement pour les produits L'Oréal enrichis (Hyalu B5 Sérum Suractivé, MINÉRAL 89 Sérum Booster quotidien fortifiant et repulpant). Concurrents inchangés.",
+    "runs": [
+     {
+      "run_idx": 0,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix affiché de 29,70 €, donc sous le plafond de 40 €.",
+       "Formulé pour les peaux sensibles et testé sous contrôle dermatologique sur peaux sensibles.",
+       "Mention explicite « sans parfum » sur la fiche.",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire ; application biquotidienne testée (matin et soir).",
+       "Limite : la compatibilité sous protection solaire n'est pas explicitement indiquée sur la fiche, mais la texture légère non collante s'y prête."
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Contient du parfum (« sans parfum : non »), ce qui ne répond pas au critère, et son prix de 41,10 € dépasse les 40 €."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et hypoallergénique, mais le prix n'est pas affiché, donc impossible de confirmer qu'il reste sous 40 € ; SVR répond à tous les critères avec un prix vérifié."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché pour vérifier le budget, et c'est un sérum de cure réparatrice pour barrière fragilisée plutôt qu'un sérum quotidien."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix compatible (26,70 €) et bonne tolérance, mais la fiche ne mentionne ni l'absence de parfum ni l'adaptation spécifique aux peaux sensibles."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas (9,00 €), mais la fiche ne précise ni l'absence de parfum ni l'adaptation aux peaux sensibles, deux critères essentiels de la demande."
+       }
+      ]
+     },
+     {
+      "run_idx": 1,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix affiché de 29,70 €, donc sous le plafond de 40 €.",
+       "Sans parfum, explicitement indiqué dans la fiche.",
+       "Formulé pour les peaux sensibles : testé sous contrôle dermatologique sur peaux sensibles, texture légère et non collante qui convient même aux peaux sensibles.",
+       "Application biquotidienne (autoévaluations en application matin et soir), donc compatible avec un usage le matin ; texture légère et non collante adaptée au layering avant une crème solaire. La fiche ne mentionne toutefois pas explicitement la compatibilité sous protection solaire.",
+       "Formule courte (12 ingrédients), non comédogène, avec 5 % de niacinamide et 3 acides hyaluroniques pour hydrater et apaiser."
+      ],
+      "rejected": [
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et adapté matin et soir, mais le prix n'est pas affiché donc impossible de vérifier le budget de 40 €, et la compatibilité peau sensible n'est pas clairement renseignée dans les attributs structurés (seulement dans le texte) ; moins bien documenté que le SVR pour ce besoin."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et il est conçu comme une cure réparatrice de la barrière cutanée plutôt qu'un sérum hydratant du quotidien."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix OK (26,70 €) et très bonne tolérance, mais la fiche ne précise pas qu'il est sans parfum, un critère obligatoire."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas (9 €), mais la fiche ne mentionne ni l'absence de parfum ni l'adaptation aux peaux sensibles, et sa texture riche est moins adaptée à une application sous crème solaire."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Contient du parfum (sans parfum : non) et son prix de 41,10 € dépasse le budget de 40 €."
+       }
+      ]
+     },
+     {
+      "run_idx": 2,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Formulé pour les peaux sensibles et testé sous contrôle dermatologique sur peaux sensibles.",
+       "Explicitement sans parfum.",
+       "Prix de 29,70 €, donc sous le plafond de 40 €.",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire (application biquotidienne testée).",
+       "Niacinamide à 5 % et 3 acides hyaluroniques : apaise les tiraillements et rougeurs et renforce la barrière cutanée."
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix de 41,10 €, au-dessus du budget de 40 €, et non sans parfum selon la fiche."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et très bien toléré, mais le prix n'est pas affiché, donc impossible de vérifier le budget de 40 €, et la compatibilité sous protection solaire n'est pas renseignée."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et adapté aux peaux fragilisées, mais le prix n'est pas affiché (budget non vérifiable) et il est conçu comme une cure réparatrice plus que comme un sérum d'hydratation quotidienne."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix compatible et bonne tolérance, mais la fiche ne précise pas qu'il est sans parfum, un critère obligatoire."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas, mais la fiche ne mentionne ni l'absence de parfum ni l'adaptation aux peaux sensibles, et sa texture est décrite comme riche."
+       }
+      ]
+     },
+     {
+      "run_idx": 3,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Formulé pour les peaux sensibles, testé sous contrôle dermatologique sur peaux sensibles : le critère « peau sensible » est clairement rempli.",
+       "Explicitement « sans parfum » (mentionné deux fois dans la fiche), ce qui répond au critère sans parfum.",
+       "Prix de 29,70 € : sous le plafond de 40 €.",
+       "Texture légère et non collante (niacinamide 5 % + 3 acides hyaluroniques), donc adaptée à une application le matin avant la crème solaire. Point de vigilance : la fiche ne précise pas formellement la compatibilité sous protection solaire, mais la texture légère et non collante s'y prête bien.",
+       "Non comédogène et convient aux femmes enceintes et allaitantes, un plus pour la tolérance."
+      ],
+      "rejected": [
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix correct (26,70 €) et très bonne tolérance, mais la fiche ne mentionne ni « sans parfum » ni « peau sensible » : un critère essentiel n'est pas confirmé."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Très abordable (9 €), mais la fiche ne précise ni l'absence de parfum ni l'adaptation aux peaux sensibles, et le sérum est décrit comme « rich », moins idéal sous crème solaire."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Dépasse le budget (41,10 € > 40 €) et n'est pas sans parfum (attribut « sans parfum : non »)."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum, hypoallergénique et testé sur peaux sensibles, mais le prix n'est pas affiché : impossible de vérifier le plafond de 40 €. Candidat sérieux si le prix s'avère inférieur à 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais prix non affiché (budget invérifiable) et c'est un sérum réparateur en cure plutôt qu'un sérum hydratant du quotidien, moins adapté à la demande."
+       }
+      ]
+     },
+     {
+      "run_idx": 4,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Peau sensible : formule testée sous contrôle dermatologique sur peaux sensibles, non comédogène, texture légère et non collante qui convient même aux peaux sensibles.",
+       "Sans parfum : mention explicite « SANS PARFUM » sur la fiche.",
+       "Prix de 29,70 € (30 ml), donc sous le plafond de 40 €.",
+       "Application le matin sous crème solaire : sérum léger de type hydratant (niacinamide 5 % + 3 acides hyaluroniques) à appliquer en biquotidien, avec une texture non collante compatible avec une crème solaire par-dessus. Réserve : la fiche ne mentionne pas explicitement la compatibilité sous protection solaire."
+      ],
+      "rejected": [
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Bon marché (9 €), mais la fiche ne dit rien sur le sans parfum ni sur l'adaptation aux peaux sensibles, et décrit une texture « riche » moins adaptée à une application sous crème solaire."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix de 41,10 € supérieur au budget de 40 €, et il n'est pas indiqué sans parfum (attribut « Sans parfum : non »)."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum, texture légère et adapté aux peaux sensibles, mais le prix n'est pas affiché donc impossible de vérifier le budget de 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget invérifiable) et c'est un sérum réparateur conçu pour une cure d'un mois plutôt qu'un hydratant matinal sous solaire."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix de 26,70 € et texture gel non collante, mais la fiche ne précise ni sans parfum ni adaptation spécifique aux peaux sensibles (« très bonne tolérance » seulement)."
+       }
+      ]
+     },
+     {
+      "run_idx": 5,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix de 29,70 €, donc sous le plafond de 40 €.",
+       "Sans parfum et formulé pour les peaux sensibles : testé sous contrôle dermatologique sur peaux sensibles, non comédogène.",
+       "Formule à 12 ingrédients seulement, avec 5 % de niacinamide et 3 acides hyaluroniques, texture légère et non collante, adaptée à une application sous crème solaire.",
+       "Application biquotidienne (tests sur 28 jours en application matin et soir), donc compatible avec un usage le matin. Réserve : la fiche ne précise pas explicitement la compatibilité sous protection solaire, mais la texture légère et non collante rend l'usage plausible."
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix de 41,10 € supérieur au budget de 40 € et produit non indiqué comme sans parfum (attribut « sans parfum : non »)."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et texture fluide, mais le prix n'est pas affiché, donc impossible de vérifier le respect du plafond de 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et il est conçu comme une cure réparatrice plutôt qu'un sérum quotidien sous solaire."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix de 26,70 € compatible, mais la fiche ne mentionne ni « sans parfum » ni l'adaptation aux peaux sensibles, deux critères demandés."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas, mais la fiche ne garantit ni l'absence de parfum ni l'adaptation aux peaux sensibles, et la texture décrite comme riche convient moins à un usage sous crème solaire."
+       }
+      ]
+     },
+     {
+      "run_idx": 6,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix de 29,70 €, donc sous la barre des 40 €.",
+       "Sans parfum, explicitement indiqué, et testé sous contrôle dermatologique sur peaux sensibles (convient même aux femmes enceintes et allaitantes).",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire (application biquotidienne testée dans les études). Cette compatibilité sous protection solaire n'est toutefois pas formellement indiquée sur la fiche, comme pour tous les autres produits du catalogue.",
+       "Formule à 5 % de niacinamide et 3 acides hyaluroniques qui hydrate, apaise les tiraillements et renforce la barrière cutanée, avec seulement 12 ingrédients."
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Contient du parfum (« Sans parfum : non »), ce qui ne répond pas à ton critère, même si le prix (41,10 €) dépasse aussi légèrement ton budget."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et testé sur peaux sensibles, mais le prix n'est pas affiché, donc impossible de vérifier le budget de 40 € : je ne peux pas le recommander avec certitude."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget invérifiable) et c'est un sérum réparateur conçu pour les peaux fragilisées, utilisé en cure d'un mois, moins adapté à un usage quotidien sous crème solaire."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Bon prix (26,70 €) et très bonne tolérance, mais la fiche ne précise ni « sans parfum » ni l'adaptation aux peaux sensibles, donc deux de tes critères ne sont pas confirmés."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Très abordable (9,00 €), mais la fiche ne mentionne ni l'absence de parfum ni l'adaptation aux peaux sensibles, donc tes critères ne sont pas confirmés."
+       }
+      ]
+     },
+     {
+      "run_idx": 7,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix affiché de 29,70 €, donc sous le plafond de 40 €.",
+       "Sans parfum, mention explicite sur la fiche.",
+       "Formulé pour les peaux sensibles, testé sous contrôle dermatologique sur peaux sensibles, non comédogène : adapté à une peau sensible.",
+       "Texture légère et non collante, pratique à superposer sous une crème solaire. Application biquotidienne (matin et soir) possible selon les études citées. La compatibilité sous protection solaire n'est toutefois pas mentionnée explicitement sur la fiche.",
+       "Niacinamide à 5 % et 3 acides hyaluroniques : hydrate, apaise les tiraillements et renforce la barrière cutanée."
+      ],
+      "rejected": [
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et hypoallergénique, testé sur peaux sensibles, application matin et soir, mais le prix n'est pas affiché : impossible de confirmer le budget de moins de 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et c'est un sérum réparateur conçu pour des cures de peaux fragilisées plutôt qu'un simple sérum du matin."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix de 26,70 € et bonne tolérance, mais la fiche ne précise ni 'sans parfum' ni 'peau sensible' : un critère essentiel n'est pas confirmé."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix de 9 €, mais la fiche n'indique ni 'sans parfum' ni adéquation aux peaux sensibles, et la texture est décrite comme riche, moins idéale sous une crème solaire."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Adapté aux peaux sensibles et à 41,10 €, mais le prix dépasse le plafond de 40 € et le produit n'est pas sans parfum (attribut 'non')."
+       }
+      ]
+     },
+     {
+      "run_idx": 8,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Formulé pour les peaux sensibles et testé sous contrôle dermatologique sur peaux sensibles, avec apaisement des tiraillements et des rougeurs.",
+       "Explicitement « sans parfum », conformément à votre critère.",
+       "Prix de 29,70 €, donc sous le plafond de 40 €.",
+       "Texture légère et non collante, adaptée à une application quotidienne (formule biquotidienne) en première étape avant la crème solaire. La fiche ne mentionne toutefois pas explicitement la compatibilité sous protection solaire.",
+       "Niacinamide à 5 % et 3 acides hyaluroniques : hydrate, apaise et renforce la barrière cutanée, sans actif photosensibilisant évident dans la composition annoncée."
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Non sans parfum (attribut « Sans parfum : non ») et prix de 41,10 €, au-dessus de votre budget de 40 €."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum, adapté au matin et aux peaux sensibles, mais le prix n'est pas affiché, donc impossible de confirmer qu'il reste sous 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et il est conçu comme une cure réparatrice de la barrière cutanée plutôt qu'un sérum quotidien à porter sous crème solaire."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Bonne tolérance et prix de 26,70 €, mais la fiche ne précise pas qu'il est sans parfum, donc le critère n'est pas confirmé."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Très abordable (9 €), mais la fiche n'indique ni « sans parfum » ni aptitude aux peaux sensibles, donc ces critères ne sont pas confirmés."
+       }
+      ]
+     },
+     {
+      "run_idx": 9,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix de 29,70 €, donc sous le plafond de 40 €.",
+       "Explicitement sans parfum et testé sous contrôle dermatologique sur peaux sensibles, formulé pour les peaux sensibles.",
+       "Texture légère et non collante, ce qui convient à une application le matin avant la crème solaire ; non comédogène.",
+       "Seul point non documenté : la fiche ne mentionne pas explicitement la compatibilité sous protection solaire, mais la texture légère et non collante la rend plausible."
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix de 41,10 €, au-dessus du budget de 40 €, et la fiche indique qu'il n'est pas sans parfum."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et adapté aux peaux sensibles, mais le prix n'est pas affiché, donc impossible de confirmer qu'il respecte le budget de 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et c'est un sérum réparateur de cure plus qu'un sérum d'hydratation quotidien."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix correct (26,70 €) et bonne tolérance, mais la fiche ne précise pas qu'il est sans parfum, un critère explicite de la demande."
+       },
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Peu cher (9 €), mais la fiche ne mentionne ni l'absence de parfum ni l'adaptation aux peaux sensibles, et sa texture est décrite comme riche, moins adaptée sous une crème solaire."
+       }
+      ]
+     },
+     {
+      "run_idx": 10,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix de 29,70 €, donc sous le plafond de 40 €.",
+       "Explicitement sans parfum, testé sous contrôle dermatologique sur peaux sensibles et formulé pour les peaux sensibles.",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire (aucune fiche ne mentionne explicitement la compatibilité avec la protection solaire, mais cette texture légère s'y prête).",
+       "Formule courte de 12 ingrédients, non comédogène, avec 5 % de niacinamide et 3 acides hyaluroniques pour hydrater et apaiser."
+      ],
+      "rejected": [
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas (9 €) mais la fiche ne dit rien sur le parfum ni sur l'adéquation aux peaux sensibles, et décrit une texture « riche » moins adaptée sous une crème solaire."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Contient du parfum (« Sans parfum : non ») et son prix de 41,10 € dépasse le budget de 40 €."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum et très léger, mais le prix n'est pas affiché donc impossible de vérifier le budget de 40 €."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et il est conçu comme une cure réparatrice plutôt qu'un sérum hydratant du quotidien."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix correct (26,70 €) et texture gel légère, mais la fiche ne précise ni l'absence de parfum ni l'adaptation aux peaux sensibles."
+       }
+      ]
+     },
+     {
+      "run_idx": 11,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Prix de 29,70 €, donc sous le plafond de 40 €.",
+       "Sans parfum (mention explicite) et formulé pour les peaux sensibles : testé sous contrôle dermatologique sur peaux sensibles, non comédogène, 12 ingrédients seulement.",
+       "Texture légère et non collante, adaptée à une application le matin avant la crème solaire ; formule hydratante (niacinamide 5 % + 3 acides hyaluroniques) utilisable en application biquotidienne.",
+       "Limite : la fiche ne mentionne pas explicitement la compatibilité sous protection solaire, mais rien n'indique d'incompatibilité et la texture légère s'y prête."
+      ],
+      "rejected": [
+       {
+        "sku": "theordinary_hyaluronic_acid_b5",
+        "reason": "Prix très bas mais la fiche ne dit pas qu'il est sans parfum ni adapté aux peaux sensibles, et sa texture est décrite comme riche, moins idéale sous une crème solaire."
+       },
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Dépasse le budget (41,10 €) et n'est pas sans parfum (attribut « sans parfum : non »)."
+       },
+       {
+        "sku": "vichy_mineral89_serum",
+        "reason": "Sans parfum, texture fluide ultra-légère et testé sur peaux sensibles, mais le prix n'est pas affiché et ne peut donc pas être vérifié par rapport au budget de 40 €, et la compatibilité sous protection solaire n'est pas renseignée."
+       },
+       {
+        "sku": "avene_cicalfate_serum",
+        "reason": "Sans parfum et haute tolérance, mais le prix n'est pas affiché (budget non vérifiable) et c'est un sérum réparateur plutôt conçu en cure, sans info sur l'usage sous crème solaire."
+       },
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Prix OK (26,70 €) et bonne tolérance, mais la fiche ne confirme pas l'absence de parfum, critère indispensable pour votre demande."
+       }
+      ]
+     }
+    ],
+    "note": "Fréquences enregistrées : [B3] Ampoule Hydra 12/12."
+   }
+  }
+ }
+}

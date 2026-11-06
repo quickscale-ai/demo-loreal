@@ -1,0 +1,113 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "bioderma_hydrabio_serum",
+  "brand": "Bioderma",
+  "loreal": false,
+  "url": "https://www.bioderma.fr/p/hydrabio-serum",
+  "captured_at": "2026-10-03T22:33:35+00:00",
+  "source_sha256": "c8ead4fbed231092d735ef19c0d1d553da254bc5e5055ea188b9b18ba4fd9b51",
+  "name": "Hydrabio Sérum",
+  "price_eur": 26.7,
+  "size_label": "40 ml",
+  "variants": [
+   "40 ml"
+  ],
+  "inci": [
+   "AQUA/WATER/EAU",
+   "GLYCERIN",
+   "SQUALANE",
+   "BUTYLENE GLYCOL",
+   "NIACINAMIDE",
+   "PENTYLENE GLYCOL",
+   "PROPYLENE GLYCOL",
+   "HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER",
+   "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+   "DICAPRYLYL CARBONATE",
+   "CARBOMER",
+   "SILICA",
+   "DEXTRIN PALMITATE",
+   "FRUCTOOLIGOSACCHARIDES",
+   "HYDROXYACETOPHENONE",
+   "POLYSORBATE 60",
+   "DIISOSTEARYL MALATE",
+   "FRAGRANCE (PARFUM)",
+   "MANNITOL",
+   "SODIUM CITRATE",
+   "XYLITOL",
+   "HEXYLDECANOL",
+   "RHAMNOSE",
+   "SODIUM PCA",
+   "SORBITAN ISOSTEARATE",
+   "SODIUM HYDROXIDE",
+   "LACTOBACILLUS FERMENT",
+   "SODIUM HYALURONATE",
+   "CITRIC ACID",
+   "SACCHARIDE ISOMERATE",
+   "PYRUS MALUS (APPLE) SEED EXTRACT",
+   "BRASSICA CAMPESTRIS (RAPESEED) STEROLS",
+   "TOCOPHEROL"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:bioderma_hydrabio_serum:breadcrumb:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Visage > Peau déshydratée > Hydrabio"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:name:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Hydrabio Sérum"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:price:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "26,70 € (66,75 €/100 ml.)"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:size:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 40 ml. Formats proposés : 40 ml."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:description:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum hydratant à la technologie brevetée AQUAGENIUM+ et à l'acide hyaluronique. Hydratation immédiate et 72H d'efficacité."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:how_to_use:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Matin et/ou soir - 7 jours sur 7. Nettoyez votre peau idéalement avec Hydrabio Gel moussant."
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:inci:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA/WATER/EAU - GLYCERIN - SQUALANE - BUTYLENE GLYCOL - NIACINAMIDE - PENTYLENE GLYCOL - PROPYLENE GLYCOL - HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER - CAPRYLIC/CAPRIC TRIGLYCERIDE - DICAPRYLYL CARBONATE - CARBOMER - SILICA - DEXTRIN PALMITATE - FRUCTOOLIGOSACCHARIDES - HYDROXYACETOPHENONE - POLYSORBATE 60 - DIISOSTEARYL MALATE - FRAGRANCE (PARFUM) - MANNITOL - SODIUM CITRATE - XYLITOL - HEXYLDECANOL - RHAMNOSE - SODIUM PCA - SORBITAN ISOSTEARATE - SODIUM HYDROXIDE - LACTOBACILLUS FERMENT - SODIUM HYALURONATE - CITRIC ACID - SACCHARIDE ISOMERATE - PYRUS MALUS (APPLE) SEED EXTRACT - BRASSICA CAMPESTRIS (RAPESEED) STEROLS - TOCOPHEROL"
+   },
+   {
+    "id": "p:bioderma_hydrabio_serum:brand_boilerplate:1",
+    "sku": "bioderma_hydrabio_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Bioderma, la biologie au service de la dermatologie."
+   }
+  ]
+ }
+}

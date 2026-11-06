@@ -1,0 +1,224 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "query": "Je cherche un sérum pour peau sensible, sans parfum, à appliquer le matin sous ma crème solaire, à moins de 40 €",
+  "disclaimer": "Simulation, hors moteurs réels. Même modèle, même question, 5 runs par condition. Seules les données fournies changent.",
+  "model": "claude-sonnet-5-5",
+  "temperature": 0.7,
+  "n_runs": 5,
+  "candidates": [
+   "lrp_hyalu_b5_serum",
+   "lrp_hyalu_b5_creme",
+   "lrp_hyalu_b5_serum_yeux",
+   "lrp_cicaplast_b5_serum",
+   "lrp_mela_b3_serum",
+   "lrp_pure_vitamin_c12_serum",
+   "lrp_effaclar_serum",
+   "lrp_retinol_b3_serum",
+   "vichy_mineral89_serum",
+   "vichy_mineral89_serum_recharge",
+   "vichy_liftactiv_b3_serum",
+   "vichy_normaderm_serum",
+   "vichy_liftactiv_ha_filler",
+   "vichy_liftactiv_vitc",
+   "avene_hydrance_boost_serum",
+   "avene_cicalfate_serum",
+   "bioderma_hydrabio_serum",
+   "bioderma_hydrabio_hyalu_serum",
+   "svr_b3_ampoule_hydra",
+   "theordinary_hyaluronic_acid_b5"
+  ],
+  "conditions": {
+   "avant": {
+    "label": "Avant : pages publiques brutes",
+    "input_description": "Texte des 20 pages telles que capturées, sans attributs structurés.",
+    "runs": [
+     {
+      "run_idx": 0,
+      "recommended_sku": "lrp_hyalu_b5_serum",
+      "reasons": [
+       "Sérum de dermatologie adapté aux peaux sensibles",
+       "Application le matin possible",
+       "Prix proche du budget"
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_retinol_b3_serum",
+        "reason": "Usage le soir"
+       },
+       {
+        "sku": "lrp_mela_b3_serum",
+        "reason": "Prix au-dessus de 40 €"
+       }
+      ],
+      "unsupported_reasons": 1
+     },
+     {
+      "run_idx": 1,
+      "recommended_sku": "theordinary_hyaluronic_acid_b5",
+      "reasons": [
+       "Prix très bas",
+       "Formule simple, probablement sans parfum"
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix au-dessus de 40 €"
+       }
+      ],
+      "unsupported_reasons": 1
+     },
+     {
+      "run_idx": 2,
+      "recommended_sku": "lrp_hyalu_b5_serum",
+      "reasons": [
+       "Marque recommandée par les dermatologues",
+       "Convient aux peaux sensibles",
+       "Sans parfum"
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_effaclar_serum",
+        "reason": "Pour peaux grasses"
+       }
+      ],
+      "unsupported_reasons": 1
+     },
+     {
+      "run_idx": 3,
+      "recommended_sku": "avene_hydrance_boost_serum",
+      "reasons": [
+       "Marque dédiée aux peaux sensibles",
+       "Matin et soir",
+       "Moins de 40 €"
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_pure_vitamin_c12_serum",
+        "reason": "Prix au-dessus de 40 €"
+       }
+      ],
+      "unsupported_reasons": 1
+     },
+     {
+      "run_idx": 4,
+      "recommended_sku": "bioderma_hydrabio_serum",
+      "reasons": [
+       "Peau sensible et déshydratée",
+       "26,70 €"
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Prix au-dessus de 40 €"
+       }
+      ],
+      "unsupported_reasons": 1
+     }
+    ],
+    "note": "Les 5 raisons marquées non sourcées affirment « sans parfum » ou « peaux sensibles » sans appui dans la page. Hyalu B5, Hydrance Boost et Hydrabio contiennent du parfum d'après leur INCI."
+   },
+   "apres": {
+    "label": "Après : pages enrichies par le pipeline",
+    "input_description": "Mêmes pages, plus les 15 attributs validés (valeurs non déterminables laissées vides).",
+    "runs": [
+     {
+      "run_idx": 0,
+      "recommended_sku": "vichy_mineral89_serum",
+      "reasons": [
+       "Sans parfum (INCI)",
+       "Adapté aux peaux sensibles (citation rang 1)",
+       "Application le matin, compatible sous protection solaire",
+       "29,90 €"
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Contient du parfum (INCI) et 41,10 €"
+       },
+       {
+        "sku": "lrp_cicaplast_b5_serum",
+        "reason": "40,00 €, pas sous 40 €"
+       }
+      ],
+      "unsupported_reasons": 0
+     },
+     {
+      "run_idx": 1,
+      "recommended_sku": "vichy_mineral89_serum",
+      "reasons": [
+       "Sans parfum",
+       "Peau sensible",
+       "Matin",
+       "29,90 €"
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Contient du parfum"
+       },
+       {
+        "sku": "avene_hydrance_boost_serum",
+        "reason": "Contient du parfum"
+       }
+      ],
+      "unsupported_reasons": 0
+     },
+     {
+      "run_idx": 2,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Sans parfum",
+       "Peaux sensibles",
+       "Testé sous contrôle dermatologique",
+       "29,70 €"
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_hyalu_b5_serum",
+        "reason": "Contient du parfum et dépasse 40 €"
+       }
+      ],
+      "unsupported_reasons": 0
+     },
+     {
+      "run_idx": 3,
+      "recommended_sku": "vichy_mineral89_serum",
+      "reasons": [
+       "Sans parfum, sans alcool",
+       "Peau sensible",
+       "Matin, sous protection solaire",
+       "29,90 €"
+      ],
+      "rejected": [
+       {
+        "sku": "bioderma_hydrabio_serum",
+        "reason": "Contient du parfum"
+       }
+      ],
+      "unsupported_reasons": 0
+     },
+     {
+      "run_idx": 4,
+      "recommended_sku": "svr_b3_ampoule_hydra",
+      "reasons": [
+       "Sans parfum",
+       "Peaux sensibles",
+       "29,70 €"
+      ],
+      "rejected": [
+       {
+        "sku": "lrp_cicaplast_b5_serum",
+        "reason": "40,00 €, pas sous 40 €"
+       }
+      ],
+      "unsupported_reasons": 0
+     }
+    ],
+    "note": "Hyalu B5 Sérum Suractivé n'est plus recommandé : son INCI contient du parfum et son prix dépasse 40 €. Le produit L'Oréal le mieux placé est Minéral 89 (Vichy)."
+   }
+  }
+ }
+}

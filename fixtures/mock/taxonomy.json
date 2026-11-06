@@ -1,0 +1,197 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "version": "1.1.0",
+  "abstention": "non_determinable",
+  "families": {
+   "regles": {
+    "label": "Dérivables par règles",
+    "description": "Calculés de façon déterministe depuis l'INCI ou par expression régulière, sans LLM."
+   },
+   "interpretatifs": {
+    "label": "Interprétatifs",
+    "description": "Demandent de lire le texte. Génération contrainte, citation exacte obligatoire."
+   },
+   "groupe": {
+    "label": "Dépendants du groupe",
+    "description": "Dépendent de la gamme et des autres produits du catalogue."
+   },
+   "reglementes": {
+    "label": "Réglementés",
+    "description": "Allégations encadrées. Jamais générées, extraites mot pour mot ou routées en revue experte."
+   }
+  },
+  "attributes": {
+   "sans_parfum": {
+    "family": "regles",
+    "label": "Sans parfum",
+    "type": "enum",
+    "values": {
+     "oui": "L'INCI est disponible et ne contient ni PARFUM, ni FRAGRANCE, ni AROMA.",
+     "non": "L'INCI contient PARFUM, FRAGRANCE ou AROMA."
+    },
+    "note": "Seul l'INCI fait foi. Une mention marketing « sans parfum » contredite par l'INCI est signalée comme conflit."
+   },
+   "sans_alcool": {
+    "family": "regles",
+    "label": "Sans alcool",
+    "type": "enum",
+    "values": {
+     "oui": "L'INCI est disponible et ne contient ni ALCOHOL, ni ALCOHOL DENAT., ni ETHANOL.",
+     "non": "L'INCI contient ALCOHOL, ALCOHOL DENAT. ou ETHANOL."
+    },
+    "note": "Les alcools gras (Cetyl, Cetearyl, Stearyl Alcohol...) et les glycols ne sont pas des alcools au sens de cet attribut."
+   },
+   "contenance_ml": {
+    "family": "regles",
+    "label": "Contenance (ml)",
+    "type": "number",
+    "unit": "ml",
+    "note": "Contenance du format décrit par la fiche. Si plusieurs formats sont proposés, celui sélectionné par défaut."
+   },
+   "actif_principal": {
+    "family": "regles",
+    "label": "Actif principal",
+    "type": "enum",
+    "values": {
+     "acide_hyaluronique": "Le premier actif nommé dans le nom du produit est l'acide hyaluronique (Hyalu, Hyaluronic, H.A.).",
+     "niacinamide": "Le premier actif nommé dans le nom du produit est la niacinamide (vitamine B3).",
+     "vitamine_c": "Le premier actif nommé dans le nom du produit est la vitamine C ou un de ses dérivés.",
+     "retinol": "Le premier actif nommé dans le nom du produit est le rétinol ou un rétinoïde.",
+     "acide_salicylique": "Le premier actif nommé dans le nom du produit est l'acide salicylique (BHA).",
+     "panthenol": "Le premier actif nommé dans le nom du produit est le panthénol (vitamine B5)."
+    },
+    "note": "Règle = lexique appliqué au nom du produit, puis confirmation de la présence de l'ingrédient dans l'INCI. Sans INCI, pas de confirmation, donc abstention."
+   },
+   "concentration_actif": {
+    "family": "regles",
+    "label": "Concentration de l'actif",
+    "type": "number",
+    "unit": "%",
+    "note": "Pourcentage écrit explicitement dans la source et rattaché à l'actif principal. Jamais estimé depuis le rang dans l'INCI."
+   },
+   "types_de_peau": {
+    "family": "interpretatifs",
+    "label": "Types de peau",
+    "type": "enum_list",
+    "values": {
+     "tous_types": "La source indique que le produit convient à tous les types de peau. Valeur exclusive, les types cités en complément (« même sèches ») ne sont pas ajoutés.",
+     "normale": "La source cite les peaux normales.",
+     "seche": "La source cite les peaux sèches ou très sèches.",
+     "mixte": "La source cite les peaux mixtes.",
+     "grasse": "La source cite les peaux grasses ou à tendance acnéique."
+    }
+   },
+   "preoccupation_principale": {
+    "family": "interpretatifs",
+    "label": "Préoccupation principale",
+    "type": "enum",
+    "values": {
+     "hydratation": "Le bénéfice principal mis en avant est l'hydratation ou la déshydratation.",
+     "signes_de_l_age": "Le bénéfice principal mis en avant est la lutte contre les rides, la perte de fermeté ou de volume.",
+     "taches": "Le bénéfice principal mis en avant est la réduction des taches ou de l'hyperpigmentation.",
+     "imperfections": "Le bénéfice principal mis en avant est la réduction des imperfections, boutons ou pores.",
+     "eclat": "Le bénéfice principal mis en avant est l'éclat ou le teint terne.",
+     "reparation_apaisement": "Le bénéfice principal mis en avant est la réparation de la barrière cutanée ou l'apaisement.",
+     "contour_des_yeux": "Le produit cible spécifiquement le contour de l'œil (rides, cernes, poches)."
+    },
+    "note": "Départage si plusieurs bénéfices, dans cet ordre - le bénéfice écrit dans le nom du produit, sinon le premier bénéfice de l'accroche ou de la description."
+   },
+   "texture": {
+    "family": "interpretatifs",
+    "label": "Texture",
+    "type": "enum",
+    "values": {
+     "fluide": "La source décrit une texture fluide, aqueuse ou légère de type sérum liquide.",
+     "gel": "La source décrit une texture gel ou gel-en-eau.",
+     "creme": "La source décrit une texture crème ou gel-crème.",
+     "huile": "La source décrit une texture huile.",
+     "baume": "La source décrit une texture baume."
+    },
+    "note": "Seule une description de texture compte. Une forme galénique seule (« Sérum », « Crème » comme type de produit) ne suffit pas. En cas de contradiction entre champs de la page, le champ structuré (spécifications) prime."
+   },
+   "moment_application": {
+    "family": "interpretatifs",
+    "label": "Moment d'application",
+    "type": "enum",
+    "values": {
+     "matin": "La source recommande une application le matin uniquement.",
+     "soir": "La source recommande une application le soir uniquement.",
+     "matin_et_soir": "La source recommande une application matin et soir, deux fois par jour, ou « matin et/ou soir ».",
+     "matin_ou_soir": "La source recommande une seule application par jour, au choix le matin ou le soir."
+    },
+    "note": "« Une fois par jour » sans moment précisé donne non_determinable."
+   },
+   "compatible_sous_spf": {
+    "family": "interpretatifs",
+    "label": "Compatible sous protection solaire",
+    "type": "enum",
+    "values": {
+     "oui": "La source indique une application le matin ou une utilisation avant ou avec une protection solaire.",
+     "non": "La source réserve l'usage au soir ou déconseille l'exposition au soleil pendant l'utilisation."
+    }
+   },
+   "peau_sensible": {
+    "family": "interpretatifs",
+    "label": "Adapté aux peaux sensibles",
+    "type": "enum",
+    "values": {
+     "oui": "La source indique, pour ce produit précisément, qu'il convient aux peaux sensibles.",
+     "non": "La source indique explicitement que le produit ne convient pas ou est déconseillé aux peaux sensibles."
+    },
+    "note": "Une phrase générique sur la marque (« nos produits sont testés sur peaux sensibles ») ne suffit pas. Une affirmation propre au produit compte, y compris dans sa FAQ. Les précautions standard (test préalable, espacer en cas d'irritation) ne valent pas « non » et donnent non_determinable si rien d'autre n'est dit."
+   },
+   "gamme": {
+    "family": "groupe",
+    "label": "Gamme",
+    "type": "enum",
+    "values": {
+     "hyalu_b5": "Gamme Hyalu B5 de La Roche-Posay.",
+     "cicaplast": "Gamme Cicaplast de La Roche-Posay.",
+     "mela_b3": "Gamme Mela B3 de La Roche-Posay.",
+     "pure_vitamin_c": "Gamme Pure Vitamin C de La Roche-Posay.",
+     "effaclar": "Gamme Effaclar de La Roche-Posay.",
+     "retinol_b3": "Gamme Retinol B3 de La Roche-Posay.",
+     "mineral_89": "Gamme Minéral 89 de Vichy.",
+     "liftactiv": "Gamme Liftactiv de Vichy.",
+     "normaderm": "Gamme Normaderm de Vichy.",
+     "hydrance": "Gamme Hydrance d'Avène.",
+     "cicalfate": "Gamme Cicalfate d'Avène.",
+     "hydrabio": "Gamme Hydrabio de Bioderma.",
+     "svr_ampoule": "Gamme des Ampoules de SVR.",
+     "the_ordinary_hydrators": "Gamme des hydratants The Ordinary."
+    },
+    "note": "Règle sur le fil d'Ariane et le nom, puis contrôle de cohérence de groupe."
+   },
+   "produits_associes": {
+    "family": "groupe",
+    "label": "Produits associés",
+    "type": "enum_list",
+    "values_from": "catalogue",
+    "note": "Identifiants de produits du catalogue cités par la fiche (bloc routine, « complétez votre routine », recharge). Jamais déduits par similarité."
+   },
+   "hypoallergenique": {
+    "family": "reglementes",
+    "label": "Hypoallergénique",
+    "type": "enum",
+    "regulated": true,
+    "values": {
+     "oui": "Une source de rang 1 contient mot pour mot l'allégation « hypoallergénique » (ou « formulé pour minimiser les risques d'allergie ») pour ce produit."
+    },
+    "note": "Jamais générée. L'absence d'allégation donne non_determinable, jamais « non »."
+   },
+   "teste_dermatologiquement": {
+    "family": "reglementes",
+    "label": "Testé dermatologiquement",
+    "type": "enum",
+    "regulated": true,
+    "values": {
+     "oui": "Une source de rang 1 contient mot pour mot une allégation de test sous contrôle dermatologique pour ce produit."
+    },
+    "note": "Jamais générée. Une phrase générique sur la marque est une source de rang 2 et route en revue experte."
+   }
+  }
+ }
+}

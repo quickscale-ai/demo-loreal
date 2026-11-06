@@ -1,0 +1,194 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "vichy_liftactiv_ha_filler",
+  "brand": "Vichy",
+  "loreal": true,
+  "url": "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/signes-de-lage/liftactiv-ha-epidermic-filler-serum",
+  "captured_at": "2026-10-03T22:05:17Z",
+  "source_sha256": "f8cea895d16fdea7560f898a11aabe6b5e96a6506743629573cf2b35b63ecb98",
+  "name": "LIFTACTIV SÉRUM H.A. EPIDERMIC FILLER – RIDES & FERMETÉ",
+  "price_eur": null,
+  "size_label": "30 ML",
+  "variants": [
+   "30 ML"
+  ],
+  "inci": [
+   "AQUA / WATER",
+   "GLYCERIN",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "SODIUM HYALURONATE",
+   "PEG-60 HYDROGENATED CASTOR OIL",
+   "SECALE CEREALE SEED EXTRACT / RYE SEED EXTRACT",
+   "CALCIUM PANTOTHENATE",
+   "DIPEPTIDE DIAMINOBUTYROYL BENZYLAMIDE DIACETATE",
+   "PHENOXYETHANOL",
+   "CHLORPHENESIN",
+   "ASCORBYL GLUCOSIDE",
+   "DISODIUM EDTA",
+   "PENTYLENE GLYCOL"
+  ],
+  "related_urls": [
+   "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/cremes-et-hydratants-visage/signes-de-l-age/liftactiv-ha-creme-anti-rides-raffermissante",
+   "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/cremes-de-nuit/signes-de-lage/liftactiv-creme-de-nuit-anti-rides-raffermissante-ha"
+  ],
+  "passages": [
+   {
+    "id": "p:vichy_liftactiv_ha_filler:name:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "name",
+    "rank": 1,
+    "text": "LIFTACTIV SÉRUM H.A. EPIDERMIC FILLER – RIDES & FERMETÉ"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:description:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum anti-rides et anti-âge. Sérum repulpant à l'acide hyaluronique. Tous types de peaux. Recharge à 100 % la perte quotidienne d’acide hyaluronique*. Comble les rides. Repulpe la peau."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:description:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "description",
+    "rank": 1,
+    "text": "Le sérum à l'acide hyaluronique LIFTACTIV H.A. Epidermic Filler est un sérum anti-âge hautement concentré en acide hyaluronique qui cible les rides et la perte de fermeté sur le visage et le contour des yeux. Appliqué quotidiennement, ce sérum visage recharge 100 % de la perte quotidienne en acide hyaluronique épidermique de la peau* en délivrant la juste dose d'acide hyaluronique pour des résultats visibles rapidement."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:description:2",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "description",
+    "rank": 1,
+    "text": "* Naturellement présent dans la peau, l’acide hyaluronique est une molécule qui contribue à sa fermeté. Mais sa concentration et sa production commencent à décliner à partir de la vingtaine, jusqu’à chuter brutalement à partir de 40 ans. Pour conserver une peau rebondi et lisse, il est indispensable de combler les pertes en acide hyaluronique quotidiennes avec un sérum à l’acide hyaluronique. H.A. Epidermic Filler LIFTACTIV SUPREME est un sérum anti-âge hautement concentré en acide hyaluronique qui cible les rides et la perte de fermeté sur le visage et le contour des yeux. Appliqué quotidiennement, ce sérum visage anti-âge délivre la juste dose d’acide hyaluronique pour des résultats visibles rapidement. Conçu pour tous les types de peaux, sa texture aqueuse pénètre instantanément dans la peau, vous permettant de poursuivre votre routine de soins anti-âge sans attendre. Jour après jour, les rides sont moins apparentes, la peau est repulpée et rebondie. *Basé sur la concentration de la formule avec une application matin et soir quotidienne."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:benefits:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "benefits",
+    "rank": 1,
+    "text": "-47% RIDES EN 6 SEMAINES. -60% RIDULES EN 6 SEMAINES**. **Score clinique. 53 femmes pendant 6 semaines."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:benefits:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "benefits",
+    "rank": 1,
+    "text": "* Ce sérum à l’acide hyaluronique LIFTACTIV SUPREME repulpe instantanément le visage et le contour des yeux et réduit progressivement les rides et ridules. Son efficacité est cliniquement prouvée : Après 2 semaines : -14 % de rides -19 % de ridules Après 6 semaines** : -47 % de rides -60 % de ridules **Scorage clinique sur 53 femmes après 6 semaines."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:benefits:2",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Acide hyaluronique (Sodium Hyaluronate), Vitamine Cg (Ascorbyl Glucoside)"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:benefits:3",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "benefits",
+    "rank": 1,
+    "text": "* Ce sérum anti-âge est formulé avec des actifs dermatologiques reconnus pour limiter les effets du vieillissement cutané, notamment les rides et ridules. Acide hyaluronique (Sodium Hyaluronate) Molécule anti-âge de référence, l’acide hyaluronique agit sur plusieurs sphères de la peau. À haut poids moléculaire, il hydrate la peau en surface. À bas poids moléculaire, il pénètre dans la peau en profondeur pour lier les cellules et stimuler la production de collagène et d’élastine. La peau est ainsi hydratée, repulpée, à l’aspect rebondi. Vitamine Cg (Ascorbyl Glucoside) Appelée aussi Vitamine C glucoside, la vitamine Cg est un dérivé de la vitamine C. Antioxydante, elle neutralise les radicaux libres responsables du vieillissement cutané prématuré, estompe les taches pigmentaires et donne de l’éclat au teint. Eau volcanique de Vichy Riche en minéraux et oligo-éléments, l’eau volcanique de Vichy revitalise, apaise et protège la peau, pour la rendre plus forte et plus éclatante."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:benefits:4",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Acide hyaluronique Humectant puissant qui hydrate intensément, repulpe et lisse la peau. Vitamine C Protège la peau des radicaux libres. Eau volcanique de Vichy Riche en 15 minéraux et oligo-éléments essentiels, elle revitalise, apaise et protège la peau, pour la rendre plus forte et plus éclatante."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:benefits:5",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "benefits",
+    "rank": 1,
+    "text": "EFFICACITÉ CLINIQUEMENT PROUVÉE -47% Rides* -60% Ridules* ** Score clinique, 53 femmes pendant 6 semaines."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:claims:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "claims",
+    "rank": 1,
+    "text": "Sans parfum"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:claims:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "claims",
+    "rank": 1,
+    "text": "Sans alcool"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:how_to_use:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Matin et soir sur peau propre et sèche, appliquez quelques gouttes du sérum à l’acide hyaluronique H.A. En cas de contact avec les yeux, les rincer immédiatement et abondamment"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:how_to_use:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Comment l’utiliser Utilisez quotidiennement le sérum Liftactiv Supreme HA Epidermic Filler de Vichy. Appliquez sur un visage propre directement sur les pattes d'oie et les sillons nasogéniens. Procédez à l'application sur le reste du visage, en étalant la formule uniformément sur la peau avec la paume de la main. Pour un résultat optimal, utilisez matin et soir."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:inci:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER - GLYCERIN - HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID - SODIUM HYALURONATE - PEG-60 HYDROGENATED CASTOR OIL - SECALE CEREALE SEED EXTRACT / RYE SEED EXTRACT - CALCIUM PANTOTHENATE - DIPEPTIDE DIAMINOBUTYROYL BENZYLAMIDE DIACETATE - PHENOXYETHANOL - CHLORPHENESIN - ASCORBYL GLUCOSIDE - DISODIUM EDTA - PENTYLENE GLYCOL"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:size:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "size",
+    "rank": 1,
+    "text": "30 ML"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:specifications:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Texture aqueuse et légère qui pénètre instantanément dans la peau."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:specifications:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "specifications",
+    "rank": 1,
+    "text": "* Texture aqueuse et légère qui pénètre instantanément dans la peau. Nos utilisatrices*** le disent : 100 % trouvent le sérum agréable à utiliser 98 % trouvent la texture très légère 98 % trouvent que le sérum s’associe parfaitement à une routine maquillage ***Scorage clinique sur 53 femmes après 6 semaines."
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:brand_boilerplate:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Les listes d’ingrédients entrant dans la composition des produits de notre marque sont régulièrement mises à jour. Avant d’utiliser un produit de notre marque, vous êtes invités à lire la liste d’ingrédients figurant sur son emballage afin de vous assurer que les ingrédients sont adaptés à votre utilisation personnelle"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:routine:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "routine",
+    "rank": 2,
+    "text": "LIFTACTIV CRÈME H.A. ANTI-RIDES RAFFERMISSANTE PEAU NORMALE À MIXTE"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:routine:1",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "routine",
+    "rank": 2,
+    "text": "LIFTACTIV CRÈME DE NUIT H.A. ANTI-RIDES RAFFERMISSANTE"
+   },
+   {
+    "id": "p:vichy_liftactiv_ha_filler:breadcrumb:0",
+    "sku": "vichy_liftactiv_ha_filler",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Tous-les-produits > SOINS DE LA PEAU > Sérum Pour le visage > SIGNES DE L’ÂGE > LIFTACTIV– H.A. EPIDERMIC FILLER SÉRUM"
+   }
+  ]
+ }
+}

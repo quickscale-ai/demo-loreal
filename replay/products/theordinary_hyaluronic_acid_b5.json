@@ -1,0 +1,294 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "theordinary_hyaluronic_acid_b5",
+  "brand": "The Ordinary",
+  "loreal": false,
+  "url": "https://theordinary.com/en-fr/hyaluronic-acid-2-b5-serum-original-formulation-100425.html",
+  "captured_at": "2026-10-03T22:01:12Z",
+  "source_sha256": "d61b29b79a26e914254805ce17f5f4d9de2fd62ee7604d017ac290f56c2e58e8",
+  "name": "Hyaluronic Acid 2% + B5 (Original Formulation)",
+  "price_eur": 9.0,
+  "size_label": "30ml",
+  "variants": [
+   "30ml",
+   "60ml"
+  ],
+  "inci": [
+   "AQUA (WATER)",
+   "SODIUM HYALURONATE",
+   "PENTYLENE GLYCOL",
+   "PROPANEDIOL",
+   "SODIUM HYALURONATE CROSSPOLYMER",
+   "PANTHENOL",
+   "AHNFELTIA CONCINNA EXTRACT",
+   "GLYCERIN",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "CITRIC ACID",
+   "ISOCETETH-20",
+   "ETHOXYDIGLYCOL",
+   "ETHYLHEXYLGLYCERIN",
+   "HEXYLENE GLYCOL",
+   "1,2-HEXANEDIOL",
+   "PHENOXYETHANOL",
+   "CAPRYLYL GLYCOL"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:name:0",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "name",
+    "rank": 1,
+    "text": "Hyaluronic Acid 2% + B5 (Original Formulation)"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:description:0",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "description",
+    "rank": 1,
+    "text": "The original hyaluronic acid serum for hydrated, smoother-looking skin."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:description:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "description",
+    "rank": 1,
+    "text": "Hyaluronic Acid 2% + B5 (Original Formulation) is the original hyaluronic serum from The Ordinary. This rich serum hydrates and gives smoother-looking skin, while working to strengthen the skin barrier."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:description:2",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "description",
+    "rank": 1,
+    "text": "This formulation contains 4 types of hyaluronic acid and pro-vitamin B5."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:description:3",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "description",
+    "rank": 1,
+    "text": "4 Types of Hyaluronic Acid: A combination of low-, medium- and high-molecular-weight hyaluronic acid molecules and a next-generation HA crosspolymer support hydration to multiple layers of the skin for a smooth appearance."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:description:4",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "description",
+    "rank": 1,
+    "text": "Pro-vitamin B5 (Panthenol): Supports the formation of essential skin barrier components like ceramides and fatty acids, further improving the skin's moisture retention and an overall healthy appearance."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:description:5",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "description",
+    "rank": 1,
+    "text": "For those who prefer a lighter-textured hyaluronic serum, we recommend exploring Hyaluronic Acid 2% + B5 (with Ceramides) . This updated formulation contains an additional form of hyaluronic acid, plus ceramides. It offers instant and long-term hydration with a lightweight feel, while minimising the look of fine lines and wrinkles."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:how_to_use:0",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Apply a few drops to the face in the morning and evening."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:how_to_use:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "If irritation occurs, rinse off, cease use, and consult a physician."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:how_to_use:2",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Use only as directed on unbroken skin."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:how_to_use:3",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Patch testing prior to use is advised."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:how_to_use:4",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Keep out of reach of children."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:inci:0",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "inci",
+    "rank": 1,
+    "text": "Aqua (Water), Sodium Hyaluronate, Pentylene Glycol, Propanediol, Sodium Hyaluronate Crosspolymer, Panthenol, Ahnfeltia Concinna Extract, Glycerin, Trisodium Ethylenediamine Disuccinate, Citric Acid, Isoceteth-20, Ethoxydiglycol, Ethylhexylglycerin, Hexylene Glycol, 1,2-Hexanediol, Phenoxyethanol, Caprylyl Glycol."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:size:0",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "size",
+    "rank": 1,
+    "text": "30ml 60ml"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:price:0",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "price",
+    "rank": 1,
+    "text": "€9.00 EUR"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:0",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Step 2: Treat"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Targets Dehydration, Dryness"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:2",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Suited for All Skin Types"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:3",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Format Serum: Water-Based"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:4",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Key ingredients Sodium Hyaluronate, Sodium Hyaluronate Crosspolymer, Panthenol"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:5",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "ph 6.00 - 7.50"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:6",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "water-free No"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:7",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "alcohol-free Yes"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:8",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "oil-free Yes"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:9",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "silicone-free Yes"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:10",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "vegan Yes"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:11",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "gluten-free Yes"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:12",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "cruelty-free Yes"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:13",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Before Recycling: Empty the contents of the container. Remove cap, lid, dropper, pump, and other components and rinse the bottle/jar with water."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:14",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Packaging items with adhesive-based labels: Contact your local recycling facility to ensure recyclability via curbside recycling program. Otherwise, dispose via our in-store recycling program."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:15",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Serum/Oil, Shampoo, Conditioner, Shower Gel, Lotion, Hand Soap Bottles: #1 PETE & #2 HDPE and glass bottles are recyclable through the majority of local curbside recycling programs. # 5 PP bottles are usually recyclable through local curbside recycling programs. Please contact your local recycling facility to ensure recyclability. Otherwise, dispose via our in-store recycling program."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:16",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Dropper Lids: Dispose of via our in-store recycling program."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:specifications:17",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Disclaimer: We work to provide our customers with accurate guidelines on packaging recyclability; however, please ensure your city or municipal program is consulted before recycling an item. Please click here for a chart summarizing the Triman Logo & Sorting Labels. For the Italy sorting labels click here. For the Spain sorting labels click here."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:brand_boilerplate:0",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Our formulations are updated from time to time as part of our commitment to innovation. As such, the ingredient list shown here may vary from the box of the product depending on time and region of purchase."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:brand_boilerplate:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Apply a small amount of the product onto a clean area of skin on the upper forearm. Keep the area dry. If the product has a specified duration of use, rinse off after this time has elapsed. Otherwise rinse off after 24 hours. If any redness, burning, itching, blistering or irritation is observed at any time throughout the test, do not use the product."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:breadcrumb:0",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Skincare > Shop by Step > Serums"
+   }
+  ]
+ }
+}

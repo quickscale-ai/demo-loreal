@@ -1,0 +1,97 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "avene_cicalfate_serum",
+  "brand": "Avène",
+  "loreal": false,
+  "url": "https://www.eau-thermale-avene.fr/p/cicalfate-serum-restaurateur-intense-3282770393620-14c39aab",
+  "captured_at": "2026-10-03T22:31:24+00:00",
+  "source_sha256": "217365671ff1cd8f987284170476dbaeda203c379bc75d5736ecd34a1c049d62",
+  "name": "Cicalfate+ Sérum restaurateur intense",
+  "price_eur": 32.9,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AVENE THERMAL SPRING WATER (AVENE AQUA)",
+   "GLYCERIN",
+   "PENTYLENE GLYCOL",
+   "PROPANEDIOL",
+   "1,2-HEXANEDIOL",
+   "PANTHENOL",
+   "4-T-BUTYLCYCLOHEXANOL",
+   "OCTYLDODECANOL",
+   "PANTOLACTONE",
+   "BETAINE",
+   "CITRIC ACID",
+   "HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER",
+   "POLYSORBATE 60",
+   "SODIUM CITRATE",
+   "SORBITAN ISOSTEARATE",
+   "WATER (AQUA)",
+   "XANTHAN GUM"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:avene_cicalfate_serum:breadcrumb:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Visage > Sérums"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:name:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Cicalfate+ Sérum restaurateur intense"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:price:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "32,90 € (109,67 €/100 ml.)"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:size:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:description:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum restaurateur intense. La peau est protégée des agressions quotidiennes. Sa formule - sans alcool, sans parfum et sans silicones - assure une haute tolérance."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:how_to_use:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Premier geste de la routine de soins, il peut être utilisé en cure, matin et soir durant 1 mois, en association avec votre crème de jour habituelle."
+   },
+   {
+    "id": "p:avene_cicalfate_serum:inci:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AVENE THERMAL SPRING WATER (AVENE AQUA). GLYCERIN. PENTYLENE GLYCOL. PROPANEDIOL. 1,2-HEXANEDIOL. PANTHENOL. 4-T-BUTYLCYCLOHEXANOL. OCTYLDODECANOL. PANTOLACTONE. BETAINE. CITRIC ACID. HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER. POLYSORBATE 60. SODIUM CITRATE. SORBITAN ISOSTEARATE. WATER (AQUA). XANTHAN GUM"
+   },
+   {
+    "id": "p:avene_cicalfate_serum:brand_boilerplate:1",
+    "sku": "avene_cicalfate_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Eau Thermale Avène, marque dermatologique dédiée aux peaux sensibles, propose des soins experts issus de l'eau thermale d'Avène."
+   }
+  ]
+ }
+}

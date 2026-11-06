@@ -1,0 +1,99 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "svr_b3_ampoule_hydra",
+  "brand": "SVR",
+  "loreal": false,
+  "url": "https://fr.svr.com/products/b3-ampoule-hydra",
+  "captured_at": "2026-10-03T22:37:57+00:00",
+  "source_sha256": "f1e674f0610b0add08a765a6612e58d8abe08b2e94e77c4f8b466f03472a3d2d",
+  "name": "[B3] Ampoule Hydra",
+  "price_eur": 29.7,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA/WATER/EAU",
+   "GLYCERIN",
+   "NIACINAMIDE",
+   "ISOPENTYLDIOL",
+   "SODIUM HYALURONATE CROSSPOLYMER",
+   "HYDROLYZED HYALURONIC ACID",
+   "SODIUM HYALURONATE",
+   "1,2-HEXANEDIOL",
+   "ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER",
+   "CAPRYLYL GLYCOL",
+   "PENTYLENE GLYCOL",
+   "SODIUM HYDROXIDE"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:svr_b3_ampoule_hydra:breadcrumb:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Visage > Ampoules"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:name:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "name",
+    "rank": 1,
+    "text": "[B3] Ampoule Hydra"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:price:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "price",
+    "rank": 1,
+    "text": "29,70 € (99,00 €/100 ml.)"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:size:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:description:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum hydratant repulpant à la niacinamide et à l'acide hyaluronique. Apaise les tiraillements, les rougeurs et pallie au manque d'élasticité. Elle respecte rigoureusement la charte d'ingrédients SVR et est sans parfum, ce qui garantit une tolérance optimale."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:claims:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "claims",
+    "rank": 1,
+    "text": "SANS PARFUM. 12 INGRÉDIENTS SEULEMENT. TESTÉ SOUS CONTRÔLE DERMATOLOGIQUE. Sur peaux sensibles."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:how_to_use:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquer matin et soir sur peau propre, avant votre crème."
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:inci:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA/WATER/EAU, GLYCERIN, NIACINAMIDE, ISOPENTYLDIOL, SODIUM HYALURONATE CROSSPOLYMER, HYDROLYZED HYALURONIC ACID, SODIUM HYALURONATE, 1,2-HEXANEDIOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, PENTYLENE GLYCOL, SODIUM HYDROXIDE"
+   },
+   {
+    "id": "p:svr_b3_ampoule_hydra:brand_boilerplate:1",
+    "sku": "svr_b3_ampoule_hydra",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "SVR, laboratoire dermatologique français."
+   }
+  ]
+ }
+}

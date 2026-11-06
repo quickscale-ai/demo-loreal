@@ -1,0 +1,722 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "run_id": "run_ca8ba36783d20b60",
+  "model": "claude-sonnet-5-5",
+  "note": "Mesures lexicales sans LLM. Volet moteur : simulation, hors moteurs réels.",
+  "extraction": {
+   "n_products": 28,
+   "n_serums": 26,
+   "n_items_verified": 796,
+   "n_rejected_verbatim": 0,
+   "llm_seul": {
+    "items_per_fiche": 14.4286,
+    "unclaimed_actives_total": 30,
+    "similarity_serums": 0.1168,
+    "loreal_numeric_results": 95,
+    "regulated_items": 22,
+    "regulated_fiches": 17,
+    "regulated_routed": 0
+   },
+   "differenciants": {
+    "items_per_fiche": 27.8214,
+    "unclaimed_actives_total": 0,
+    "similarity_serums": 0.0949,
+    "loreal_numeric_results": 92,
+    "regulated_items": 17,
+    "regulated_routed": 17
+   }
+  },
+  "engine": {
+   "note": "Simulation, hors moteurs réels : même modèle que l'Atelier, sans web ni outils, 1 tirage par condition.",
+   "question": "Un consommateur demande : pourquoi choisir ce produit plutôt qu'un autre produit de la même catégorie ? Réponds en 5 points courts.",
+   "n_products": 22,
+   "conditions": [
+    {
+     "id": "A",
+     "label": "Nom, marque, prix",
+     "receives": "Nom, marque, prix",
+     "role": null,
+     "recall": 0.1535,
+     "recall_loreal": 0.1598,
+     "recall_competitors": 0.125,
+     "recall_by_kind": {
+      "actif": 0.2606,
+      "chiffre": 0.0,
+      "benefice": 0.1757
+     },
+     "similarity": 0.1705,
+     "similarity_serums": 0.1738,
+     "answers_with_regulated_claim": 0,
+     "answers_with_unclaimed_active": 0,
+     "invalid_answers": 0
+    },
+    {
+     "id": "B",
+     "label": "+ 16 attributs classiques (Atelier v1.1, valeurs validées automatiquement)",
+     "receives": "A + 16 attributs à cases fermées",
+     "role": null,
+     "recall": 0.2458,
+     "recall_loreal": 0.2421,
+     "recall_competitors": 0.2626,
+     "recall_by_kind": {
+      "actif": 0.6286,
+      "chiffre": 0.0,
+      "benefice": 0.1509
+     },
+     "similarity": 0.1722,
+     "similarity_serums": 0.1722,
+     "answers_with_regulated_claim": 0,
+     "answers_with_unclaimed_active": 16,
+     "invalid_answers": 0
+    },
+    {
+     "id": "C",
+     "label": "+ différenciants vérifiés (non réglementés)",
+     "receives": "B + différenciateurs vérifiés",
+     "role": "pipeline",
+     "recall": 0.7518,
+     "recall_loreal": 0.7536,
+     "recall_competitors": 0.7439,
+     "recall_by_kind": {
+      "actif": 0.9053,
+      "chiffre": 0.8619,
+      "benefice": 0.6283
+     },
+     "similarity": 0.1138,
+     "similarity_serums": 0.1113,
+     "answers_with_regulated_claim": 0,
+     "answers_with_unclaimed_active": 12,
+     "invalid_answers": 0
+    },
+    {
+     "id": "D",
+     "label": "Témoin : B + liste libre en génération directe (non vérifiée)",
+     "receives": "B + liste libre en génération directe",
+     "role": "témoin",
+     "recall": 0.7464,
+     "recall_loreal": 0.7753,
+     "recall_competitors": 0.6165,
+     "recall_by_kind": {
+      "actif": 0.8765,
+      "chiffre": 0.8358,
+      "benefice": 0.652
+     },
+     "similarity": 0.1169,
+     "similarity_serums": 0.1161,
+     "answers_with_regulated_claim": 11,
+     "answers_with_unclaimed_active": 11,
+     "invalid_answers": 0
+    }
+   ],
+   "examples": [
+    {
+     "sku": "lrp_hyalu_b5_serum",
+     "name": "Hyalu B5 Sérum Suractivé",
+     "brand": "La Roche-Posay",
+     "n_references": 13,
+     "conditions": {
+      "A": {
+       "points": [
+        {
+         "text": "Marque dermatologique reconnue : La Roche-Posay est largement recommandée par les professionnels de santé et réputée pour ses formules adaptées aux peaux sensibles.",
+         "matched": []
+        },
+        {
+         "text": "Formule axée sur l'hydratation et le repulpage : l'association de l'acide hyaluronique et de la vitamine B5 (panthénol), indiquée dans le nom du produit, vise à hydrater et apaiser la peau.",
+         "matched": [
+          "Acide hyaluronique",
+          "Panthénol",
+          "Repulpant, volume"
+         ]
+        },
+        {
+         "text": "Positionnement prix intermédiaire : à 41,10 €, il se situe dans la gamme dermo-cosmétique, au-dessus des sérums de grande distribution mais en dessous de nombreuses références de luxe.",
+         "matched": []
+        },
+        {
+         "text": "Gamme cohérente : appartenant à la ligne Hyalu B5, il se combine facilement avec les autres soins de la même gamme pour une routine complète.",
+         "matched": []
+        },
+        {
+         "text": "Limite à connaître : je ne dispose pas de la composition détaillée ni d'avis comparatifs, donc vérifiez la liste INCI et le type de peau visé avant d'acheter, et comparez avec d'autres sérums hydratants.",
+         "matched": []
+        }
+       ],
+       "recall": 0.2308,
+       "n_found": 3,
+       "regulated_claims": [],
+       "unclaimed_actives": []
+      },
+      "B": {
+       "points": [
+        {
+         "text": "Formule ciblée sur les signes de l'âge, avec de l'acide hyaluronique et ses sels pour hydrater la peau et repulper les ridules.",
+         "matched": [
+          "Acide hyaluronique",
+          "Repulpant, volume",
+          "Ridules"
+         ]
+        },
+        {
+         "text": "Panthénol (provitamine B5), madécassoside et adénosine complètent l'action : confort, apaisement et soutien de la peau.",
+         "matched": [
+          "Panthénol"
+         ]
+        },
+        {
+         "text": "Adapté aux peaux sensibles et à tous types de peau, ce qui en fait un sérum polyvalent.",
+         "matched": []
+        },
+        {
+         "text": "Utilisable matin et soir : routine simple, applicable quotidiennement.",
+         "matched": []
+        },
+        {
+         "text": "Contenance de 30 ml à 41,10 €. À noter : la formule contient du parfum et de l'alcool, ce qui peut compter si vous cherchez un produit sans ces ingrédients.",
+         "matched": []
+        }
+       ],
+       "recall": 0.3077,
+       "n_found": 4,
+       "regulated_claims": [],
+       "unclaimed_actives": [
+        "adenosine",
+        "madecassoside"
+       ]
+      },
+      "C": {
+       "points": [
+        {
+         "text": "Acide hyaluronique sous 4 formes (haut, moyen, bas et micro-poids moléculaire) : une hydratation et un repulpage à plusieurs niveaux de la peau, selon la marque.",
+         "matched": [
+          "Acide hyaluronique",
+          "Repulpant, volume"
+         ]
+        },
+        {
+         "text": "Vitamine B5 (panthénol) réparatrice de barrière, associée à du madécassoside : le sérum protège la barrière cutanée et préserve l'hydratation, tout en convenant aux peaux sensibles.",
+         "matched": [
+          "Panthénol",
+          "Barrière, hydratation"
+         ]
+        },
+        {
+         "text": "Résultats annoncés par la marque : peau repulpée et réparée en 1 heure, ridules lissées dès 14 jours et rides corrigées en 1 mois, d'après un test instrumental (24 sujets) et des études cliniques (40 et 85 sujets).",
+         "matched": [
+          "Peau réparée en 1 heure",
+          "Ridules lissées dès 14 jours",
+          "Rides corrigées en 1 mois"
+         ]
+        },
+        {
+         "text": "Complexe stimulant la production d'acide hyaluronique et technologie ciblée délivrant les 4 formes d'AH, deux technologies propres à la marque qui vont au-delà d'un simple sérum hydratant.",
+         "matched": [
+          "Acide hyaluronique",
+          "Complexe stimulant"
+         ]
+        },
+        {
+         "text": "Usage simple et polyvalent : 3-4 gouttes matin et soir sur visage, cou et décolleté, pour tous types de peaux et tous phototypes. À noter : la formule contient du parfum et de l'alcool, à vérifier si vous y êtes très réactif(ve). Prix : 41,10 € pour 30 ml.",
+         "matched": []
+        }
+       ],
+       "recall": 0.7692,
+       "n_found": 10,
+       "regulated_claims": [],
+       "unclaimed_actives": [
+        "madecassoside"
+       ]
+      },
+      "D": {
+       "points": [
+        {
+         "text": "Association de 4 poids moléculaires d'acide hyaluronique (haut, moyen, bas, micro) pour hydrater de la surface aux couches plus profondes de l'épiderme.",
+         "matched": [
+          "Acide hyaluronique"
+         ]
+        },
+        {
+         "text": "Résultats annoncés par des études cliniques : peau repulpée dès 1 heure, ridules lissées dès 14 jours et rides corrigées en 1 mois.",
+         "matched": [
+          "Peau réparée en 1 heure",
+          "Ridules lissées dès 14 jours",
+          "Rides corrigées en 1 mois"
+         ]
+        },
+        {
+         "text": "Action réparatrice sur la barrière cutanée grâce à l'acide hyaluronique encapsulé avec le panthénol (vitamine B5), complété par le madécassoside et l'adénosine.",
+         "matched": [
+          "Acide hyaluronique",
+          "Panthénol",
+          "Barrière, hydratation"
+         ]
+        },
+        {
+         "text": "Convient à tous les types de peau, y compris sensibles, et à tous les phototypes, mais la formule contient du parfum et de l'alcool : à éviter si vous cherchez un produit sans parfum ou sans alcool.",
+         "matched": []
+        },
+        {
+         "text": "Utilisation simple matin et soir (3-4 gouttes) pour 41,10 € les 30 ml, dans un flacon contenant au moins 68 % de matières recyclées.",
+         "matched": []
+        }
+       ],
+       "recall": 0.6923,
+       "n_found": 9,
+       "regulated_claims": [],
+       "unclaimed_actives": [
+        "adenosine",
+        "madecassoside"
+       ]
+      }
+     }
+    },
+    {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "name": "Hyaluronic Acid 2% + B5 (Original Formulation)",
+     "brand": "The Ordinary",
+     "n_references": 4,
+     "conditions": {
+      "A": {
+       "points": [
+        {
+         "text": "Prix accessible : 9,00 €, ce qui le place parmi les sserums à l'acide hyaluronique les plus abordables du marché.",
+         "matched": [
+          "Acide hyaluronique"
+         ]
+        },
+        {
+         "text": "Formule ciblée : 2 % d'acide hyaluronique associé à de la vitamine B5, un duo pensé pour l'hydratation et le confort de la peau.",
+         "matched": [
+          "Acide hyaluronique",
+          "Panthénol"
+         ]
+        },
+        {
+         "text": "Marque reconnue : The Ordinary est réputée pour ses formules simples, lisibles et centrées sur un actif principal.",
+         "matched": []
+        },
+        {
+         "text": "Facile à intégrer : un sérum de ce type se superpose aisément à d'autres soins, avant la crème hydratante.",
+         "matched": []
+        },
+        {
+         "text": "Limite de mes données : je ne dispose que du nom, de la marque et du prix, donc je ne peux pas comparer précisément la composition, la texture ou la tolérance avec les produits concurrents.",
+         "matched": []
+        }
+       ],
+       "recall": 0.5,
+       "n_found": 2,
+       "regulated_claims": [],
+       "unclaimed_actives": []
+      },
+      "B": {
+       "points": [
+        {
+         "text": "Prix très accessible : 9,00 € pour 30 ml, un bon rapport qualité-prix pour un sérum hydratant.",
+         "matched": []
+        },
+        {
+         "text": "Concentration clairement indiquée : 2 % d'acide hyaluronique et sels, pour une hydratation ciblée et transparente.",
+         "matched": [
+          "Acide hyaluronique"
+         ]
+        },
+        {
+         "text": "Formule enrichie en panthénol (provitamine B5), un actif complémentaire souvent associé au confort de la peau.",
+         "matched": [
+          "Panthénol"
+         ]
+        },
+        {
+         "text": "Polyvalent : convient à tous types de peau, s'applique matin et soir, et sa texture fluide s'intègre facilement dans une routine.",
+         "matched": []
+        },
+        {
+         "text": "Formule sans alcool, adaptée à ceux qui veulent éviter cet ingrédient dans leurs soins.",
+         "matched": []
+        }
+       ],
+       "recall": 0.5,
+       "n_found": 2,
+       "regulated_claims": [],
+       "unclaimed_actives": []
+      },
+      "C": {
+       "points": [
+        {
+         "text": "Prix très accessible : 9,00 € les 30 ml, pour un sérum concentré à 2 % d'acide hyaluronique et sels.",
+         "matched": [
+          "Acide hyaluronique"
+         ]
+        },
+        {
+         "text": "Double action hydratation : plusieurs types d'acide hyaluronique (dont un réticulat nouvelle génération) pour hydrater plusieurs couches de la peau, associés au panthénol (provitamine B5) qui aide à renforcer la barrière cutanée et à mieux retenir l'humidité.",
+         "matched": [
+          "Acide hyaluronique",
+          "Panthénol",
+          "Barrière, hydratation"
+         ]
+        },
+        {
+         "text": "Convient à tous les types de peau et s'utilise matin et soir, quelques gouttes suffisent : simple à intégrer en étape 2 (traiter) de la routine.",
+         "matched": []
+        },
+        {
+         "text": "Texture de sérum fluide à base d'eau, sans huile, sans silicone et sans alcool, donc adaptée si tu cherches un fini non gras.",
+         "matched": []
+        },
+        {
+         "text": "Formule vegan, sans gluten et non testée sur les animaux. À savoir : applique-le sur peau intacte et fais un test cutané préalable. Je ne peux pas comparer précisément avec d'autres marques, faute de données sur leurs produits.",
+         "matched": []
+        }
+       ],
+       "recall": 0.75,
+       "n_found": 3,
+       "regulated_claims": [],
+       "unclaimed_actives": []
+      },
+      "D": {
+       "points": [
+        {
+         "text": "Hydratation en profondeur : 4 types d'acide hyaluronique (bas, moyen, haut poids moléculaire + crosspolymère) agissent sur plusieurs couches de l'épiderme, là où beaucoup de sérums n'en combinent moins.",
+         "matched": [
+          "Acide hyaluronique"
+         ]
+        },
+        {
+         "text": "Barrière cutanée soutenue : le panthénol (provitamine B5) favorise la formation de céramides et d'acides gras, pour une meilleure rétention d'humidité.",
+         "matched": [
+          "Panthénol",
+          "Barrière, hydratation"
+         ]
+        },
+        {
+         "text": "Formule simple et douce : sans alcool, sans huile, sans silicone, pH de 6,0 à 7,5 compatible avec la peau, adaptée à tous les types de peau.",
+         "matched": []
+        },
+        {
+         "text": "Facile à utiliser : quelques gouttes matin et soir, texture fluide de sérum aqueux qui s'intègre à toute routine.",
+         "matched": []
+        },
+        {
+         "text": "Excellent rapport qualité/prix : 30 ml à 9,00 €, avec une formule vegan, sans gluten et non testée sur les animaux.",
+         "matched": []
+        }
+       ],
+       "recall": 0.75,
+       "n_found": 3,
+       "regulated_claims": [],
+       "unclaimed_actives": []
+      }
+     }
+    },
+    {
+     "sku": "vichy_mineral89_serum",
+     "name": "MINÉRAL 89 Sérum Booster quotidien fortifiant et repulpant",
+     "brand": "Vichy",
+     "n_references": 13,
+     "conditions": {
+      "A": {
+       "points": [
+        {
+         "text": "Je ne dispose que du nom, de la marque et de la description générale du produit, sans composition détaillée ni avis : je ne peux donc pas affirmer qu'il est meilleur qu'un autre sérum.",
+         "matched": []
+        },
+        {
+         "text": "Le positionnement annoncé est un booster quotidien fortifiant et repulpant, ce qui convient si vous cherchez à renforcer et à donner du confort à une peau qui manque de tonus.",
+         "matched": [
+          "Repulpant, volume"
+         ]
+        },
+        {
+         "text": "Il est signé Vichy, une marque de dermo-cosmétique connue, souvent choisie par les personnes qui recherchent une marque reconnue pour les peaux sensibles.",
+         "matched": []
+        },
+        {
+         "text": "Le prix n'est pas affiché dans mes données : comparez-le au rapport prix/quantité des sérums concurrents avant de décider.",
+         "matched": []
+        },
+        {
+         "text": "Pour trancher, comparez la liste des ingrédients, votre type de peau et vos objectifs (hydratation, fermeté, sensibilité), et testez sur une petite zone ou demandez conseil à un pharmacien ou un dermatologue.",
+         "matched": []
+        }
+       ],
+       "recall": 0.0769,
+       "n_found": 1,
+       "regulated_claims": [],
+       "unclaimed_actives": []
+      },
+      "B": {
+       "points": [
+        {
+         "text": "Formule sans parfum et sans alcool : adaptée aux peaux qui supportent mal les produits parfumés ou desséchants.",
+         "matched": []
+        },
+        {
+         "text": "Texture gel légère : s'applique facilement et convient à tous types de peau.",
+         "matched": []
+        },
+        {
+         "text": "Acide hyaluronique et sels comme actifs clés : axé sur l'hydratation, avec un effet repulpant et fortifiant revendiqué.",
+         "matched": [
+          "Acide hyaluronique",
+          "Repulpant, volume"
+         ]
+        },
+        {
+         "text": "Utilisable matin et soir : s'intègre simplement dans une routine quotidienne.",
+         "matched": []
+        },
+        {
+         "text": "Grande contenance de 50 ml, signée Vichy (gamme Minéral 89) : la marque est reconnue en soin de la peau, mais le prix n'étant pas affiché, comparez-le avec d'autres sérums avant d'acheter.",
+         "matched": []
+        }
+       ],
+       "recall": 0.1538,
+       "n_found": 2,
+       "regulated_claims": [],
+       "unclaimed_actives": []
+      },
+      "C": {
+       "points": [
+        {
+         "text": "Formule composée à 89 % d'Eau Volcanique de Vichy, riche en 15 minéraux, apaisante et protectrice : un socle propre à la marque.",
+         "matched": [
+          "Eau Volcanique de Vichy"
+         ]
+        },
+        {
+         "text": "Duo d'actifs hydratants (acide hyaluronique et acide polyglutamique, les « Acides Hydratants Jumeaux ») pour hydrater en surface et en profondeur, sur 10 couches, et renforcer la rétention d'eau naturelle.",
+         "matched": [
+          "Acides Hydratants Jumeaux",
+          "Acide hyaluronique",
+          "Acide Polyglutamique"
+         ]
+        },
+        {
+         "text": "Résultats annoncés par la marque : 83 % de peaux plus douces immédiatement, 85 % plus lisses en 28 jours, 87 % plus saines en 56 jours (résultats déclarés par la marque).",
+         "matched": [
+          "87 % peau plus saine, 56 jours",
+          "83 % peau plus douce, immédiat",
+          "85 % peau plus lisse, 28 jours"
+         ]
+        },
+        {
+         "text": "Formule sans parfum, sans alcool et sans paraben, pour tous types de peau, avec une attention particulière aux peaux sensibles.",
+         "matched": []
+        },
+        {
+         "text": "Texture gel fluide ultra-légère, sans film gras, facile à intégrer : 3 pressions matin et/ou soir, seul ou en base sous la crème.",
+         "matched": []
+        }
+       ],
+       "recall": 0.5385,
+       "n_found": 7,
+       "regulated_claims": [],
+       "unclaimed_actives": []
+      },
+      "D": {
+       "points": [
+        {
+         "text": "Hydratation en profondeur : l'association acide hyaluronique + acide polyglutamique (les « Acides Hydratants Jumeaux ») hydrate jusqu'à 10 couches de l'épiderme, avec un effet repulpant et lissant sur les ridules de déshydratation.",
+         "matched": [
+          "Acides Hydratants Jumeaux",
+          "Acide hyaluronique",
+          "Acide Polyglutamique",
+          "Repulpant, volume",
+          "Ridules"
+         ]
+        },
+        {
+         "text": "Formulé avec 89 % d'Eau Volcanique de Vichy, riche en 15 minéraux et oligo-éléments, pour renforcer la barrière cutanée et fortifier la peau contre pollution, variations climatiques et fatigue.",
+         "matched": [
+          "Eau Volcanique de Vichy",
+          "Barrière, hydratation"
+         ]
+        },
+        {
+         "text": "Texture gel fluide ultra-légère : elle pénètre instantanément, sans film gras ni effet collant (85 % des testeurs la jugent légère comme de l'eau).",
+         "matched": [
+          "85 % peau plus lisse, 28 jours"
+         ]
+        },
+        {
+         "text": "Tolérance : sans parfum, sans alcool, sans paraben, formule hypoallergénique testée sur peaux sensibles, adaptée à tous types de peaux.",
+         "matched": []
+        },
+        {
+         "text": "Usage simple et polyvalent : 3 pressions matin et/ou soir, seul ou en base sous votre crème de jour ou de nuit. Les tests de satisfaction indiquent une peau plus saine (87 %), plus douce (83 %) et plus lisse (85 %). Le prix n'étant pas affiché, je ne peux pas comparer le rapport qualité-prix.",
+         "matched": [
+          "87 % peau plus saine, 56 jours",
+          "83 % peau plus douce, immédiat",
+          "85 % peau plus lisse, 28 jours"
+         ]
+        }
+       ],
+       "recall": 0.7692,
+       "n_found": 10,
+       "regulated_claims": [
+        "hypoallergenique"
+       ],
+       "unclaimed_actives": []
+      }
+     }
+    },
+    {
+     "sku": "bioderma_hydrabio_serum",
+     "name": "Hydrabio Sérum",
+     "brand": "Bioderma",
+     "n_references": 14,
+     "conditions": {
+      "A": {
+       "points": [
+        {
+         "text": "Marque dermatologique reconnue : Bioderma est une référence en soin de la peau, vendue en pharmacie.",
+         "matched": []
+        },
+        {
+         "text": "Positionnement hydratation : le nom « Hydrabio Sérum » indique un sérum pensé pour apporter de l'hydratation.",
+         "matched": []
+        },
+        {
+         "text": "Prix de 26,70 € : un tarif intermédiaire, accessible comparé aux sérums de marques de luxe.",
+         "matched": []
+        },
+        {
+         "text": "Format sérum : texture généralement fluide, facile à superposer avec votre crème habituelle.",
+         "matched": []
+        },
+        {
+         "text": "Limite de mes informations : je ne dispose ni de la composition, ni des avis, ni du type de peau ciblé ; vérifiez la liste INCI ou demandez conseil à un pharmacien avant d'acheter.",
+         "matched": []
+        }
+       ],
+       "recall": 0.0,
+       "n_found": 0,
+       "regulated_claims": [],
+       "unclaimed_actives": []
+      },
+      "B": {
+       "points": [
+        {
+         "text": "Une formule hydratante complète : acide hyaluronique, squalane et niacinamide agissent ensemble pour hydrater et assouplir la peau.",
+         "matched": [
+          "Acide hyaluronique",
+          "Niacinamide"
+         ]
+        },
+        {
+         "text": "Des actifs complémentaires : fractions de probiotiques et ferments bactériens, ainsi que vitamine E (tocophérol) pour protéger la peau.",
+         "matched": []
+        },
+        {
+         "text": "Une texture gel, à appliquer matin et soir, pratique à intégrer dans une routine quotidienne.",
+         "matched": []
+        },
+        {
+         "text": "Convient à tous types de peau, ce qui en fait un choix polyvalent.",
+         "matched": []
+        },
+        {
+         "text": "Un prix de 26,70 € pour 40 ml, avec la signature de la marque Bioderma et sa gamme Hydrabio. À noter : ce sérum contient du parfum, à éviter si vous cherchez un produit sans parfum.",
+         "matched": []
+        }
+       ],
+       "recall": 0.1429,
+       "n_found": 2,
+       "regulated_claims": [],
+       "unclaimed_actives": [
+        "ferments_bacteriens",
+        "squalane",
+        "tocopherol"
+       ]
+      },
+      "C": {
+       "points": [
+        {
+         "text": "Hydratation rapide et durable : +176% d'hydratation immédiate et effet maintenu jusqu'à 72h, selon les tests de la marque.",
+         "matched": [
+          "+176% d'hydratation immédiate",
+          "72h d'hydratation"
+         ]
+        },
+        {
+         "text": "Formule multi-actifs : acide hyaluronique (haut poids moléculaire), glycérine, niacinamide et squalane pour hydrater et renforcer la barrière cutanée (-15% de perte d'eau après 28 jours).",
+         "matched": [
+          "Acide hyaluronique",
+          "Glycérine",
+          "Niacinamide",
+          "-15% de perte d'eau"
+         ]
+        },
+        {
+         "text": "Respect du microbiome : technologie brevetée AQUAGENIUM+, avec fractions de probiotiques et sucre prébiotique, sans altérer la diversité du microbiome.",
+         "matched": [
+          "Aquagenium+"
+         ]
+        },
+        {
+         "text": "Texture gel ultra-fraîche, non collante et non grasse, qui pénètre instantanément et sert de très bonne base de maquillage.",
+         "matched": []
+        },
+        {
+         "text": "Polyvalent et bien toléré : convient à tous les types de peau, dès l'adolescence, non comédogène, utilisable matin et soir pour 26,70 € les 40 ml (attention : formule parfumée).",
+         "matched": []
+        }
+       ],
+       "recall": 0.7143,
+       "n_found": 10,
+       "regulated_claims": [],
+       "unclaimed_actives": [
+        "ferments_bacteriens",
+        "squalane"
+       ]
+      },
+      "D": {
+       "points": [
+        {
+         "text": "Hydratation rapide et durable : +176% juste après application et 72h d'hydratation (mesures instrumentales sur 12 et 10 sujets).",
+         "matched": [
+          "+176% d'hydratation immédiate",
+          "72h d'hydratation"
+         ]
+        },
+        {
+         "text": "Action sur la barrière cutanée : -15% de perte d'eau transépidermique en 28 jours (31 sujets), grâce notamment à la niacinamide, à l'acide hyaluronique et à la technologie AQUAGENIUM+ (brevet en cours).",
+         "matched": [
+          "Aquagenium+",
+          "Acide hyaluronique",
+          "Niacinamide",
+          "-15% de perte d'eau"
+         ]
+        },
+        {
+         "text": "Approche microbiome : un sucre prébiotique et des fractions de probiotiques, avec une étude clinique (19 volontaires) montrant que le produit respecte la diversité du microbiome.",
+         "matched": []
+        },
+        {
+         "text": "Texture gel ultra-fraîche, non collante et non grasse, qui pénètre instantanément et se révèle une très bonne base de maquillage.",
+         "matched": []
+        },
+        {
+         "text": "Polyvalent et bien toléré : pour tous types de peau, adolescents et adultes, non comédogène, utilisable matin et soir, à 26,70 € pour 40 ml (attention : le produit contient du parfum).",
+         "matched": []
+        }
+       ],
+       "recall": 0.5714,
+       "n_found": 8,
+       "regulated_claims": [],
+       "unclaimed_actives": [
+        "ferments_bacteriens"
+       ]
+      }
+     }
+    }
+   ],
+   "takeaway": "Les attributs à cases fermées laissent le moteur générique ; la parole spécifique de la marque triple ce qu'il restitue. Une liste libre fait autant, mais fait écrire des allégations réglementées."
+  }
+ }
+}

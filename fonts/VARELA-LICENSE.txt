@@ -1,0 +1,9 @@
+Varela — Copyright (c) 2011, Joe Prince, Admix Designs (http://www.admixdesigns.com/)
+Licensed under the SIL Open Font License, Version 1.1 (https://openfontlicense.org).
+Fichier Varela-Regular-latin.woff2 : sous-ensemble « latin » distribué par Google Fonts.
+
+Mattone — Copyright (c) 2023, Collletttivo, dessin Nunzio Mazzaferro.
+Licensed under the SIL Open Font License, Version 1.1 (voir MATTONE-LICENSE.txt).
+Source : dépôt officiel github.com/collletttivo/mattone. Le modèle PowerPoint
+l'embarque sous le nom « Mattone 150 » (version antérieure de la famille ; la graisse
+Regular 2.000 est la plus proche — à confirmer visuellement face au modèle).

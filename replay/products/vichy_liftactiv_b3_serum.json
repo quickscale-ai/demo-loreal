@@ -1,0 +1,162 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "vichy_liftactiv_b3_serum",
+  "brand": "Vichy",
+  "loreal": true,
+  "url": "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/signes-de-lage/liftactiv-serum-b3-anti-taches",
+  "captured_at": "2026-10-03T22:05:05Z",
+  "source_sha256": "d416a4f0ffb9342a451a028fba912a9d546614d27044a2ffad4b187d5a8b5136",
+  "name": "LIFTACTIV SÉRUM B3 ANTI-TACHES BRUNES ET ANTI-RIDES",
+  "price_eur": null,
+  "size_label": "30 ML",
+  "variants": [
+   "30 ML"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "NIACINAMIDE",
+   "BUTYLENE GLYCOL",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "GLYCERIN",
+   "PENTYLENE GLYCOL",
+   "PROPANEDIOL",
+   "HYDROXYETHYL UREA",
+   "GLYCOLIC ACID",
+   "ARGININE",
+   "TRANEXAMIC ACID",
+   "HYDROLYZED RICE PROTEIN",
+   "ALLANTOIN",
+   "CITRIC ACID",
+   "CYSTOSEIRA TAMARISCIFOLIA EXTRACT",
+   "SODIUM HYDROXIDE",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "2-MERCAPTONICOTINOYL GLYCINE",
+   "ASCORBYL GLUCOSIDE",
+   "DIPOTASSIUM GLYCYRRHIZATE",
+   "CAPRYLYL GLYCOL",
+   "XANTHAN GUM",
+   "CI 16035 / RED 40"
+  ],
+  "related_urls": [
+   "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-et-cremes-yeux/signes-de-lage/liftactiv-pigment-specialist-b3-eye-care-with-spf50-plus",
+   "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/cremes-et-hydratants-visage/signes-de-l-age/liftactiv-creme-anti-taches-brunes-b3-spf-50"
+  ],
+  "passages": [
+   {
+    "id": "p:vichy_liftactiv_b3_serum:name:0",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "LIFTACTIV SÉRUM B3 ANTI-TACHES BRUNES ET ANTI-RIDES"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:description:0",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Corrige les taches brunes et unifie le teint."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:description:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Les taches de vieillesses ou taches brunes sont causées par les UV, la pollution ainsi que par l'âge. Elles peuvent apparaître tout au long de la vie. NOUVEAU: 15% d'actifs anti-taches + Niacinamide (Vitamine B3) + Acide Glycolique + Vitamine Cg + Hépès + Melasyl. Le Melasyl est le nouvel actif : il intercepte l'excès de mélanine avant qu'elle ne marque la peau pour réduire la pigmentation."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:description:2",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Appliquer deux fois par jour sur le visage. Eviter le contour des yeux. Tous types de peaux même sensibles. Hypoallergénique. Sans Parfum."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:benefits:0",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Niacinamide Antioxydante et anti-inflammatoire, elle agit directement sur le grain de peau, les pores, la barrière cutanée et les signes de l’âge (rides, taches pigmentaires…). Acide glycolique Acide de fruits qui exfolie la surface de l’épiderme pour lisser le grain de peau, réduire les taches brunes et booster l'éclat du teint. MELASYL Réduit visiblement les taches brunes persistantes en interceptant l'excès de mélanine avant qu'il ne marque la peau."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:benefits:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "EFFICACITÉ CLINIQUEMENT PROUVÉE JUSQU’À -86 DE TACHES BRUNES RÉDUITES* *Étude clinique, résultat moyen sur l'amélioration de l'intensité de la coloration des taches calculé sur 33% du panel après 3 mois, le résultat moyen sur 39 sujets est de 38,5%."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:claims:0",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "claims",
+    "rank": 1,
+    "text": "Sans parfum"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:claims:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "claims",
+    "rank": 1,
+    "text": "Sans alcool"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:claims:2",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "claims",
+    "rank": 1,
+    "text": "Sans colorant"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:how_to_use:0",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "PRESSER Matin et soir, pressez 3 à 4 gouttes dans vos mains."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:how_to_use:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "APPLIQUER En évitant le contour des yeux, appliquer sur un visage propre et sec."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:inci:0",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER / EAU • NIACINAMIDE • BUTYLENE GLYCOL • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • GLYCERIN • PENTYLENE GLYCOL • PROPANEDIOL • HYDROXYETHYL UREA • GLYCOLIC ACID • ARGININE • TRANEXAMIC ACID • HYDROLYZED RICE PROTEIN • ALLANTOIN • CITRIC ACID • CYSTOSEIRA TAMARISCIFOLIA EXTRACT • SODIUM HYDROXIDE • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • 2-MERCAPTONICOTINOYL GLYCINE • ASCORBYL GLUCOSIDE • DIPOTASSIUM GLYCYRRHIZATE • CAPRYLYL GLYCOL • XANTHAN GUM • CI 16035 / RED 40"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:size:0",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "30 ML"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:routine:0",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "LIFTACTIV Soin Yeux Pigment Specialist B3 SPF50+"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:routine:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "LIFTACTIV CRÈME DE JOUR SPF 50 B3 ANTI-TACHES"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:breadcrumb:0",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Tous-les-produits > SOINS DE LA PEAU > Sérum Pour le visage > SIGNES DE L’ÂGE > LIFTACTIV - Sérum B3 Anti-Taches Brunes et Anti-Rides"
+   }
+  ]
+ }
+}

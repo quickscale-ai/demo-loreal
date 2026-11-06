@@ -1,0 +1,100 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "lrp_hyalu_b5_serum_yeux",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/gammes/visage/hyalu-b5/hyalu-b5-serum-yeux-anti-rides/LRP_165.html",
+  "captured_at": "2026-10-03T22:05:14+00:00",
+  "source_sha256": "6185acbb719887ee01ed997b987a029f1e79929a75d053438c8ea2dcab9d97f6",
+  "name": "Hyalu B5 Sérum Yeux anti-rides",
+  "price_eur": 34.4,
+  "size_label": "15 ml",
+  "variants": [
+   "15 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "GLYCERIN",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "NIACINAMIDE",
+   "PENTYLENE GLYCOL",
+   "PANTHENOL",
+   "SODIUM HYALURONATE",
+   "CAFFEINE",
+   "ASCORBYL GLUCOSIDE",
+   "HYDROXYACETOPHENONE",
+   "CAPRYLYL GLYCOL",
+   "CITRIC ACID",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:breadcrumb:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Gammes > Visage > HYALU B5"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:name:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "name",
+    "rank": 1,
+    "text": "Hyalu B5 Sérum Yeux anti-rides"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:price:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "price",
+    "rank": 1,
+    "text": "34,40 € (229,33 €/100 ml.)"
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:size:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 15 ml. Formats proposés : 15 ml."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:description:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "description",
+    "rank": 1,
+    "text": "Un sérum à l'acide hyaluronique développé pour une action anti-âge complète afin de corriger rides, perte de fermeté et d'élasticité, signes de fatigue et cernes."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:how_to_use:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Texture gel frais. Sans parfum. Appliquer matin et soir sur le contour des yeux à l'aide de l'applicateur massant pour une efficacité renforcée."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:specifications:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Type de peau : Convient aux yeux sensibles. Âge : Dès 18 ans."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:inci:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER / EAU • GLYCERIN • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • NIACINAMIDE • PENTYLENE GLYCOL • PANTHENOL • SODIUM HYALURONATE • CAFFEINE • ASCORBYL GLUCOSIDE • HYDROXYACETOPHENONE • CAPRYLYL GLYCOL • CITRIC ACID • TRISODIUM ETHYLENEDIAMINE DISUCCINATE (F.I.L. N70017601/1)."
+   },
+   {
+    "id": "p:lrp_hyalu_b5_serum_yeux:brand_boilerplate:1",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   }
+  ]
+ }
+}

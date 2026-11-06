@@ -1,0 +1,230 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "lrp_retinol_b3_serum",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/gammes/visage/retinol-b3/retinol-b3-serum-anti-rides-au-retinol-regenerant-resurfacant/LRP_115.html",
+  "captured_at": "2026-10-03T22:04:22Z",
+  "source_sha256": "98adb6ef758b5c037d82f3e842d81a4c726cf8c73d1269d61d1d5294b3e584e2",
+  "name": "Rétinol B3 Sérum anti-rides au rétinol régénérant resurfaçant",
+  "price_eur": 41.3,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "GLYCERIN",
+   "DIMETHICONE",
+   "ALCOHOL DENAT.",
+   "PENTYLENE GLYCOL",
+   "NIACINAMIDE",
+   "GLYCINE SOJA OIL / SOYBEAN OIL",
+   "PPG-6-DECYLTETRADECETH-30",
+   "SODIUM HYALURONATE",
+   "RETINOL",
+   "ADENOSINE",
+   "AMMONIUM POLYACRYLOYLDIMETHYL TAURATE",
+   "CAPRYLYL GLYCOL",
+   "CITRIC ACID",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "XANTHAN GUM",
+   "POLYSILICONE-11",
+   "RETINYL PALMITATE",
+   "TOCOPHEROL",
+   "PHENOXYETHANOL",
+   "PARFUM / FRAGRANCE"
+  ],
+  "related_urls": [
+   "https://www.laroche-posay.fr/gammes/visage/hyalu-b5/hyalu-b5-yeux-contour-des-yeux-anti-rides/LRP_068.html",
+   "https://www.laroche-posay.fr/gammes/visage/hyalu-b5/hyalu-b5-soin-creme-a-l-acide-hyaluronique/LRP_066.html"
+  ],
+  "passages": [
+   {
+    "id": "p:lrp_retinol_b3_serum:name:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Rétinol B3 Sérum anti-rides au rétinol régénérant resurfaçant"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:description:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum anti-rides régénérant resurfaçant concentré en Rétinol [Pur + à Libération Graduelle] et en Vitamine B3."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:description:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "BÉNÉFICES Rétinol B3 est un sérum anti-rides régénérant resurfaçant, qui allie le pouvoir anti-âge du Rétinol [Pur + à Libération Graduelle] à la fonction réparatrice de la Vitamine B3. Conçu pour tous les types de peaux, ce sérum visage au rétinol corrige les signes visibles de l'âge les plus prononcés (rides, taches pigmentaires, perte de fermeté...). INDICATIONS Rides profondes. Teint irrégulier. Photovieillissement (signes de l'âge provoqués par l'exposition au soleil)."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:benefits:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "1/ CORRIGE LES SIGNES DU VIEILLISSEMENT CUTANÉ"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:benefits:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Sa formule unique contient du Rétinol [Pur + à Libération Graduelle], l'une des trois formes de la Vitamine A. Le Rétinol est considéré comme l'un des meilleurs actifs anti-âge pour corriger les rides profondes et la perte de fermeté. Le Rétinol est également un actif connu pour son action kératolytique et sa capacité à accélérer le renouvellement cellulaire. Les signes de l'âge causés par le photovieillissement sont atténués : les rides du visage sont significativement réduites, les ridules paraissent lissées et le teint est unifié."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:benefits:2",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "2/ RÉPARE ET HYDRATE INTENSÉMENT Ce sérum au Rétinol est enrichi en Vitamine B3 qui aide à réparer la barrière cutanée, et en Glycérine , actif humectant qui procure jusqu'à 24h d'hydratation. La peau est souple et confortable, et le teint plus lumineux."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:benefits:3",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "3/ CONVIENT À TOUS LES TYPES DE PEAUX Si le Rétinol est connu pour être un actif anti-âge irritant, nous l'avons inclus dans un sérum anti-âge à la formulation haute tolérance, pour satisfaire tous les types de peaux en quête d'une peau plus tonique et plus lumineuse."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:benefits:4",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Efficacité cliniquement prouvée pour une tolérance optimale, même sur les peaux sensibles : 96% peau confortable 92% doux pour la peau *Étude clinique sur 51 femmes, âgées entre 46 et 65 ans pour une utilisation du sérum Rétinol B3 pendant 2 mois."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:benefits:5",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Rétinol Agit sur les signes visibles de l’âge les plus prononcés"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:benefits:6",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Vitamine B3 (Niacinamide) Apaise les picotements et les sensations d'inconfort"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:how_to_use:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "TEXTURE Texture fluide hydratante au fini non collant."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:how_to_use:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "APPLICATION Appliquer le sérum au Rétinol le soir sur le visage et le cou, seul ou sous une crème hydratante."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:how_to_use:2",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Le Rétinol étant un actif photosensibilisant, il est indispensable d'appliquer systématiquement une crème solaire visage SPF15 minimum le matin pour éviter les effets indésirables. Ne pas s'exposer volontairement au soleil."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:how_to_use:3",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "ROUTINE DE SOINS Pour compléter votre routine anti-âge, appliquer notre crème à l'acide hyaluronique Hyalu B5 Soin et notre soin ciblé pour le contour des yeux Hyalu B5 Yeux."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:how_to_use:4",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "En cas de contact avec les yeux, les rincer immédiatement et abondamment|En cas de contact avec les yeux, les rincer immédiatement et abondamment Contient de la Vitamine A. Tenez compte de votre apport quotidien avant utilisation."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:inci:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "2031511 6 - INGREDIENTS : AQUA / WATER / EAU • GLYCERIN • DIMETHICONE • ALCOHOL DENAT. • PENTYLENE GLYCOL • NIACINAMIDE • GLYCINE SOJA OIL / SOYBEAN OIL • PPG-6-DECYLTETRADECETH-30 • SODIUM HYALURONATE • RETINOL • ADENOSINE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • CAPRYLYL GLYCOL • CITRIC ACID • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • XANTHAN GUM • POLYSILICONE-11 • RETINYL PALMITATE • TOCOPHEROL • PHENOXYETHANOL • PARFUM / FRAGRANCE (F.I.L. N70026930/1)."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:size:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "30 ml"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:price:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "41,30 €"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:specifications:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Problèmes ciblés : Rides profondes Teint irrégulier Photovieillissement (signes de l’âge provoqués par l’exposition au soleil) Type de peau : Pour tous les types de peau Même sensibles et grasses Âge : A partir de 18 ans"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:specifications:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "QUALITÉS ET CARACTÉRISTIQUES ENVIRONNEMENTALES ÉTUI Emballage non compostable Emballage ne contenant pas de matière recyclée* Non recyclable Emballage non rechargeable FLACON Emballage non compostable Emballage contenant au moins 19% de matières recyclées* Non recyclable Emballage non rechargeable * Selon le référentiel CITEO"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:brand_boilerplate:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "RECOMMANDÉ PAR DES DERMATOLOGUES"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:brand_boilerplate:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Les listes d’ingrédients entrant dans la composition des produits de notre marque sont régulièrement mises à jour. Avant d’utiliser un produit de notre marque, vous êtes invités à lire la liste d’ingrédients figurant sur son emballage afin de vous assurer que les ingrédients sont adaptés à votre utilisation personnelle"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:brand_boilerplate:2",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:routine:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "Hyalu B5 Yeux Contour Des Yeux Anti-Rides"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:routine:1",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "Hyalu B5 Soin Crème à l'Acide Hyaluronique"
+   },
+   {
+    "id": "p:lrp_retinol_b3_serum:breadcrumb:0",
+    "sku": "lrp_retinol_b3_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Offres > Offres French Days > Rétinol B3 Sérum anti-rides au rétinol régénérant resurfaçant"
+   }
+  ]
+ }
+}

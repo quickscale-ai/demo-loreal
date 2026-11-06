@@ -1,0 +1,307 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "avene_hydrance_boost_serum",
+  "brand": "Avène",
+  "loreal": false,
+  "url": "https://www.eau-thermale-avene.fr/p/serum-concentre-hydratant-3282770388954-14c39aab",
+  "captured_at": "2026-10-03T22:01:11Z",
+  "source_sha256": "b8bf748a7d275efebdc44f486e6f47eb0c8624ef20329795b21600acafb804b4",
+  "name": "Sérum concentré hydratant",
+  "price_eur": null,
+  "size_label": "30ml",
+  "variants": [
+   "Flacon pipette 30ml"
+  ],
+  "inci": [
+   "AVENE THERMAL SPRING WATER (AVENE AQUA)",
+   "PROPANEDIOL",
+   "GLYCERIN",
+   "PENTYLENE GLYCOL",
+   "DIGLYCERIN",
+   "1,2-HEXANEDIOL",
+   "NIACINAMIDE",
+   "SODIUM HYALURONATE",
+   "BETAINE",
+   "CITRIC ACID",
+   "FRAGRANCE (PARFUM)",
+   "PCA",
+   "POLYGLYCERYL-4 CAPRATE",
+   "SCLEROTIUM GUM",
+   "SODIUM CITRATE",
+   "SODIUM HYDROXIDE",
+   "WATER (AQUA)"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:avene_hydrance_boost_serum:name:0",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Sérum concentré hydratant"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:name:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Hydrance Sérum concentré hydratant"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:description:0",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Un sérum hydratant concentré enrichi en Acide Hyaluronique et Vitamine B3."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:description:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Véritable booster intense d'hydratation du visage, ce sérum agit pendant 48H* et rétablit l’équilibre des peaux sensibles déshydratées. Sa formule riche en acide hyaluronique et en vitamine B3 est composée à 96% d’ingrédients d’origine naturelle, pour une texture gel d’eau ultra-légère et fraîche, non grasse et non collante. Elle pénètre du bout des doigts et laisse une sensation voile d’eau sur la peau. Anti-teint terne, ce sérum visage renforce l’hydratation pour une peau souple, lisse et éclatante. La peau retrouve durablement confort, douceur et souplesse."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:description:2",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Le mot de l’expert Un booster d'hydratation, à la texture ultra légère et fraîche, pour une peau intensément et durablement hydratée."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:description:3",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Riche en Eau thermale d’Avène, ce sérum désaltère les peaux sensibles déshydratées."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:benefits:0",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Hydrate - Renforce la barrière cutanée"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:benefits:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Hydratant 48h"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:benefits:2",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Non collant"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:benefits:3",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Hydrate 48H*. +132% d'hydratation*(1)."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:benefits:4",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "• HYDRATE 48H* • RENFORCE la barrière d'hydratation cutanée • RÉTABLIT l’équilibre de la peau"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:benefits:5",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "*Test instrumental, 33 sujets, application unique *Test instrumental, 33 sujets, application unique. (1) résultats immédiats *Test instrumental, 33 sujets, application unique."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:benefits:6",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "RÉSULTATS CLINIQUES Hydrater intensément et recharger durablement la peau en eau, au quotidien. 48H d'hydratation* +132% d'hydratation (1) 96% d'ingrédients d'origine naturelle ¹Test instrumental. 33 sujets, application unique. ²Test instrumental. 33 sujets, application unique. Résultat immédiat ³Satisfaction évaluée par33 sujets, 2 applications par jour. Résultats à T29 jours. Afficher les sourcesMasquer les sources"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:benefits:7",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "La synergie hydratante de l'Acide hyaluronique et de la Vitamine B3"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:benefits:8",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Acide hyaluronique haut poids Retient jusqu’à 1 000 fois son poids en eau pour hydrater intensément la peau."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:benefits:9",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Vitamine B3 Renforce la barrière cutanée."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:how_to_use:0",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Fréquence d’utilisation Quotidien"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:how_to_use:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Conseil d'utilisation Appliquer matin et/ou soir sur le visage, le cou et le décolleté, seule ou après votre sérum."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:how_to_use:2",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Astuce de l'expert 1. Tonifiez votre peau en pianotant l'équivalent d'une perle de crème sur le visage et le cou. 2. Lissez de l'intérieur vers l'extérieur du visage, sans oublier le cou. 3. Stimulez par de légères ventouses réalisées en posant le plat des mains sur le visage et en les décollant rapidement."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:inci:0",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AVENE THERMAL SPRING WATER (AVENE AQUA). PROPANEDIOL. GLYCERIN. PENTYLENE GLYCOL. DIGLYCERIN. 1,2-HEXANEDIOL. NIACINAMIDE. SODIUM HYALURONATE. BETAINE. CITRIC ACID. FRAGRANCE (PARFUM). PCA. POLYGLYCERYL-4 CAPRATE. SCLEROTIUM GUM. SODIUM CITRATE. SODIUM HYDROXIDE. WATER (AQUA)"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:size:0",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Flacon pipette Flacon pipette 30ml"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:specifications:0",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Idéal pour Adultes"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:specifications:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Type de peau Peau déshydratée - peau sensible - tous types de peau"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:specifications:2",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Besoin Hydratation"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:specifications:3",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Fabriqué en France"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:specifications:4",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Avantage de la texture Une texture gel d'eau ultra légère et fraîche qui laisse la peau gorgée d'eau. Senteur du contenu Douce et légère"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:specifications:5",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Fiche produit relative aux qualités et caractéristiques environnementales Emballage ne contenant pas de matière recyclée Emballage non recyclable Consigne de tri"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:specifications:6",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Impact environnemental Formule Formule biodégradable* Formulé pour limiter l’impact sur le milieu aquatique** Formule contenant 96% d’ingrédients d’origine naturelle *Selon un test OCDE 301 ou méthode indice de biodégradabilité **Selon un test OCDE 301 et classement CLP de la formule Packaging Emballage majoritairement recyclable* *hors étui Fabrication Fabriqué et conditionné dans une usine certifiée pour l’environnement* Formule fabriquée à froid sans aucune chauffe *Selon la norme ISO 14001 et/ou 50001 Transport Impact CO2 moyen du transport des matières premières Produit fabriqué et conditionné sur le même site"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:specifications:7",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Impact sociétal Impact sociétal Produit fabriqué et conditionné dans une usine française aux normes sociales exigeantes Eau Thermale Avène est une marque des Laboratoires Pierre Fabre, labellisé au plus haut niveau Exemplaire du label Engagé RSE et Responsibility Europe d’AFNOR Certification, consolidant ainsi un engagement de longue date dans la contribution au développement durable. Produit ne contenant pas d’ingrédient ou de dérivé d’origine animale"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:brand_boilerplate:0",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Le Green Impact Index est un outil d’affichage de l’impact environnemental et sociétal des produits cosmétiques, des compléments alimentaires ainsi que des produits de bien-être et santé familiale, basé sur la méthodologie décrite dans l’AFNOR Spec 2215. Développé en collaboration par 21 entreprises, associations et fédérations, il évalue vos produits sur plus de 50 critères pour toujours plus de transparence !"
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:brand_boilerplate:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Il est recommandé au consommateur de vérifier systématiquement la composition du produit avant son achat."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:brand_boilerplate:2",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "C'est au cœur de nos préoccupations. Nous y travaillons chaque jour, pour mieux préserver demain."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:editorial:0",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Hydrance Source infinie d'hydratation pour les peaux sensibles."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:editorial:1",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "QUESTIONS FRÉQUENTES Un doute, une interrogation ? Nos experts vous répondent."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:editorial:2",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Je souhaite un teint éclatant, que faire ? Pour un teint éclatant, la clé c'est l'hydratation. C'est l'étape essentielle de votre routine beauté car une peau bien hydratée présente un teint plus lumineux qui capte bien la lumière."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:editorial:3",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Est-ce que je peux appliquer le sérum Hydrance BOOST toute l'année ? Si votre peau à tendance à être déshydratée, il est tout à faire possible d'utiliser le sérum toute l'année, et il est même intéressant de l'appliquer l'été avant sa crème solaire."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:editorial:4",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Est-il possible de l'appliquer en après-rasage ? Pour apaiser rapidement le feu du rasoir et hydrater votre peau, commencer par appliquer une fine brume d'Eau thermale d'Avène sur votre peau avant d'appliquer le sérum Hydrance Boost."
+   },
+   {
+    "id": "p:avene_hydrance_boost_serum:breadcrumb:0",
+    "sku": "avene_hydrance_boost_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Soins visage > Sérums > Sérum concentré hydratant"
+   }
+  ]
+ }
+}

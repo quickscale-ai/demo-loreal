@@ -1,0 +1,5183 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "run_id": "run_ab67c5a0cdfbb839",
+  "items": [
+   {
+    "item_id": "rv_lrp_hyalu_b5_serum_compatible_sous_spf",
+    "sku": "lrp_hyalu_b5_serum",
+    "product_name": "Hyalu B5 Sérum Suractivé",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_hyalu_b5_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_hyalu_b5_serum:how_to_use:0",
+       "quote": "Le matin et soir.",
+       "start": 27,
+       "end": 44,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_0f41d5486248827e"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Le matin et soir.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_ccb6fcac7c9be8cd"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Le matin et soir.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_f77641c8a7e5a207"
+      }
+     ],
+     "agreement": 0.6666666666666666,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.8,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 0.6667,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.8
+     },
+     "route": "revue_rapide",
+     "route_reason": "Confiance 0,80 entre les seuils (0,60 - 0,85) : revue rapide.",
+     "calls": [
+      "c_0f41d5486248827e",
+      "c_ccb6fcac7c9be8cd",
+      "c_f77641c8a7e5a207"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:lrp_hyalu_b5_serum:how_to_use:0",
+      "sku": "lrp_hyalu_b5_serum",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "QUANTITÉ 3-4 gouttes QUAND Le matin et soir. OÙ Visage, cou et décolleté. CONSEILS D’APPLICATION Appliquer matin et soir sur visage, cou et décolleté. Tous types de peaux et phototypes."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_lrp_hyalu_b5_serum_hypoallergenique",
+    "sku": "lrp_hyalu_b5_serum",
+    "product_name": "Hyalu B5 Sérum Suractivé",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_hyalu_b5_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_hyalu_b5_serum_teste_dermatologiquement",
+    "sku": "lrp_hyalu_b5_serum",
+    "product_name": "Hyalu B5 Sérum Suractivé",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_hyalu_b5_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_avene_cicalfate_serum_compatible_sous_spf",
+    "sku": "avene_cicalfate_serum",
+    "product_name": "Sérum réparateur intense",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "avene_cicalfate_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:avene_cicalfate_serum:how_to_use:0",
+       "quote": "appliquer quelques gouttes matin et soir",
+       "start": 64,
+       "end": 104,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "appliquer quelques gouttes matin et soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_6126cbf0f6125f70"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "appliquer quelques gouttes matin et soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_05a4625c407d31b1"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "appliquer quelques gouttes matin et soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_c97b6f94c2698e92"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_6126cbf0f6125f70",
+      "c_05a4625c407d31b1",
+      "c_c97b6f94c2698e92"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:avene_cicalfate_serum:how_to_use:0",
+      "sku": "avene_cicalfate_serum",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "Fréquence d’utilisation 2 fois par jour A l’aide de la pipette, appliquer quelques gouttes matin et soir, sur le visage, le cou et le contour des yeux, avant le soin habituel."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_avene_hydrance_boost_serum_compatible_sous_spf",
+    "sku": "avene_hydrance_boost_serum",
+    "product_name": "Sérum concentré hydratant",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "avene_hydrance_boost_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:avene_hydrance_boost_serum:editorial:3",
+       "quote": "il est même intéressant de l'appliquer l'été avant sa crème solaire",
+       "start": 181,
+       "end": 248,
+       "rank": 2,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:avene_hydrance_boost_serum:how_to_use:1",
+       "quote": "Appliquer matin et/ou soir sur le visage",
+       "start": 22,
+       "end": 62,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "il est même intéressant de l'appliquer l'été avant sa crème solaire",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_54b0cbf364e623f8"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Appliquer matin et/ou soir sur le visage",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_f03ea4e23eae1bd3"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Appliquer matin et/ou soir sur le visage",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_0f6e32e722db2a47"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_54b0cbf364e623f8",
+      "c_f03ea4e23eae1bd3",
+      "c_0f6e32e722db2a47"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:avene_hydrance_boost_serum:editorial:3",
+      "sku": "avene_hydrance_boost_serum",
+      "section": "editorial",
+      "rank": 2,
+      "text": "Est-ce que je peux appliquer le sérum Hydrance BOOST toute l'année ? Si votre peau à tendance à être déshydratée, il est tout à faire possible d'utiliser le sérum toute l'année, et il est même intéressant de l'appliquer l'été avant sa crème solaire."
+     },
+     {
+      "id": "p:avene_hydrance_boost_serum:how_to_use:1",
+      "sku": "avene_hydrance_boost_serum",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "Conseil d'utilisation Appliquer matin et/ou soir sur le visage, le cou et le décolleté, seule ou après votre sérum."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_avene_hydrance_boost_serum_sans_alcool",
+    "sku": "avene_hydrance_boost_serum",
+    "product_name": "Sérum concentré hydratant",
+    "attribute": "sans_alcool",
+    "regulated": false,
+    "value": {
+     "sku": "avene_hydrance_boost_serum",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:avene_hydrance_boost_serum:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-ALCOOL",
+       "rule_version": "1.0.0",
+       "detail": "17 ingrédients INCI examinés : ni ALCOHOL, ni ALCOHOL DENAT., ni ETHANOL."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-ALCOOL-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_alcool=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:avene_hydrance_boost_serum:inci:0",
+      "sku": "avene_hydrance_boost_serum",
+      "section": "inci",
+      "rank": 1,
+      "text": "AVENE THERMAL SPRING WATER (AVENE AQUA). PROPANEDIOL. GLYCERIN. PENTYLENE GLYCOL. DIGLYCERIN. 1,2-HEXANEDIOL. NIACINAMIDE. SODIUM HYALURONATE. BETAINE. CITRIC ACID. FRAGRANCE (PARFUM). PCA. POLYGLYCERYL-4 CAPRATE. SCLEROTIUM GUM. SODIUM CITRATE. SODIUM HYDROXIDE. WATER (AQUA)"
+     }
+    ]
+   },
+   {
+    "item_id": "rv_bioderma_hydrabio_hyalu_serum_compatible_sous_spf",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "product_name": "Hydrabio Hyalu+ sérum",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:how_to_use:0",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "start": 22,
+       "end": 72,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_12cbb7f9553a4962"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_5f77ad6730d825fd"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Appliquer environ 5 gouttes le matin et/ou le soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_1335a357ed7515a2"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_12cbb7f9553a4962",
+      "c_5f77ad6730d825fd",
+      "c_1335a357ed7515a2"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:bioderma_hydrabio_hyalu_serum:how_to_use:0",
+      "sku": "bioderma_hydrabio_hyalu_serum",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "matin/soir cou visage Appliquer environ 5 gouttes le matin et/ou le soir directement sur le visage et le cou après le nettoyage idéalement avec un produit d'hygiène Hydrabio. Nettoyer votre peau idéalement avec un produit d'hygiène Hydrabio. Appliquer le sérum Hydrabio Hyalu+ sur l'ensemble du visage et du cou. Masser délicatement jusqu'à absorption. Appliquer votre Crème ou Gel-crème Hydrabio habituel."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_bioderma_hydrabio_hyalu_serum_sans_alcool",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "product_name": "Hydrabio Hyalu+ sérum",
+    "attribute": "sans_alcool",
+    "regulated": false,
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-ALCOOL",
+       "rule_version": "1.0.0",
+       "detail": "24 ingrédients INCI examinés : ni ALCOHOL, ni ALCOHOL DENAT., ni ETHANOL."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-ALCOOL-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_alcool=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:bioderma_hydrabio_hyalu_serum:inci:0",
+      "sku": "bioderma_hydrabio_hyalu_serum",
+      "section": "inci",
+      "rank": 1,
+      "text": "AQUA/WATER/EAU - BUTYLENE GLYCOL - GLYCERIN - PROPANEDIOL - PENTYLENE GLYCOL - NIACINAMIDE - POLYSORBATE 20 - XANTHAN GUM - HYDROLYZED HYALURONIC ACID - FRUCTOOLIGOSACCHARIDES - SODIUM CITRATE - CITRIC ACID - CARNOSINE - ADENOSINE - FRAGRANCE (PARFUM) - SACCHARIDE ISOMERATE - SODIUM HYALURONATE - PEUMUS BOLDUS LEAF EXTRACT - HEXYLDECANOL - 1,2-HEXANEDIOL - CAPRYLYL GLYCOL - BRASSICA CAMPESTRIS (RAPESEED) STEROLS - PYRUS MALUS (APPLE) SEED EXTRACT - TOCOPHEROL"
+     }
+    ]
+   },
+   {
+    "item_id": "rv_bioderma_hydrabio_serum_compatible_sous_spf",
+    "sku": "bioderma_hydrabio_serum",
+    "product_name": "Hydrabio Sérum",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "bioderma_hydrabio_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:bioderma_hydrabio_serum:how_to_use:0",
+       "quote": "Matin et/ou soir - 7 jours sur 7",
+       "start": 22,
+       "end": 54,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:bioderma_hydrabio_serum:how_to_use:0",
+       "quote": "Appliquer matin ou/et soir sur le visage",
+       "start": 159,
+       "end": 199,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Matin et/ou soir - 7 jours sur 7",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_fc8817d49dc6050e"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Appliquer matin ou/et soir sur le visage",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_f912329eb907815f"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Matin et/ou soir - 7 jours sur 7",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_464e456735f0037f"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_fc8817d49dc6050e",
+      "c_f912329eb907815f",
+      "c_464e456735f0037f"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:bioderma_hydrabio_serum:how_to_use:0",
+      "sku": "bioderma_hydrabio_serum",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "matin/soir visage cou Matin et/ou soir - 7 jours sur 7 Nettoyez votre peau idéalement avec Hydrabio Gel moussant. Utiliser avant le produit de soin quotidien. Appliquer matin ou/et soir sur le visage, le cou et le décolleté. Masser doucement jusqu'à absorption"
+     }
+    ]
+   },
+   {
+    "item_id": "rv_bioderma_hydrabio_serum_peau_sensible",
+    "sku": "bioderma_hydrabio_serum",
+    "product_name": "Hydrabio Sérum",
+    "attribute": "peau_sensible",
+    "regulated": false,
+    "value": {
+     "sku": "bioderma_hydrabio_serum",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:bioderma_hydrabio_serum:editorial:6",
+       "quote": "Hydrabio Sérum est un sérum hydratant adapté à tous les types de peau : grasses, sensibles, sèches, normales ou mixtes.",
+       "start": 55,
+       "end": 174,
+       "rank": 2,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Hydrabio Sérum est un sérum hydratant adapté à tous les types de peau : grasses, sensibles, sèches, normales ou mixtes.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_fc8817d49dc6050e"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Hydrabio Sérum est un sérum hydratant adapté à tous les types de peau : grasses, sensibles, sèches, normales ou mixtes.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_f912329eb907815f"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Hydrabio Sérum est un sérum hydratant adapté à tous les types de peau : grasses, sensibles, sèches, normales ou mixtes.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_464e456735f0037f"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.75,
+     "confidence_breakdown": {
+      "evidence": 0.5,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.75
+     },
+     "route": "revue_rapide",
+     "route_reason": "Confiance 0,75 entre les seuils (0,60 - 0,85) : revue rapide.",
+     "calls": [
+      "c_fc8817d49dc6050e",
+      "c_f912329eb907815f",
+      "c_464e456735f0037f"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:bioderma_hydrabio_serum:editorial:6",
+      "sku": "bioderma_hydrabio_serum",
+      "section": "editorial",
+      "rank": 2,
+      "text": "Pour quel type de peau Hydrabio Sérum est-il formulé ? Hydrabio Sérum est un sérum hydratant adapté à tous les types de peau : grasses, sensibles, sèches, normales ou mixtes. La déshydratation (lorsque la peau manque d’eau) est un état temporaire qui peut toucher toute personne, à tout âge. La peau déshydratée n’est pas un type de peau en soi ni propre à un type de peau particulier. Elle affecte le plus souvent le visage."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_bioderma_hydrabio_serum_sans_alcool",
+    "sku": "bioderma_hydrabio_serum",
+    "product_name": "Hydrabio Sérum",
+    "attribute": "sans_alcool",
+    "regulated": false,
+    "value": {
+     "sku": "bioderma_hydrabio_serum",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:bioderma_hydrabio_serum:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-ALCOOL",
+       "rule_version": "1.0.0",
+       "detail": "33 ingrédients INCI examinés : ni ALCOHOL, ni ALCOHOL DENAT., ni ETHANOL."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-ALCOOL-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_alcool=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:bioderma_hydrabio_serum:inci:0",
+      "sku": "bioderma_hydrabio_serum",
+      "section": "inci",
+      "rank": 1,
+      "text": "AQUA/WATER/EAU - GLYCERIN - SQUALANE - BUTYLENE GLYCOL - NIACINAMIDE - PENTYLENE GLYCOL - PROPYLENE GLYCOL - HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER - CAPRYLIC/CAPRIC TRIGLYCERIDE - DICAPRYLYL CARBONATE - CARBOMER - SILICA - DEXTRIN PALMITATE - FRUCTOOLIGOSACCHARIDES - HYDROXYACETOPHENONE - POLYSORBATE 60 - DIISOSTEARYL MALATE - FRAGRANCE (PARFUM) - MANNITOL - SODIUM CITRATE - XYLITOL - HEXYLDECANOL - RHAMNOSE - SODIUM PCA - SORBITAN ISOSTEARATE - SODIUM HYDROXIDE - LACTOBACILLUS FERMENT - SODIUM HYALURONATE - CITRIC ACID - SACCHARIDE ISOMERATE - PYRUS MALUS (APPLE) SEED EXTRACT - BRASSICA CAMPESTRIS (RAPESEED) STEROLS - TOCOPHEROL"
+     }
+    ]
+   },
+   {
+    "item_id": "rv_lrp_cicaplast_b5_serum_compatible_sous_spf",
+    "sku": "lrp_cicaplast_b5_serum",
+    "product_name": "Cicaplast B5 sérum à la Vitamine B5 Ultra-concentré",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_cicaplast_b5_serum:how_to_use:0",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "start": 210,
+       "end": 272,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_64e09241c750c41a"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_c5219dcce49076ef"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_125313f6dc25d2b0"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_64e09241c750c41a",
+      "c_c5219dcce49076ef",
+      "c_125313f6dc25d2b0"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:lrp_cicaplast_b5_serum:how_to_use:0",
+      "sku": "lrp_cicaplast_b5_serum",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "TEXTURE Texture fini velours, fluide et confortable, adaptée à toutes les peaux. Elle est rapidement absorbée et laisse un léger film sur le visage comme protégeant la peau des agressions externes. APPLICATION Appliquez 1 à 2 gouttes matin et soir sur le visage et le cou. Attendez 1 minute avant d'appliquer d'autres produits sur la peau."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_lrp_cicaplast_b5_serum_sans_parfum",
+    "sku": "lrp_cicaplast_b5_serum",
+    "product_name": "Cicaplast B5 sérum à la Vitamine B5 Ultra-concentré",
+    "attribute": "sans_parfum",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_cicaplast_b5_serum:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-PARFUM",
+       "rule_version": "1.0.0",
+       "detail": "16 ingrédients INCI examinés : ni PARFUM, ni FRAGRANCE, ni AROMA."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-PARFUM-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_parfum=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:lrp_cicaplast_b5_serum:inci:0",
+      "sku": "lrp_cicaplast_b5_serum",
+      "section": "inci",
+      "rank": 1,
+      "text": "2039067 03 - INGREDIENTS : AQUA / WATER / EAU • PANTHENOL • GLYCERIN • ALCOHOL DENAT. • DIMETHICONE • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • PEG-20 METHYL GLUCOSE SESQUISTEARATE • SODIUM HYALURONATE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • CAPRYLYL GLYCOL • VITREOSCILLA FERMENT • CITRIC ACID • XANTHAN GUM • OCTYLDODECANOL • TOCOPHEROL • PHENOXYETHANOL (F.I.L. N284948/1)."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_lrp_hyalu_b5_serum_yeux_sans_alcool",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "product_name": "Hyalu B5 Sérum Yeux anti-rides",
+    "attribute": "sans_alcool",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_hyalu_b5_serum_yeux:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-ALCOOL",
+       "rule_version": "1.0.0",
+       "detail": "13 ingrédients INCI examinés : ni ALCOHOL, ni ALCOHOL DENAT., ni ETHANOL."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-ALCOOL-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_alcool=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:lrp_hyalu_b5_serum_yeux:inci:0",
+      "sku": "lrp_hyalu_b5_serum_yeux",
+      "section": "inci",
+      "rank": 1,
+      "text": "2039097 03 - INGREDIENTS : AQUA / WATER / EAU • GLYCERIN • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • NIACINAMIDE • PENTYLENE GLYCOL • PANTHENOL • SODIUM HYALURONATE • CAFFEINE • ASCORBYL GLUCOSIDE • HYDROXYACETOPHENONE • CAPRYLYL GLYCOL • CITRIC ACID • TRISODIUM ETHYLENEDIAMINE DISUCCINATE (F.I.L. N70017601/1)."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_lrp_mela_b3_serum_compatible_sous_spf",
+    "sku": "lrp_mela_b3_serum",
+    "product_name": "Mela B3 Sérum anti-taches concentré intensif",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_mela_b3_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_mela_b3_serum:how_to_use:0",
+       "quote": "QUAND Le matin et/ou le soir",
+       "start": 21,
+       "end": 49,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_mela_b3_serum:editorial:4",
+       "quote": "Concernant le sérum MELA B3, ce dernier peut s’appliquer aux deux moments de la journée.",
+       "start": 84,
+       "end": 172,
+       "rank": 2,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_mela_b3_serum:editorial:4",
+       "quote": "l’application d’une protection solaire est indispensable",
+       "start": 364,
+       "end": 420,
+       "rank": 2,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_mela_b3_serum:editorial:4",
+       "quote": "Le matin, il offre une protection antioxydante contre les agressions extérieures.",
+       "start": 173,
+       "end": 254,
+       "rank": 2,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_mela_b3_serum:editorial:4",
+       "quote": "Dans tous les cas, l’application d’une protection solaire est indispensable",
+       "start": 345,
+       "end": 420,
+       "rank": 2,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "QUAND Le matin et/ou le soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_bd446cb72e7cc720"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Concernant le sérum MELA B3, ce dernier peut s’appliquer aux deux moments de la journée.\nl’application d’une protection solaire est indispensable",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_7b4b5f231de3618b"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Le matin, il offre une protection antioxydante contre les agressions extérieures.\nDans tous les cas, l’application d’une protection solaire est indispensable",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_86bf6fa77ab2bab7"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_bd446cb72e7cc720",
+      "c_7b4b5f231de3618b",
+      "c_86bf6fa77ab2bab7"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:lrp_mela_b3_serum:how_to_use:0",
+      "sku": "lrp_mela_b3_serum",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "QUANTITÉ 3-4 gouttes QUAND Le matin et/ou le soir OÙ Appliquer sur le visage, le cou, le décolleté et les mains CONSEILS D’APPLICATION Appliquer sur une peau nettoyée. Peut être utilisé seul ou sous une crème hydratante."
+     },
+     {
+      "id": "p:lrp_mela_b3_serum:editorial:4",
+      "sku": "lrp_mela_b3_serum",
+      "section": "editorial",
+      "rank": 2,
+      "text": "Selon leur composition, les sérums anti-taches peuvent s’utiliser matin et/ou soir. Concernant le sérum MELA B3, ce dernier peut s’appliquer aux deux moments de la journée. Le matin, il offre une protection antioxydante contre les agressions extérieures. Le soir, il accompagne la régénération nocturne en boostant le renouvellement cellulaire. Dans tous les cas, l’application d’une protection solaire est indispensable pour éviter d’accentuer l’hyperpigmentation liée à l’exposition solaire."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_lrp_mela_b3_serum_peau_sensible",
+    "sku": "lrp_mela_b3_serum",
+    "product_name": "Mela B3 Sérum anti-taches concentré intensif",
+    "attribute": "peau_sensible",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_mela_b3_serum",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_mela_b3_serum:editorial:9",
+       "quote": "ce produit est toujours testé contre les allergies et convient aux peaux sensibles",
+       "start": 174,
+       "end": 256,
+       "rank": 2,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "ce produit est toujours testé contre les allergies et convient aux peaux sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_bd446cb72e7cc720"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "ce produit est toujours testé contre les allergies et convient aux peaux sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_7b4b5f231de3618b"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "ce produit est toujours testé contre les allergies et convient aux peaux sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_86bf6fa77ab2bab7"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.75,
+     "confidence_breakdown": {
+      "evidence": 0.5,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.75
+     },
+     "route": "revue_rapide",
+     "route_reason": "Confiance 0,75 entre les seuils (0,60 - 0,85) : revue rapide.",
+     "calls": [
+      "c_bd446cb72e7cc720",
+      "c_7b4b5f231de3618b",
+      "c_86bf6fa77ab2bab7"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:lrp_mela_b3_serum:editorial:9",
+      "sku": "lrp_mela_b3_serum",
+      "section": "editorial",
+      "rank": 2,
+      "text": "Ce sérum anti-taches est-il parfumé ? Oui, ce produit est parfumé. Nous avons ajouté du parfum pour améliorer l'expérience sensorielle. Bien que nous ayons ajouté du parfum, ce produit est toujours testé contre les allergies et convient aux peaux sensibles."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_lrp_mela_b3_serum_sans_alcool",
+    "sku": "lrp_mela_b3_serum",
+    "product_name": "Mela B3 Sérum anti-taches concentré intensif",
+    "attribute": "sans_alcool",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_mela_b3_serum",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:lrp_mela_b3_serum:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-ALCOOL",
+       "rule_version": "1.0.0",
+       "detail": "32 ingrédients INCI examinés : ni ALCOHOL, ni ALCOHOL DENAT., ni ETHANOL."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-ALCOOL-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_alcool=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:lrp_mela_b3_serum:inci:0",
+      "sku": "lrp_mela_b3_serum",
+      "section": "inci",
+      "rank": 1,
+      "text": "2039125 10 - INGREDIENTS : AQUA / WATER / EAU • DIMETHICONE • NIACINAMIDE • GLYCERIN • PROPYLENE GLYCOL • POLYSILICONE-11 • SILICA • BIS-PEG/PPG-16/16 PEG/PPG-16/16 DIMETHICONE • CYSTOSEIRA TAMARISCIFOLIA EXTRACT • 2-MERCAPTONICOTINOYL GLYCINE • PEG-20 METHYL GLUCOSE SESQUISTEARATE • SODIUM HYALURONATE • SODIUM HYDROXIDE • SODIUM THIOSULFATE • CARNOSINE • POLOXAMER 338 • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • DIPOTASSIUM GLYCYRRHIZATE • CAPRYLIC/CAPRIC TRIGLYCERIDE • CAPRYLOYL SALICYLIC ACID • CAPRYLYL GLYCOL • CITRIC ACID • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • XANTHAN GUM • PENTYLENE GLYCOL • OCTYLDODECANOL • RETINYL PALMITATE • TOCOPHEROL • PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE • PHENOXYETHANOL • CI 17200 / RED 33 • PARFUM / FRAGRANCE (F.I.L. N70037312/1)."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_lrp_retinol_b3_serum_peau_sensible",
+    "sku": "lrp_retinol_b3_serum",
+    "product_name": "Rétinol B3 Sérum anti-rides au rétinol régénérant resurfaçant",
+    "attribute": "peau_sensible",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_retinol_b3_serum",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_retinol_b3_serum:specifications:0",
+       "quote": "Même sensibles et grasses",
+       "start": 170,
+       "end": 195,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_retinol_b3_serum:benefits:4",
+       "quote": "Efficacité cliniquement prouvée pour une tolérance optimale, même sur les peaux sensibles",
+       "start": 0,
+       "end": 89,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:lrp_retinol_b3_serum:benefits:4",
+       "quote": "pour une tolérance optimale, même sur les peaux sensibles",
+       "start": 32,
+       "end": 89,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Même sensibles et grasses",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_1d36b594c46a05e7"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Efficacité cliniquement prouvée pour une tolérance optimale, même sur les peaux sensibles\nMême sensibles et grasses",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_96c5ade6d00e0a75"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Même sensibles et grasses\npour une tolérance optimale, même sur les peaux sensibles",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_5b0955be989d7134"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Confiance 0,90 mais preuve issue d'une allégation réglementée (« Efficacité cliniquement prouvée pour une tolérance optimale, même sur les peaux  ») : revue rapide.",
+     "calls": [
+      "c_1d36b594c46a05e7",
+      "c_96c5ade6d00e0a75",
+      "c_5b0955be989d7134"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:lrp_retinol_b3_serum:specifications:0",
+      "sku": "lrp_retinol_b3_serum",
+      "section": "specifications",
+      "rank": 1,
+      "text": "Problèmes ciblés : Rides profondes Teint irrégulier Photovieillissement (signes de l’âge provoqués par l’exposition au soleil) Type de peau : Pour tous les types de peau Même sensibles et grasses Âge : A partir de 18 ans"
+     },
+     {
+      "id": "p:lrp_retinol_b3_serum:benefits:4",
+      "sku": "lrp_retinol_b3_serum",
+      "section": "benefits",
+      "rank": 1,
+      "text": "Efficacité cliniquement prouvée pour une tolérance optimale, même sur les peaux sensibles : 96% peau confortable 92% doux pour la peau *Étude clinique sur 51 femmes, âgées entre 46 et 65 ans pour une utilisation du sérum Rétinol B3 pendant 2 mois."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_svr_b3_ampoule_hydra_compatible_sous_spf",
+    "sku": "svr_b3_ampoule_hydra",
+    "product_name": "[B3] Ampoule Hydra",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "svr_b3_ampoule_hydra",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:svr_b3_ampoule_hydra:how_to_use:0",
+       "quote": "APPPLIQUEZ MATIN ET SOIR Sur une peau propre et sèche avant votre soin quotidien.",
+       "start": 0,
+       "end": 81,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "APPPLIQUEZ MATIN ET SOIR Sur une peau propre et sèche avant votre soin quotidien.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_17bae0b45ac699ad"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "APPPLIQUEZ MATIN ET SOIR Sur une peau propre et sèche avant votre soin quotidien.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_428b9581f8fbec6d"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "APPPLIQUEZ MATIN ET SOIR Sur une peau propre et sèche avant votre soin quotidien.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_f4b90c63d2e533db"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_17bae0b45ac699ad",
+      "c_428b9581f8fbec6d",
+      "c_f4b90c63d2e533db"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:svr_b3_ampoule_hydra:how_to_use:0",
+      "sku": "svr_b3_ampoule_hydra",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "APPPLIQUEZ MATIN ET SOIR Sur une peau propre et sèche avant votre soin quotidien. Ne pas avaler. Tenir hors de portée des enfants."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_svr_b3_ampoule_hydra_sans_alcool",
+    "sku": "svr_b3_ampoule_hydra",
+    "product_name": "[B3] Ampoule Hydra",
+    "attribute": "sans_alcool",
+    "regulated": false,
+    "value": {
+     "sku": "svr_b3_ampoule_hydra",
+     "attribute": "sans_alcool",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:svr_b3_ampoule_hydra:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-ALCOOL",
+       "rule_version": "1.0.0",
+       "detail": "12 ingrédients INCI examinés : ni ALCOHOL, ni ALCOHOL DENAT., ni ETHANOL."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-ALCOOL-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_alcool=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:svr_b3_ampoule_hydra:inci:0",
+      "sku": "svr_b3_ampoule_hydra",
+      "section": "inci",
+      "rank": 1,
+      "text": "AQUA/WATER/EAU, GLYCERIN, NIACINAMIDE, ISOPENTYLDIOL, SODIUM HYALURONATE CROSSPOLYMER, HYDROLYZED HYALURONIC ACID, SODIUM HYALURONATE, 1,2-HEXANEDIOL, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, CAPRYLYL GLYCOL, PENTYLENE GLYCOL, SODIUM HYDROXIDE"
+     }
+    ]
+   },
+   {
+    "item_id": "rv_svr_b3_ampoule_hydra_teste_dermatologiquement",
+    "sku": "svr_b3_ampoule_hydra",
+    "product_name": "[B3] Ampoule Hydra",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "svr_b3_ampoule_hydra",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:svr_b3_ampoule_hydra:benefits:2",
+       "quote": "TESTÉ SOUS CONTRÔLE DERMATOLOGIQUE",
+       "start": 0,
+       "end": 34,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans benefits (rang 1)."
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:svr_b3_ampoule_hydra:claims:1",
+       "quote": "TESTÉ SOUS CONTRÔLE DERMATOLOGIQUE",
+       "start": 0,
+       "end": 34,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans claims (rang 1)."
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:svr_b3_ampoule_hydra:editorial:3",
+       "quote": "testée dermatologiquement",
+       "start": 89,
+       "end": 114,
+       "rank": 2,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans editorial (rang 2)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation réglementée citée mot pour mot en rang 1 : jamais écrite sans validation humaine, revue rapide.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:svr_b3_ampoule_hydra:benefits:2",
+      "sku": "svr_b3_ampoule_hydra",
+      "section": "benefits",
+      "rank": 1,
+      "text": "TESTÉ SOUS CONTRÔLE DERMATOLOGIQUE Sur peaux sensibles. Repulpe et apaise la peau tout en douceur. Non comédogène. Convient aux femmes enceintes et allaitantes."
+     },
+     {
+      "id": "p:svr_b3_ampoule_hydra:claims:1",
+      "sku": "svr_b3_ampoule_hydra",
+      "section": "claims",
+      "rank": 1,
+      "text": "TESTÉ SOUS CONTRÔLE DERMATOLOGIQUE"
+     },
+     {
+      "id": "p:svr_b3_ampoule_hydra:editorial:3",
+      "sku": "svr_b3_ampoule_hydra",
+      "section": "editorial",
+      "rank": 2,
+      "text": "Cette formule convient-elle aux peaux très sensibles? Absolument ! 😊 Notre formule a été testée dermatologiquement sur 100 % de volontaires ayant une peau sensible. Elle respecte rigoureusement la charte d’ingrédients SVR et est sans parfum, ce qui garantit une tolérance optimale. Vous pouvez donc l'utiliser en toute confiance, même si votre peau est très sensible."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_theordinary_hyaluronic_acid_b5_compatible_sous_spf",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "product_name": "Hyaluronic Acid 2% + B5 (Original Formulation)",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:how_to_use:0",
+       "quote": "Apply a few drops to the face in the morning and evening.",
+       "start": 0,
+       "end": 57,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Apply a few drops to the face in the morning and evening.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_85370d295a26ffd8"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Apply a few drops to the face in the morning and evening.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_f5106e2fb78f80a0"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Apply a few drops to the face in the morning and evening.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_7f727b61709a6cc8"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_85370d295a26ffd8",
+      "c_f5106e2fb78f80a0",
+      "c_7f727b61709a6cc8"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:theordinary_hyaluronic_acid_b5:how_to_use:0",
+      "sku": "theordinary_hyaluronic_acid_b5",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "Apply a few drops to the face in the morning and evening."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_theordinary_hyaluronic_acid_b5_sans_parfum",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "product_name": "Hyaluronic Acid 2% + B5 (Original Formulation)",
+    "attribute": "sans_parfum",
+    "regulated": false,
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:theordinary_hyaluronic_acid_b5:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-PARFUM",
+       "rule_version": "1.0.0",
+       "detail": "17 ingrédients INCI examinés : ni PARFUM, ni FRAGRANCE, ni AROMA."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-PARFUM-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_parfum=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:theordinary_hyaluronic_acid_b5:inci:0",
+      "sku": "theordinary_hyaluronic_acid_b5",
+      "section": "inci",
+      "rank": 1,
+      "text": "Aqua (Water), Sodium Hyaluronate, Pentylene Glycol, Propanediol, Sodium Hyaluronate Crosspolymer, Panthenol, Ahnfeltia Concinna Extract, Glycerin, Trisodium Ethylenediamine Disuccinate, Citric Acid, Isoceteth-20, Ethoxydiglycol, Ethylhexylglycerin, Hexylene Glycol, 1,2-Hexanediol, Phenoxyethanol, Caprylyl Glycol."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_liftactiv_b3_serum_compatible_sous_spf",
+    "sku": "vichy_liftactiv_b3_serum",
+    "product_name": "LIFTACTIV SÉRUM B3 ANTI-TACHES BRUNES ET ANTI-RIDES",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "vichy_liftactiv_b3_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_liftactiv_b3_serum:how_to_use:0",
+       "quote": "Matin et soir, pressez 3 à 4 gouttes dans vos mains.",
+       "start": 8,
+       "end": 60,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Matin et soir, pressez 3 à 4 gouttes dans vos mains.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_01e41facc573040c"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Matin et soir, pressez 3 à 4 gouttes dans vos mains.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_b2dbba299f2ab1d1"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Matin et soir, pressez 3 à 4 gouttes dans vos mains.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_9e012ed5dff576cc"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune citation de rang 1 ne mentionne la protection solaire).",
+     "calls": [
+      "c_01e41facc573040c",
+      "c_b2dbba299f2ab1d1",
+      "c_9e012ed5dff576cc"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_liftactiv_b3_serum:how_to_use:0",
+      "sku": "vichy_liftactiv_b3_serum",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "PRESSER Matin et soir, pressez 3 à 4 gouttes dans vos mains."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_liftactiv_b3_serum_hypoallergenique",
+    "sku": "vichy_liftactiv_b3_serum",
+    "product_name": "LIFTACTIV SÉRUM B3 ANTI-TACHES BRUNES ET ANTI-RIDES",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_liftactiv_b3_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_liftactiv_b3_serum:description:2",
+       "quote": "Hypoallergénique",
+       "start": 108,
+       "end": 124,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans description (rang 1)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation réglementée citée mot pour mot en rang 1 : jamais écrite sans validation humaine, revue rapide.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_liftactiv_b3_serum:description:2",
+      "sku": "vichy_liftactiv_b3_serum",
+      "section": "description",
+      "rank": 1,
+      "text": "Appliquer deux fois par jour sur le visage. Eviter le contour des yeux. Tous types de peaux même sensibles. Hypoallergénique. Sans Parfum."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_liftactiv_vitc_hypoallergenique",
+    "sku": "vichy_liftactiv_vitc",
+    "product_name": "LIFTACTIV Sérum antioxydant à 16% de Vitamine C Pure",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_liftactiv_vitc:claims:0",
+       "quote": "Hypoallergénique",
+       "start": 0,
+       "end": 16,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans claims (rang 1)."
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_liftactiv_vitc:description:2",
+       "quote": "hypoallergénique",
+       "start": 40,
+       "end": 56,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans description (rang 1)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation réglementée citée mot pour mot en rang 1 : jamais écrite sans validation humaine, revue rapide.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_liftactiv_vitc:claims:0",
+      "sku": "vichy_liftactiv_vitc",
+      "section": "claims",
+      "rank": 1,
+      "text": "Hypoallergénique"
+     },
+     {
+      "id": "p:vichy_liftactiv_vitc:description:2",
+      "sku": "vichy_liftactiv_vitc",
+      "section": "description",
+      "rank": 1,
+      "text": "Ce sérum anti-rides possède une formule hypoallergénique qui associe l’Eau Volcanique de Vichy fortifiante à des ingrédients reconnus : 16 % de Vitamine C Pure, de la Carnosine et de l’Acide Hyaluronique pur. Ce soin quotidien aide à corriger les rides et ridules tout en protégeant la peau contre la fatigue et le vieillissement."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_liftactiv_vitc_sans_parfum",
+    "sku": "vichy_liftactiv_vitc",
+    "product_name": "LIFTACTIV Sérum antioxydant à 16% de Vitamine C Pure",
+    "attribute": "sans_parfum",
+    "regulated": false,
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_liftactiv_vitc:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-PARFUM",
+       "rule_version": "1.0.0",
+       "detail": "11 ingrédients INCI examinés : ni PARFUM, ni FRAGRANCE, ni AROMA."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-PARFUM-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_parfum=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_liftactiv_vitc:inci:0",
+      "sku": "vichy_liftactiv_vitc",
+      "section": "inci",
+      "rank": 1,
+      "text": "AQUA / WATER • ASCORBIC ACID • ALCOHOL DENAT. • DIPROPYLENE GLYCOL • GLYCERIN • LAURETH-23 • NEOHESPERIDIN DIHYDROCHALCONE • SODIUM HYDROXIDE • TOCOPHEROL • HYDROLYZED HYALURONIC ACID • PINUS PINASTER BARK/BUD EXTRACT"
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_mineral89_serum_hypoallergenique",
+    "sku": "vichy_mineral89_serum",
+    "product_name": "MINÉRAL 89 Sérum Booster quotidien fortifiant et repulpant",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_mineral89_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum:benefits:3",
+       "quote": "hypoallergénique",
+       "start": 120,
+       "end": 136,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans benefits (rang 1)."
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum:claims:0",
+       "quote": "Hypoallergénique",
+       "start": 0,
+       "end": 16,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans claims (rang 1)."
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum:claims:2",
+       "quote": "Hypoallergénique",
+       "start": 0,
+       "end": 16,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans claims (rang 1)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation réglementée citée mot pour mot en rang 1 : jamais écrite sans validation humaine, revue rapide.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_mineral89_serum:benefits:3",
+      "sku": "vichy_mineral89_serum",
+      "section": "benefits",
+      "rank": 1,
+      "text": "Grâce aux Acides Hydratants Jumeaux, la peau est hydratée et repulpée intensément pour un éclat retrouvé. Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale et un confort durable au quotidien."
+     },
+     {
+      "id": "p:vichy_mineral89_serum:claims:0",
+      "sku": "vichy_mineral89_serum",
+      "section": "claims",
+      "rank": 1,
+      "text": "Hypoallergénique"
+     },
+     {
+      "id": "p:vichy_mineral89_serum:claims:2",
+      "sku": "vichy_mineral89_serum",
+      "section": "claims",
+      "rank": 1,
+      "text": "Hypoallergénique. Testé sur peaux sensibles. Sans parfum. Sans alcool. Sans paraben."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_mineral89_serum_peau_sensible",
+    "sku": "vichy_mineral89_serum",
+    "product_name": "MINÉRAL 89 Sérum Booster quotidien fortifiant et repulpant",
+    "attribute": "peau_sensible",
+    "regulated": false,
+    "value": {
+     "sku": "vichy_mineral89_serum",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum:benefits:3",
+       "quote": "Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale",
+       "start": 106,
+       "end": 197,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_cb5f7c648459364b"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_198f805f326aa0fe"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_daa2f11f1921853f"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Confiance 0,90 mais preuve issue d'une allégation réglementée (« Cette formule hypoallergénique, testée sur peaux sensibles, garantit une toléran ») : revue rapide.",
+     "calls": [
+      "c_cb5f7c648459364b",
+      "c_198f805f326aa0fe",
+      "c_daa2f11f1921853f"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_mineral89_serum:benefits:3",
+      "sku": "vichy_mineral89_serum",
+      "section": "benefits",
+      "rank": 1,
+      "text": "Grâce aux Acides Hydratants Jumeaux, la peau est hydratée et repulpée intensément pour un éclat retrouvé. Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale et un confort durable au quotidien."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_mineral89_serum_recharge_compatible_sous_spf",
+    "sku": "vichy_mineral89_serum_recharge",
+    "product_name": "MINÉRAL 89 Recharge sérum booster quotidien fortifiant et repulpant",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum_recharge:how_to_use:1",
+       "quote": "Appliquez 3 pressions matin et soir",
+       "start": 12,
+       "end": 47,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Appliquez 3 pressions matin et soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_9e670fc15fbc7f2b"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_85fa854556bfc84c"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Appliquez 3 pressions matin et soir",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_f2fe080c52213a71"
+      }
+     ],
+     "agreement": 0.6666666666666666,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": true,
+       "message": "compatible_sous_spf=oui cohérent avec moment_application=matin_et_soir."
+      }
+     ],
+     "confidence": 0.8,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 0.6667,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.8
+     },
+     "route": "revue_rapide",
+     "route_reason": "Confiance 0,80 entre les seuils (0,60 - 0,85) : revue rapide.",
+     "calls": [
+      "c_9e670fc15fbc7f2b",
+      "c_85fa854556bfc84c",
+      "c_f2fe080c52213a71"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_mineral89_serum_recharge:how_to_use:1",
+      "sku": "vichy_mineral89_serum_recharge",
+      "section": "how_to_use",
+      "rank": 1,
+      "text": "APPLICATION Appliquez 3 pressions matin et soir sur un visage propre et sec. Massez délicatement."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_mineral89_serum_recharge_hypoallergenique",
+    "sku": "vichy_mineral89_serum_recharge",
+    "product_name": "MINÉRAL 89 Recharge sérum booster quotidien fortifiant et repulpant",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum_recharge:benefits:0",
+       "quote": "hypoallergénique",
+       "start": 120,
+       "end": 136,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans benefits (rang 1)."
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum_recharge:claims:0",
+       "quote": "Hypoallergénique",
+       "start": 0,
+       "end": 16,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans claims (rang 1)."
+      },
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum_recharge:claims:1",
+       "quote": "Hypoallergénique",
+       "start": 0,
+       "end": 16,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans claims (rang 1)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation réglementée citée mot pour mot en rang 1 : jamais écrite sans validation humaine, revue rapide.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_mineral89_serum_recharge:benefits:0",
+      "sku": "vichy_mineral89_serum_recharge",
+      "section": "benefits",
+      "rank": 1,
+      "text": "Grâce aux Acides Hydratants Jumeaux, la peau est hydratée et repulpée intensément pour un éclat retrouvé. Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale et un confort durable au quotidien."
+     },
+     {
+      "id": "p:vichy_mineral89_serum_recharge:claims:0",
+      "sku": "vichy_mineral89_serum_recharge",
+      "section": "claims",
+      "rank": 1,
+      "text": "Hypoallergénique"
+     },
+     {
+      "id": "p:vichy_mineral89_serum_recharge:claims:1",
+      "sku": "vichy_mineral89_serum_recharge",
+      "section": "claims",
+      "rank": 1,
+      "text": "Hypoallergénique. Testé sur peaux sensibles. Sans parfum. Sans alcool. Sans paraben."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_mineral89_serum_recharge_peau_sensible",
+    "sku": "vichy_mineral89_serum_recharge",
+    "product_name": "MINÉRAL 89 Recharge sérum booster quotidien fortifiant et repulpant",
+    "attribute": "peau_sensible",
+    "regulated": false,
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "peau_sensible",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_mineral89_serum_recharge:benefits:0",
+       "quote": "Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale",
+       "start": 106,
+       "end": 197,
+       "rank": 1,
+       "rule_id": null,
+       "rule_version": null,
+       "detail": null
+      }
+     ],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "oui",
+       "quote": "Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_9e670fc15fbc7f2b"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_85fa854556bfc84c"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_f2fe080c52213a71"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Confiance 0,90 mais preuve issue d'une allégation réglementée (« Cette formule hypoallergénique, testée sur peaux sensibles, garantit une toléran ») : revue rapide.",
+     "calls": [
+      "c_9e670fc15fbc7f2b",
+      "c_85fa854556bfc84c",
+      "c_f2fe080c52213a71"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_mineral89_serum_recharge:benefits:0",
+      "sku": "vichy_mineral89_serum_recharge",
+      "section": "benefits",
+      "rank": 1,
+      "text": "Grâce aux Acides Hydratants Jumeaux, la peau est hydratée et repulpée intensément pour un éclat retrouvé. Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale et un confort durable au quotidien."
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_normaderm_serum_hypoallergenique",
+    "sku": "vichy_normaderm_serum",
+    "product_name": "NORMADERM SÉRUM ANTI-IMPERFECTIONS PROBIO-BHA",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_normaderm_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "quote",
+       "passage_id": "p:vichy_normaderm_serum:claims:1",
+       "quote": "Hypoallergénique",
+       "start": 0,
+       "end": 16,
+       "rank": 1,
+       "rule_id": "X-VERBATIM-REGLEMENTE",
+       "rule_version": "1.1.0",
+       "detail": "Allégation mot pour mot dans claims (rang 1)."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      }
+     ],
+     "confidence": 0.9,
+     "confidence_breakdown": {
+      "evidence": 0.8,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.9
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation réglementée citée mot pour mot en rang 1 : jamais écrite sans validation humaine, revue rapide.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_normaderm_serum:claims:1",
+      "sku": "vichy_normaderm_serum",
+      "section": "claims",
+      "rank": 1,
+      "text": "Hypoallergénique"
+     }
+    ]
+   },
+   {
+    "item_id": "rv_vichy_normaderm_serum_sans_parfum",
+    "sku": "vichy_normaderm_serum",
+    "product_name": "NORMADERM SÉRUM ANTI-IMPERFECTIONS PROBIO-BHA",
+    "attribute": "sans_parfum",
+    "regulated": false,
+    "value": {
+     "sku": "vichy_normaderm_serum",
+     "attribute": "sans_parfum",
+     "family": "regles",
+     "method": "regle",
+     "value": "oui",
+     "abstained": false,
+     "evidence": [
+      {
+       "kind": "rule",
+       "passage_id": "p:vichy_normaderm_serum:inci:0",
+       "quote": null,
+       "start": null,
+       "end": null,
+       "rank": 1,
+       "rule_id": "R-INCI-PARFUM",
+       "rule_version": "1.0.0",
+       "detail": "18 ingrédients INCI examinés : ni PARFUM, ni FRAGRANCE, ni AROMA."
+      }
+     ],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Valeur dans le vocabulaire fermé."
+      },
+      {
+       "id": "CTRL-PARFUM-CONFLIT",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Aucune mention marketing contraire à sans_parfum=oui."
+      }
+     ],
+     "confidence": 1.0,
+     "confidence_breakdown": {
+      "evidence": 1.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 1.0
+     },
+     "route": "revue_rapide",
+     "route_reason": "Allégation non revendiquée par la marque : utilisable comme filtre structuré après validation, non publiée en texte (aucune mention de la marque en rang 1).",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": [
+     {
+      "id": "p:vichy_normaderm_serum:inci:0",
+      "sku": "vichy_normaderm_serum",
+      "section": "inci",
+      "rank": 1,
+      "text": "AQUA / WATER • ALCOHOL DENAT. • HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID • GLYCOLIC ACID • GLYCERIN • PROPANEDIOL • SODIUM HYDROXIDE • PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN • SALICYLIC ACID • SODIUM POLYACRYLATE • ADENOSINE • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • ASCORBYL GLUCOSIDE • VITREOSCILLA FERMENT • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • XANTHAN GUM • PANTHENOL • MENTHOL"
+     }
+    ]
+   },
+   {
+    "item_id": "rv_avene_cicalfate_serum_hypoallergenique",
+    "sku": "avene_cicalfate_serum",
+    "product_name": "Sérum réparateur intense",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "avene_cicalfate_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_avene_cicalfate_serum_teste_dermatologiquement",
+    "sku": "avene_cicalfate_serum",
+    "product_name": "Sérum réparateur intense",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "avene_cicalfate_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_avene_hydrance_boost_serum_hypoallergenique",
+    "sku": "avene_hydrance_boost_serum",
+    "product_name": "Sérum concentré hydratant",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "avene_hydrance_boost_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_avene_hydrance_boost_serum_teste_dermatologiquement",
+    "sku": "avene_hydrance_boost_serum",
+    "product_name": "Sérum concentré hydratant",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "avene_hydrance_boost_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_bioderma_hydrabio_hyalu_serum_hypoallergenique",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "product_name": "Hydrabio Hyalu+ sérum",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_bioderma_hydrabio_hyalu_serum_teste_dermatologiquement",
+    "sku": "bioderma_hydrabio_hyalu_serum",
+    "product_name": "Hydrabio Hyalu+ sérum",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "bioderma_hydrabio_hyalu_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_bioderma_hydrabio_serum_hypoallergenique",
+    "sku": "bioderma_hydrabio_serum",
+    "product_name": "Hydrabio Sérum",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "bioderma_hydrabio_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_bioderma_hydrabio_serum_teste_dermatologiquement",
+    "sku": "bioderma_hydrabio_serum",
+    "product_name": "Hydrabio Sérum",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "bioderma_hydrabio_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_cicaplast_b5_serum_hypoallergenique",
+    "sku": "lrp_cicaplast_b5_serum",
+    "product_name": "Cicaplast B5 sérum à la Vitamine B5 Ultra-concentré",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_cicaplast_b5_serum_teste_dermatologiquement",
+    "sku": "lrp_cicaplast_b5_serum",
+    "product_name": "Cicaplast B5 sérum à la Vitamine B5 Ultra-concentré",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_cicaplast_b5_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_effaclar_serum_hypoallergenique",
+    "sku": "lrp_effaclar_serum",
+    "product_name": "EFFACLAR Sérum à l'Acide Salicylique Ultra Concentré",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_effaclar_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_effaclar_serum_teste_dermatologiquement",
+    "sku": "lrp_effaclar_serum",
+    "product_name": "EFFACLAR Sérum à l'Acide Salicylique Ultra Concentré",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_effaclar_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_hyalu_b5_creme_hypoallergenique",
+    "sku": "lrp_hyalu_b5_creme",
+    "product_name": "Hyalu B5 Crème Suractivée",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_hyalu_b5_creme_teste_dermatologiquement",
+    "sku": "lrp_hyalu_b5_creme",
+    "product_name": "Hyalu B5 Crème Suractivée",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_hyalu_b5_serum_yeux_hypoallergenique",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "product_name": "Hyalu B5 Sérum Yeux anti-rides",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_hyalu_b5_serum_yeux_teste_dermatologiquement",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "product_name": "Hyalu B5 Sérum Yeux anti-rides",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_mela_b3_serum_hypoallergenique",
+    "sku": "lrp_mela_b3_serum",
+    "product_name": "Mela B3 Sérum anti-taches concentré intensif",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_mela_b3_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_mela_b3_serum_teste_dermatologiquement",
+    "sku": "lrp_mela_b3_serum",
+    "product_name": "Mela B3 Sérum anti-taches concentré intensif",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_mela_b3_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_pure_vitamin_c12_serum_hypoallergenique",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "product_name": "Pure Vitamin C12 Sérum",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_pure_vitamin_c12_serum_teste_dermatologiquement",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "product_name": "Pure Vitamin C12 Sérum",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_retinol_b3_serum_hypoallergenique",
+    "sku": "lrp_retinol_b3_serum",
+    "product_name": "Rétinol B3 Sérum anti-rides au rétinol régénérant resurfaçant",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_retinol_b3_serum",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_retinol_b3_serum_teste_dermatologiquement",
+    "sku": "lrp_retinol_b3_serum",
+    "product_name": "Rétinol B3 Sérum anti-rides au rétinol régénérant resurfaçant",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "lrp_retinol_b3_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_svr_b3_ampoule_hydra_hypoallergenique",
+    "sku": "svr_b3_ampoule_hydra",
+    "product_name": "[B3] Ampoule Hydra",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "svr_b3_ampoule_hydra",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_theordinary_hyaluronic_acid_b5_hypoallergenique",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "product_name": "Hyaluronic Acid 2% + B5 (Original Formulation)",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_theordinary_hyaluronic_acid_b5_teste_dermatologiquement",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "product_name": "Hyaluronic Acid 2% + B5 (Original Formulation)",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "theordinary_hyaluronic_acid_b5",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_vichy_liftactiv_b3_serum_teste_dermatologiquement",
+    "sku": "vichy_liftactiv_b3_serum",
+    "product_name": "LIFTACTIV SÉRUM B3 ANTI-TACHES BRUNES ET ANTI-RIDES",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_liftactiv_b3_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_vichy_liftactiv_ha_filler_hypoallergenique",
+    "sku": "vichy_liftactiv_ha_filler",
+    "product_name": "LIFTACTIV SÉRUM H.A. EPIDERMIC FILLER – RIDES & FERMETÉ",
+    "attribute": "hypoallergenique",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_liftactiv_ha_filler",
+     "attribute": "hypoallergenique",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_vichy_liftactiv_ha_filler_teste_dermatologiquement",
+    "sku": "vichy_liftactiv_ha_filler",
+    "product_name": "LIFTACTIV SÉRUM H.A. EPIDERMIC FILLER – RIDES & FERMETÉ",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_liftactiv_ha_filler",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_vichy_liftactiv_vitc_teste_dermatologiquement",
+    "sku": "vichy_liftactiv_vitc",
+    "product_name": "LIFTACTIV Sérum antioxydant à 16% de Vitamine C Pure",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_liftactiv_vitc",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_vichy_mineral89_serum_teste_dermatologiquement",
+    "sku": "vichy_mineral89_serum",
+    "product_name": "MINÉRAL 89 Sérum Booster quotidien fortifiant et repulpant",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_mineral89_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_vichy_mineral89_serum_recharge_teste_dermatologiquement",
+    "sku": "vichy_mineral89_serum_recharge",
+    "product_name": "MINÉRAL 89 Recharge sérum booster quotidien fortifiant et repulpant",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_mineral89_serum_recharge",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_vichy_normaderm_serum_teste_dermatologiquement",
+    "sku": "vichy_normaderm_serum",
+    "product_name": "NORMADERM SÉRUM ANTI-IMPERFECTIONS PROBIO-BHA",
+    "attribute": "teste_dermatologiquement",
+    "regulated": true,
+    "value": {
+     "sku": "vichy_normaderm_serum",
+     "attribute": "teste_dermatologiquement",
+     "family": "reglementes",
+     "method": "extraction_verbatim",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": null,
+     "prompt_version": null,
+     "runs": [],
+     "agreement": null,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.5,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.5
+     },
+     "route": "revue_experte",
+     "route_reason": "Allégation réglementée sans source de rang 1 : rien n'est écrit, un expert confirme l'absence ou fournit la source.",
+     "calls": []
+    },
+    "allowed_values": [
+     "oui",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_hyalu_b5_creme_compatible_sous_spf",
+    "sku": "lrp_hyalu_b5_creme",
+    "product_name": "Hyalu B5 Crème Suractivée",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_hyalu_b5_creme",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_82e866bd947b1011"
+      },
+      {
+       "run_idx": 1,
+       "value": "oui",
+       "quote": "Appliquer matin et soir sur visage, cou et décolleté.",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_a6a707df440d7978"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_d9478bc15aaeacd0"
+      }
+     ],
+     "agreement": 0.6666666666666666,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": false,
+       "message": "Abstention en conflit avec un attribut lié : moment_application=matin_et_soir implique une application le matin, compatible_sous_spf reste en abstention."
+      }
+     ],
+     "confidence": 0.2,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 0.6667,
+      "controls": 0.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.2
+     },
+     "route": "revue_rapide",
+     "route_reason": "Abstention en conflit avec un attribut lié (CTRL-SPF-MOMENT) : revue rapide, rien n'est écrit.",
+     "calls": [
+      "c_82e866bd947b1011",
+      "c_a6a707df440d7978",
+      "c_d9478bc15aaeacd0"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_hyalu_b5_serum_yeux_compatible_sous_spf",
+    "sku": "lrp_hyalu_b5_serum_yeux",
+    "product_name": "Hyalu B5 Sérum Yeux anti-rides",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_hyalu_b5_serum_yeux",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_6fa4317d9cf4ac12"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_af4adce14221a905"
+      },
+      {
+       "run_idx": 2,
+       "value": "oui",
+       "quote": "Appliquer matin et soir sur le contour des yeux",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_e903e4245d019bd8"
+      }
+     ],
+     "agreement": 0.6666666666666666,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": false,
+       "message": "Abstention en conflit avec un attribut lié : moment_application=matin_et_soir implique une application le matin, compatible_sous_spf reste en abstention."
+      }
+     ],
+     "confidence": 0.2,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 0.6667,
+      "controls": 0.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.2
+     },
+     "route": "revue_rapide",
+     "route_reason": "Abstention en conflit avec un attribut lié (CTRL-SPF-MOMENT) : revue rapide, rien n'est écrit.",
+     "calls": [
+      "c_6fa4317d9cf4ac12",
+      "c_af4adce14221a905",
+      "c_e903e4245d019bd8"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_lrp_pure_vitamin_c12_serum_compatible_sous_spf",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "product_name": "Pure Vitamin C12 Sérum",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "lrp_pure_vitamin_c12_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_308df5240a2d5dcc"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_486ec2b7f5360649"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_82b8cff299028beb"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": false,
+       "message": "Abstention en conflit avec un attribut lié : moment_application=matin_ou_soir implique une application le matin, compatible_sous_spf reste en abstention."
+      }
+     ],
+     "confidence": 0.3,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 0.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.3
+     },
+     "route": "revue_rapide",
+     "route_reason": "Abstention en conflit avec un attribut lié (CTRL-SPF-MOMENT) : revue rapide, rien n'est écrit.",
+     "calls": [
+      "c_308df5240a2d5dcc",
+      "c_486ec2b7f5360649",
+      "c_82b8cff299028beb"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_svr_b3_ampoule_hydra_texture",
+    "sku": "svr_b3_ampoule_hydra",
+    "product_name": "[B3] Ampoule Hydra",
+    "attribute": "texture",
+    "regulated": false,
+    "value": {
+     "sku": "svr_b3_ampoule_hydra",
+     "attribute": "texture",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "fluide",
+       "quote": "Une texture légère et non collante",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_17bae0b45ac699ad"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": "Une texture légère et non collante",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_428b9581f8fbec6d"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": "Une texture légère et non collante",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_f4b90c63d2e533db"
+      }
+     ],
+     "agreement": 0.6666666666666666,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      }
+     ],
+     "confidence": 0.4,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 0.6667,
+      "controls": 1.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.4
+     },
+     "route": "revue_rapide",
+     "route_reason": "Abstention avec indice (valeur proposée par un run ou citation écartée) : revue rapide, rien n'est écrit.",
+     "calls": [
+      "c_17bae0b45ac699ad",
+      "c_428b9581f8fbec6d",
+      "c_f4b90c63d2e533db"
+     ]
+    },
+    "allowed_values": [
+     "fluide",
+     "gel",
+     "creme",
+     "huile",
+     "baume",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_vichy_liftactiv_ha_filler_compatible_sous_spf",
+    "sku": "vichy_liftactiv_ha_filler",
+    "product_name": "LIFTACTIV SÉRUM H.A. EPIDERMIC FILLER – RIDES & FERMETÉ",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "vichy_liftactiv_ha_filler",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_caea2d48b65a89ee"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_f38a046fed30a3cb"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_497f845bb313b19f"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": false,
+       "message": "Abstention en conflit avec un attribut lié : moment_application=matin_et_soir implique une application le matin, compatible_sous_spf reste en abstention."
+      }
+     ],
+     "confidence": 0.3,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 0.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.3
+     },
+     "route": "revue_rapide",
+     "route_reason": "Abstention en conflit avec un attribut lié (CTRL-SPF-MOMENT) : revue rapide, rien n'est écrit.",
+     "calls": [
+      "c_caea2d48b65a89ee",
+      "c_f38a046fed30a3cb",
+      "c_497f845bb313b19f"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_vichy_mineral89_serum_compatible_sous_spf",
+    "sku": "vichy_mineral89_serum",
+    "product_name": "MINÉRAL 89 Sérum Booster quotidien fortifiant et repulpant",
+    "attribute": "compatible_sous_spf",
+    "regulated": false,
+    "value": {
+     "sku": "vichy_mineral89_serum",
+     "attribute": "compatible_sous_spf",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_cb5f7c648459364b"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_198f805f326aa0fe"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_daa2f11f1921853f"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": false,
+       "message": "Abstention en conflit avec un attribut lié : moment_application=matin_et_soir implique une application le matin, compatible_sous_spf reste en abstention."
+      }
+     ],
+     "confidence": 0.3,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 0.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.3
+     },
+     "route": "revue_rapide",
+     "route_reason": "Abstention en conflit avec un attribut lié (CTRL-SPF-MOMENT) : revue rapide, rien n'est écrit.",
+     "calls": [
+      "c_cb5f7c648459364b",
+      "c_198f805f326aa0fe",
+      "c_daa2f11f1921853f"
+     ]
+    },
+    "allowed_values": [
+     "oui",
+     "non",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   },
+   {
+    "item_id": "rv_vichy_normaderm_serum_moment_application",
+    "sku": "vichy_normaderm_serum",
+    "product_name": "NORMADERM SÉRUM ANTI-IMPERFECTIONS PROBIO-BHA",
+    "attribute": "moment_application",
+    "regulated": false,
+    "value": {
+     "sku": "vichy_normaderm_serum",
+     "attribute": "moment_application",
+     "family": "interpretatifs",
+     "method": "llm_contraint",
+     "value": "non_determinable",
+     "abstained": true,
+     "evidence": [],
+     "prompt_id": "extract_interpretive",
+     "prompt_version": "1.0.0",
+     "runs": [
+      {
+       "run_idx": 0,
+       "value": "non_determinable",
+       "quote": "appliquez sur le visage une fois par jour",
+       "quote_verified": true,
+       "rejected_reason": null,
+       "call_id": "c_aae5b1634b6afdc2"
+      },
+      {
+       "run_idx": 1,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_d25b26c980ec42eb"
+      },
+      {
+       "run_idx": 2,
+       "value": "non_determinable",
+       "quote": null,
+       "quote_verified": null,
+       "rejected_reason": null,
+       "call_id": "c_7b0369c0085df24c"
+      }
+     ],
+     "agreement": 1.0,
+     "controls": [
+      {
+       "id": "CTRL-SCHEMA",
+       "version": "1.0.0",
+       "passed": true,
+       "message": "Abstention (non_determinable), valeur toujours autorisée."
+      },
+      {
+       "id": "CTRL-SPF-MOMENT",
+       "version": "1.1.0",
+       "passed": false,
+       "message": "Abstention en conflit avec un attribut lié : compatible_sous_spf=oui, moment_application reste en abstention."
+      }
+     ],
+     "confidence": 0.3,
+     "confidence_breakdown": {
+      "evidence": 0.0,
+      "agreement": 1.0,
+      "controls": 0.0,
+      "w_evidence": 0.5,
+      "w_agreement": 0.3,
+      "w_controls": 0.2,
+      "confidence": 0.3
+     },
+     "route": "revue_rapide",
+     "route_reason": "Abstention en conflit avec un attribut lié (CTRL-SPF-MOMENT) : revue rapide, rien n'est écrit.",
+     "calls": [
+      "c_aae5b1634b6afdc2",
+      "c_d25b26c980ec42eb",
+      "c_7b0369c0085df24c"
+     ]
+    },
+    "allowed_values": [
+     "matin",
+     "soir",
+     "matin_et_soir",
+     "matin_ou_soir",
+     "non_determinable"
+    ],
+    "value_type": "enum",
+    "passages": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "lrp_pure_vitamin_c12_serum",
+  "brand": "La Roche-Posay",
+  "loreal": true,
+  "url": "https://www.laroche-posay.fr/produits/visage/serums/pure-vitamin-c12-serum/LRP_937.html",
+  "captured_at": "2026-10-03T22:11:46+00:00",
+  "source_sha256": "270f43e3e5006ffa4e13a27016843fc2fa267784a905b812783ab6bcd0c0b5bf",
+  "name": "Pure Vitamin C12 Sérum",
+  "price_eur": 42.1,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "ASCORBIC ACID",
+   "DIMETHICONE",
+   "GLYCERIN",
+   "ALCOHOL DENAT",
+   "POTASSIUM HYDROXIDE",
+   "POLYSILICONE-11",
+   "SILICA",
+   "PENTAERYTHRITYL TETRAETHYLHEXANOATE",
+   "PEG-20 METHYL GLUCOSE SESQUISTEARATE",
+   "SODIUM HYALURONATE",
+   "ADENOSINE",
+   "POLOXAMER 338",
+   "AMMONIUM POLYACRYLOYLDIMETHYL TAURATE",
+   "HYDROLYZED HYALURONIC ACID",
+   "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+   "CAPRYLYL GLYCOL",
+   "CITRIC ACID",
+   "LAURETH-7",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "BIS-PEG/PPG-16/16 PEG/PPG-16/16 DIMETHICONE",
+   "ACETYL DIPEPTIDE-1 CETYL ESTER",
+   "XANTHAN GUM",
+   "PENTYLENE GLYCOL",
+   "POLYACRYLAMIDE",
+   "C13-14 ISOALKANE",
+   "TOCOPHEROL",
+   "PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE",
+   "SALICYLIC ACID",
+   "PARFUM / FRAGRANCE"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:lrp_pure_vitamin_c12_serum:breadcrumb:1",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Produits > Visage > Sérums"
+   },
+   {
+    "id": "p:lrp_pure_vitamin_c12_serum:name:1",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Pure Vitamin C12 Sérum"
+   },
+   {
+    "id": "p:lrp_pure_vitamin_c12_serum:price:1",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "42,10 € (140,33 €/100 ml.)"
+   },
+   {
+    "id": "p:lrp_pure_vitamin_c12_serum:size:1",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:lrp_pure_vitamin_c12_serum:description:1",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum anti-rides éclat associant vitamine C pure et neurosensine apaisante, à un pH physiologique, pour révéler tout l'éclat des peaux sensibles. 12% DE VITAMINE C PURE. Ce sérum convient à tous types de peaux."
+   },
+   {
+    "id": "p:lrp_pure_vitamin_c12_serum:how_to_use:1",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquez-le une fois par jour, matin ou soir sur l'ensemble du visage et du cou."
+   },
+   {
+    "id": "p:lrp_pure_vitamin_c12_serum:inci:1",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER / EAU • ASCORBIC ACID • DIMETHICONE • GLYCERIN • ALCOHOL DENAT. • POTASSIUM HYDROXIDE • POLYSILICONE-11 • SILICA • PENTAERYTHRITYL TETRAETHYLHEXANOATE • PEG-20 METHYL GLUCOSE SESQUISTEARATE • SODIUM HYALURONATE • ADENOSINE • POLOXAMER 338 • AMMONIUM POLYACRYLOYLDIMETHYL TAURATE • HYDROLYZED HYALURONIC ACID • CAPRYLIC/CAPRIC TRIGLYCERIDE • CAPRYLYL GLYCOL • CITRIC ACID • LAURETH-7 • TRISODIUM ETHYLENEDIAMINE DISUCCINATE • BIS-PEG/PPG-16/16 PEG/PPG-16/16 DIMETHICONE • ACETYL DIPEPTIDE-1 CETYL ESTER • XANTHAN GUM • PENTYLENE GLYCOL • POLYACRYLAMIDE • C13-14 ISOALKANE • TOCOPHEROL • PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE • SALICYLIC ACID • PARFUM / FRAGRANCE (F.I.L. N70040246/1)."
+   },
+   {
+    "id": "p:lrp_pure_vitamin_c12_serum:brand_boilerplate:1",
+    "sku": "lrp_pure_vitamin_c12_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "La Roche-Posay suit une charte de formulation stricte et des tests cliniques rigoureux d'efficacité et de sécurité, même sur les peaux sensibles."
+   }
+  ]
+ }
+}

@@ -1,0 +1,245 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": false,
+ "generated_at": "2026-10-05T22:14:01+00:00",
+ "data": {
+  "sku": "vichy_mineral89_serum",
+  "brand": "Vichy",
+  "loreal": true,
+  "url": "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/peau-seche/serum-booster-mineral89",
+  "captured_at": "2026-10-03T21:59:01Z",
+  "source_sha256": "ef455bab52a2a4a1a24bdaccfa9e13a7cb0238dcaf679cab075504d726d873c4",
+  "name": "MINÉRAL 89 Sérum Booster quotidien fortifiant et repulpant",
+  "price_eur": null,
+  "size_label": "50 ML",
+  "variants": [
+   "50 ML"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "PROPANEDIOL",
+   "GLYCERIN",
+   "PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN",
+   "BUTYLENE GLYCOL",
+   "CARBOMER",
+   "METHYL GLUCETH-20",
+   "SODIUM HYALURONATE",
+   "HYDROXYACETOPHENONE",
+   "CITRIC ACID",
+   "SODIUM POLYGLUTAMATE",
+   "CAPRYLYL GLYCOL",
+   "MALTODEXTRIN",
+   "BIOSACCHARIDE GUM-1"
+  ],
+  "related_urls": [
+   "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-et-cremes-yeux/signes-de-lage/mineral89-gel-yeux",
+   "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/cremes-et-hydratants-visage/peau-seche/creme-boost-d-hydratation-72h-mineral-89",
+   "https://www.vichy.fr/tous-les-produits/soins-solaires/protections-solaires/protections-solaires-visage/capital-soleil-uv-age-daily"
+  ],
+  "passages": [
+   {
+    "id": "p:vichy_mineral89_serum:name:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "MINÉRAL 89 Sérum Booster quotidien fortifiant et repulpant"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:description:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Une hydratation intense sur dix couches pour repulper, lisser et protéger votre visage contre les agressions quotidiennes. Retrouvez un éclat durable et une barrière renforcée."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:description:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Exposée quotidiennement aux agressions extérieures comme la pollution, les variations climatiques, le stress et la fatigue, la peau se déshydrate progressivement. Cette déshydratation se manifeste par une perte d'éclat, un aspect terne, des ridules de déshydratation et une sensation d'inconfort. La barrière cutanée fragilisée peine à retenir l'eau, ce qui accentue la perte de souplesse et de rebond. Les peaux sensibles sont particulièrement vulnérables à ces agressions et nécessitent un soin hydratant puissant mais parfaitement toléré."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:description:2",
+    "sku": "vichy_mineral89_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Le Sérum MINÉRAL 89 de VICHY combine 89 % d'Eau Volcanique de Vichy, naturellement riche en 15 minéraux fortifiants aux Acides Hydratants Jumeaux (Acide Hyaluronique + Acide Polyglutamique) pour une efficacité optimale. L’hydratation s’effectue à plusieurs niveaux : en surface pour retenir l'eau et repulper instantanément l'épiderme et en profondeur en pénétrant jusqu’à 10 couches pour hydrater durablement les couches internes de la peau et renforcer la capacité naturelle de rétention d'eau. Cette double action assure une hydratation complète, immédiate et longue durée. La texture fluide ultra-légère pénètre instantanément sans laisser de film gras ni de sensation collante. La peau est repulpée, lissée, éclatante et fortifiée contre les agressions quotidiennes."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:benefits:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Sérum hydratant fortifiant et repulpant"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:benefits:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Tout types de peaux"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:benefits:2",
+    "sku": "vichy_mineral89_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Double action hydratante en surface et en profondeur"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:benefits:3",
+    "sku": "vichy_mineral89_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Grâce aux Acides Hydratants Jumeaux, la peau est hydratée et repulpée intensément pour un éclat retrouvé. Cette formule hypoallergénique, testée sur peaux sensibles, garantit une tolérance optimale et un confort durable au quotidien."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:benefits:4",
+    "sku": "vichy_mineral89_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "Acide hyaluronique Humectant puissant qui hydrate intensément, repulpe et lisse la peau. Eau volcanique de Vichy Riche en 15 minéraux et oligo-éléments essentiels, elle revitalise, apaise et protège la peau, pour la rendre plus forte et plus éclatante."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:benefits:5",
+    "sku": "vichy_mineral89_serum",
+    "section": "benefits",
+    "rank": 1,
+    "text": "EFFICACITÉ CLINIQUEMENT PROUVÉE 87 % trouvent leur peau plus saine** 83% trouvent leur peau plus douce*** 85% trouvent leur peau plus lisse**** 85% trouvent leur peau légère comme de l'eau***** **Test de satisfaction consommateur sur 42 femmes à la peau sensible après 56 jours. ***Test de satisfaction consommateur sur 48 femmes à la peau sensible, résultat immédiat. ****Test de satisfaction consommateur sur 42 femmes à la peau sensible après 28 jours. *****Test de satisfaction consommateur sur 42 femmes à la peau sensible."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:claims:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "claims",
+    "rank": 1,
+    "text": "Hypoallergénique"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:claims:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "claims",
+    "rank": 1,
+    "text": "SANS PARFUM"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:claims:2",
+    "sku": "vichy_mineral89_serum",
+    "section": "claims",
+    "rank": 1,
+    "text": "Hypoallergénique. Testé sur peaux sensibles. Sans parfum. Sans alcool. Sans paraben."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:how_to_use:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Application Appliquez 3 pressions sur le visage propre et sec. Massez délicatement. Laissez pénétrer quelques instants."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:how_to_use:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "FRÉQUENCE Appliquez votre sérum hydratant quotidiennement, matin et/ou soir. Le sérum peut être utilisé seul ou comme base hydratante sous votre crème de jour ou de nuit."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:how_to_use:2",
+    "sku": "vichy_mineral89_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "PRÉCAUTIONS En cas de contact avec les yeux, rincez immédiatement et abondamment à l'eau."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:inci:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "689230 11 - INGREDIENTS : AQUA / WATER / EAU • PROPANEDIOL • GLYCERIN • PEG/PPG/POLYBUTYLENE GLYCOL-8/5/3 GLYCERIN • BUTYLENE GLYCOL • CARBOMER • METHYL GLUCETH-20 • SODIUM HYALURONATE • HYDROXYACETOPHENONE • CITRIC ACID • SODIUM POLYGLUTAMATE • CAPRYLYL GLYCOL • MALTODEXTRIN • BIOSACCHARIDE GUM-1 (F.I.L. N70066552/1)."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:size:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "50 ML"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:specifications:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "specifications",
+    "rank": 1,
+    "text": "Gel"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:editorial:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Votre dose quotidienne de force et d'hydratation."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:editorial:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Luttez contre les agressions quotidiennes et la déshydratation avec le nouveau sérum booster quotidien Vichy Minéral 89, conçu pour les hommes et les femmes. Notre formule iconique, composée à 89 % d'Eau Volcanique de Vichy, est désormais enrichie d'un duo d'acides hydratants :"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:editorial:2",
+    "sku": "vichy_mineral89_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "L'Acide Hyaluronique : Agit immédiatement en surface pour repulper et lisser la peau."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:editorial:3",
+    "sku": "vichy_mineral89_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "L'Acide Polyglutamique : Agit jusqu'à 10 couches en profondeur* pour sceller l'hydratation et protéger les réserves naturelles de la peau."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:editorial:4",
+    "sku": "vichy_mineral89_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "Enrichie de 15 minéraux essentiels, l'Eau Volcanique de Vichy renforce votre barrière cutanée. Révélez une peau visiblement plus rebondie, plus saine et plus résiliente."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:editorial:5",
+    "sku": "vichy_mineral89_serum",
+    "section": "editorial",
+    "rank": 2,
+    "text": "*Couches superficielles de l'épiderme."
+   },
+   {
+    "id": "p:vichy_mineral89_serum:routine:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "MINÉRAL 89 GEL CONTOUR DES YEUX"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:routine:1",
+    "sku": "vichy_mineral89_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "MINÉRAL 89 CRÈME BOOST D’HYDRATATION 72H"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:routine:2",
+    "sku": "vichy_mineral89_serum",
+    "section": "routine",
+    "rank": 2,
+    "text": "CAPITAL SOLEIL FLUIDE UV-AGE DAILY SPF 50+"
+   },
+   {
+    "id": "p:vichy_mineral89_serum:breadcrumb:0",
+    "sku": "vichy_mineral89_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Tous-les-produits > SOINS DE LA PEAU > Sérum Pour le visage > Page de liste des problèmes de peau > Page produit"
+   }
+  ]
+ }
+}

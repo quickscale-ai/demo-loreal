@@ -1,0 +1,110 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "vichy_liftactiv_b3_serum",
+  "brand": "Vichy",
+  "loreal": true,
+  "url": "https://www.vichy.fr/tous-les-produits/soins-de-la-peau/serums-pour-le-visage/signes-de-lage/liftactiv-serum-b3-anti-taches",
+  "captured_at": "2026-10-03T22:21:34+00:00",
+  "source_sha256": "ef6105c6529510df48d28b2b1ebe6ff83401802bba68ba15e76de2e2d43657db",
+  "name": "Liftactiv B3 Sérum Anti-Taches",
+  "price_eur": 39.9,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml"
+  ],
+  "inci": [
+   "AQUA / WATER / EAU",
+   "NIACINAMIDE",
+   "BUTYLENE GLYCOL",
+   "HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID",
+   "GLYCERIN",
+   "PENTYLENE GLYCOL",
+   "PROPANEDIOL",
+   "HYDROXYETHYL UREA",
+   "GLYCOLIC ACID",
+   "ARGININE",
+   "TRANEXAMIC ACID",
+   "HYDROLYZED RICE PROTEIN",
+   "ALLANTOIN",
+   "CITRIC ACID",
+   "CYSTOSEIRA TAMARISCIFOLIA EXTRACT",
+   "SODIUM HYDROXIDE",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "2-MERCAPTONICOTINOYL GLYCINE",
+   "ASCORBYL GLUCOSIDE",
+   "DIPOTASSIUM GLYCYRRHIZATE",
+   "CAPRYLYL GLYCOL",
+   "XANTHAN GUM",
+   "CI 16035 / RED 40"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:vichy_liftactiv_b3_serum:breadcrumb:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Accueil > Soins de la peau > Sérums pour le visage > Signes de l'âge"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:name:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "name",
+    "rank": 1,
+    "text": "Liftactiv B3 Sérum Anti-Taches"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:price:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "price",
+    "rank": 1,
+    "text": "39,90 € (133,00 €/100 ml.)"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:size:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:description:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "description",
+    "rank": 1,
+    "text": "Sérum anti-taches à la niacinamide et au tranexamic acid. Les taches de vieillesse ou taches brunes sont visiblement réduites."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:claims:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "claims",
+    "rank": 1,
+    "text": "Sans parfum. Sans alcool. Sans colorant."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:how_to_use:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Appliquer matin et soir sur le visage. Eviter le contour des yeux. Tous types de peaux même sensibles. Hypoallergénique. Sans Parfum."
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:inci:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "inci",
+    "rank": 1,
+    "text": "AQUA / WATER / EAU, NIACINAMIDE, BUTYLENE GLYCOL, HYDROXYETHYLPIPERAZINE ETHANE SULFONIC ACID, GLYCERIN, PENTYLENE GLYCOL, PROPANEDIOL, HYDROXYETHYL UREA, GLYCOLIC ACID, ARGININE, TRANEXAMIC ACID, HYDROLYZED RICE PROTEIN, ALLANTOIN, CITRIC ACID, CYSTOSEIRA TAMARISCIFOLIA EXTRACT, SODIUM HYDROXIDE, TRISODIUM ETHYLENEDIAMINE DISUCCINATE, 2-MERCAPTONICOTINOYL GLYCINE, ASCORBYL GLUCOSIDE, DIPOTASSIUM GLYCYRRHIZATE, CAPRYLYL GLYCOL, XANTHAN GUM, CI 16035 / RED 40"
+   },
+   {
+    "id": "p:vichy_liftactiv_b3_serum:brand_boilerplate:1",
+    "sku": "vichy_liftactiv_b3_serum",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "Vichy formule ses soins avec l'eau volcanique de Vichy, testés sous contrôle dermatologique sur l'ensemble de la gamme."
+   }
+  ]
+ }
+}

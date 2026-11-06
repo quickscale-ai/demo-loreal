@@ -1,0 +1,98 @@
+{
+ "format": "geoenrich-replay/1",
+ "mock": true,
+ "generated_at": "2026-10-04T08:00:00+00:00",
+ "data": {
+  "sku": "theordinary_hyaluronic_acid_b5",
+  "brand": "The Ordinary",
+  "loreal": false,
+  "url": "https://theordinary.com/en-fr/hyaluronic-acid-2-b5-serum-original-formulation-100425.html",
+  "captured_at": "2026-10-03T22:39:17+00:00",
+  "source_sha256": "3827c5594bd3d4c9c298162f361cf312437527d1a36ac388fc476bc8dcdc2938",
+  "name": "Hyaluronic Acid 2% + B5 (Original Formulation)",
+  "price_eur": 9,
+  "size_label": "30 ml",
+  "variants": [
+   "30 ml",
+   "60 ml"
+  ],
+  "inci": [
+   "AQUA (WATER)",
+   "SODIUM HYALURONATE",
+   "PENTYLENE GLYCOL",
+   "PROPANEDIOL",
+   "SODIUM HYALURONATE CROSSPOLYMER",
+   "PANTHENOL",
+   "AHNFELTIA CONCINNA EXTRACT",
+   "GLYCERIN",
+   "TRISODIUM ETHYLENEDIAMINE DISUCCINATE",
+   "CITRIC ACID",
+   "ISOCETETH-20",
+   "ETHOXYDIGLYCOL",
+   "ETHYLHEXYLGLYCERIN",
+   "HEXYLENE GLYCOL",
+   "1,2-HEXANEDIOL",
+   "PHENOXYETHANOL",
+   "CAPRYLYL GLYCOL"
+  ],
+  "related_urls": [],
+  "passages": [
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:breadcrumb:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "breadcrumb",
+    "rank": 2,
+    "text": "Home > Skincare > Hydrators"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:name:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "name",
+    "rank": 1,
+    "text": "Hyaluronic Acid 2% + B5 (Original Formulation)"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:price:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "price",
+    "rank": 1,
+    "text": "9,00 € (30,00 €/100 ml.)"
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:size:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "size",
+    "rank": 1,
+    "text": "Format sélectionné : 30 ml. Formats proposés : 30 ml, 60 ml."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:description:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "description",
+    "rank": 1,
+    "text": "A hydrating formula with ultra-pure, vegan hyaluronic acid. Supports skin hydration and visibly plumps."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:how_to_use:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "how_to_use",
+    "rank": 1,
+    "text": "Apply a few drops to face in the morning and evening before creams."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:inci:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "inci",
+    "rank": 1,
+    "text": "Aqua (Water), Sodium Hyaluronate, Pentylene Glycol, Propanediol, Sodium Hyaluronate Crosspolymer, Panthenol, Ahnfeltia Concinna Extract, Glycerin, Trisodium Ethylenediamine Disuccinate, Citric Acid, Isoceteth-20, Ethoxydiglycol, Ethylhexylglycerin, Hexylene Glycol, 1,2-Hexanediol, Phenoxyethanol, Caprylyl Glycol."
+   },
+   {
+    "id": "p:theordinary_hyaluronic_acid_b5:brand_boilerplate:1",
+    "sku": "theordinary_hyaluronic_acid_b5",
+    "section": "brand_boilerplate",
+    "rank": 2,
+    "text": "The Ordinary. Clinical formulations with integrity."
+   }
+  ]
+ }
+}
